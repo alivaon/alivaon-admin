@@ -1,5 +1,26 @@
 # URLs supplémentaires à relever (une par ligne, chemin ou URL absolue).
-# À alimenter avec : export Search Console (pages indexées) et URLs vues par
-# Googlebot dans les logs Traefik. Les lignes vides et # sont ignorées.
+# Les lignes vides et # sont ignorées.
+
+# Variantes de requête : le canonical doit retirer la query string.
 /?utm_source=seo-parity&utm_medium=probe
 /blog?page=2
+
+# Anciennes routes retirées du code (historique git d'alivaon-symfony) :
+# répondent 404 aujourd'hui, doivent continuer à le faire.
+/blog/list
+/portfolio/list
+/en/blog/list
+/en/portfolio/list
+
+# Lien d'invitation des comptes admin (emails) : servi par Symfony, 410 sans
+# jeton, 302 → /invitation avec un jeton invalide. À router vers Symfony.
+/invitation
+/invitation/seo-parity-jeton-invalide
+
+# Sources consultées le 24/09/2026 (aucune URL nouvelle au-delà de celles-ci) :
+# - Wayback Machine (CDX) : 24 URLs, toutes déjà relevées ;
+# - Common Crawl (8 index, 2026-08 → 2026-39) : 55 captures, toutes déjà relevées ;
+# - Google « site:alivaon.com » ;
+# - emails Search Console : http://alivaon.com/ figure dans les résultats
+#   Google (14 clics en juillet) → sonde http-apex-home, redirection critique ;
+#   /carrieres/developpeur-web-hf est la 2e page en clics.

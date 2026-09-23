@@ -149,6 +149,16 @@
     "inlinks": 10
   },
   {
+    "url": "https://www.alivaon.com/blog/list",
+    "file": "blog__list--5cf39572.json",
+    "status": 404,
+    "finalUrl": "https://www.alivaon.com/blog/list",
+    "discoveredVia": [
+      "seed"
+    ],
+    "inlinks": 0
+  },
+  {
     "url": "https://www.alivaon.com/blog/logiciel-de-gestion-entreprise-cameroun-guide-complet-pour-bien-choisir",
     "file": "blog__logiciel-de-gestion-entreprise-cameroun-guide-complet-pour-bien-choisir--008dabb1.json",
     "status": 200,
@@ -376,6 +386,16 @@
     "inlinks": 13
   },
   {
+    "url": "https://www.alivaon.com/en/blog/list",
+    "file": "en__blog__list--30850b9e.json",
+    "status": 404,
+    "finalUrl": "https://www.alivaon.com/en/blog/list",
+    "discoveredVia": [
+      "seed"
+    ],
+    "inlinks": 0
+  },
+  {
     "url": "https://www.alivaon.com/en/careers",
     "file": "en__careers--26149626.json",
     "status": 200,
@@ -436,6 +456,16 @@
     "inlinks": 15
   },
   {
+    "url": "https://www.alivaon.com/en/portfolio/list",
+    "file": "en__portfolio__list--0d2a1664.json",
+    "status": 404,
+    "finalUrl": "https://www.alivaon.com/en/portfolio/list",
+    "discoveredVia": [
+      "seed"
+    ],
+    "inlinks": 0
+  },
+  {
     "url": "https://www.alivaon.com/en/privacy-policy",
     "file": "en__privacy-policy--33385f80.json",
     "status": 200,
@@ -482,6 +512,27 @@
       "sitemap-alternate"
     ],
     "inlinks": 58
+  },
+  {
+    "url": "https://www.alivaon.com/invitation",
+    "file": "invitation--40dcafaa.json",
+    "status": 410,
+    "finalUrl": "https://www.alivaon.com/invitation",
+    "discoveredVia": [
+      "redirect",
+      "seed"
+    ],
+    "inlinks": 0
+  },
+  {
+    "url": "https://www.alivaon.com/invitation/seo-parity-jeton-invalide",
+    "file": "invitation__seo-parity-jeton-invalide--d316e00e.json",
+    "status": 410,
+    "finalUrl": "https://www.alivaon.com/invitation",
+    "discoveredVia": [
+      "seed"
+    ],
+    "inlinks": 0
   },
   {
     "url": "https://www.alivaon.com/mentions-legales",
@@ -548,6 +599,16 @@
       "link"
     ],
     "inlinks": 4
+  },
+  {
+    "url": "https://www.alivaon.com/portfolio/list",
+    "file": "portfolio__list--382232e3.json",
+    "status": 404,
+    "finalUrl": "https://www.alivaon.com/portfolio/list",
+    "discoveredVia": [
+      "seed"
+    ],
+    "inlinks": 0
   },
   {
     "url": "https://www.alivaon.com/portfolio/site-web-auto-ecole-mairie-mainvilliers",

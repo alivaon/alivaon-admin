@@ -1,16 +1,18 @@
 # Relevé SEO — https://www.alivaon.com
 
-Relevé le 2026-09-23T21:27:54.072Z sur `https://www.alivaon.com` (outil @alivaon/seo-parity 1.0.0, 323 requêtes).
+Relevé le 2026-09-23T22:05:13.925Z sur `https://www.alivaon.com` (outil @alivaon/seo-parity 1.1.0, 330 requêtes).
 
 | Pages relevées | Indexables | Canoniques | Entrées sitemap | Sondes | Ressources |
 |---|---|---|---|---|---|
-| 68 | 68 | 63 | 47 | 117 | 75 |
+| 74 | 68 | 63 | 47 | 117 | 75 |
 
 > Les constats ci-dessous décrivent l’existant. Pendant la migration ils sont **reproduits à l’identique** ; leur correction éventuelle se fera après la bascule, un changement à la fois.
 
 ## Codes HTTP des pages
 
 - 200 : 68
+- 404 : 4
+- 410 : 2
 
 ## Pages sans canonical ou avec plusieurs canonical (0)
 

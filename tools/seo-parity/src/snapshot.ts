@@ -2,12 +2,12 @@ import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { extractPage } from './extract.ts';
 import { Fetcher } from './fetcher.ts';
-import { absUrl, fileNameForUrl, rewriteOrigins, sameOrigin } from './normalize.ts';
+import { absUrl, fileNameForUrl, maskRunDate, rewriteOrigins, sameOrigin } from './normalize.ts';
 import { buildProbes } from './probes.ts';
 import { parseSitemap } from './sitemap.ts';
 import type { AssetRecord, DiscoverySource, FileRecord, Manifest, PageRecord, ProbeRecord, SitemapEntry } from './types.ts';
 
-export const TOOL_VERSION = '1.0.0';
+export const TOOL_VERSION = '1.1.0';
 
 export interface SnapshotOptions {
   origin: string;
@@ -117,6 +117,7 @@ export async function takeSnapshot(opts: SnapshotOptions): Promise<Manifest> {
   // ── 3. Crawl ──────────────────────────────────────────────────────────────
   opts.log('Crawl des pages…');
   const pages: PageRecord[] = [];
+  const runDate = new Date();
   const worker = async (): Promise<void> => {
     while (queue.length) {
       const url = queue.shift()!;
@@ -124,6 +125,7 @@ export async function takeSnapshot(opts: SnapshotOptions): Promise<Manifest> {
       const isHtml = res.status === 200 && HTML_TYPE.test(res.headers['content-type'] ?? '');
       // Une URL qui redirige n'a pas de contenu propre : sa cible est relevée à part.
       const html = isHtml && res.body && res.chain.length === 0 ? extractPage(res.body, res.finalUrl) : null;
+      if (html) html.text = maskRunDate(html.text, runDate);
       pages.push({ url, discoveredVia: [], inlinks: 0, status: res.status, chain: res.chain, finalUrl: res.finalUrl, headers: res.headers, html, ...(res.error ? { error: res.error } : {}) });
 
       if (res.chain.length && res.finalUrl !== url) enqueue(res.finalUrl, 'redirect');

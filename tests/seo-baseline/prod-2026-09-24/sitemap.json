@@ -1,7 +1,7 @@
 [
   {
     "loc": "https://www.alivaon.com/",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "weekly",
     "priority": "1.0",
     "alternates": [
@@ -21,7 +21,7 @@
   },
   {
     "loc": "https://www.alivaon.com/about",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "monthly",
     "priority": "0.8",
     "alternates": [
@@ -41,7 +41,7 @@
   },
   {
     "loc": "https://www.alivaon.com/blog",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "daily",
     "priority": "0.8",
     "alternates": [
@@ -61,7 +61,7 @@
   },
   {
     "loc": "https://www.alivaon.com/blog/category/logiciels-de-gestion",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "weekly",
     "priority": "0.5",
     "alternates": []
@@ -103,14 +103,14 @@
   },
   {
     "loc": "https://www.alivaon.com/blog/tag/logiciel-de-gestion",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "weekly",
     "priority": "0.4",
     "alternates": []
   },
   {
     "loc": "https://www.alivaon.com/carrieres",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "weekly",
     "priority": "0.7",
     "alternates": [
@@ -144,7 +144,7 @@
   },
   {
     "loc": "https://www.alivaon.com/contact",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "monthly",
     "priority": "0.7",
     "alternates": [
@@ -164,7 +164,7 @@
   },
   {
     "loc": "https://www.alivaon.com/en",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "weekly",
     "priority": "1.0",
     "alternates": [
@@ -184,7 +184,7 @@
   },
   {
     "loc": "https://www.alivaon.com/en/about",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "monthly",
     "priority": "0.8",
     "alternates": [
@@ -204,7 +204,7 @@
   },
   {
     "loc": "https://www.alivaon.com/en/blog",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "daily",
     "priority": "0.8",
     "alternates": [
@@ -224,7 +224,7 @@
   },
   {
     "loc": "https://www.alivaon.com/en/careers",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "weekly",
     "priority": "0.7",
     "alternates": [
@@ -244,7 +244,7 @@
   },
   {
     "loc": "https://www.alivaon.com/en/contact",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "monthly",
     "priority": "0.7",
     "alternates": [
@@ -264,7 +264,7 @@
   },
   {
     "loc": "https://www.alivaon.com/en/faq",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "monthly",
     "priority": "0.7",
     "alternates": [
@@ -284,7 +284,7 @@
   },
   {
     "loc": "https://www.alivaon.com/en/legal-notice",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "yearly",
     "priority": "0.3",
     "alternates": [
@@ -304,7 +304,7 @@
   },
   {
     "loc": "https://www.alivaon.com/en/portfolio",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "weekly",
     "priority": "0.8",
     "alternates": [
@@ -324,7 +324,7 @@
   },
   {
     "loc": "https://www.alivaon.com/en/privacy-policy",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "yearly",
     "priority": "0.3",
     "alternates": [
@@ -344,7 +344,7 @@
   },
   {
     "loc": "https://www.alivaon.com/en/services",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "monthly",
     "priority": "0.9",
     "alternates": [
@@ -364,7 +364,7 @@
   },
   {
     "loc": "https://www.alivaon.com/en/team",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "monthly",
     "priority": "0.6",
     "alternates": [
@@ -384,7 +384,7 @@
   },
   {
     "loc": "https://www.alivaon.com/faq",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "monthly",
     "priority": "0.7",
     "alternates": [
@@ -404,7 +404,7 @@
   },
   {
     "loc": "https://www.alivaon.com/mentions-legales",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "yearly",
     "priority": "0.3",
     "alternates": [
@@ -424,7 +424,7 @@
   },
   {
     "loc": "https://www.alivaon.com/politique-de-confidentialite",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "yearly",
     "priority": "0.3",
     "alternates": [
@@ -444,7 +444,7 @@
   },
   {
     "loc": "https://www.alivaon.com/portfolio",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "weekly",
     "priority": "0.8",
     "alternates": [
@@ -478,7 +478,7 @@
   },
   {
     "loc": "https://www.alivaon.com/services",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "monthly",
     "priority": "0.9",
     "alternates": [
@@ -596,7 +596,7 @@
   },
   {
     "loc": "https://www.alivaon.com/team",
-    "lastmod": "2026-09-23",
+    "lastmod": "2026-09-24",
     "changefreq": "monthly",
     "priority": "0.6",
     "alternates": [

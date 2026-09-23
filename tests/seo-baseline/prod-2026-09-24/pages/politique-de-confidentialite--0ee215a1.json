@@ -1,0 +1,409 @@
+{
+  "url": "https://www.alivaon.com/politique-de-confidentialite",
+  "discoveredVia": [
+    "link",
+    "sitemap",
+    "sitemap-alternate"
+  ],
+  "inlinks": 58,
+  "status": 200,
+  "chain": [],
+  "finalUrl": "https://www.alivaon.com/politique-de-confidentialite",
+  "headers": {
+    "cache-control": "no-cache, private",
+    "content-type": "text/html; charset=UTF-8",
+    "server": "nginx"
+  },
+  "html": {
+    "lang": "fr",
+    "titles": [
+      "Politique de Confidentialité | Alivaon - Agence Digitale à Douala, Cameroun"
+    ],
+    "metas": {
+      "charset": [
+        "UTF-8"
+      ],
+      "http-equiv:x-ua-compatible": [
+        "IE=edge"
+      ],
+      "name:viewport": [
+        "width=device-width, initial-scale=1.0"
+      ],
+      "name:description": [
+        "Politique de confidentialité d'Alivaon : collecte des données, cookies, RGPD, droits des utilisateurs. Agence de développement logiciel à Douala, Cameroun."
+      ],
+      "name:robots": [
+        "index, follow"
+      ],
+      "property:og:type": [
+        "website"
+      ],
+      "property:og:site_name": [
+        "Alivaon"
+      ],
+      "property:og:title": [
+        "Politique de Confidentialité | Alivaon"
+      ],
+      "property:og:description": [
+        "Comment Alivaon collecte, utilise et protège vos données personnelles. RGPD, cookies, droits des utilisateurs - notre engagement pour votre vie privée."
+      ],
+      "property:og:url": [
+        "https://www.alivaon.com/politique-de-confidentialite"
+      ],
+      "property:og:locale": [
+        "fr_FR"
+      ],
+      "property:og:locale:alternate": [
+        "en_US"
+      ],
+      "property:og:image": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "property:og:image:secure_url": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "property:og:image:alt": [
+        "Politique de Confidentialité | Alivaon"
+      ],
+      "property:og:image:type": [
+        "image/jpeg"
+      ],
+      "property:og:image:width": [
+        "1200"
+      ],
+      "property:og:image:height": [
+        "630"
+      ],
+      "name:twitter:card": [
+        "summary_large_image"
+      ],
+      "name:twitter:title": [
+        "Politique de Confidentialité | Alivaon"
+      ],
+      "name:twitter:description": [
+        "Comment Alivaon collecte, utilise et protège vos données personnelles. RGPD, cookies, droits des utilisateurs - notre engagement pour votre vie privée."
+      ],
+      "name:twitter:image": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "name:twitter:image:alt": [
+        "Politique de Confidentialité | Alivaon"
+      ]
+    },
+    "canonicals": [
+      "https://www.alivaon.com/politique-de-confidentialite"
+    ],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://www.alivaon.com/en/privacy-policy"
+      },
+      {
+        "hreflang": "fr",
+        "href": "https://www.alivaon.com/politique-de-confidentialite"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://www.alivaon.com/politique-de-confidentialite"
+      }
+    ],
+    "headLinks": [
+      {
+        "rel": "icon",
+        "href": "https://www.alivaon.com/build/images/logo/favicon.png",
+        "type": "image/x-icon",
+        "sizes": null
+      }
+    ],
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "description": "Politique de confidentialité d'Alivaon, agence digitale à Douala, Cameroun. Données personnelles, cookies, RGPD et droits des utilisateurs.",
+        "inLanguage": "fr",
+        "name": "Politique de Confidentialité | Alivaon",
+        "publisher": {
+          "@type": "Organization",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "CM",
+            "addressLocality": "Douala",
+            "addressRegion": "Littoral",
+            "streetAddress": "Logpom"
+          },
+          "email": "contact@alivaon.com",
+          "logo": "https://www.alivaon.com/build/images/logo/logo.png",
+          "name": "Alivaon",
+          "telephone": "+237691962158",
+          "url": "https://www.alivaon.com"
+        },
+        "url": "https://www.alivaon.com/politique-de-confidentialite"
+      }
+    ],
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contactez-nous"
+      },
+      {
+        "level": 1,
+        "text": "Politique de Confidentialité"
+      },
+      {
+        "level": 2,
+        "text": "nos engagements pour votre vie privée"
+      },
+      {
+        "level": 2,
+        "text": "Données sécurisées"
+      },
+      {
+        "level": 2,
+        "text": "Zéro revente"
+      },
+      {
+        "level": 2,
+        "text": "Contrôle total"
+      },
+      {
+        "level": 2,
+        "text": "Conformité RGPD"
+      },
+      {
+        "level": 2,
+        "text": "Identité du responsable de traitement"
+      },
+      {
+        "level": 2,
+        "text": "Données de contact (formulaire)"
+      },
+      {
+        "level": 2,
+        "text": "Données de prospection"
+      },
+      {
+        "level": 2,
+        "text": "Newsletter"
+      },
+      {
+        "level": 2,
+        "text": "Logs serveur & IP"
+      },
+      {
+        "level": 2,
+        "text": "Cookies analytiques"
+      },
+      {
+        "level": 2,
+        "text": "Données contractuelles clients"
+      },
+      {
+        "level": 2,
+        "text": "Chiffrement HTTPS/TLS"
+      },
+      {
+        "level": 2,
+        "text": "Sécurité applicative OWASP"
+      },
+      {
+        "level": 2,
+        "text": "Hébergement sécurisé"
+      },
+      {
+        "level": 2,
+        "text": "Accès restreints"
+      },
+      {
+        "level": 2,
+        "text": "Évolution de la politique de confidentialité"
+      }
+    ],
+    "text": "Démarrez Un projet Contactez-nous Logpom, Douala, Cameroun contact@alivaon.com +237 6 91 96 21 58 Accueil À propos Nos Services Réalisations Blog FAQ Contact NOUS CONTACTER Données & Vie privée Vos données protégées Politique de Confidentialité DONNÉES Alivaon s'engage à protéger la vie privée de ses utilisateurs. Cette politique explique comment nous collectons, utilisons et protégeons vos données personnelles, conformément au RGPD et aux réglementations camerounaises en vigueur. nos engagements pour votre vie privée Données sécurisées Chiffrement SSL, accès restreints, hébergement certifié ISO 27001. Vos données sont protégées à chaque niveau. Zéro revente Vos données personnelles ne sont jamais vendues ni louées à des tiers à des fins commerciales. Contrôle total Vous pouvez accéder, modifier ou supprimer vos données à tout moment sur simple demande. Conformité RGPD Nos pratiques respectent le RGPD européen et les lois camerounaises sur la protection des données. 1. Responsable du Traitement des Données Identité du responsable de traitement Le responsable du traitement de vos données personnelles est : Alivaon - Agence Digitale & Éditeur de Logiciels Logpom, Douala, Région du Littoral, Cameroun Email : contact@alivaon.com Téléphone : +237 6 91 96 21 58 Pour toute question relative à vos données personnelles, vous pouvez nous contacter à l'adresse ci-dessus. Nous nous engageons à répondre dans un délai maximum de 30 jours . 2. Données Collectées & Finalités 2.1 Formulaire de contact Lorsque vous utilisez notre formulaire de contact, nous collectons les informations suivantes : Données collectées : Nom et prénom, adresse email, numéro de téléphone (optionnel), nom de votre entreprise (optionnel), message. Base légale : Intérêt légitime et consentement explicite lors de l'envoi du formulaire. Finalité : Répondre à votre demande, vous adresser un devis ou des informations sur nos services. Conservation : 3 ans à compter de votre dernière interaction avec Alivaon. 2.2 Emails transactionnels & notifications Suite à votre prise de contact, nous vous envoyons des emails transactionnels (confirmation de réception de votre demande, réponse à votre devis, etc.). Ces envois sont effectués via notre prestataire de messagerie. Données traitées : Adresse email, nom, objet de la demande. Base légale : Exécution d'un contrat ou de mesures précontractuelles. Vous pouvez vous désabonner à tout moment en nous écrivant à contact@alivaon.com . 2.3 Newsletter (abonnement volontaire) Si vous vous abonnez à notre newsletter, nous collectons votre adresse email dans le but de vous envoyer des actualités sur nos services, des articles de blog et des offres commerciales. Base légale : Consentement explicite (double opt-in). Conservation : Jusqu'à désinscription. Désinscription : Via le lien de désinscription présent dans chaque email ou en nous écrivant directement. 2.4 Données de navigation (logs serveur) Notre serveur collecte automatiquement des données de navigation à des fins de sécurité et de performance : Adresse IP (anonymisée après 7 jours) Type de navigateur et système d'exploitation Pages visitées et durée de visite Heure et date de connexion Base légale : Intérêt légitime (sécurité, détection de fraudes, performance). Ces données ne sont pas croisées avec d'autres informations personnelles. 3. Cookies & Technologies de Suivi 3.1 Qu'est-ce qu'un cookie ? Un cookie est un petit fichier texte déposé sur votre appareil lors de votre visite sur notre site. Il permet de mémoriser certaines informations relatives à votre navigation et d'améliorer votre expérience utilisateur. Vous pouvez configurer votre navigateur pour accepter, refuser ou supprimer les cookies à tout moment. Le refus de certains cookies peut toutefois limiter certaines fonctionnalités du site. 3.2 Cookies strictement nécessaires Ces cookies sont indispensables au fonctionnement du site. Ils ne nécessitent pas votre consentement. Session Symfony : Gestion de votre session utilisateur (PHPSESSID). Durée : session. CSRF Token : Protection contre les attaques cross-site request forgery lors de la soumission de formulaires. Durée : session. 3.3 Cookies analytiques (avec votre consentement) Avec votre consentement, nous utilisons des outils d'analyse d'audience pour mesurer la fréquentation et améliorer notre site : Google Analytics : Mesure d'audience, pages visitées, durée de visite, provenance des visiteurs. Les données sont anonymisées. Durée : 13 mois maximum. Vous pouvez désactiver Google Analytics via l'extension officielle : tools.google.com/dlpage/gaoptout . 3.4 Cookies tiers & réseaux sociaux Certaines pages intègrent des éléments provenant de plateformes tierces (boutons de partage, vidéos). Ces plateformes peuvent déposer leurs propres cookies sur votre appareil : Facebook / Meta LinkedIn Twitter / X YouTube (si vidéos intégrées) Alivaon n'a aucun contrôle sur ces cookies tiers. Nous vous invitons à consulter les politiques de confidentialité de ces plateformes. 4. Partage & Transfert des Données 4.1 Prestataires et sous-traitants Alivaon fait appel à des prestataires de services dans le cadre de ses activités. Ces sous-traitants agissent uniquement sur instruction d'Alivaon et sont liés par des clauses de confidentialité : OVHcloud - Hébergement web et stockage de données Prestataire d'envoi d'emails - Gestion des emails transactionnels (confirmation de contact, notifications) Google Analytics - Analyse d'audience (données anonymisées) 4.2 Clients internationaux & transferts hors Cameroun Alivaon travaille avec des clients et partenaires internationaux. Dans ce cadre, certaines données peuvent être transférées vers des pays hors du Cameroun. Ces transferts sont encadrés par : Des clauses contractuelles types conformes au RGPD Des accords de traitement des données signés avec chaque prestataire concerné Les garanties prévues par les législations applicables dans les pays destinataires 4.3 Obligations légales Alivaon peut être amené à divulguer vos données personnelles en cas d'obligation légale, de décision judiciaire ou de réquisition d'une autorité administrative compétente au Cameroun ou à l'étranger. Alivaon ne vend jamais vos données personnelles à des tiers. 5. Conservation des Données 3 ans Données de contact (formulaire) À compter de votre dernière interaction avec Alivaon. 3 ans Données de prospection À compter du dernier contact ou de votre demande de suppression. Jusqu'à désinscription Newsletter Suppression immédiate sur demande. 12 mois Logs serveur & IP Anonymisation après 7 jours, suppression complète à 12 mois. 13 mois maximum Cookies analytiques Conformément aux recommandations CNIL. 10 ans Données contractuelles clients Conformément aux obligations légales comptables et fiscales. 6. Vos Droits sur vos Données 6.1 Droit d'accès Vous avez le droit d'obtenir confirmation que des données vous concernant sont ou ne sont pas traitées par Alivaon, ainsi qu'une copie de ces données. 6.2 Droit de rectification Vous pouvez demander la correction de toute donnée inexacte ou incomplète vous concernant dans nos systèmes. 6.3 Droit à l'effacement (« droit à l'oubli ») Vous pouvez demander la suppression de vos données personnelles, sauf si leur conservation est nécessaire pour l'exécution d'un contrat, le respect d'une obligation légale ou la constatation, l'exercice ou la défense de droits en justice. 6.4 Droit à la limitation du traitement Dans certains cas (données inexactes, traitement illicite, opposition au traitement), vous pouvez demander la limitation du traitement de vos données - elles seront conservées mais non utilisées. 6.5 Droit à la portabilité Vous pouvez recevoir les données vous concernant dans un format structuré, couramment utilisé et lisible par machine, et les transmettre à un autre responsable de traitement. 6.6 Droit d'opposition Vous pouvez vous opposer à tout moment au traitement de vos données à des fins de prospection commerciale. Pour les traitements basés sur l'intérêt légitime, votre opposition sera prise en compte sauf si des motifs légitimes impérieux prévalent. 6.7 Comment exercer vos droits Pour exercer vos droits, contactez-nous par email à contact@alivaon.com en précisant votre nom, adresse email et le droit que vous souhaitez exercer. Une pièce d'identité pourra être demandée pour vérifier votre identité. Nous nous engageons à répondre dans un délai de 30 jours à compter de la réception de votre demande. En cas de demande complexe, ce délai peut être prolongé de 2 mois supplémentaires, avec information préalable. 7. Sécurité des Données Chiffrement HTTPS/TLS Toutes les communications entre votre navigateur et nos serveurs sont chiffrées via le protocole HTTPS avec certificat TLS valide. Sécurité applicative OWASP Notre application suit les standards OWASP Top 10. Protection contre les injections SQL, XSS, CSRF et autres attaques courantes. Hébergement sécurisé Données hébergées sur l'infrastructure OVHcloud, certifiée ISO 27001, HDS et SOC 2. Datacenters en Europe. Accès restreints L'accès aux données personnelles est limité aux seuls collaborateurs d'Alivaon qui en ont besoin dans le cadre de leurs fonctions. 8. Modifications de cette Politique Évolution de la politique de confidentialité Alivaon se réserve le droit de modifier la présente politique de confidentialité à tout moment, notamment pour se conformer à toute évolution législative ou réglementaire. Les modifications entrent en vigueur dès leur publication sur cette page. Nous vous encourageons à consulter régulièrement cette page. En cas de modification substantielle, nous vous en informerons par email si vous êtes abonné à notre newsletter ou si vous avez un compte sur notre site. Dernière mise à jour : «date du relevé» Une question sur la protection de vos données ou vos droits ? Exercer mes droits - Nous contacter strategy marketing analysis marketing strategy marketing analysis marketing À Propos d'Alivaon Éditeur de logiciels personnalisés, nous aidons les entreprises à se développer grâce à des solutions web, mobiles et entreprise innovantes, fiables et durables. Liens Rapides À Propos Contact Réalisations Blog Nos Services Ressources FAQ Carrières Notre Équipe Mentions Légales Politique de Confidentialité Abonnez-vous à notre newsletter S'ABONNER S'ABONNER Copyright © 2026 Alivaon, Tous droits réservés.",
+    "links": [
+      {
+        "href": "https://tools.google.com/dlpage/gaoptout",
+        "text": "tools.google.com/dlpage/gaoptout",
+        "rel": "noopener noreferrer",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "Accueil",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "site logo",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "Site Logo",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/about",
+        "text": "À propos",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/about",
+        "text": "À Propos",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog",
+        "text": "Blog",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/carrieres",
+        "text": "Carrières",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Contact",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Démarrez Un projet",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Exercer mes droits - Nous contacter",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "NOUS CONTACTER",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/en/privacy-policy",
+        "text": "English version",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/faq",
+        "text": "FAQ",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/mentions-legales",
+        "text": "Mentions Légales",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/politique-de-confidentialite",
+        "text": "Politique de Confidentialité",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/portfolio",
+        "text": "Réalisations",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/services",
+        "text": "Nos Services",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/team",
+        "text": "Notre Équipe",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.facebook.com/alivaon",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.instagram.com/alivaon.io/",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.linkedin.com/company/alivaon/",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.tiktok.com/@alivaon.io",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://x.com/alivaon",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "mailto:contact@alivaon.com",
+        "text": "contact@alivaon.com",
+        "rel": "",
+        "count": 4
+      },
+      {
+        "href": "tel:+237691962158",
+        "text": "+237 6 91 96 21 58",
+        "rel": "",
+        "count": 2
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.alivaon.com/build/images/flags/en.svg",
+        "alt": "",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/inner/breadcrumb/breadcrumb-img1_1.png",
+        "alt": "Alivaon agence digitale Douala Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/inner/breadcrumb/breadcrumb-thumb1_2.jpg",
+        "alt": "Politique de confidentialité Alivaon - Agence digitale Douala Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/logo/logo.png",
+        "alt": "site logo",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/logo/logo.png",
+        "alt": "Site Logo",
+        "count": 1
+      }
+    ],
+    "bgImages": []
+  }
+}

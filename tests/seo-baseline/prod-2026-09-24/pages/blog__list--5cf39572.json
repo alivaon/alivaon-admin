@@ -1,0 +1,17 @@
+{
+  "url": "https://www.alivaon.com/blog/list",
+  "discoveredVia": [
+    "seed"
+  ],
+  "inlinks": 0,
+  "status": 404,
+  "chain": [],
+  "finalUrl": "https://www.alivaon.com/blog/list",
+  "headers": {
+    "cache-control": "no-cache, private",
+    "content-type": "text/html; charset=UTF-8",
+    "server": "nginx",
+    "vary": "Accept"
+  },
+  "html": null
+}

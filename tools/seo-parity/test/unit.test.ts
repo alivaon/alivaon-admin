@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { applyExceptions, compareSnapshots, hasBlocking, type SnapshotData } from '../src/compare.ts';
 import { extractPage } from '../src/extract.ts';
-import { absUrl, fileNameForUrl, normText, rewriteOrigins } from '../src/normalize.ts';
+import { absUrl, fileNameForUrl, maskRunDate, normText, rewriteOrigins } from '../src/normalize.ts';
 import { parseSitemap } from '../src/sitemap.ts';
 import type { PageRecord } from '../src/types.ts';
 
@@ -50,6 +50,13 @@ describe('normalize', () => {
     const json = JSON.stringify({ a: 'https://www.staging.alivaon.com/blog', b: 'http://staging.alivaon.com/', c: 'https://example.com/' });
     const out = rewriteOrigins(json, 'https://www.staging.alivaon.com', 'https://www.alivaon.com');
     expect(JSON.parse(out)).toEqual({ a: 'https://www.alivaon.com/blog', b: 'http://alivaon.com/', c: 'https://example.com/' });
+  });
+
+  it('masque la date du jour du relevé, pas les autres dates', () => {
+    const run = new Date(2026, 8, 24);
+    expect(maskRunDate('Mise à jour : 24/09/2026. Publié le 12/03/2026, modifié 2026-09-24.', run)).toBe(
+      'Mise à jour : «date du relevé». Publié le 12/03/2026, modifié «date du relevé».',
+    );
   });
 
   it('produit des noms de fichiers distincts pour des URLs ne différant que par la casse', () => {

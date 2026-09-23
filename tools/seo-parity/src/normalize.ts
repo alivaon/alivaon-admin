@@ -95,3 +95,18 @@ export function rewriteOrigins(json: string, from: string | null, to: string | n
   }
   return out;
 }
+
+export const RUN_DATE_PLACEHOLDER = '«date du relevé»';
+
+/**
+ * Remplace la date du jour du relevé par un marqueur : certaines pages affichent
+ * la date courante (ex. « Dernière mise à jour : {{ "now"|date }} » des pages
+ * légales). Sans cela, deux relevés faits à des jours différents divergeraient
+ * sans que le site ait changé. Formats couverts : 24/09/2026, 2026-09-24.
+ */
+export function maskRunDate(text: string, runDate: Date): string {
+  const dd = String(runDate.getDate()).padStart(2, '0');
+  const mm = String(runDate.getMonth() + 1).padStart(2, '0');
+  const yyyy = String(runDate.getFullYear());
+  return text.split(`${dd}/${mm}/${yyyy}`).join(RUN_DATE_PLACEHOLDER).split(`${yyyy}-${mm}-${dd}`).join(RUN_DATE_PLACEHOLDER);
+}
