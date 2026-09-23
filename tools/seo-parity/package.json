@@ -1,0 +1,24 @@
+{
+  "name": "@alivaon/seo-parity",
+  "private": true,
+  "type": "module",
+  "description": "Relevé SEO de référence et contrôle de parité ancien/nouveau site (bloquant avant bascule).",
+  "scripts": {
+    "snapshot": "node src/cli.ts snapshot",
+    "lighthouse": "node src/cli.ts lighthouse",
+    "compare": "node src/cli.ts compare",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "chrome-launcher": "^1.2.1",
+    "lighthouse": "^13.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "domhandler": "^6.0.1",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.1"
+  }
+}

@@ -1,0 +1,5 @@
+# URLs supplémentaires à relever (une par ligne, chemin ou URL absolue).
+# À alimenter avec : export Search Console (pages indexées) et URLs vues par
+# Googlebot dans les logs Traefik. Les lignes vides et # sont ignorées.
+/?utm_source=seo-parity&utm_medium=probe
+/blog?page=2

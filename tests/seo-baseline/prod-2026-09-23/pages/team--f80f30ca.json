@@ -1,0 +1,354 @@
+{
+  "url": "https://www.alivaon.com/team",
+  "discoveredVia": [
+    "link",
+    "sitemap",
+    "sitemap-alternate"
+  ],
+  "inlinks": 58,
+  "status": 200,
+  "chain": [],
+  "finalUrl": "https://www.alivaon.com/team",
+  "headers": {
+    "cache-control": "no-cache, private",
+    "content-type": "text/html; charset=UTF-8",
+    "server": "nginx"
+  },
+  "html": {
+    "lang": "fr",
+    "titles": [
+      "Notre Équipe - Développeurs & Experts à Douala, Cameroun | Alivaon"
+    ],
+    "metas": {
+      "charset": [
+        "UTF-8"
+      ],
+      "http-equiv:x-ua-compatible": [
+        "IE=edge"
+      ],
+      "name:viewport": [
+        "width=device-width, initial-scale=1.0"
+      ],
+      "name:description": [
+        "Découvrez l'équipe Alivaon à Douala : développeurs, chefs de projet et experts qui digitalisent les entreprises camerounaises depuis plus de 10 ans."
+      ],
+      "name:robots": [
+        "index, follow"
+      ],
+      "property:og:type": [
+        "website"
+      ],
+      "property:og:site_name": [
+        "Alivaon"
+      ],
+      "property:og:title": [
+        "Notre Équipe - Experts Digitalisation à Douala, Cameroun | Alivaon"
+      ],
+      "property:og:description": [
+        "L'équipe Alivaon à Douala : développeurs séniors, chefs de projet et experts métier qui accompagnent les PME camerounaises dans leur transformation digitale."
+      ],
+      "property:og:url": [
+        "https://www.alivaon.com/team"
+      ],
+      "property:og:locale": [
+        "fr_FR"
+      ],
+      "property:og:locale:alternate": [
+        "en_US"
+      ],
+      "property:og:image": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "property:og:image:secure_url": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "property:og:image:alt": [
+        "Notre Équipe - Experts Digitalisation à Douala, Cameroun | Alivaon"
+      ],
+      "property:og:image:type": [
+        "image/jpeg"
+      ],
+      "property:og:image:width": [
+        "1200"
+      ],
+      "property:og:image:height": [
+        "630"
+      ],
+      "name:twitter:card": [
+        "summary_large_image"
+      ],
+      "name:twitter:title": [
+        "Notre Équipe - Experts Digitalisation à Douala, Cameroun | Alivaon"
+      ],
+      "name:twitter:description": [
+        "L'équipe Alivaon à Douala : développeurs séniors, chefs de projet et experts métier qui accompagnent les PME camerounaises dans leur transformation digitale."
+      ],
+      "name:twitter:image": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "name:twitter:image:alt": [
+        "Notre Équipe - Experts Digitalisation à Douala, Cameroun | Alivaon"
+      ]
+    },
+    "canonicals": [
+      "https://www.alivaon.com/team"
+    ],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://www.alivaon.com/en/team"
+      },
+      {
+        "hreflang": "fr",
+        "href": "https://www.alivaon.com/team"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://www.alivaon.com/team"
+      }
+    ],
+    "headLinks": [
+      {
+        "rel": "icon",
+        "href": "https://www.alivaon.com/build/images/logo/favicon.png",
+        "type": "image/x-icon",
+        "sizes": null
+      }
+    ],
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "CM",
+          "addressLocality": "Douala",
+          "addressRegion": "Littoral",
+          "streetAddress": "Logpom"
+        },
+        "areaServed": [
+          "Douala",
+          "Yaoundé",
+          "Cameroun"
+        ],
+        "description": "Agence de développement logiciel et application mobile à Douala, Cameroun. Équipe d'experts pour la digitalisation des PME camerounaises.",
+        "email": "contact@alivaon.com",
+        "name": "Alivaon",
+        "numberOfEmployees": {
+          "@type": "QuantitativeValue",
+          "maxValue": 50,
+          "minValue": 10
+        },
+        "telephone": "+237691962158"
+      }
+    ],
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contactez-nous"
+      },
+      {
+        "level": 1,
+        "text": "Une équipe d'experts camerounais qui créent des logiciels et applications pour faire grandir votre entreprise."
+      },
+      {
+        "level": 2,
+        "text": "NOTRE ÉQUIPE"
+      },
+      {
+        "level": 3,
+        "text": "L'Équipe Dirigeante"
+      },
+      {
+        "level": 3,
+        "text": "\"Nous avons simplifié l'accès au digital pour les entreprises camerounaises.\""
+      }
+    ],
+    "text": "Démarrez Un projet Contactez-nous Logpom, Douala, Cameroun contact@alivaon.com +237 6 91 96 21 58 Accueil À propos Nos Services Réalisations Blog FAQ Contact NOUS CONTACTER Notre Équipe Des experts passionnés, basés à Douala Une équipe d'experts camerounais qui créent des logiciels et applications pour faire grandir votre entreprise. NOTRE ÉQUIPE L'Équipe Dirigeante \"Nous avons simplifié l'accès au digital pour les entreprises camerounaises.\" Aucun membre à afficher pour le moment. Conçu pour transformer votre gestion Une équipe locale, une expertise terrain Une équipe de développeurs, chefs de projet et experts métier basés à Douala, qui connaissent les réalités des entreprises camerounaises : connectivité variable, usage mobile prioritaire, équipes sur le terrain. Simplicité & résultats concrets Nous ne vendons pas des technologies - nous livrons des outils que vos équipes utilisent vraiment. Chaque projet est conçu pour générer des gains mesurables : moins d'erreurs, plus de ventes, meilleure gestion. Nous travaillons comme des partenaires de long terme. Communication directe, transparence à chaque étape, et livraisons qui respectent les délais et le budget annoncés. 30 + Clients satisfaits au Cameroun 50 + Projets livrés avec succès 10 + Années d'expertise en développement logiciel 98 % Taux de satisfaction client Vous souhaitez travailler avec notre équipe ? Parlez-nous de votre projet. Contacter notre équipe - Devis gratuit strategy marketing analysis marketing strategy marketing analysis marketing À Propos d'Alivaon Éditeur de logiciels personnalisés, nous aidons les entreprises à se développer grâce à des solutions web, mobiles et entreprise innovantes, fiables et durables. Liens Rapides À Propos Contact Réalisations Blog Nos Services Ressources FAQ Carrières Notre Équipe Mentions Légales Politique de Confidentialité Abonnez-vous à notre newsletter S'ABONNER S'ABONNER Copyright © 2026 Alivaon, Tous droits réservés.",
+    "links": [
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "Accueil",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "site logo",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "Site Logo",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/about",
+        "text": "À propos",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/about",
+        "text": "À Propos",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog",
+        "text": "Blog",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/carrieres",
+        "text": "Carrières",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Contact",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Contacter notre équipe - Devis gratuit",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Démarrez Un projet",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "NOUS CONTACTER",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/en/team",
+        "text": "English version",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/faq",
+        "text": "FAQ",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/mentions-legales",
+        "text": "Mentions Légales",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/politique-de-confidentialite",
+        "text": "Politique de Confidentialité",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/portfolio",
+        "text": "Réalisations",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/services",
+        "text": "Nos Services",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/team",
+        "text": "Notre Équipe",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.facebook.com/alivaon",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.instagram.com/alivaon.io/",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.linkedin.com/company/alivaon/",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.tiktok.com/@alivaon.io",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://x.com/alivaon",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "mailto:contact@alivaon.com",
+        "text": "contact@alivaon.com",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "tel:+237691962158",
+        "text": "+237 6 91 96 21 58",
+        "rel": "",
+        "count": 1
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.alivaon.com/build/images/flags/en.svg",
+        "alt": "",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/inner/breadcrumb/breadcrumb-img1_1.png",
+        "alt": "Équipe Alivaon - experts digitalisation Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/inner/breadcrumb/breadcrumb-thumb1_2.jpg",
+        "alt": "Équipe de développement Alivaon à Douala, Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/inner/team/team-vision-thumb1_1.jpg",
+        "alt": "Équipe Alivaon en réunion - développement logiciel Douala Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/logo/logo.png",
+        "alt": "site logo",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/logo/logo.png",
+        "alt": "Site Logo",
+        "count": 1
+      }
+    ],
+    "bgImages": []
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "url": "https://www.alivaon.com/carrieres",
+  "discoveredVia": [
+    "link",
+    "sitemap",
+    "sitemap-alternate"
+  ],
+  "inlinks": 58,
+  "status": 200,
+  "chain": [],
+  "finalUrl": "https://www.alivaon.com/carrieres",
+  "headers": {
+    "cache-control": "no-cache, private",
+    "content-type": "text/html; charset=UTF-8",
+    "server": "nginx"
+  },
+  "html": {
+    "lang": "fr",
+    "titles": [
+      "Carrières chez Alivaon - Rejoignez notre équipe à Douala, Cameroun"
+    ],
+    "metas": {
+      "charset": [
+        "UTF-8"
+      ],
+      "http-equiv:x-ua-compatible": [
+        "IE=edge"
+      ],
+      "name:viewport": [
+        "width=device-width, initial-scale=1.0"
+      ],
+      "name:description": [
+        "Offres d'emploi chez Alivaon : CDI, CDD, stages et freelance en développement logiciel, web et mobile à Douala, Cameroun. Rejoignez une équipe passionnée."
+      ],
+      "name:robots": [
+        "index, follow"
+      ],
+      "property:og:type": [
+        "website"
+      ],
+      "property:og:site_name": [
+        "Alivaon"
+      ],
+      "property:og:title": [
+        "Carrières chez Alivaon - Offres d'emploi Douala Cameroun"
+      ],
+      "property:og:description": [
+        "Rejoignez Alivaon, agence digitale leader à Douala : développeurs, designers, chefs de projet. Découvrez nos offres d'emploi et candidatez en ligne."
+      ],
+      "property:og:url": [
+        "https://www.alivaon.com/carrieres"
+      ],
+      "property:og:locale": [
+        "fr_FR"
+      ],
+      "property:og:locale:alternate": [
+        "en_US"
+      ],
+      "property:og:image": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "property:og:image:secure_url": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "property:og:image:alt": [
+        "Carrières chez Alivaon - Offres d'emploi Douala Cameroun"
+      ],
+      "property:og:image:type": [
+        "image/jpeg"
+      ],
+      "property:og:image:width": [
+        "1200"
+      ],
+      "property:og:image:height": [
+        "630"
+      ],
+      "name:twitter:card": [
+        "summary_large_image"
+      ],
+      "name:twitter:title": [
+        "Carrières chez Alivaon - Offres d'emploi Douala Cameroun"
+      ],
+      "name:twitter:description": [
+        "Rejoignez Alivaon, agence digitale leader à Douala : développeurs, designers, chefs de projet. Découvrez nos offres d'emploi et candidatez en ligne."
+      ],
+      "name:twitter:image": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "name:twitter:image:alt": [
+        "Carrières chez Alivaon - Offres d'emploi Douala Cameroun"
+      ]
+    },
+    "canonicals": [
+      "https://www.alivaon.com/carrieres"
+    ],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://www.alivaon.com/en/careers"
+      },
+      {
+        "hreflang": "fr",
+        "href": "https://www.alivaon.com/carrieres"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://www.alivaon.com/carrieres"
+      }
+    ],
+    "headLinks": [
+      {
+        "rel": "icon",
+        "href": "https://www.alivaon.com/build/images/logo/favicon.png",
+        "type": "image/x-icon",
+        "sizes": null
+      }
+    ],
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "item": {
+              "@type": "JobPosting",
+              "datePosted": "2026-07-07",
+              "description": "Chez Alivaon, nous aidons les entreprises à développer leur présence digitale grâce à des solutions innovantes et des stratégies de communication performantes. Notre mission est de créer des expériences digitales qui renforcent la visibilité de nos clients et génèrent un véritable impact.",
+              "employmentType": "STAGE",
+              "hiringOrganization": {
+                "@type": "Organization",
+                "name": "Alivaon",
+                "sameAs": "https://www.alivaon.com"
+              },
+              "jobLocation": {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressCountry": "CM",
+                  "addressLocality": "Douala"
+                }
+              },
+              "title": "Community Manager (H/F)",
+              "url": "https://www.alivaon.com/carrieres/community-manager-hf",
+              "validThrough": "2026-12-31"
+            },
+            "position": 1
+          },
+          {
+            "@type": "ListItem",
+            "item": {
+              "@type": "JobPosting",
+              "datePosted": "2026-05-28",
+              "description": "Nous concevons des applications web, des plateformes SaaS, des logiciels métiers, des API, des applications mobiles et des sites internet sur mesure répondant aux besoins de nos clients. Notre ambition est simple : créer des solutions utiles, durables et innovantes qui ont un réel impact sur les entreprises.",
+              "employmentType": "STAGE",
+              "hiringOrganization": {
+                "@type": "Organization",
+                "name": "Alivaon",
+                "sameAs": "https://www.alivaon.com"
+              },
+              "jobLocation": {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressCountry": "CM",
+                  "addressLocality": "Douala"
+                }
+              },
+              "title": "Développeur Web (H/F)",
+              "url": "https://www.alivaon.com/carrieres/developpeur-web-hf",
+              "validThrough": "2026-12-31"
+            },
+            "position": 2
+          }
+        ],
+        "name": "Offres d'emploi Alivaon - Douala, Cameroun"
+      }
+    ],
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contactez-nous"
+      },
+      {
+        "level": 1,
+        "text": "Carrières chez Alivaon - Construisez l'avenir digital du Cameroun avec nous"
+      },
+      {
+        "level": 2,
+        "text": "pourquoi rejoindre alivaon"
+      },
+      {
+        "level": 2,
+        "text": "Projets à fort impact"
+      },
+      {
+        "level": 2,
+        "text": "Montée en compétences"
+      },
+      {
+        "level": 2,
+        "text": "Clients internationaux"
+      },
+      {
+        "level": 2,
+        "text": "Culture bienveillante"
+      },
+      {
+        "level": 2,
+        "text": "2 offres disponibles"
+      },
+      {
+        "level": 2,
+        "text": "Community Manager (H/F)"
+      },
+      {
+        "level": 2,
+        "text": "Développeur Web (H/F)"
+      }
+    ],
+    "text": "Démarrez Un projet Contactez-nous Logpom, Douala, Cameroun contact@alivaon.com +237 6 91 96 21 58 Accueil À propos Nos Services Réalisations Blog FAQ Contact NOUS CONTACTER Rejoignez-nous Équipe passionnée &amp; innovante Carrières chez Alivaon - Construisez l'avenir digital du Cameroun avec nous CARRIÈRES Alivaon recherche des talents passionnés par la technologie et l'innovation pour digitaliser les entreprises africaines. CDI, stages, freelance - rejoignez une équipe à impact. pourquoi rejoindre alivaon Projets à fort impact Développez des logiciels utilisés par des milliers d'entreprises au Cameroun et dans le monde. Votre code change des vies. Montée en compétences Formation continue, accès aux dernières technologies, mentorat par des seniors. Nous investissons dans votre croissance. Clients internationaux Travailler sur des projets pour le marché local ET international. Une exposition rare pour une agence basée à Douala. Culture bienveillante Environnement de travail inclusif, management horizontal, feedback régulier. Votre voix compte dès le premier jour. 2 offres disponibles Tous les contrats CDI CDD Stage Freelance Télétravail Tous les lieux Douala Recherche Stage Douala Expire le 31/12/2026 Community Manager (H/F) Chez Alivaon, nous aidons les entreprises à développer leur présence digitale grâce à des solutions innovantes et des stratégies d… # Meta Business Suite Facebook Canva TikTok +2 Voir l'offre Voir l'offre Stage Douala Expire le 31/12/2026 Développeur Web (H/F) Nous concevons des applications web, des plateformes SaaS, des logiciels métiers, des API, des applications mobiles et des sites i… # PHP/TYPESCRIPT MySQL / PostgreSQL Git & GitHub React, Next.js +1 Voir l'offre Voir l'offre Vous ne trouvez pas l'offre qu'il vous faut ? Envoyez-nous votre candidature spontanée. Si votre profil correspond à nos besoins futurs, nous vous recontacterons en priorité. Candidature spontanée Candidature spontanée strategy marketing analysis marketing strategy marketing analysis marketing À Propos d'Alivaon Éditeur de logiciels personnalisés, nous aidons les entreprises à se développer grâce à des solutions web, mobiles et entreprise innovantes, fiables et durables. Liens Rapides À Propos Contact Réalisations Blog Nos Services Ressources FAQ Carrières Notre Équipe Mentions Légales Politique de Confidentialité Abonnez-vous à notre newsletter S'ABONNER S'ABONNER Copyright © 2026 Alivaon, Tous droits réservés.",
+    "links": [
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "Accueil",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "site logo",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "Site Logo",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/about",
+        "text": "À propos",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/about",
+        "text": "À Propos",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog",
+        "text": "Blog",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/carrieres",
+        "text": "Carrières",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/carrieres/community-manager-hf",
+        "text": "Community Manager (H/F)",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/carrieres/community-manager-hf",
+        "text": "Voir l'offre Voir l'offre",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/carrieres/developpeur-web-hf",
+        "text": "Développeur Web (H/F)",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/carrieres/developpeur-web-hf",
+        "text": "Voir l'offre Voir l'offre",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Candidature spontanée Candidature spontanée",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Contact",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Démarrez Un projet",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "NOUS CONTACTER",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/en/careers",
+        "text": "English version",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/faq",
+        "text": "FAQ",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/mentions-legales",
+        "text": "Mentions Légales",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/politique-de-confidentialite",
+        "text": "Politique de Confidentialité",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/portfolio",
+        "text": "Réalisations",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/services",
+        "text": "Nos Services",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/team",
+        "text": "Notre Équipe",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.facebook.com/alivaon",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.instagram.com/alivaon.io/",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.linkedin.com/company/alivaon/",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.tiktok.com/@alivaon.io",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://x.com/alivaon",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "mailto:contact@alivaon.com",
+        "text": "contact@alivaon.com",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "tel:+237691962158",
+        "text": "+237 6 91 96 21 58",
+        "rel": "",
+        "count": 1
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.alivaon.com/build/images/flags/en.svg",
+        "alt": "",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/inner/breadcrumb/breadcrumb-img1_1.png",
+        "alt": "Carrières Alivaon Douala Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/inner/breadcrumb/breadcrumb-thumb1_2.jpg",
+        "alt": "Offres d'emploi Alivaon - Agence digitale Douala Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/logo/logo.png",
+        "alt": "site logo",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/logo/logo.png",
+        "alt": "Site Logo",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/uploads/job_covers/bb8952564e97aa845d358b042fbcf332b5674af5.jpg",
+        "alt": "Développeur Web (H/F)",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/uploads/job_covers/d6201be95ef757fe5ae576b30ff155a8762480e6.jpg",
+        "alt": "Community Manager (H/F)",
+        "count": 1
+      }
+    ],
+    "bgImages": []
+  }
+}

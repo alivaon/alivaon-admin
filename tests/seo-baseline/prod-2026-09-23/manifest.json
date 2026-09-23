@@ -1,0 +1,23 @@
+{
+  "tool": "@alivaon/seo-parity",
+  "toolVersion": "1.0.0",
+  "createdAt": "2026-09-23T21:27:54.072Z",
+  "origin": "https://www.alivaon.com",
+  "rewrittenTo": null,
+  "counts": {
+    "pages": 68,
+    "probes": 117,
+    "sitemapEntries": 47,
+    "assets": 75,
+    "files": 4,
+    "requests": 323
+  },
+  "options": {
+    "concurrency": 2,
+    "delayMs": 300,
+    "maxUrls": 3000,
+    "maxQueryVariantsPerPath": 20,
+    "seedFiles": 1,
+    "seedsFromSnapshot": false
+  }
+}

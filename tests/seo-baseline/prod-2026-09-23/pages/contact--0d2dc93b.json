@@ -1,0 +1,391 @@
+{
+  "url": "https://www.alivaon.com/contact",
+  "discoveredVia": [
+    "link",
+    "sitemap",
+    "sitemap-alternate"
+  ],
+  "inlinks": 58,
+  "status": 200,
+  "chain": [],
+  "finalUrl": "https://www.alivaon.com/contact",
+  "headers": {
+    "cache-control": "max-age=0, must-revalidate, private",
+    "content-type": "text/html; charset=UTF-8",
+    "server": "nginx"
+  },
+  "html": {
+    "lang": "fr",
+    "titles": [
+      "Contactez Alivaon - Agence Digitale & Développement Logiciel à Douala, Cameroun"
+    ],
+    "metas": {
+      "charset": [
+        "UTF-8"
+      ],
+      "http-equiv:x-ua-compatible": [
+        "IE=edge"
+      ],
+      "name:viewport": [
+        "width=device-width, initial-scale=1.0"
+      ],
+      "name:description": [
+        "Contactez Alivaon, votre agence digitale à Douala. Devis gratuit pour logiciel de gestion, application web ou mobile. Réponse sous 24h - Cameroun."
+      ],
+      "name:robots": [
+        "index, follow"
+      ],
+      "property:og:type": [
+        "website"
+      ],
+      "property:og:site_name": [
+        "Alivaon"
+      ],
+      "property:og:title": [
+        "Contactez Alivaon - Agence Digitale à Douala, Cameroun"
+      ],
+      "property:og:description": [
+        "Discutons de votre projet de digitalisation. Développement de logiciels de gestion, applications web et mobile sur mesure pour les entreprises au Cameroun."
+      ],
+      "property:og:url": [
+        "https://www.alivaon.com/contact"
+      ],
+      "property:og:locale": [
+        "fr_FR"
+      ],
+      "property:og:locale:alternate": [
+        "en_US"
+      ],
+      "property:og:image": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "property:og:image:secure_url": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "property:og:image:alt": [
+        "Contactez Alivaon - Agence Digitale à Douala, Cameroun"
+      ],
+      "property:og:image:type": [
+        "image/jpeg"
+      ],
+      "property:og:image:width": [
+        "1200"
+      ],
+      "property:og:image:height": [
+        "630"
+      ],
+      "name:twitter:card": [
+        "summary_large_image"
+      ],
+      "name:twitter:title": [
+        "Contactez Alivaon - Agence Digitale à Douala, Cameroun"
+      ],
+      "name:twitter:description": [
+        "Discutons de votre projet de digitalisation. Développement de logiciels de gestion, applications web et mobile sur mesure pour les entreprises au Cameroun."
+      ],
+      "name:twitter:image": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "name:twitter:image:alt": [
+        "Contactez Alivaon - Agence Digitale à Douala, Cameroun"
+      ]
+    },
+    "canonicals": [
+      "https://www.alivaon.com/contact"
+    ],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://www.alivaon.com/en/contact"
+      },
+      {
+        "hreflang": "fr",
+        "href": "https://www.alivaon.com/contact"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://www.alivaon.com/contact"
+      }
+    ],
+    "headLinks": [
+      {
+        "rel": "icon",
+        "href": "https://www.alivaon.com/build/images/logo/favicon.png",
+        "type": "image/x-icon",
+        "sizes": null
+      }
+    ],
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "CM",
+          "addressLocality": "Douala",
+          "addressRegion": "Littoral",
+          "streetAddress": "Logpom"
+        },
+        "areaServed": [
+          "Douala",
+          "Yaoundé",
+          "Cameroun"
+        ],
+        "description": "Agence de développement logiciel, applications web et mobile à Douala, Cameroun. Spécialiste de la digitalisation des entreprises et PME.",
+        "email": "contact@alivaon.com",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 4.0511,
+          "longitude": 9.7185
+        },
+        "name": "Alivaon",
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "closes": "18:00",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00"
+        },
+        "serviceType": [
+          "Développement logiciel",
+          "Application web",
+          "Application mobile",
+          "Logiciel de gestion",
+          "Digitalisation entreprise"
+        ],
+        "telephone": "+237691962158",
+        "url": "https://www.alivaon.com"
+      }
+    ],
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contactez-nous"
+      },
+      {
+        "level": 1,
+        "text": "Parlons de votre projet digital"
+      },
+      {
+        "level": 2,
+        "text": "Notre adresse"
+      },
+      {
+        "level": 2,
+        "text": "Téléphone & Email"
+      },
+      {
+        "level": 2,
+        "text": "Horaires d'ouverture"
+      },
+      {
+        "level": 2,
+        "text": "Suivez-nous"
+      },
+      {
+        "level": 2,
+        "text": "Décrivez votre projet - obtenez un devis gratuit pour votre logiciel ou application au Cameroun"
+      }
+    ],
+    "text": "Démarrez Un projet Contactez-nous Logpom, Douala, Cameroun contact@alivaon.com +237 6 91 96 21 58 Accueil À propos Nos Services Réalisations Blog FAQ Contact NOUS CONTACTER Contactez-nous Parlons de votre projet digital Logiciel de gestion, application web ou mobile - obtenez votre devis gratuit à Douala, Cameroun. Notre adresse Logpom, Douala, Cameroun Téléphone & Email contact@alivaon.com / +237 6 91 96 21 58 / +33 6 99 11 28 35 Horaires d'ouverture Lundi au Vendredi 09h00 - 18h00 Suivez-nous f x in ► 📷 Décrivez votre projet - obtenez un devis gratuit pour votre logiciel ou application au Cameroun Automatisation & Intelligence Artificielle pour entreprises Création de site e-commerce avec Mobile Money Création de site web professionnel à Douala Développement d'application mobile Android & iOS Développement d'application web sur mesure & SaaS ERP & CRM sur mesure pour PME camerounaises Formation aux Outils Numériques Logiciel de caisse & Point de vente (POS) Logiciel de facturation conforme DGI Cameroun Logiciel de gestion commerciale sur mesure au Cameroun Logiciel de gestion de stock et inventaire Maintenance, hébergement sécurisé & support technique Référencement SEO & Visibilité Google Transformation digitale & conseil Envoyer Que vous ayez besoin d'un logiciel de gestion d'entreprise • application mobile • solution web sur mesure • Réponse garantie sous 24h • Devis gratuit • Agence digitale à Douala, Cameroun strategy marketing analysis marketing strategy marketing analysis marketing À Propos d'Alivaon Éditeur de logiciels personnalisés, nous aidons les entreprises à se développer grâce à des solutions web, mobiles et entreprise innovantes, fiables et durables. Liens Rapides À Propos Contact Réalisations Blog Nos Services Ressources FAQ Carrières Notre Équipe Mentions Légales Politique de Confidentialité Abonnez-vous à notre newsletter S'ABONNER S'ABONNER Copyright © 2026 Alivaon, Tous droits réservés.",
+    "links": [
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "Accueil",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "site logo",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "Site Logo",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/about",
+        "text": "À propos",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/about",
+        "text": "À Propos",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog",
+        "text": "Blog",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/carrieres",
+        "text": "Carrières",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Contact",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Démarrez Un projet",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "NOUS CONTACTER",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/en/contact",
+        "text": "English version",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/faq",
+        "text": "FAQ",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/mentions-legales",
+        "text": "Mentions Légales",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/politique-de-confidentialite",
+        "text": "Politique de Confidentialité",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/portfolio",
+        "text": "Réalisations",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/services",
+        "text": "Nos Services",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/team",
+        "text": "Notre Équipe",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.facebook.com/alivaon",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.facebook.com/alivaon",
+        "text": "f",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.instagram.com/alivaon.io/",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.instagram.com/alivaon.io/",
+        "text": "📷",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.linkedin.com/company/alivaon/",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.linkedin.com/company/alivaon/",
+        "text": "in",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.tiktok.com/@alivaon.io",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.tiktok.com/@alivaon.io",
+        "text": "►",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://x.com/alivaon",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://x.com/alivaon",
+        "text": "x",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "mailto:contact@alivaon.com",
+        "text": "contact@alivaon.com",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "tel:+237691962158",
+        "text": "+237 6 91 96 21 58",
+        "rel": "",
+        "count": 1
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.alivaon.com/build/images/flags/en.svg",
+        "alt": "",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/logo/logo.png",
+        "alt": "site logo",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/logo/logo.png",
+        "alt": "Site Logo",
+        "count": 1
+      }
+    ],
+    "bgImages": []
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/robots.txt",
+    "status": 200,
+    "contentType": "text/plain; charset=UTF-8",
+    "sha256": "8aee11ae2209a26ea43a61501efcdadeab0186ad7d9a823e0e6b3667cd442c30"
+  },
+  {
+    "path": "/sitemap.xml",
+    "status": 200,
+    "contentType": "application/xml",
+    "sha256": "d2a2573fbec098f9dc8e62ba504dc485d2cc9e0b81405a5f11d5aced3341c743"
+  },
+  {
+    "path": "/llms.txt",
+    "status": 200,
+    "contentType": "text/plain",
+    "sha256": "3b8f9a7dbda615c1cb0c25265b208f29ed9a9d02ceca4909a6bb3b1415f01d58"
+  },
+  {
+    "path": "/favicon.ico",
+    "status": 404,
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "774be0e5dc2035d411b2a48798dc5511dbb30bf76a45a96fb870f46cfecd6874"
+  }
+]

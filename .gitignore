@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.log
+.DS_Store
+.env*.local
+
+# Rapports Lighthouse bruts (volumineux) : seul summary.json est versionné.
+tests/seo-baseline/*/lighthouse/raw/
+# Snapshots de travail (staging, essais) : seuls les relevés de référence sont versionnés.
+tests/seo-baseline/_work/

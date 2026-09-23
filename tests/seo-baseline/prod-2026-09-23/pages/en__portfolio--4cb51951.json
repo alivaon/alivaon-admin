@@ -1,0 +1,328 @@
+{
+  "url": "https://www.alivaon.com/en/portfolio",
+  "discoveredVia": [
+    "link",
+    "sitemap",
+    "sitemap-alternate"
+  ],
+  "inlinks": 15,
+  "status": 200,
+  "chain": [],
+  "finalUrl": "https://www.alivaon.com/en/portfolio",
+  "headers": {
+    "cache-control": "no-cache, private",
+    "content-type": "text/html; charset=UTF-8",
+    "server": "nginx"
+  },
+  "html": {
+    "lang": "en",
+    "titles": [
+      "Our Work - Business Software & Applications in Cameroon | Alivaon Douala"
+    ],
+    "metas": {
+      "charset": [
+        "UTF-8"
+      ],
+      "http-equiv:x-ua-compatible": [
+        "IE=edge"
+      ],
+      "name:viewport": [
+        "width=device-width, initial-scale=1.0"
+      ],
+      "name:description": [
+        "Discover our projects: management software, Android mobile apps and web solutions delivered for businesses in Cameroon. 50+ projects completed in Douala."
+      ],
+      "name:robots": [
+        "index, follow"
+      ],
+      "property:og:type": [
+        "website"
+      ],
+      "property:og:site_name": [
+        "Alivaon"
+      ],
+      "property:og:title": [
+        "Our Work - Software & Applications in Cameroon | Alivaon Douala"
+      ],
+      "property:og:description": [
+        "50+ digital projects delivered in Cameroon: sales management software, Android mobile apps, custom web solutions for SMEs in Douala and Yaoundé."
+      ],
+      "property:og:url": [
+        "https://www.alivaon.com/en/portfolio"
+      ],
+      "property:og:locale": [
+        "en_US"
+      ],
+      "property:og:locale:alternate": [
+        "fr_FR"
+      ],
+      "property:og:image": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "property:og:image:secure_url": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "property:og:image:alt": [
+        "Our Work - Software & Applications in Cameroon | Alivaon Douala"
+      ],
+      "property:og:image:type": [
+        "image/jpeg"
+      ],
+      "property:og:image:width": [
+        "1200"
+      ],
+      "property:og:image:height": [
+        "630"
+      ],
+      "name:twitter:card": [
+        "summary_large_image"
+      ],
+      "name:twitter:title": [
+        "Our Work - Software & Applications in Cameroon | Alivaon Douala"
+      ],
+      "name:twitter:description": [
+        "50+ digital projects delivered in Cameroon: sales management software, Android mobile apps, custom web solutions for SMEs in Douala and Yaoundé."
+      ],
+      "name:twitter:image": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "name:twitter:image:alt": [
+        "Our Work - Software & Applications in Cameroon | Alivaon Douala"
+      ]
+    },
+    "canonicals": [
+      "https://www.alivaon.com/en/portfolio"
+    ],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://www.alivaon.com/en/portfolio"
+      },
+      {
+        "hreflang": "fr",
+        "href": "https://www.alivaon.com/portfolio"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://www.alivaon.com/portfolio"
+      }
+    ],
+    "headLinks": [
+      {
+        "rel": "icon",
+        "href": "https://www.alivaon.com/build/images/logo/favicon.png",
+        "type": "image/x-icon",
+        "sizes": null
+      }
+    ],
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "about": {
+          "@type": "Thing",
+          "name": "Custom software and mobile application development in Cameroon"
+        },
+        "description": "Portfolio of digital projects delivered by Alivaon in Douala: management software, mobile and web applications for SMEs in Cameroon.",
+        "name": "Alivaon Work - Business Software & Applications in Cameroon",
+        "provider": {
+          "@type": "LocalBusiness",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "CM",
+            "addressLocality": "Douala"
+          },
+          "name": "Alivaon",
+          "telephone": "+237691962158"
+        }
+      }
+    ],
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contact us"
+      },
+      {
+        "level": 1,
+        "text": "Projects"
+      }
+    ],
+    "text": "Start A project Contact us Logpom, Douala, Cameroun contact@alivaon.com +237 6 91 96 21 58 Home About Our Services Portfolio Blog FAQ Contact CONTACT US Our Work Projects 50+ software products and applications delivered for businesses in Cameroon - solutions that truly make a difference. // Selected Projects All projects No projects in this category yet. See all projects Start your project - Free quote strategy marketing analysis marketing strategy marketing analysis marketing About Alivaon As a custom software company, we help businesses grow with innovative, reliable and sustainable web, mobile and enterprise solutions. Quick Links About Contact Portfolio Blog Our Services Resources FAQ Careers Our Team Legal Notice Privacy Policy Subscribe to our newsletter SUBSCRIBE SUBSCRIBE Copyright © 2026 Alivaon, All rights reserved.",
+    "links": [
+      {
+        "href": "https://www.alivaon.com/en",
+        "text": "Home",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/en",
+        "text": "site logo",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/en",
+        "text": "Site Logo",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/en/about",
+        "text": "About",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/en/blog",
+        "text": "Blog",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/en/careers",
+        "text": "Careers",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/en/contact",
+        "text": "Contact",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/en/contact",
+        "text": "CONTACT US",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/en/contact",
+        "text": "Start A project",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/en/contact",
+        "text": "Start your project - Free quote",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/en/faq",
+        "text": "FAQ",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/en/legal-notice",
+        "text": "Legal Notice",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/en/portfolio",
+        "text": "All projects",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/en/portfolio",
+        "text": "Portfolio",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/en/portfolio",
+        "text": "See all projects",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/en/privacy-policy",
+        "text": "Privacy Policy",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/en/services",
+        "text": "Our Services",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/en/team",
+        "text": "Our Team",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/portfolio",
+        "text": "Version française",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.facebook.com/alivaon",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.instagram.com/alivaon.io/",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.linkedin.com/company/alivaon/",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.tiktok.com/@alivaon.io",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://x.com/alivaon",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "mailto:contact@alivaon.com",
+        "text": "contact@alivaon.com",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "tel:+237691962158",
+        "text": "+237 6 91 96 21 58",
+        "rel": "",
+        "count": 1
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.alivaon.com/build/images/flags/fr.svg",
+        "alt": "",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/logo/logo.png",
+        "alt": "site logo",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/logo/logo.png",
+        "alt": "Site Logo",
+        "count": 1
+      }
+    ],
+    "bgImages": []
+  }
+}

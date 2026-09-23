@@ -1,0 +1,15 @@
+{
+  "name": "alivaon-next",
+  "private": true,
+  "packageManager": "pnpm@9.15.9",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "seo:snapshot": "pnpm --filter @alivaon/seo-parity run snapshot",
+    "seo:lighthouse": "pnpm --filter @alivaon/seo-parity run lighthouse",
+    "seo:compare": "pnpm --filter @alivaon/seo-parity run compare",
+    "test": "pnpm -r run test",
+    "typecheck": "pnpm -r run typecheck"
+  }
+}

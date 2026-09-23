@@ -1,0 +1,381 @@
+[
+  {
+    "template": "en:home",
+    "url": "https://www.alivaon.com/en",
+    "runs": 3,
+    "scores": {
+      "performance": 0.51,
+      "seo": 0.85,
+      "accessibility": 0.92,
+      "best-practices": 0.96
+    },
+    "metrics": {
+      "first-contentful-paint": 6036.252,
+      "largest-contentful-paint": 6786.293,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.22,
+      "speed-index": 6036.252
+    },
+    "failedSeoAudits": [
+      "crawlable-anchors",
+      "link-text"
+    ]
+  },
+  {
+    "template": "fr:about",
+    "url": "https://www.alivaon.com/about",
+    "runs": 3,
+    "scores": {
+      "performance": 0.63,
+      "seo": 0.92,
+      "accessibility": 0.86,
+      "best-practices": 0.96
+    },
+    "metrics": {
+      "first-contentful-paint": 5368.387,
+      "largest-contentful-paint": 5949.956,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.02,
+      "speed-index": 6376.313
+    },
+    "failedSeoAudits": [
+      "crawlable-anchors"
+    ]
+  },
+  {
+    "template": "fr:blog",
+    "url": "https://www.alivaon.com/blog",
+    "runs": 3,
+    "scores": {
+      "performance": 0.56,
+      "seo": 0.92,
+      "accessibility": 0.88,
+      "best-practices": 1
+    },
+    "metrics": {
+      "first-contentful-paint": 8518.244,
+      "largest-contentful-paint": 15946.449,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.047,
+      "speed-index": 8518.244
+    },
+    "failedSeoAudits": [
+      "crawlable-anchors"
+    ]
+  },
+  {
+    "template": "fr:blog-category",
+    "url": "https://www.alivaon.com/blog/category/applications-mobiles",
+    "runs": 3,
+    "scores": {
+      "performance": 0.57,
+      "seo": 0.92,
+      "accessibility": 0.83,
+      "best-practices": 1
+    },
+    "metrics": {
+      "first-contentful-paint": 8517.536,
+      "largest-contentful-paint": 12425.736,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.016,
+      "speed-index": 8517.536
+    },
+    "failedSeoAudits": [
+      "crawlable-anchors"
+    ]
+  },
+  {
+    "template": "fr:blog-tag",
+    "url": "https://www.alivaon.com/blog/tag/application-android",
+    "runs": 3,
+    "scores": {
+      "performance": 0.61,
+      "seo": 0.92,
+      "accessibility": 0.83,
+      "best-practices": 1
+    },
+    "metrics": {
+      "first-contentful-paint": 5297.812,
+      "largest-contentful-paint": 9547.022,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.045,
+      "speed-index": 5297.812
+    },
+    "failedSeoAudits": [
+      "crawlable-anchors"
+    ]
+  },
+  {
+    "template": "fr:blog:detail",
+    "url": "https://www.alivaon.com/blog/gerer-entreprise-excel-cout-reel-alternatives",
+    "runs": 3,
+    "scores": {
+      "performance": 0.61,
+      "seo": 0.92,
+      "accessibility": 0.88,
+      "best-practices": 1
+    },
+    "metrics": {
+      "first-contentful-paint": 6715.986,
+      "largest-contentful-paint": 6715.986,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.01,
+      "speed-index": 6715.986
+    },
+    "failedSeoAudits": [
+      "crawlable-anchors"
+    ]
+  },
+  {
+    "template": "fr:carrieres",
+    "url": "https://www.alivaon.com/carrieres",
+    "runs": 3,
+    "scores": {
+      "performance": 0.55,
+      "seo": 0.92,
+      "accessibility": 0.88,
+      "best-practices": 0.96
+    },
+    "metrics": {
+      "first-contentful-paint": 11583.085,
+      "largest-contentful-paint": 15851.61,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 11583.085
+    },
+    "failedSeoAudits": [
+      "crawlable-anchors"
+    ]
+  },
+  {
+    "template": "fr:carrieres:detail",
+    "url": "https://www.alivaon.com/carrieres/community-manager-hf",
+    "runs": 3,
+    "scores": {
+      "performance": 0.59,
+      "seo": 0.92,
+      "accessibility": 0.82,
+      "best-practices": 1
+    },
+    "metrics": {
+      "first-contentful-paint": 6572.898,
+      "largest-contentful-paint": 9241.221,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.047,
+      "speed-index": 6572.898
+    },
+    "failedSeoAudits": [
+      "crawlable-anchors"
+    ]
+  },
+  {
+    "template": "fr:contact",
+    "url": "https://www.alivaon.com/contact",
+    "runs": 3,
+    "scores": {
+      "performance": 0.55,
+      "seo": 0.92,
+      "accessibility": 0.86,
+      "best-practices": 1
+    },
+    "metrics": {
+      "first-contentful-paint": 12662.422,
+      "largest-contentful-paint": 16487.657,
+      "total-blocking-time": 27,
+      "cumulative-layout-shift": 0,
+      "speed-index": 12662.422
+    },
+    "failedSeoAudits": [
+      "crawlable-anchors"
+    ]
+  },
+  {
+    "template": "fr:faq",
+    "url": "https://www.alivaon.com/faq",
+    "runs": 3,
+    "scores": {
+      "performance": 0.56,
+      "seo": 0.92,
+      "accessibility": 0.88,
+      "best-practices": 0.96
+    },
+    "metrics": {
+      "first-contentful-paint": 9061.192,
+      "largest-contentful-paint": 13201.257,
+      "total-blocking-time": 44,
+      "cumulative-layout-shift": 0,
+      "speed-index": 9061.192
+    },
+    "failedSeoAudits": [
+      "crawlable-anchors"
+    ]
+  },
+  {
+    "template": "fr:home",
+    "url": "https://www.alivaon.com/",
+    "runs": 3,
+    "scores": {
+      "performance": 0.56,
+      "seo": 0.92,
+      "accessibility": 0.9,
+      "best-practices": 0.96
+    },
+    "metrics": {
+      "first-contentful-paint": 6243.149,
+      "largest-contentful-paint": 6243.149,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.123,
+      "speed-index": 6534.813
+    },
+    "failedSeoAudits": [
+      "crawlable-anchors"
+    ]
+  },
+  {
+    "template": "fr:mentions-legales",
+    "url": "https://www.alivaon.com/mentions-legales",
+    "runs": 3,
+    "scores": {
+      "performance": 0.55,
+      "seo": 0.92,
+      "accessibility": 0.88,
+      "best-practices": 0.96
+    },
+    "metrics": {
+      "first-contentful-paint": 5945.183,
+      "largest-contentful-paint": 8195.397,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.165,
+      "speed-index": 5945.183
+    },
+    "failedSeoAudits": [
+      "crawlable-anchors"
+    ]
+  },
+  {
+    "template": "fr:politique-de-confidentialite",
+    "url": "https://www.alivaon.com/politique-de-confidentialite",
+    "runs": 3,
+    "scores": {
+      "performance": 0.53,
+      "seo": 0.92,
+      "accessibility": 0.88,
+      "best-practices": 0.96
+    },
+    "metrics": {
+      "first-contentful-paint": 6092.606,
+      "largest-contentful-paint": 8344.101,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.167,
+      "speed-index": 6092.606
+    },
+    "failedSeoAudits": [
+      "crawlable-anchors"
+    ]
+  },
+  {
+    "template": "fr:portfolio",
+    "url": "https://www.alivaon.com/portfolio",
+    "runs": 3,
+    "scores": {
+      "performance": 0.55,
+      "seo": 0.92,
+      "accessibility": 0.88,
+      "best-practices": 1
+    },
+    "metrics": {
+      "first-contentful-paint": 8958.24,
+      "largest-contentful-paint": 23659.225,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.009,
+      "speed-index": 11882.883
+    },
+    "failedSeoAudits": [
+      "crawlable-anchors"
+    ]
+  },
+  {
+    "template": "fr:portfolio:detail",
+    "url": "https://www.alivaon.com/portfolio/site-web-auto-ecole-mairie-mainvilliers",
+    "runs": 3,
+    "scores": {
+      "performance": 0.59,
+      "seo": 0.92,
+      "accessibility": 0.89,
+      "best-practices": 1
+    },
+    "metrics": {
+      "first-contentful-paint": 6363.56,
+      "largest-contentful-paint": 12633.991,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.006,
+      "speed-index": 7539.183
+    },
+    "failedSeoAudits": [
+      "crawlable-anchors"
+    ]
+  },
+  {
+    "template": "fr:services",
+    "url": "https://www.alivaon.com/services",
+    "runs": 3,
+    "scores": {
+      "performance": 0.57,
+      "seo": 0.92,
+      "accessibility": 0.87,
+      "best-practices": 0.96
+    },
+    "metrics": {
+      "first-contentful-paint": 5704.886,
+      "largest-contentful-paint": 5704.886,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.165,
+      "speed-index": 5704.886
+    },
+    "failedSeoAudits": [
+      "crawlable-anchors"
+    ]
+  },
+  {
+    "template": "fr:services:detail",
+    "url": "https://www.alivaon.com/services/agence-seo-cameroun",
+    "runs": 3,
+    "scores": {
+      "performance": 0.57,
+      "seo": 0.92,
+      "accessibility": 0.82,
+      "best-practices": 1
+    },
+    "metrics": {
+      "first-contentful-paint": 8433.5,
+      "largest-contentful-paint": 12556.742,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.005,
+      "speed-index": 8433.5
+    },
+    "failedSeoAudits": [
+      "crawlable-anchors"
+    ]
+  },
+  {
+    "template": "fr:team",
+    "url": "https://www.alivaon.com/team",
+    "runs": 3,
+    "scores": {
+      "performance": 0.56,
+      "seo": 0.92,
+      "accessibility": 0.88,
+      "best-practices": 0.96
+    },
+    "metrics": {
+      "first-contentful-paint": 5391.897,
+      "largest-contentful-paint": 7773.827,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.019,
+      "speed-index": 6422.231
+    },
+    "failedSeoAudits": [
+      "crawlable-anchors"
+    ]
+  }
+]

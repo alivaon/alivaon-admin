@@ -1,0 +1,345 @@
+{
+  "url": "https://www.alivaon.com/portfolio/site-web-leandry-petnga",
+  "discoveredVia": [
+    "link",
+    "sitemap"
+  ],
+  "inlinks": 3,
+  "status": 200,
+  "chain": [],
+  "finalUrl": "https://www.alivaon.com/portfolio/site-web-leandry-petnga",
+  "headers": {
+    "cache-control": "no-cache, private",
+    "content-type": "text/html; charset=UTF-8",
+    "server": "nginx"
+  },
+  "html": {
+    "lang": "fr",
+    "titles": [
+      "Site Web Léandry PETNGA - Réalisation Alivaon, Agence Digitale à Douala, Cameroun"
+    ],
+    "metas": {
+      "charset": [
+        "UTF-8"
+      ],
+      "http-equiv:x-ua-compatible": [
+        "IE=edge"
+      ],
+      "name:viewport": [
+        "width=device-width, initial-scale=1.0"
+      ],
+      "name:description": [
+        "Site Web Léandry PETNGA : projet de digitalisation réalisé par Alivaon à Douala, Cameroun. Logiciel sur mesure, application web ou mobile pour entreprise."
+      ],
+      "name:robots": [
+        "index, follow"
+      ],
+      "property:og:type": [
+        "article"
+      ],
+      "property:og:site_name": [
+        "Alivaon"
+      ],
+      "property:og:title": [
+        "Site Web Léandry PETNGA - Réalisation Alivaon Douala, Cameroun"
+      ],
+      "property:og:description": [
+        "Découvrez ce projet digital réalisé par Alivaon à Douala : Site Web Léandry PETNGA. Solution sur mesure pour entreprise camerounaise. Devis gratuit sous 24h."
+      ],
+      "property:og:url": [
+        "https://www.alivaon.com/portfolio/site-web-leandry-petnga"
+      ],
+      "property:og:locale": [
+        "fr_FR"
+      ],
+      "property:og:image": [
+        "https://www.alivaon.com/uploads/projects/e892695411b9d5edb86c8633d0b5373aa208d382.png"
+      ],
+      "property:og:image:secure_url": [
+        "https://www.alivaon.com/uploads/projects/e892695411b9d5edb86c8633d0b5373aa208d382.png"
+      ],
+      "property:og:image:alt": [
+        "Site Web Léandry PETNGA - Alivaon"
+      ],
+      "property:og:image:type": [
+        "image/png"
+      ],
+      "property:og:image:width": [
+        "1200"
+      ],
+      "property:og:image:height": [
+        "630"
+      ],
+      "name:twitter:card": [
+        "summary_large_image"
+      ],
+      "name:twitter:title": [
+        "Site Web Léandry PETNGA - Réalisation Alivaon Douala, Cameroun"
+      ],
+      "name:twitter:description": [
+        "Découvrez ce projet digital réalisé par Alivaon à Douala : Site Web Léandry PETNGA. Solution sur mesure pour entreprise camerounaise. Devis gratuit sous 24h."
+      ],
+      "name:twitter:image": [
+        "https://www.alivaon.com/uploads/projects/e892695411b9d5edb86c8633d0b5373aa208d382.png"
+      ],
+      "name:twitter:image:alt": [
+        "Site Web Léandry PETNGA - Alivaon"
+      ]
+    },
+    "canonicals": [
+      "https://www.alivaon.com/portfolio/site-web-leandry-petnga"
+    ],
+    "hreflang": [],
+    "headLinks": [
+      {
+        "rel": "icon",
+        "href": "https://www.alivaon.com/build/images/logo/favicon.png",
+        "type": "image/x-icon",
+        "sizes": null
+      }
+    ],
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "creator": {
+          "@type": "LocalBusiness",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "CM",
+            "addressLocality": "Douala"
+          },
+          "name": "Alivaon",
+          "telephone": "+237691962158"
+        },
+        "dateCreated": "2025-09-07",
+        "description": "Site Web Léandry PETNGA - Projet digital réalisé par Alivaon, agence de développement logiciel à Douala, Cameroun.",
+        "locationCreated": {
+          "@type": "Place",
+          "name": "Paris, France"
+        },
+        "name": "Site Web Léandry PETNGA"
+      }
+    ],
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contactez-nous"
+      },
+      {
+        "level": 1,
+        "text": "Site Web Léandry PETNGA"
+      },
+      {
+        "level": 2,
+        "text": "Contexte & Défi"
+      },
+      {
+        "level": 2,
+        "text": "Solution mise en place"
+      },
+      {
+        "level": 2,
+        "text": "Impact sur l'entreprise"
+      }
+    ],
+    "text": "Démarrez Un projet Contactez-nous Logpom, Douala, Cameroun contact@alivaon.com +237 6 91 96 21 58 Accueil À propos Nos Services Réalisations Blog FAQ Contact NOUS CONTACTER Site Web Léandry PETNGA Catégorie Application Web Client Leandry PETNGA Année 2025 Lieu Paris, France Technologies PHP, Symfony, React, MySQL À propos du projet Contexte & Défi Léandry PETNGA, coach en préparation mentale et coach certifié en Processus de Matérialisation® (PDM), souhaitait une présence en ligne professionnelle pour présenter son accompagnement, gagner en crédibilité et faciliter la prise de contact avec ses clients. Le défi : traduire une approche humaine et personnalisée en un site clair et rassurant, capable de présenter distinctement ses offres selon les publics (particuliers, sportifs, entreprises), de proposer un espace membre et de convertir les visiteurs en rendez-vous. Analyse des besoins & cadrage fonctionnel Nous avons débuté par une phase d'écoute avec Léandry pour comprendre sa méthode, son positionnement unique autour du Processus de Matérialisation® et ses différents publics cibles. Cette étape nous a permis de définir une arborescence claire et de structurer les contenus autour de son accompagnement. Conception & design orienté confiance Nous avons conçu une identité visuelle sobre et chaleureuse, à l'image du coaching. Chaque page a été pensée pour rassurer le visiteur, mettre en avant les bénéfices de l'accompagnement et l'inciter à passer à l'action via des appels clairs vers la prise de rendez-vous et le contact. Développement & espace membre Le site a été développé avec un véritable espace membre : le client peut créer son compte, réserver un rendez-vous, gérer ses rendez-vous et modifier ses données personnelles en toute autonomie. Léandry, de son côté, garde la main sur l'ensemble de ses contenus. Le site a été optimisé pour un affichage rapide et parfaitement responsive, la majorité des visiteurs le consultant depuis leur mobile. Mise en ligne, SEO & accompagnement Après la mise en production, nous avons optimisé le référencement du site et formé Léandry à la gestion de ses pages, articles et rendez-vous. Un suivi continu assure les mises à jour, la sécurité et les évolutions du site dans la durée. Notre approche Solution mise en place Nous avons livré un site vitrine complet, moderne et responsive, structuré autour des différents publics de Léandry. Chaque offre d'accompagnement dispose de sa présentation dédiée, et un espace membre permet à chaque client de créer son compte, réserver et gérer ses rendez-vous et éditer ses informations. Des appels à l'action stratégiquement placés guident le visiteur vers la prise de rendez-vous. Le site met en avant l'approche unique du Processus de Matérialisation®, la crédibilité et le parcours du coach, ainsi qu'un blog pour partager conseils et expertise. Le tout dans une interface claire, chaleureuse et pensée pour instaurer la confiance dès la première visite. Les résultats Impact sur l'entreprise Grâce à ce nouveau site, Léandry PETNGA dispose d'une vitrine professionnelle à la hauteur de son accompagnement. Les visiteurs comprennent rapidement sa méthode, identifient l'offre qui leur correspond et réservent leur rendez-vous en toute autonomie, sans échanges manuels. L'espace membre allège la gestion quotidienne : chaque client gère ses propres rendez-vous et ses informations, ce qui réduit les allers-retours et libère du temps pour le coach. Résultat : une image de marque renforcée, une meilleure visibilité en ligne et un parcours fluide qui facilite la génération de nouveaux rendez-vous. Cliquez pour voir: https://www.leandry-esm.com/ Voir tous les projets Projet suivant Vous avez un projet similaire ? Parlons-en. Demander un devis gratuit strategy marketing analysis marketing strategy marketing analysis marketing À Propos d'Alivaon Éditeur de logiciels personnalisés, nous aidons les entreprises à se développer grâce à des solutions web, mobiles et entreprise innovantes, fiables et durables. Liens Rapides À Propos Contact Réalisations Blog Nos Services Ressources FAQ Carrières Notre Équipe Mentions Légales Politique de Confidentialité Abonnez-vous à notre newsletter S'ABONNER S'ABONNER Copyright © 2026 Alivaon, Tous droits réservés.",
+    "links": [
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "Accueil",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "site logo",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "Site Logo",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/about",
+        "text": "À propos",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/about",
+        "text": "À Propos",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog",
+        "text": "Blog",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/carrieres",
+        "text": "Carrières",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Contact",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Demander un devis gratuit",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Démarrez Un projet",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "NOUS CONTACTER",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/faq",
+        "text": "FAQ",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/mentions-legales",
+        "text": "Mentions Légales",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/politique-de-confidentialite",
+        "text": "Politique de Confidentialité",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/portfolio",
+        "text": "Réalisations",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/portfolio",
+        "text": "Voir tous les projets",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/portfolio/site-web-auto-ecole-mairie-mainvilliers",
+        "text": "Projet suivant",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services",
+        "text": "Nos Services",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/team",
+        "text": "Notre Équipe",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.facebook.com/alivaon",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.instagram.com/alivaon.io/",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.leandry-esm.com/",
+        "text": "https://www.leandry-esm.com/",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.linkedin.com/company/alivaon/",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.tiktok.com/@alivaon.io",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://x.com/alivaon",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "mailto:contact@alivaon.com",
+        "text": "contact@alivaon.com",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "tel:+237691962158",
+        "text": "+237 6 91 96 21 58",
+        "rel": "",
+        "count": 1
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.alivaon.com/build/images/logo/logo.png",
+        "alt": "site logo",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/logo/logo.png",
+        "alt": "Site Logo",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/uploads/projects/1253f334c286b2ef1ac6fc9bbb359aab90ecb51b.png",
+        "alt": "Site Web Léandry PETNGA - interface logiciel développé par Alivaon, Douala",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/uploads/projects/4ef2a1e375fa114b3deb155b9fc0a4770e26096c.png",
+        "alt": "Résultat du projet Site Web Léandry PETNGA - solution digitale Alivaon au Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/uploads/projects/e892695411b9d5edb86c8633d0b5373aa208d382.png",
+        "alt": "Site Web Léandry PETNGA - projet digital réalisé par Alivaon à Douala, Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/uploads/projects/f7230daa6656daf7c4ea7b55fde75b4fe053a33a.jpg",
+        "alt": "Site Web Léandry PETNGA - application mobile Android, Cameroun",
+        "count": 1
+      }
+    ],
+    "bgImages": []
+  }
+}

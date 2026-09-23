@@ -1,0 +1,47 @@
+# Alivaon
+
+> Agence digitale basée à Douala, Cameroun. Spécialisée dans le développement de logiciels de gestion sur mesure, d'applications mobiles Android et iOS, et d'applications web pour les entreprises et PME camerounaises.
+
+Alivaon conçoit des solutions numériques adaptées aux réalités du marché africain : simples à prendre en main, fiables et orientées résultats. Chaque projet est développé sur mesure-de la gestion commerciale à la facturation, en passant par la gestion des stocks et les applications terrain.
+
+## Pages principales
+
+- [Accueil](https://www.alivaon.com/): Présentation générale de l'agence, services phares, projets récents et témoignages clients.
+- [À propos](https://www.alivaon.com/about): Histoire de l'agence, valeurs, équipe et approche méthodologique.
+- [Services](https://www.alivaon.com/services): Catalogue des prestations-logiciels de gestion, applications mobiles, développement web sur mesure.
+- [Portfolio](https://www.alivaon.com/portfolio): Réalisations-logiciels livrés, applications mobiles déployées, solutions web pour entreprises camerounaises.
+- [Blog](https://www.alivaon.com/blog): Articles sur la digitalisation des entreprises en Afrique, conseils techniques et retours d'expérience.
+- [Équipe](https://www.alivaon.com/team): Profils des membres de l'équipe Alivaon.
+- [FAQ](https://www.alivaon.com/faq): Questions fréquentes sur les délais, tarifs, processus de développement et maintenance.
+- [Contact](https://www.alivaon.com/contact): Formulaire de contact et informations pour demander un devis (réponse sous 24h).
+
+## Services proposés
+
+- Logiciel de gestion commerciale sur mesure
+- Application mobile Android et iOS
+- Application web sur mesure
+- Logiciel de facturation et gestion des stocks
+- Digitalisation de processus métier pour PME
+- ERP / CRM
+- Automatisation
+- IA & Data
+
+## Documentation
+- https://www.alivaon.com/services
+- https://www.alivaon.com/blog
+- https://www.alivaon.com/portfolio
+
+## Conditions d'utilisation
+https://www.alivaon.com/mentions-legales
+https://www.alivaon.com/politique-de-confidentialite
+
+## Informations de contact
+
+- Email : contact@alivaon.com
+- Localisation : Douala, Cameroun
+- LinkedIn : https://www.linkedin.com/company/alivaon
+- Facebook : https://www.facebook.com/alivaon
+
+## Sitemap
+
+- [sitemap.xml](https://www.alivaon.com/sitemap.xml)

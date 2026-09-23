@@ -1,0 +1,808 @@
+{
+  "url": "https://www.alivaon.com/services",
+  "discoveredVia": [
+    "link",
+    "sitemap",
+    "sitemap-alternate"
+  ],
+  "inlinks": 58,
+  "status": 200,
+  "chain": [],
+  "finalUrl": "https://www.alivaon.com/services",
+  "headers": {
+    "cache-control": "no-cache, private",
+    "content-type": "text/html; charset=UTF-8",
+    "server": "nginx"
+  },
+  "html": {
+    "lang": "fr",
+    "titles": [
+      "Services : Logiciels, Sites Web, IA & SEO au Cameroun | Alivaon"
+    ],
+    "metas": {
+      "charset": [
+        "UTF-8"
+      ],
+      "http-equiv:x-ua-compatible": [
+        "IE=edge"
+      ],
+      "name:viewport": [
+        "width=device-width, initial-scale=1.0"
+      ],
+      "name:description": [
+        "Logiciels de gestion sur mesure, sites web, applications mobile, SEO et IA pour entreprises camerounaises. Agence digitale à Douala. Devis gratuit sous 24h."
+      ],
+      "name:robots": [
+        "index, follow"
+      ],
+      "property:og:type": [
+        "website"
+      ],
+      "property:og:site_name": [
+        "Alivaon"
+      ],
+      "property:og:title": [
+        "Nos Services - Développement Logiciel, SEO & IA au Cameroun | Alivaon Douala"
+      ],
+      "property:og:description": [
+        "Découvrez les services Alivaon pour digitaliser votre entreprise au Cameroun : logiciels métier, sites web, applications mobile, référencement Google, automatisation et IA."
+      ],
+      "property:og:url": [
+        "https://www.alivaon.com/services"
+      ],
+      "property:og:locale": [
+        "fr_FR"
+      ],
+      "property:og:locale:alternate": [
+        "en_US"
+      ],
+      "property:og:image": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "property:og:image:secure_url": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "property:og:image:alt": [
+        "Nos Services - Développement Logiciel, SEO & IA au Cameroun | Alivaon Douala"
+      ],
+      "property:og:image:type": [
+        "image/jpeg"
+      ],
+      "property:og:image:width": [
+        "1200"
+      ],
+      "property:og:image:height": [
+        "630"
+      ],
+      "name:twitter:card": [
+        "summary_large_image"
+      ],
+      "name:twitter:title": [
+        "Nos Services - Développement Logiciel, SEO & IA au Cameroun | Alivaon Douala"
+      ],
+      "name:twitter:description": [
+        "Découvrez les services Alivaon pour digitaliser votre entreprise au Cameroun : logiciels métier, sites web, applications mobile, référencement Google, automatisation et IA."
+      ],
+      "name:twitter:image": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "name:twitter:image:alt": [
+        "Nos Services - Développement Logiciel, SEO & IA au Cameroun | Alivaon Douala"
+      ]
+    },
+    "canonicals": [
+      "https://www.alivaon.com/services"
+    ],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://www.alivaon.com/en/services"
+      },
+      {
+        "hreflang": "fr",
+        "href": "https://www.alivaon.com/services"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://www.alivaon.com/services"
+      }
+    ],
+    "headLinks": [
+      {
+        "rel": "icon",
+        "href": "https://www.alivaon.com/build/images/logo/favicon.png",
+        "type": "image/x-icon",
+        "sizes": null
+      }
+    ],
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "description": "Nos services de développement logiciel, application web et mobile pour digitaliser les entreprises au Cameroun.",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "name": "Logiciel de gestion commerciale sur mesure au Cameroun",
+            "position": 1,
+            "url": "https://www.alivaon.com/services/logiciel-de-gestion-commerciale-sur-mesure-au-cameroun"
+          },
+          {
+            "@type": "ListItem",
+            "name": "Logiciel de facturation conforme DGI Cameroun",
+            "position": 2,
+            "url": "https://www.alivaon.com/services/logiciel-de-facturation-cameroun"
+          },
+          {
+            "@type": "ListItem",
+            "name": "Logiciel de gestion de stock et inventaire",
+            "position": 3,
+            "url": "https://www.alivaon.com/services/logiciel-de-gestion-de-stock-cameroun"
+          },
+          {
+            "@type": "ListItem",
+            "name": "Logiciel de caisse & Point de vente (POS)",
+            "position": 4,
+            "url": "https://www.alivaon.com/services/logiciel-de-caisse-pos-douala"
+          },
+          {
+            "@type": "ListItem",
+            "name": "ERP & CRM sur mesure pour PME camerounaises",
+            "position": 5,
+            "url": "https://www.alivaon.com/services/erp-crm-pme-cameroun"
+          },
+          {
+            "@type": "ListItem",
+            "name": "Création de site web professionnel à Douala",
+            "position": 6,
+            "url": "https://www.alivaon.com/services/creation-site-web-douala"
+          },
+          {
+            "@type": "ListItem",
+            "name": "Création de site e-commerce avec Mobile Money",
+            "position": 7,
+            "url": "https://www.alivaon.com/services/creation-site-e-commerce-cameroun"
+          },
+          {
+            "@type": "ListItem",
+            "name": "Développement d'application mobile Android & iOS",
+            "position": 8,
+            "url": "https://www.alivaon.com/services/creation-application-mobile-cameroun"
+          },
+          {
+            "@type": "ListItem",
+            "name": "Développement d'application web sur mesure & SaaS",
+            "position": 9,
+            "url": "https://www.alivaon.com/services/developpement-application-web-saas-cameroun"
+          },
+          {
+            "@type": "ListItem",
+            "name": "Référencement SEO & Visibilité Google",
+            "position": 10,
+            "url": "https://www.alivaon.com/services/agence-seo-cameroun"
+          },
+          {
+            "@type": "ListItem",
+            "name": "Automatisation & Intelligence Artificielle pour entreprises",
+            "position": 11,
+            "url": "https://www.alivaon.com/services/automatisation-ia-entreprise-cameroun"
+          },
+          {
+            "@type": "ListItem",
+            "name": "Transformation digitale & conseil",
+            "position": 12,
+            "url": "https://www.alivaon.com/services/transformation-digitale-cameroun"
+          },
+          {
+            "@type": "ListItem",
+            "name": "Formation aux Outils Numériques",
+            "position": 13,
+            "url": "https://www.alivaon.com/services/formation-aux-outils-numeriques"
+          },
+          {
+            "@type": "ListItem",
+            "name": "Maintenance, hébergement sécurisé & support technique",
+            "position": 14,
+            "url": "https://www.alivaon.com/services/maintenance-hebergement-securise-cameroun"
+          }
+        ],
+        "name": "Services digitaux Alivaon - Douala, Cameroun",
+        "provider": {
+          "@type": "LocalBusiness",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "CM",
+            "addressLocality": "Douala",
+            "streetAddress": "Logpom"
+          },
+          "name": "Alivaon",
+          "telephone": "+237691962158"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Oui, le marché africain étant dominé par Android, nous priorisons la création d'application mobile Android entreprise pour faciliter le travail de vos équipes sur le terrain."
+            },
+            "name": "Faites-vous des applications mobiles Android pour entreprise ?"
+          },
+          {
+            "@type": "Question",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Si vous perdez du temps sur Excel ou du papier, un logiciel sur mesure va considérablement améliorer votre gestion d'entreprise et augmenter vos ventes."
+            },
+            "name": "Mon entreprise a-t-elle vraiment besoin d'un logiciel sur mesure ?"
+          },
+          {
+            "@type": "Question",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nous analysons votre besoin, concevons la solution, la déployons dans votre entreprise et formons vos équipes pour une adoption rapide."
+            },
+            "name": "Comment se déroule un projet de digitalisation chez vous ?"
+          }
+        ]
+      }
+    ],
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contactez-nous"
+      },
+      {
+        "level": 1,
+        "text": "Agence de développement logiciel, IA et SEO au Cameroun-Logiciels sur mesure, sites web et automatisation pour PME à Douala"
+      },
+      {
+        "level": 2,
+        "text": "des solutions adaptées à chaque secteur"
+      },
+      {
+        "level": 2,
+        "text": "Logiciels de gestion sur mesure"
+      },
+      {
+        "level": 3,
+        "text": "Logiciel de gestion commerciale sur mesure au Cameroun"
+      },
+      {
+        "level": 3,
+        "text": "Logiciel de facturation conforme DGI Cameroun ⭐"
+      },
+      {
+        "level": 3,
+        "text": "Logiciel de gestion de stock et inventaire"
+      },
+      {
+        "level": 3,
+        "text": "Logiciel de caisse & Point de vente (POS)"
+      },
+      {
+        "level": 3,
+        "text": "ERP & CRM sur mesure pour PME camerounaises"
+      },
+      {
+        "level": 2,
+        "text": "Sites web & Applications"
+      },
+      {
+        "level": 3,
+        "text": "Création de site web professionnel à Douala"
+      },
+      {
+        "level": 3,
+        "text": "Création de site e-commerce avec Mobile Money"
+      },
+      {
+        "level": 3,
+        "text": "Développement d'application mobile Android & iOS"
+      },
+      {
+        "level": 3,
+        "text": "Développement d'application web sur mesure & SaaS"
+      },
+      {
+        "level": 2,
+        "text": "Croissance & Visibilité"
+      },
+      {
+        "level": 3,
+        "text": "Référencement SEO & Visibilité Google NOUVEAU"
+      },
+      {
+        "level": 3,
+        "text": "Automatisation & Intelligence Artificielle pour entreprises NOUVEAU"
+      },
+      {
+        "level": 2,
+        "text": "Accompagnement & services récurrents"
+      },
+      {
+        "level": 3,
+        "text": "Transformation digitale & conseil"
+      },
+      {
+        "level": 3,
+        "text": "Formation aux Outils Numériques"
+      },
+      {
+        "level": 3,
+        "text": "Maintenance, hébergement sécurisé & support technique"
+      },
+      {
+        "level": 2,
+        "text": "notre méthode en 5 étapes"
+      },
+      {
+        "level": 3,
+        "text": "Audit & écoute (gratuit)"
+      },
+      {
+        "level": 3,
+        "text": "Cadrage & devis transparent"
+      },
+      {
+        "level": 3,
+        "text": "Conception UX/UI"
+      },
+      {
+        "level": 3,
+        "text": "Développement agile"
+      },
+      {
+        "level": 3,
+        "text": "Livraison, formation & support"
+      },
+      {
+        "level": 2,
+        "text": "pourquoi 30+ entreprises nous font confiance"
+      },
+      {
+        "level": 3,
+        "text": "Basés à Logpom, Douala"
+      },
+      {
+        "level": 3,
+        "text": "Adaptés à la connectivité locale"
+      },
+      {
+        "level": 3,
+        "text": "Intégration Mobile Money native"
+      },
+      {
+        "level": 3,
+        "text": "Conformité fiscale & réglementaire"
+      },
+      {
+        "level": 2,
+        "text": "questions fréquentes"
+      },
+      {
+        "level": 2,
+        "text": "Prêt à digitaliser votre entreprise au Cameroun ?"
+      }
+    ],
+    "text": "Démarrez Un projet Contactez-nous Logpom, Douala, Cameroun contact@alivaon.com +237 6 91 96 21 58 Accueil À propos Nos Services Réalisations Blog FAQ Contact NOUS CONTACTER Nos Services 30+ entreprises digitalisées au Cameroun Agence de développement logiciel, IA et SEO au Cameroun-Logiciels sur mesure, sites web et automatisation pour PME à Douala SERVICES Nous aidons les entreprises camerounaises à automatiser leur gestion, attirer plus de clients sur Google et accélérer leur croissance 30 + Entreprises digitalisées au Cameroun et dans le monde 50 + Logiciels et applications livrés avec succès 10 + Années d'expertise en développement logiciel 98 % Taux de satisfaction de nos clients des solutions adaptées à chaque secteur Nous accompagnons les entreprises de tous secteurs à Douala, Yaoundé et dans toute le monde Commerce & Distribution Restauration & Hôtellerie Logistique & Transport Santé & Pharmacies Services & Conseil Immobilier Industrie & Production Éducation & Formation Finance & Microfinance Logiciels de gestion sur mesure Digitalisez la gestion quotidienne de votre entreprise 01. Logiciel de gestion commerciale sur mesure au Cameroun Pilotez vos ventes, achats et clients depuis une seule plateforme sur mesure, adaptée aux entreprises camerounaises. Multi-sites, mobile et mode hors-ligne. Gestion des ventes, achats, clients et fournisseurs Devis, commandes, bons de livraison en quelques clics Tableaux de bord et rapports en temps réel Multi-utilisateurs, multi-sites et gestion des droits Accès web et mobile, mode hors-ligne Connexion avec facturation et gestion de stock 02. Logiciel de facturation conforme DGI Cameroun ⭐ Émettez vos factures en conformité avec la réglementation fiscale camerounaise (DGI), sans erreur ni retard. Devis, relances et export comptable inclus. Factures, devis, bons de livraison conformes DGI Calcul automatique TVA 19,25% et taxes locales Relances impayés automatisées par email/SMS Export comptable Sage, format OHADA Mode hors-ligne avec synchronisation automatique Multi-utilisateurs et gestion des droits d'accès 03. Logiciel de gestion de stock et inventaire Maîtrisez vos stocks en temps réel, multi-entrepôts, avec ou sans connexion internet. Codes-barres, alertes de rupture et inventaires simplifiés pour les PME camerounaises. Suivi des stocks multi-entrepôts en temps réel Inventaires avec codes-barres et QR Code Alertes automatiques seuils minimum et ruptures Mode hors-ligne avec synchronisation différée Gestion des entrées, sorties et transferts inter-sites Connexion avec ventes, achats et facturation 04. Logiciel de caisse & Point de vente (POS) Modernisez votre caisse avec une solution POS rapide, connectée Orange Money et MTN MoMo, adaptée aux boutiques, restaurants et pharmacies camerounaises. Interface tactile intuitive, formation en 1 heure Encaissement Orange Money, MTN MoMo, espèces, carte Impression de tickets caisse (imprimante thermique) Mise à jour automatique du stock à chaque vente Rapport journalier et clôture de caisse en un clic Adapté boutiques, restaurants, pharmacies, épiceries 05. ERP & CRM sur mesure pour PME camerounaises Centralisez toute votre activité dans une solution ERP+CRM sur mesure : ventes, stocks, RH, comptabilité et gestion clients. Adapté aux PME camerounaises en croissance. Modules ERP : achats, ventes, stocks, RH, comptabilité Module CRM : prospects, clients, pipeline commercial Architecture modulaire-déployez par étapes Conformité DGI, OHADA et réglementations camerounaises Accès web et mobile, multi-sites Tableaux de bord dirigeants en temps réel Sites web & Applications Créez votre présence digitale et touchez vos clients 01. Création de site web professionnel à Douala Donnez une vraie présence en ligne à votre entreprise avec un site web rapide, mobile et optimisé Google. Conception sur mesure à Douala, livraison en 3 à 6 semaines. Site vitrine, corporate ou institutionnel sur mesure Landing pages à fort taux de conversion Design moderne, responsive et rapide (Core Web Vitals) Optimisé SEO dès la conception (balises, vitesse, mobile) Intégration formulaire de contact et Google Maps Formation à la mise à jour du contenu incluse 02. Création de site e-commerce avec Mobile Money Vendez en ligne 24h/24 au Cameroun avec une boutique connectée Orange Money et MTN MoMo. Gestion du catalogue, des commandes et des livraisons incluse. Paiement Orange Money, MTN MoMo, carte bancaire Gestion catalogue produits et variantes illimitées Suivi commandes, livraisons et retours Tableau de bord vendeur complet Optimisé mobile et SEO (Google Shopping) Notifications SMS et email automatiques 03. Développement d'application mobile Android & iOS Touchez vos clients et équipes terrain où qu'ils soient avec une application mobile sur mesure. Flutter, React Native, mode hors-ligne, Mobile Money et publication sur les stores. Applications Android & iOS (Flutter, React Native) Mode hors-ligne avec synchronisation différée Intégration Mobile Money Orange Money & MTN MoMo Interface adaptée au marché africain (ergonomie mobile) Publication Google Play Store et Apple App Store Mises à jour et maintenance post-livraison 04. Développement d'application web sur mesure & SaaS Créez des plateformes métier complètes : marketplaces, intranets, portails clients et solutions SaaS. Technologies modernes, hébergement sécurisé et architecture scalable. Applications web B2B et B2C sur mesure Plateformes SaaS multi-utilisateurs avec abonnements Marketplaces avec paiement et commissions intégrés Intranets, portails clients et extranets sécurisés Architecture API REST, microservices, scalable Hébergement cloud sécurisé et haute disponibilité Croissance & Visibilité Attirez plus de clients et automatisez votre activité 01. Référencement SEO & Visibilité Google NOUVEAU Apparaissez en première page de Google pour les recherches de vos clients à Douala et au Cameroun. Audit gratuit, SEO local, rédaction et reporting mensuel transparent. Audit SEO complet de votre site (technique + contenu) Optimisation vitesse, mobile et Core Web Vitals SEO local & Google Business Profile Douala/Yaoundé Rédaction de contenu optimisé pour vos mots-clés cibles Netlinking et création d'autorité de domaine Reporting mensuel avec positions Google et trafic 02. Automatisation & Intelligence Artificielle pour entreprises NOUVEAU Automatisez vos tâches répétitives et boostez votre service client grâce à l'IA appliquée à votre métier au Cameroun. Chatbots WhatsApp, agents IA, automatisation workflows. Chatbots WhatsApp & site web (réponse 24h/24) Agents IA pour service client et prise de commandes Automatisation des workflows et processus métier Génération automatique de rapports et de contenu Intégration dans vos outils existants (ERP, CRM, WhatsApp) Formation de vos équipes à l'utilisation de l'IA Accompagnement & services récurrents Un partenaire de confiance sur le long terme 01. Transformation digitale & conseil Définissez et exécutez votre stratégie de digitalisation avec un partenaire qui connaît le marché camerounais. Audit, feuille de route, accompagnement des équipes. Audit digital complet de vos processus métier Feuille de route digitale sur 6 à 12 mois Sélection et déploiement des outils adaptés Accompagnement au changement et formation équipes Optimisation et automatisation des processus clés Suivi des indicateurs de performance digitale 02. Formation aux Outils Numériques Accompagnement de vos équipes au changement Formation sur site Prise en main des logiciels Optimisation du temps Support de proximité 03. Maintenance, hébergement sécurisé & support technique Gardez vos logiciels rapides, sécurisés et disponibles 24/7 avec un contrat de maintenance et d'hébergement géré par notre équipe basée à Douala. Hébergement cloud sécurisé (SSL, OWASP, haute dispo.) Sauvegardes automatiques quotidiennes et restauration Monitoring 24/7 avec alertes en temps réel Mises à jour de sécurité et de compatibilité Support prioritaire avec SLA garanti (4h, 8h ou 24h) Interlocuteur dédié basé à Douala notre méthode en 5 étapes Comment nous transformons votre vision en logiciel performant 01. Audit & écoute (gratuit) Nous analysons vos processus, vos besoins métier et vos contraintes locales. Aucun engagement. 02. Cadrage & devis transparent Cahier des charges détaillé, planning précis, devis fixe sous 24h. Zéro mauvaise surprise. 03. Conception UX/UI Maquettes interactives validées avec vous avant tout développement. Vous voyez avant de payer. 04. Développement agile Sprints de 2 semaines, démos régulières, reporting clair. Vous suivez l'avancement en temps réel. 05. Livraison, formation & support Mise en production, formation de vos équipes sur site à Douala, support 3 mois inclus. pourquoi 30+ entreprises nous font confiance Basés à Logpom, Douala Nous intervenons chez vous rapidement. Pas d'agence à l'étranger qui ne comprend pas vos enjeux locaux. Adaptés à la connectivité locale Mode hors-ligne, synchronisation différée, applications légères. Nos logiciels fonctionnent partout au Cameroun. Intégration Mobile Money native Orange Money, MTN MoMo, paiement bancaire - nous maîtrisons tous les moyens de paiement camerounais. Conformité fiscale & réglementaire TVA, OHADA, DGI : nos logiciels respectent les normes camerounaises et africaines. Le logiciel de gestion commerciale a transformé notre façon de travailler. Nous gagnons énormément de temps sur l'inventaire et la facturation. Marie Ndongo, Gérante Une vraie agence informatique à Douala qui comprend les réalités locales. Notre application mobile Android nous a aidé à augmenter nos ventes. Thomas Kemajou, CEO Digitaliser notre entreprise au Cameroun nous faisait peur, mais leur solution digitale est simple et très efficace. Nos employés l'adorent. Sophie Essomba, DG questions fréquentes Questions fréquentes sur nos services 1. Faites-vous des applications mobiles Android pour entreprise ? Oui, le marché africain étant dominé par Android, nous priorisons la création d'application mobile Android entreprise pour faciliter le travail de vos équipes sur le terrain. 2. Mon entreprise a-t-elle vraiment besoin d'un logiciel sur mesure ? Si vous perdez du temps sur Excel ou du papier, un logiciel sur mesure va considérablement améliorer votre gestion d'entreprise et augmenter vos ventes. 3. Comment se déroule un projet de digitalisation chez vous ? Nous analysons votre besoin, concevons la solution, la déployons dans votre entreprise et formons vos équipes pour une adoption rapide. Prêt à digitaliser votre entreprise au Cameroun ? Discutons de votre projet. Devis gratuit et transparent sous 24h. Aucun engagement. Demander un devis gratuit Discuter sur WhatsApp Logpom, Douala | contact@alivaon.com | +237 6 91 96 21 58 strategy marketing analysis marketing strategy marketing analysis marketing À Propos d'Alivaon Éditeur de logiciels personnalisés, nous aidons les entreprises à se développer grâce à des solutions web, mobiles et entreprise innovantes, fiables et durables. Liens Rapides À Propos Contact Réalisations Blog Nos Services Ressources FAQ Carrières Notre Équipe Mentions Légales Politique de Confidentialité Abonnez-vous à notre newsletter S'ABONNER S'ABONNER Copyright © 2026 Alivaon, Tous droits réservés.",
+    "links": [
+      {
+        "href": "https://wa.me/237691962158",
+        "text": "Discuter sur WhatsApp",
+        "rel": "noopener noreferrer",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "Accueil",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "site logo",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "Site Logo",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/about",
+        "text": "À propos",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/about",
+        "text": "À Propos",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog",
+        "text": "Blog",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/carrieres",
+        "text": "Carrières",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Contact",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Demander un devis gratuit",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Démarrez Un projet",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "NOUS CONTACTER",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/en/services",
+        "text": "English version",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/faq",
+        "text": "FAQ",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/mentions-legales",
+        "text": "Mentions Légales",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/politique-de-confidentialite",
+        "text": "Politique de Confidentialité",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/portfolio",
+        "text": "Réalisations",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/services",
+        "text": "Nos Services",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/services/agence-seo-cameroun",
+        "text": "Référencement SEO & Visibilité Google NOUVEAU",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services/automatisation-ia-entreprise-cameroun",
+        "text": "Automatisation & Intelligence Artificielle pour entreprises NOUVEAU",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services/creation-application-mobile-cameroun",
+        "text": "Développement d'application mobile Android & iOS",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services/creation-site-e-commerce-cameroun",
+        "text": "Création de site e-commerce avec Mobile Money",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services/creation-site-web-douala",
+        "text": "Création de site web professionnel à Douala",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services/developpement-application-web-saas-cameroun",
+        "text": "Développement d'application web sur mesure & SaaS",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services/erp-crm-pme-cameroun",
+        "text": "ERP & CRM sur mesure pour PME camerounaises",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services/formation-aux-outils-numeriques",
+        "text": "Formation aux Outils Numériques",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services/logiciel-de-caisse-pos-douala",
+        "text": "Logiciel de caisse & Point de vente (POS)",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services/logiciel-de-facturation-cameroun",
+        "text": "Logiciel de facturation conforme DGI Cameroun ⭐",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services/logiciel-de-gestion-commerciale-sur-mesure-au-cameroun",
+        "text": "Logiciel de gestion commerciale sur mesure au Cameroun",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services/logiciel-de-gestion-de-stock-cameroun",
+        "text": "Logiciel de gestion de stock et inventaire",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services/maintenance-hebergement-securise-cameroun",
+        "text": "Maintenance, hébergement sécurisé & support technique",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services/transformation-digitale-cameroun",
+        "text": "Transformation digitale & conseil",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/team",
+        "text": "Notre Équipe",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.facebook.com/alivaon",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.instagram.com/alivaon.io/",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.linkedin.com/company/alivaon/",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.tiktok.com/@alivaon.io",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://x.com/alivaon",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "mailto:contact@alivaon.com",
+        "text": "contact@alivaon.com",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "tel:+237691962158",
+        "text": "+237 6 91 96 21 58",
+        "rel": "",
+        "count": 1
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.alivaon.com/build/images/brand/brand-5_01.png",
+        "alt": "Client Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/brand/brand-5_02.png",
+        "alt": "Client Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/brand/brand-5_03.png",
+        "alt": "Client Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/brand/brand-5_04.png",
+        "alt": "Client Alivaon Douala",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/brand/brand-5_05.png",
+        "alt": "Client Alivaon Douala",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/brand/brand-5_06.png",
+        "alt": "Client Alivaon Douala",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/brand/brand-5_07.png",
+        "alt": "Partenaire Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/brand/brand-5_08.png",
+        "alt": "Partenaire Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/brand/brand-5_09.png",
+        "alt": "Partenaire Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/brand/brand-5_10.png",
+        "alt": "Partenaire Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/brand/brand-5_11.png",
+        "alt": "Partenaire Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/brand/brand-5_12.png",
+        "alt": "Partenaire Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/flags/en.svg",
+        "alt": "",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/inner/breadcrumb/breadcrumb-img1_1.png",
+        "alt": "Alivaon services digitaux Douala Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/inner/breadcrumb/breadcrumb-thumb1_2.jpg",
+        "alt": "Développement logiciel et application mobile sur mesure à Douala, Cameroun - Alivaon",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/logo/logo.png",
+        "alt": "site logo",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/logo/logo.png",
+        "alt": "Site Logo",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/service/service-3_01.jpg",
+        "alt": "Automatisation & Intelligence Artificielle pour entreprises - Alivaon Douala Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/service/service-3_01.jpg",
+        "alt": "Création de site e-commerce avec Mobile Money - Alivaon Douala Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/service/service-3_01.jpg",
+        "alt": "Création de site web professionnel à Douala - Alivaon Douala Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/service/service-3_01.jpg",
+        "alt": "Développement d'application mobile Android & iOS - Alivaon Douala Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/service/service-3_01.jpg",
+        "alt": "Développement d'application web sur mesure & SaaS - Alivaon Douala Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/service/service-3_01.jpg",
+        "alt": "ERP & CRM sur mesure pour PME camerounaises - Alivaon Douala Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/service/service-3_01.jpg",
+        "alt": "Formation aux Outils Numériques - Alivaon Douala Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/service/service-3_01.jpg",
+        "alt": "Logiciel de caisse & Point de vente (POS) - Alivaon Douala Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/service/service-3_01.jpg",
+        "alt": "Logiciel de facturation conforme DGI Cameroun - Alivaon Douala Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/service/service-3_01.jpg",
+        "alt": "Logiciel de gestion de stock et inventaire - Alivaon Douala Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/service/service-3_01.jpg",
+        "alt": "Maintenance, hébergement sécurisé & support technique - Alivaon Douala Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/service/service-3_01.jpg",
+        "alt": "Référencement SEO & Visibilité Google - Alivaon Douala Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/service/service-3_01.jpg",
+        "alt": "Transformation digitale & conseil - Alivaon Douala Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/testimonial/author-5-01.png",
+        "alt": "Marie Ndongo - client Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/testimonial/author-5-01.png",
+        "alt": "Sophie Essomba - client Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/testimonial/author-5-01.png",
+        "alt": "Thomas Kemajou - client Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/uploads/services/7ae7c27182f91e8c98d62270f5de70862b8b98c0.webp",
+        "alt": "Logiciel de gestion commerciale sur mesure au Cameroun - Alivaon Douala Cameroun",
+        "count": 1
+      }
+    ],
+    "bgImages": []
+  }
+}

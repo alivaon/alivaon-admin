@@ -1,0 +1,368 @@
+{
+  "url": "https://www.alivaon.com/carrieres/developpeur-web-hf",
+  "discoveredVia": [
+    "link",
+    "sitemap"
+  ],
+  "inlinks": 1,
+  "status": 200,
+  "chain": [],
+  "finalUrl": "https://www.alivaon.com/carrieres/developpeur-web-hf",
+  "headers": {
+    "cache-control": "max-age=0, must-revalidate, private",
+    "content-type": "text/html; charset=UTF-8",
+    "server": "nginx",
+    "set-cookie": "PHPSESSID"
+  },
+  "html": {
+    "lang": "fr",
+    "titles": [
+      "Développeur Web (H/F) - Stage à Douala | Alivaon"
+    ],
+    "metas": {
+      "charset": [
+        "UTF-8"
+      ],
+      "http-equiv:x-ua-compatible": [
+        "IE=edge"
+      ],
+      "name:viewport": [
+        "width=device-width, initial-scale=1.0"
+      ],
+      "name:description": [
+        "Nous concevons des applications web, des plateformes SaaS, des logiciels métiers, des API, des applications mobiles et des sites internet sur mesure répondant aux besoins de nos clients. Notre ambition est simple : créer des solutions utiles, durables et innovantes qui ont un réel impact sur les entreprises."
+      ],
+      "name:robots": [
+        "index, follow"
+      ],
+      "property:og:type": [
+        "article"
+      ],
+      "property:og:site_name": [
+        "Alivaon"
+      ],
+      "property:og:title": [
+        "Développeur Web (H/F) | Alivaon Carrières"
+      ],
+      "property:og:description": [
+        "Nous concevons des applications web, des plateformes SaaS, des logiciels métiers, des API, des applications mobiles et des sites internet sur mesure répondant aux besoins de nos clients. Notre ambition est simple : créer des solutions utiles, durables et innovantes qui ont un réel impact sur les entreprises."
+      ],
+      "property:og:url": [
+        "https://www.alivaon.com/carrieres/developpeur-web-hf"
+      ],
+      "property:og:locale": [
+        "fr_FR"
+      ],
+      "property:og:image": [
+        "https://www.alivaon.com/uploads/job_covers/bb8952564e97aa845d358b042fbcf332b5674af5.jpg"
+      ],
+      "property:og:image:secure_url": [
+        "https://www.alivaon.com/uploads/job_covers/bb8952564e97aa845d358b042fbcf332b5674af5.jpg"
+      ],
+      "property:og:image:alt": [
+        "Développeur Web (H/F) - offre d'emploi Alivaon"
+      ],
+      "property:og:image:type": [
+        "image/jpeg"
+      ],
+      "property:og:image:width": [
+        "1200"
+      ],
+      "property:og:image:height": [
+        "630"
+      ],
+      "name:twitter:card": [
+        "summary_large_image"
+      ],
+      "name:twitter:title": [
+        "Développeur Web (H/F) | Alivaon Carrières"
+      ],
+      "name:twitter:description": [
+        "Nous concevons des applications web, des plateformes SaaS, des logiciels métiers, des API, des applications mobiles et des sites internet sur mesure répondant aux besoins de nos clients. Notre ambition est simple : créer des solutions utiles, durables et innovantes qui ont un réel impact sur les entreprises."
+      ],
+      "name:twitter:image": [
+        "https://www.alivaon.com/uploads/job_covers/bb8952564e97aa845d358b042fbcf332b5674af5.jpg"
+      ],
+      "name:twitter:image:alt": [
+        "Développeur Web (H/F) - offre d'emploi Alivaon"
+      ]
+    },
+    "canonicals": [
+      "https://www.alivaon.com/carrieres/developpeur-web-hf"
+    ],
+    "hreflang": [],
+    "headLinks": [
+      {
+        "rel": "icon",
+        "href": "https://www.alivaon.com/build/images/logo/favicon.png",
+        "type": "image/x-icon",
+        "sizes": null
+      }
+    ],
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "JobPosting",
+        "baseSalary": {
+          "@type": "MonetaryAmount",
+          "currency": "XAF",
+          "value": {
+            "@type": "QuantitativeValue",
+            "description": "#"
+          }
+        },
+        "datePosted": "2026-05-28",
+        "description": "À propos d'AlivaonChez Alivaon, nous accompagnons les entreprises dans leur transformation numérique grâce à des solutions digitales modernes, performantes et évolutives.Nous concevons des applications web, des plateformes SaaS, des logiciels métiers, des API, des applications mobiles et des sites internet sur mesure répondant aux besoins de nos clients.Notre ambition est simple : créer des solutions utiles, durables et innovantes qui ont un réel impact sur les entreprises.Dans le cadre de notre développement, nous recherchons un(e) Développeur Web passionné(e), rigoureux(se) et désireux(se) de participer à des projets à forte valeur ajoutée.Votre missionAu sein de notre équipe technique, vous contribuerez à la conception, au développement et à l'amélioration continue de nos solutions digitales.Vous travaillerez sur des projets variés, en collaboration avec les équipes produit, design et marketing, dans un environnement favorisant l'apprentissage, l'innovation et les bonnes pratiques de développement.Vos responsabilitésConcevoir et développer des applications web modernes et performantes.Participer à l'analyse des besoins techniques et fonctionnels.Développer et maintenir des API robustes et sécurisées.Intégrer des interfaces utilisateur responsives à partir des maquettes UI/UX.Optimiser les performances, la sécurité et le référencement naturel (SEO).Assurer la maintenance corrective et évolutive des applications.Participer aux revues de code et promouvoir les bonnes pratiques de développement.Contribuer aux choix techniques et à l'amélioration continue de nos projets.Les technologies que nous utilisonsPHPTypeScriptSymfonyNestJSReactNext.jsMySQLPostgreSQLGit &amp; GitHubDocker (un atout)Votre profilBac +3 à Bac +5 en informatique ou formation équivalente.Bonne maîtrise du développement web moderne.Curieux(se), autonome et force de proposition.Sens de la qualité, de l'organisation et du travail en équipe.Une première expérience professionnelle ou des projets personnels significatifs sont appréciés.Pourquoi rejoindre Alivaon ?Travailler sur des projets innovants et variés.Intégrer une entreprise en pleine croissance.Évoluer dans un environnement stimulant où les idées sont encouragées.Monter rapidement en compétences grâce à des projets concrets.Avoir un véritable impact sur les produits développés.Chez Alivaon, nous recherchons avant tout des personnes motivées, passionnées et prêtes à relever de nouveaux défis. Si vous aimez apprendre, innover et construire des solutions qui comptent, nous serons ravis de vous rencontrer.",
+        "employmentType": "STAGE",
+        "hiringOrganization": {
+          "@type": "Organization",
+          "logo": "https://www.alivaon.com/build/images/logo/logo.png",
+          "name": "Alivaon",
+          "sameAs": "https://www.alivaon.com"
+        },
+        "jobLocation": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "CM",
+            "addressLocality": "Douala",
+            "addressRegion": "Littoral",
+            "streetAddress": "Logpom"
+          }
+        },
+        "skills": "PHP/TYPESCRIPT, MySQL / PostgreSQL, Git & GitHub, React, Next.js, Symfony, NestJS",
+        "title": "Développeur Web (H/F)",
+        "url": "https://www.alivaon.com/carrieres/developpeur-web-hf",
+        "validThrough": "2026-12-31"
+      }
+    ],
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contactez-nous"
+      },
+      {
+        "level": 1,
+        "text": "Développeur Web (H/F)"
+      },
+      {
+        "level": 2,
+        "text": "Type de contrat"
+      },
+      {
+        "level": 2,
+        "text": "Lieu"
+      },
+      {
+        "level": 2,
+        "text": "Rémunération"
+      },
+      {
+        "level": 2,
+        "text": "Date limite"
+      },
+      {
+        "level": 2,
+        "text": "Résumé du poste"
+      },
+      {
+        "level": 2,
+        "text": "À Propos d'Alivaon"
+      },
+      {
+        "level": 2,
+        "text": "Postuler pour : Développeur Web (H/F)"
+      }
+    ],
+    "text": "Démarrez Un projet Contactez-nous Logpom, Douala, Cameroun contact@alivaon.com +237 6 91 96 21 58 Accueil À propos Nos Services Réalisations Blog FAQ Contact NOUS CONTACTER Carrières / Stage Développeur Web (H/F) Douala · # Type de contrat Stage Lieu Douala Rémunération # Date limite 31/12/2026 Description du poste À propos d'Alivaon Chez Alivaon, nous accompagnons les entreprises dans leur transformation numérique grâce à des solutions digitales modernes, performantes et évolutives. Nous concevons des applications web, des plateformes SaaS, des logiciels métiers, des API, des applications mobiles et des sites internet sur mesure répondant aux besoins de nos clients. Notre ambition est simple : créer des solutions utiles, durables et innovantes qui ont un réel impact sur les entreprises. Dans le cadre de notre développement, nous recherchons un(e) Développeur Web passionné(e), rigoureux(se) et désireux(se) de participer à des projets à forte valeur ajoutée. Votre mission Au sein de notre équipe technique, vous contribuerez à la conception, au développement et à l'amélioration continue de nos solutions digitales. Vous travaillerez sur des projets variés, en collaboration avec les équipes produit, design et marketing, dans un environnement favorisant l'apprentissage, l'innovation et les bonnes pratiques de développement. Vos responsabilités Concevoir et développer des applications web modernes et performantes. Participer à l'analyse des besoins techniques et fonctionnels. Développer et maintenir des API robustes et sécurisées. Intégrer des interfaces utilisateur responsives à partir des maquettes UI/UX. Optimiser les performances, la sécurité et le référencement naturel (SEO). Assurer la maintenance corrective et évolutive des applications. Participer aux revues de code et promouvoir les bonnes pratiques de développement. Contribuer aux choix techniques et à l'amélioration continue de nos projets. Les technologies que nous utilisons PHP TypeScript Symfony NestJS React Next.js MySQL PostgreSQL Git & GitHub Docker (un atout) Votre profil Bac +3 à Bac +5 en informatique ou formation équivalente. Bonne maîtrise du développement web moderne. Curieux(se), autonome et force de proposition. Sens de la qualité, de l'organisation et du travail en équipe. Une première expérience professionnelle ou des projets personnels significatifs sont appréciés. Pourquoi rejoindre Alivaon ? Travailler sur des projets innovants et variés. Intégrer une entreprise en pleine croissance. Évoluer dans un environnement stimulant où les idées sont encouragées. Monter rapidement en compétences grâce à des projets concrets. Avoir un véritable impact sur les produits développés. Chez Alivaon, nous recherchons avant tout des personnes motivées, passionnées et prêtes à relever de nouveaux défis. Si vous aimez apprendre, innover et construire des solutions qui comptent, nous serons ravis de vous rencontrer. Compétences requises PHP/TYPESCRIPT MySQL / PostgreSQL Git & GitHub React, Next.js Symfony, NestJS Résumé du poste Publié le : 28/05/2026 Expire le : 31/12/2026 Contrat : Stage Lieu : Douala Salaire : # Postuler maintenant À Propos d'Alivaon Agence digitale basée à Logpom, Douala - éditeur de logiciels sur mesure, applications web et mobile pour les entreprises camerounaises et africaines depuis plus de 10 ans. En savoir plus → Postuler pour : Développeur Web (H/F) Choisir votre CV PDF, DOC ou DOCX - max 5 Mo Formats acceptés : PDF, DOC, DOCX Envoyer ma candidature Candidature 100% confidentielle • Réponse sous 48h ouvrées • CV sécurisé • ← Retour aux offres strategy marketing analysis marketing strategy marketing analysis marketing À Propos d'Alivaon Éditeur de logiciels personnalisés, nous aidons les entreprises à se développer grâce à des solutions web, mobiles et entreprise innovantes, fiables et durables. Liens Rapides À Propos Contact Réalisations Blog Nos Services Ressources FAQ Carrières Notre Équipe Mentions Légales Politique de Confidentialité Abonnez-vous à notre newsletter S'ABONNER S'ABONNER Copyright © 2026 Alivaon, Tous droits réservés.",
+    "links": [
+      {
+        "href": "https://wa.me/?text=D%C3%A9veloppeur%20Web%20%28H%2FF%29%20https%3A%2F%2Fwww.alivaon.com%2Fcarrieres%2Fdeveloppeur-web-hf",
+        "text": "Partager sur WhatsApp",
+        "rel": "noopener noreferrer",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "Accueil",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "site logo",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "Site Logo",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/about",
+        "text": "À propos",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/about",
+        "text": "À Propos",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/about",
+        "text": "En savoir plus →",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog",
+        "text": "Blog",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/carrieres",
+        "text": "← Retour aux offres",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/carrieres",
+        "text": "Carrières",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Contact",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Démarrez Un projet",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "NOUS CONTACTER",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/faq",
+        "text": "FAQ",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/mentions-legales",
+        "text": "Mentions Légales",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/politique-de-confidentialite",
+        "text": "Politique de Confidentialité",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/portfolio",
+        "text": "Réalisations",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/services",
+        "text": "Nos Services",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/team",
+        "text": "Notre Équipe",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.facebook.com/alivaon",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.alivaon.com%2Fcarrieres%2Fdeveloppeur-web-hf",
+        "text": "Partager sur Facebook",
+        "rel": "noopener noreferrer",
+        "count": 1
+      },
+      {
+        "href": "https://www.instagram.com/alivaon.io/",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.linkedin.com/company/alivaon/",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.alivaon.com%2Fcarrieres%2Fdeveloppeur-web-hf",
+        "text": "Partager sur LinkedIn",
+        "rel": "noopener noreferrer",
+        "count": 1
+      },
+      {
+        "href": "https://www.tiktok.com/@alivaon.io",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://x.com/alivaon",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://x.com/intent/tweet?url=https%3A%2F%2Fwww.alivaon.com%2Fcarrieres%2Fdeveloppeur-web-hf&text=D%C3%A9veloppeur%20Web%20%28H%2FF%29",
+        "text": "Partager sur X",
+        "rel": "noopener noreferrer",
+        "count": 1
+      },
+      {
+        "href": "mailto:contact@alivaon.com",
+        "text": "contact@alivaon.com",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "tel:+237691962158",
+        "text": "+237 6 91 96 21 58",
+        "rel": "",
+        "count": 1
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.alivaon.com/build/images/logo/logo.png",
+        "alt": "site logo",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/logo/logo.png",
+        "alt": "Site Logo",
+        "count": 1
+      }
+    ],
+    "bgImages": []
+  }
+}

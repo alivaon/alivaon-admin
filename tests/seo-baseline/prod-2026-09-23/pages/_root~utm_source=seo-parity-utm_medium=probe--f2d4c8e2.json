@@ -1,0 +1,708 @@
+{
+  "url": "https://www.alivaon.com/?utm_source=seo-parity&utm_medium=probe",
+  "discoveredVia": [
+    "seed"
+  ],
+  "inlinks": 0,
+  "status": 200,
+  "chain": [],
+  "finalUrl": "https://www.alivaon.com/?utm_source=seo-parity&utm_medium=probe",
+  "headers": {
+    "cache-control": "no-cache, private",
+    "content-type": "text/html; charset=UTF-8",
+    "server": "nginx"
+  },
+  "html": {
+    "lang": "fr",
+    "titles": [
+      "Alivaon - Logiciel de Gestion & Application Mobile à Douala | Agence Digitale Cameroun"
+    ],
+    "metas": {
+      "charset": [
+        "UTF-8"
+      ],
+      "http-equiv:x-ua-compatible": [
+        "IE=edge"
+      ],
+      "name:viewport": [
+        "width=device-width, initial-scale=1.0"
+      ],
+      "name:description": [
+        "Agence digitale à Douala : création d'applications web, mobiles Android et logiciels de gestion sur mesure pour digitaliser les entreprises au Cameroun. Devis gratuit sous 24h."
+      ],
+      "name:robots": [
+        "index, follow"
+      ],
+      "property:og:type": [
+        "website"
+      ],
+      "property:og:site_name": [
+        "Alivaon"
+      ],
+      "property:og:title": [
+        "Alivaon - Logiciel de Gestion & Application Mobile à Douala, Cameroun"
+      ],
+      "property:og:description": [
+        "Création de logiciels et applications pour digitaliser et faire grandir les entreprises au Cameroun. Logiciel de gestion, facturation, stocks, application mobile Android. Basé à Douala."
+      ],
+      "property:og:url": [
+        "https://www.alivaon.com/"
+      ],
+      "property:og:locale": [
+        "fr_FR"
+      ],
+      "property:og:locale:alternate": [
+        "en_US"
+      ],
+      "property:og:image": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "property:og:image:secure_url": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "property:og:image:alt": [
+        "Alivaon - Logiciel de Gestion & Application Mobile à Douala, Cameroun"
+      ],
+      "property:og:image:type": [
+        "image/jpeg"
+      ],
+      "property:og:image:width": [
+        "1200"
+      ],
+      "property:og:image:height": [
+        "630"
+      ],
+      "name:twitter:card": [
+        "summary_large_image"
+      ],
+      "name:twitter:title": [
+        "Alivaon - Logiciel de Gestion & Application Mobile à Douala, Cameroun"
+      ],
+      "name:twitter:description": [
+        "Création de logiciels et applications pour digitaliser et faire grandir les entreprises au Cameroun. Logiciel de gestion, facturation, stocks, application mobile Android. Basé à Douala."
+      ],
+      "name:twitter:image": [
+        "https://www.alivaon.com/build/images/og/og-default.png"
+      ],
+      "name:twitter:image:alt": [
+        "Alivaon - Logiciel de Gestion & Application Mobile à Douala, Cameroun"
+      ]
+    },
+    "canonicals": [
+      "https://www.alivaon.com/"
+    ],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://www.alivaon.com/en"
+      },
+      {
+        "hreflang": "fr",
+        "href": "https://www.alivaon.com/"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://www.alivaon.com/"
+      }
+    ],
+    "headLinks": [
+      {
+        "rel": "icon",
+        "href": "https://www.alivaon.com/build/images/logo/favicon.png",
+        "type": "image/x-icon",
+        "sizes": null
+      }
+    ],
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "description": "Agence digitale à Douala - création de logiciels de gestion, applications web et mobile sur mesure pour les entreprises au Cameroun.",
+            "name": "Alivaon",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "query-input": "required name=search_term_string",
+              "target": "https://www.alivaon.com/blog?q={search_term_string}"
+            },
+            "url": "https://www.alivaon.com"
+          },
+          {
+            "@type": "Organization",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "CM",
+              "addressLocality": "Douala",
+              "addressRegion": "Littoral",
+              "streetAddress": "Logpom"
+            },
+            "areaServed": [
+              "Douala",
+              "Yaoundé",
+              "Cameroun",
+              "Afrique centrale"
+            ],
+            "description": "Agence de développement logiciel sur mesure à Douala, Cameroun. Spécialiste de la digitalisation des entreprises et PME en Afrique.",
+            "email": "contact@alivaon.com",
+            "logo": "https://www.alivaon.com/build/images/logo/logo.png",
+            "name": "Alivaon",
+            "sameAs": [
+              "https://www.linkedin.com/company/alivaon",
+              "https://www.facebook.com/alivaon"
+            ],
+            "serviceType": [
+              "Logiciel de gestion sur mesure",
+              "Application mobile Android",
+              "Création application web",
+              "Logiciel de facturation",
+              "Solution de gestion des stocks",
+              "Digitalisation PME Cameroun"
+            ],
+            "telephone": "+237691962158",
+            "url": "https://www.alivaon.com"
+          }
+        ]
+      }
+    ],
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contactez-nous"
+      },
+      {
+        "level": 1,
+        "text": "Votre partenaire expert en développement logiciel sur mesure"
+      },
+      {
+        "level": 2,
+        "text": "50 +"
+      },
+      {
+        "level": 2,
+        "text": "Nos Services au Cameroun"
+      },
+      {
+        "level": 3,
+        "text": "Logiciel de gestion commerciale sur mesure au Cameroun"
+      },
+      {
+        "level": 3,
+        "text": "Création de site web professionnel à Douala"
+      },
+      {
+        "level": 3,
+        "text": "Référencement SEO & Visibilité Google"
+      },
+      {
+        "level": 3,
+        "text": "Transformation digitale & conseil"
+      },
+      {
+        "level": 2,
+        "text": "nos réalisations au Cameroun"
+      },
+      {
+        "level": 2,
+        "text": "Ce que disent les entreprises camerounaises qui ont digitalisé leur activité avec Alivaon"
+      },
+      {
+        "level": 3,
+        "text": "Marie Ndongo"
+      },
+      {
+        "level": 3,
+        "text": "Thomas Kemajou"
+      },
+      {
+        "level": 3,
+        "text": "Sophie Essomba"
+      },
+      {
+        "level": 3,
+        "text": "30+ Entreprises Digitalisées au Cameroun"
+      },
+      {
+        "level": 2,
+        "text": "Des logiciels de gestion et des applications qui vous font gagner du temps, augmentent vos ventes et simplifient votre activité au Cameroun"
+      },
+      {
+        "level": 3,
+        "text": "98 %"
+      },
+      {
+        "level": 3,
+        "text": "10 +"
+      },
+      {
+        "level": 2,
+        "text": "Notre Approche"
+      },
+      {
+        "level": 2,
+        "text": "Des logiciels et applications sur mesure pour digitaliser votre entreprise au Cameroun"
+      },
+      {
+        "level": 3,
+        "text": "Logiciel de Gestion"
+      },
+      {
+        "level": 3,
+        "text": "Application Mobile Android"
+      },
+      {
+        "level": 3,
+        "text": "Application Web sur Mesure"
+      },
+      {
+        "level": 2,
+        "text": "Démarrez votre projet avec la formule adaptée à votre entreprise au Cameroun"
+      },
+      {
+        "level": 3,
+        "text": "Idéal pour démarrer rapidement votre digitalisation ou créer votre présence en ligne"
+      },
+      {
+        "level": 3,
+        "text": "Parfait pour gérer et développer votre activité - logiciel de gestion complet"
+      },
+      {
+        "level": 3,
+        "text": "Pour les projets ambitieux : application mobile, plateforme complète, multi-sites"
+      },
+      {
+        "level": 2,
+        "text": "Nos derniers articles sur la digitalisation des entreprises au Cameroun"
+      },
+      {
+        "level": 3,
+        "text": "Excel pour gérer votre entreprise : pourquoi ça finit toujours par vous coûter cher (et par quoi le remplacer)"
+      },
+      {
+        "level": 3,
+        "text": "Combien coûte un logiciel de gestion au Cameroun ? Prix, abonnements et budget réel en FCFA"
+      },
+      {
+        "level": 3,
+        "text": "Logiciel sur mesure ou logiciel standard : que choisir pour votre PME camerounaise ?"
+      },
+      {
+        "level": 3,
+        "text": "Les 7 meilleurs logiciels de gestion commerciale au Cameroun : comparatif 2026"
+      }
+    ],
+    "text": "Démarrez Un projet Contactez-nous Logpom, Douala, Cameroun contact@alivaon.com +237 6 91 96 21 58 Accueil À propos Nos Services Réalisations Blog FAQ Contact NOUS CONTACTER Agence Digitale à Douala, Cameroun Votre partenaire expert en développement logiciel sur mesure Alivaon conçoit des logiciels de gestion , des applications mobile Android et iOS et des solutions web sur mesure adaptés aux réalités des entreprises camerounaises - simples, fiables, efficaces. 50 + Logiciels et applications livrés au Cameroun QUI SOMMES-NOUS Nous créons des logiciels qui simplifient la gestion de votre entreprise, augmentent vos ventes et vous font gagner du temps. Notre agence digitale basée à Douala, est au service des entreprises camerounaises ambitieuses. EN SAVOIR PLUS EN SAVOIR PLUS EN SAVOIR PLUS Transparence Totale Suivi en temps réel, reporting clair, communication directe à chaque étape. Nos clients à Douala savent toujours où en est leur projet et pourquoi chaque décision est prise. Expertise Locale & Proximité Basés à Logpom, Douala, nous connaissons les réalités du marché camerounais. Nos solutions sont pensées pour fonctionner sur mobile, avec une connectivité variable, et adoptées rapidement par vos équipes terrain. Partenariat Long Terme Nous ne livrons pas un projet, nous construisons un partenariat durable. Maintenance, évolutions, support réactif : votre logiciel grandit avec votre entreprise au Cameroun. Nos Services au Cameroun Logiciel de gestion commerciale sur mesure au Cameroun Création de site web professionnel à Douala Référencement SEO & Visibilité Google Transformation digitale & conseil Des applications mobiles Android pensées pour le marché africain : mode hors-ligne, connexion limitée, interface simple adoptée immédiatement par vos équipes terrain. Compatible tous smartphones Android Fonctionne hors-ligne (faible connectivité) Gestion terrain en temps réel nos réalisations au Cameroun Pourquoi Nous Choisir Alivaon - là où l'excellence technique rencontre la transparence et la durabilité. 4 raisons pour lesquelles plus de 30 entreprises nous font confiance pour leurs projets logiciels. Transparence Totale Nous pratiquons une communication claire et honnête à chaque étape de vos projets. Innovation Continue Nous intégrons les dernières technologies pour faire évoluer vos solutions dans la durée. Accompagnement Long Terme Un support réactif et un partenariat durable bien au-delà de la livraison du projet. Avis Clients Ce que disent les entreprises camerounaises qui ont digitalisé leur activité avec Alivaon Le logiciel de gestion commerciale a transformé notre façon de travailler. Nous gagnons énormément de temps sur l'inventaire et la facturation. Marie Ndongo Gérante Une vraie agence informatique à Douala qui comprend les réalités locales. Notre application mobile Android nous a aidé à augmenter nos ventes. Thomas Kemajou CEO Digitaliser notre entreprise au Cameroun nous faisait peur, mais leur solution digitale est simple et très efficace. Nos employés l'adorent. Sophie Essomba DG 30+ Entreprises Digitalisées au Cameroun Alivaon livre des solutions concrètes qui font la différence : moins d'erreurs de gestion, plus de ventes, plus de temps pour développer votre activité au Cameroun. Des logiciels de gestion et des applications qui vous font gagner du temps, augmentent vos ventes et simplifient votre activité au Cameroun 98 % Taux de satisfaction de nos clients 10 + Années d'expertise en développement logiciel Notre Approche Ce Que Nous Faisons Des logiciels et applications sur mesure pour digitaliser votre entreprise au Cameroun Alivaon combine expertise technique et connaissance du marché camerounais pour développer des logiciels qui répondent précisément à vos besoins. Gestion commerciale, facturation, stocks, mobile - des outils que vos équipes utilisent vraiment et qui génèrent des résultats concrets. Logiciel de Gestion 93 % Application Mobile Android 87 % Application Web sur Mesure 90 % VOIR NOS SERVICES Nos Formules Démarrez votre projet avec la formule adaptée à votre entreprise au Cameroun Lancement Idéal pour démarrer rapidement votre digitalisation ou créer votre présence en ligne Analyse de vos besoins Développement agile Tests & validation Livraison & déploiement Support 3 mois inclus Demander un devis PME & Professionnels Parfait pour gérer et développer votre activité - logiciel de gestion complet Analyse approfondie des besoins Développement agile Tests & recette métier Livraison, déploiement & formation Support 3 mois inclus Demander un devis Grandes Entreprises Pour les projets ambitieux : application mobile, plateforme complète, multi-sites Audit complet & cadrage projet Développement agile Tests avancés & QA Livraison, déploiement & formation Support 3 mois inclus Demander un devis Actualités & Conseils Nos derniers articles sur la digitalisation des entreprises au Cameroun Voir tous les articles Logiciels de Gestion 10 Jun 2026 Excel pour gérer votre entreprise : pourquoi ça finit toujours par vous coûter cher (et par quoi le remplacer) Factures, stock et ventes sur Excel ? Découvrez ce que ça coûte vraiment à votre PME camerounaise (erreurs, vols, temps perdu) et comment migrer vers un vrai logiciel de gestion. Logiciels de Gestion 10 Jun 2026 Combien coûte un logiciel de gestion au Cameroun ? Prix, abonnements et budget réel en FCFA Combien coûte un logiciel de gestion au Cameroun ? Abonnements SaaS dès 10 000 FCFA/mois, licences, sur mesure, coûts cachés : le guide budget complet 2026 pour PME. Logiciels de Gestion 10 Jun 2026 Logiciel sur mesure ou logiciel standard : que choisir pour votre PME camerounaise ? Logiciel de gestion sur mesure ou solution standard (SaaS, Sage, Excel) : avantages, coûts réels en FCFA, pièges et grille de décision pour les PME camerounaises en 2026. Logiciels de Gestion 10 Jun 2026 Les 7 meilleurs logiciels de gestion commerciale au Cameroun : comparatif 2026 Comparatif 2026 des meilleurs logiciels de gestion commerciale au Cameroun : Sage 100, zBilling, CloudFacile, Optisales, GestionsPro, Mobility Cloud et sur mesure. Prix en FCFA, forces et limites. strategy marketing analysis marketing strategy marketing analysis marketing À Propos d'Alivaon Éditeur de logiciels personnalisés, nous aidons les entreprises à se développer grâce à des solutions web, mobiles et entreprise innovantes, fiables et durables. Liens Rapides À Propos Contact Réalisations Blog Nos Services Ressources FAQ Carrières Notre Équipe Mentions Légales Politique de Confidentialité Abonnez-vous à notre newsletter S'ABONNER S'ABONNER Copyright © 2026 Alivaon, Tous droits réservés.",
+    "links": [
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "Accueil",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "Icône vidéo témoignage",
+        "rel": "",
+        "count": 3
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "site logo",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "Site Logo",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/about",
+        "text": "À propos",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/about",
+        "text": "À Propos",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/about",
+        "text": "EN SAVOIR PLUS",
+        "rel": "",
+        "count": 3
+      },
+      {
+        "href": "https://www.alivaon.com/blog",
+        "text": "Blog",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/blog",
+        "text": "Voir tous les articles",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/gerer-entreprise-excel-cout-reel-alternatives",
+        "text": "Lire l'article : Excel pour gérer votre entreprise : pourquoi ça finit toujours par vous coûter cher (et par quoi le remplacer)",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/logiciel-sur-mesure-ou-standard-pme-cameroun",
+        "text": "Lire l'article : Logiciel sur mesure ou logiciel standard : que choisir pour votre PME camerounaise ?",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/meilleurs-logiciels-gestion-commerciale-cameroun",
+        "text": "Lire l'article : Les 7 meilleurs logiciels de gestion commerciale au Cameroun : comparatif 2026",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/prix-logiciel-de-gestion-cameroun-fcfa",
+        "text": "Lire l'article : Combien coûte un logiciel de gestion au Cameroun ? Prix, abonnements et budget réel en FCFA",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/carrieres",
+        "text": "Carrières",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Contact",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Demander un devis",
+        "rel": "",
+        "count": 3
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Démarrez Un projet",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "NOUS CONTACTER",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/en",
+        "text": "English version",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/faq",
+        "text": "FAQ",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/mentions-legales",
+        "text": "Mentions Légales",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/politique-de-confidentialite",
+        "text": "Politique de Confidentialité",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/portfolio",
+        "text": "Réalisations",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/services",
+        "text": "Nos Services",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/services",
+        "text": "VOIR NOS SERVICES",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services/agence-seo-cameroun",
+        "text": "Référencement SEO & Visibilité Google",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services/creation-site-web-douala",
+        "text": "Création de site web professionnel à Douala",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services/logiciel-de-gestion-commerciale-sur-mesure-au-cameroun",
+        "text": "Logiciel de gestion commerciale sur mesure au Cameroun",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services/transformation-digitale-cameroun",
+        "text": "Transformation digitale & conseil",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/team",
+        "text": "Notre Équipe",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.facebook.com/alivaon",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.instagram.com/alivaon.io/",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.linkedin.com/company/alivaon/",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.tiktok.com/@alivaon.io",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://x.com/alivaon",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "mailto:contact@alivaon.com",
+        "text": "contact@alivaon.com",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "tel:+237691962158",
+        "text": "+237 6 91 96 21 58",
+        "rel": "",
+        "count": 1
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.alivaon.com/build/images/flags/en.svg",
+        "alt": "",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/about/about-thumb1_1.jpg",
+        "alt": "Équipe Alivaon - développement logiciel et digitalisation PME à Douala, Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/about/about-thumb1_2.jpg",
+        "alt": "Alivaon - transparence et communication sur vos projets digitaux au Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/about/about-thumb1_2.jpg",
+        "alt": "Équipe Alivaon basée à Douala - expertise locale développement logiciel Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/about/about-thumb1_2.jpg",
+        "alt": "Partenariat durable Alivaon - maintenance et évolution logiciel entreprises Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/brand/brand-thumb1_1.png",
+        "alt": "Client Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/brand/brand-thumb1_1.png",
+        "alt": "Partenaire Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/brand/brand-thumb1_2.png",
+        "alt": "Client Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/brand/brand-thumb1_2.png",
+        "alt": "Partenaire Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/brand/brand-thumb1_3.png",
+        "alt": "Client Alivaon Douala",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/brand/brand-thumb1_3.png",
+        "alt": "Partenaire Alivaon Douala",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/brand/brand-thumb1_4.png",
+        "alt": "Client Alivaon Douala",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/brand/brand-thumb1_4.png",
+        "alt": "Partenaire Alivaon Douala",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/brand/brand-thumb1_5.png",
+        "alt": "Client Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/brand/brand-thumb1_6.png",
+        "alt": "Client Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/intro/intro-thumb1_1.jpg",
+        "alt": "Développement logiciel et application mobile sur mesure à Douala, Cameroun - Alivaon",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/intro/mentro-image1_1.png",
+        "alt": "Alivaon - agence digitale développement logiciel Douala Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/project/project-thumb1_1.jpg",
+        "alt": "Logiciel de gestion commerciale développé par Alivaon pour PME camerounaise",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/project/project-thumb1_2.jpg",
+        "alt": "Application mobile Android pour entreprise de transport à Yaoundé - Alivaon",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/project/project-thumb1_3.jpg",
+        "alt": "Solution de gestion des stocks développée par Alivaon pour entreprise à Douala",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/service/service-thumb1_1.jpg",
+        "alt": "Application mobile Android pour entreprises camerounaises - Alivaon Douala",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/testimonial/circle-text.png",
+        "alt": "",
+        "count": 3
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/testimonial/stars.svg",
+        "alt": "5 étoiles",
+        "count": 3
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/testimonial/testimonial-client-image1_1.png",
+        "alt": "Clients Alivaon - PME camerounaises digitalisées à Douala et Yaoundé",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/testimonial/testimonial-image1_1.png",
+        "alt": "Marie Ndongo - client Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/testimonial/testimonial-image1_1.png",
+        "alt": "Sophie Essomba - client Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/testimonial/testimonial-image1_1.png",
+        "alt": "Thomas Kemajou - client Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/testimonial/video-icon1_1.png",
+        "alt": "Icône vidéo témoignage",
+        "count": 3
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/video/video-thumb1_1.jpg",
+        "alt": "Alivaon - résultats de la digitalisation pour entreprises camerounaises à Douala",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/wcu/wcu-thumb1_1.jpg",
+        "alt": "thumb",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/home-4/wp/wp-thumb1_1.png",
+        "alt": "Interface logiciel de gestion développé par Alivaon pour PME camerounaise",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/logo/logo.png",
+        "alt": "site logo",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/logo/logo.png",
+        "alt": "Site Logo",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/uploads/articles/0e902b44c050282bfb2fe0d4b8547ef90bae51ac.png",
+        "alt": "Logiciel sur mesure ou logiciel standard : que choisir pour votre PME camerounaise ?",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/uploads/articles/cd0d8f3a246cd1dc7e5aef34031ae2954c308cc4.png",
+        "alt": "Combien coûte un logiciel de gestion au Cameroun ? Prix, abonnements et budget réel en FCFA",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/uploads/articles/d914622d396c17764046aea93268a11b22e131e6.webp",
+        "alt": "Excel pour gérer votre entreprise : pourquoi ça finit toujours par vous coûter cher (et par quoi le remplacer)",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/uploads/articles/db5ae9c995eed09db846361406415885c8cabfd6.png",
+        "alt": "Les 7 meilleurs logiciels de gestion commerciale au Cameroun : comparatif 2026",
+        "count": 1
+      }
+    ],
+    "bgImages": []
+  }
+}

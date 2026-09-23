@@ -1,0 +1,703 @@
+{
+  "url": "https://www.alivaon.com/blog/logiciel-sur-mesure-ou-standard-pme-cameroun",
+  "discoveredVia": [
+    "link",
+    "sitemap"
+  ],
+  "inlinks": 10,
+  "status": 200,
+  "chain": [],
+  "finalUrl": "https://www.alivaon.com/blog/logiciel-sur-mesure-ou-standard-pme-cameroun",
+  "headers": {
+    "cache-control": "max-age=0, must-revalidate, private",
+    "content-type": "text/html; charset=UTF-8",
+    "server": "nginx"
+  },
+  "html": {
+    "lang": "fr",
+    "titles": [
+      "Logiciel sur mesure ou logiciel standard : que choisir pour votre PME camerounaise ? | Blog Alivaon Douala"
+    ],
+    "metas": {
+      "charset": [
+        "UTF-8"
+      ],
+      "http-equiv:x-ua-compatible": [
+        "IE=edge"
+      ],
+      "name:viewport": [
+        "width=device-width, initial-scale=1.0"
+      ],
+      "name:description": [
+        "Logiciel de gestion sur mesure ou solution standard (SaaS, Sage, Excel) : avantages, coûts réels en FCFA, pièges et grille de décision pour les PME camerounaises en 2026."
+      ],
+      "name:robots": [
+        "index, follow"
+      ],
+      "property:og:type": [
+        "article"
+      ],
+      "property:og:site_name": [
+        "Alivaon"
+      ],
+      "property:og:title": [
+        "Logiciel sur mesure ou logiciel standard : que choisir pour votre PME camerounaise ?"
+      ],
+      "property:og:description": [
+        "Logiciel de gestion sur mesure ou solution standard (SaaS, Sage, Excel) : avantages, coûts réels en FCFA, pièges et grille de décision pour les PME camerounaises en 2026."
+      ],
+      "property:og:url": [
+        "https://www.alivaon.com/blog/logiciel-sur-mesure-ou-standard-pme-cameroun"
+      ],
+      "property:og:locale": [
+        "fr_FR"
+      ],
+      "property:og:image": [
+        "https://www.alivaon.com/uploads/articles/0e902b44c050282bfb2fe0d4b8547ef90bae51ac.png"
+      ],
+      "property:og:image:secure_url": [
+        "https://www.alivaon.com/uploads/articles/0e902b44c050282bfb2fe0d4b8547ef90bae51ac.png"
+      ],
+      "property:og:image:alt": [
+        "Logiciel sur mesure ou logiciel standard : que choisir pour votre PME camerounaise ?"
+      ],
+      "property:og:image:type": [
+        "image/png"
+      ],
+      "property:og:image:width": [
+        "1200"
+      ],
+      "property:og:image:height": [
+        "630"
+      ],
+      "name:twitter:card": [
+        "summary_large_image"
+      ],
+      "name:twitter:title": [
+        "Logiciel sur mesure ou logiciel standard : que choisir pour votre PME camerounaise ?"
+      ],
+      "name:twitter:description": [
+        "Logiciel de gestion sur mesure ou solution standard (SaaS, Sage, Excel) : avantages, coûts réels en FCFA, pièges et grille de décision pour les PME camerounaises en 2026."
+      ],
+      "name:twitter:image": [
+        "https://www.alivaon.com/uploads/articles/0e902b44c050282bfb2fe0d4b8547ef90bae51ac.png"
+      ],
+      "name:twitter:image:alt": [
+        "Logiciel sur mesure ou logiciel standard : que choisir pour votre PME camerounaise ?"
+      ]
+    },
+    "canonicals": [
+      "https://www.alivaon.com/blog/logiciel-sur-mesure-ou-standard-pme-cameroun"
+    ],
+    "hreflang": [],
+    "headLinks": [
+      {
+        "rel": "icon",
+        "href": "https://www.alivaon.com/build/images/logo/favicon.png",
+        "type": "image/x-icon",
+        "sizes": null
+      }
+    ],
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "author": {
+          "@type": "Organization",
+          "name": "Alivaon"
+        },
+        "datePublished": "2026-06-10",
+        "description": "Logiciel de gestion sur mesure ou solution standard (SaaS, Sage, Excel) : avantages, coûts réels en FCFA, pièges et grille de décision pour les PME camerounaises en 2026.",
+        "headline": "Logiciel sur mesure ou logiciel standard : que choisir pour votre PME camerounaise ?",
+        "inLanguage": "fr-CM",
+        "publisher": {
+          "@type": "LocalBusiness",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "CM",
+            "addressLocality": "Douala"
+          },
+          "name": "Alivaon",
+          "telephone": "+237691962158"
+        }
+      }
+    ],
+    "headings": [
+      {
+        "level": 2,
+        "text": "Contactez-nous"
+      },
+      {
+        "level": 1,
+        "text": "Logiciel sur mesure ou logiciel standard : que choisir pour votre PME camerounaise ?"
+      },
+      {
+        "level": 2,
+        "text": "De quoi parle-t-on exactement ?"
+      },
+      {
+        "level": 3,
+        "text": "Le logiciel standard"
+      },
+      {
+        "level": 3,
+        "text": "Le logiciel sur mesure"
+      },
+      {
+        "level": 2,
+        "text": "Le match en 7 rounds"
+      },
+      {
+        "level": 3,
+        "text": "Round 1 : le coût initial - avantage standard"
+      },
+      {
+        "level": 3,
+        "text": "Round 2 : le coût total sur 3 à 5 ans - match nul, ça dépend de vous"
+      },
+      {
+        "level": 3,
+        "text": "Round 3 : le délai de mise en service - avantage standard"
+      },
+      {
+        "level": 3,
+        "text": "Round 4 : la couverture de VOS processus - avantage sur mesure"
+      },
+      {
+        "level": 3,
+        "text": "Round 5 : l'adaptation au terrain camerounais - avantage sur mesure (avec nuances)"
+      },
+      {
+        "level": 3,
+        "text": "Round 6 : l'évolution dans le temps - avantage sur mesure"
+      },
+      {
+        "level": 3,
+        "text": "Round 7 : la dépendance au fournisseur - match nul, mais pas le même risque"
+      },
+      {
+        "level": 2,
+        "text": "La zone grise : le standard personnalisé"
+      },
+      {
+        "level": 2,
+        "text": "La grille de décision : 7 questions pour trancher"
+      },
+      {
+        "level": 2,
+        "text": "Trois cas concrets pour vous situer"
+      },
+      {
+        "level": 2,
+        "text": "Les 4 pièges à éviter, quel que soit votre choix"
+      },
+      {
+        "level": 2,
+        "text": "FAQ"
+      },
+      {
+        "level": 2,
+        "text": "Notre conseil final"
+      },
+      {
+        "level": 2,
+        "text": "Articles similaires"
+      },
+      {
+        "level": 3,
+        "text": "Excel pour gérer votre entreprise : pourquoi ça finit toujours par vous coûter cher (et par quoi le remplacer)"
+      },
+      {
+        "level": 3,
+        "text": "Combien coûte un logiciel de gestion au Cameroun ? Prix, abonnements et budget réel en FCFA"
+      },
+      {
+        "level": 3,
+        "text": "Les 7 meilleurs logiciels de gestion commerciale au Cameroun : comparatif 2026"
+      },
+      {
+        "level": 3,
+        "text": "Logiciel de gestion d'entreprise au Cameroun : le guide complet pour bien choisir en 2026"
+      }
+    ],
+    "text": "Démarrez Un projet Contactez-nous Logpom, Douala, Cameroun contact@alivaon.com +237 6 91 96 21 58 Accueil À propos Nos Services Réalisations Blog FAQ Contact NOUS CONTACTER Logiciels de Gestion 10 June 2026 Logiciel sur mesure ou logiciel standard : que choisir pour votre PME camerounaise ? Rédigé par Ludovic MOYO Lecture 6 min de lecture C'est la question que se pose tout dirigeant camerounais au moment de digitaliser sa gestion : faut-il prendre un logiciel « prêt à l'emploi » par abonnement, ou faire développer un outil sur mesure pour son entreprise ? Les vendeurs de SaaS vous diront que le sur mesure est cher et long. Les développeurs vous diront que le standard vous enfermera. Les deux ont partiellement raison - et c'est bien le problème. Cet article vous donne une réponse honnête et structurée : ce que chaque option coûte vraiment, ce qu'elle vous apporte, dans quels cas elle est le bon choix, et une grille de décision en 7 questions pour trancher en moins de 30 minutes. Spoiler : il n'y a pas de bonne réponse universelle, mais il y a une bonne réponse pour votre entreprise . Cet article fait partie de notre série sur les logiciels de gestion : si vous partez de zéro, lisez d'abord le guide complet pour bien choisir en 2026 , et pour connaître les solutions disponibles, consultez notre comparatif des 7 meilleurs logiciels de gestion commerciale au Cameroun . De quoi parle-t-on exactement ? Le logiciel standard Un logiciel standard est un produit fini, identique pour tous ses clients, que vous utilisez tel quel ou avec un paramétrage limité. Au Cameroun, cette catégorie regroupe : Les SaaS par abonnement (zBilling, CloudFacile, GestionsPro, Mobility Cloud...) : vous payez chaque mois, vous accédez en ligne, l'éditeur héberge tout. Les logiciels intégrés (Sage 100, Odoo...) : plus puissants, installés et paramétrés par un intégrateur, avec licences et maintenance. Les outils génériques (Excel, Wave...) : la solution par défaut de la plupart des PME, avec les limites que l'on connaît. Le principe est le même partout : l'éditeur a défini une façon de travailler, et votre entreprise s'adapte au logiciel . Le logiciel sur mesure Un logiciel sur mesure est développé spécifiquement pour votre entreprise, à partir de vos processus réels : vos circuits de vente, vos règles de remise, vos dépôts, vos validations internes, vos rapports. Ici, c'est le logiciel qui s'adapte à votre entreprise . Vous êtes propriétaire de l'outil, et il évolue selon vos décisions, pas selon la feuille de route d'un éditeur. Entre les deux, il existe une zone grise : le standard « personnalisé » (un Odoo avec des modules développés, un SaaS avec des options dédiées). Nous y reviendrons, car c'est parfois le meilleur compromis - et parfois le pire des deux mondes. Le match en 7 rounds Round 1 : le coût initial - avantage standard Pas de débat ici. Un SaaS local se lance pour 10 000 à 60 000 FCFA par mois, souvent avec un essai gratuit. Un développement sur mesure représente un investissement initial de plusieurs centaines de milliers à plusieurs millions de FCFA selon le périmètre. Si votre trésorerie est tendue et votre besoin urgent, le standard gagne ce round haut la main. Mais le coût initial n'est qu'un morceau de l'histoire - c'est le piège classique de cette comparaison. Round 2 : le coût total sur 3 à 5 ans - match nul, ça dépend de vous Faisons le calcul que personne ne fait avant de signer. Prenons une PME de 6 utilisateurs sur un SaaS à 20 000 FCFA HT/mois pour 5 utilisateurs, qui devra passer à une offre supérieure : Abonnement : disons 30 000 à 50 000 FCFA/mois avec les utilisateurs et modules supplémentaires Sur 4 ans : entre 1,4 et 2,4 millions de FCFA - sans posséder l'outil à la fin, et sans compter les contournements (fichiers Excel parallèles, double saisie) qui coûtent du temps salarié chaque semaine. Un sur mesure de périmètre équivalent, amorti sur la même durée avec une maintenance annuelle modérée, atterrit souvent dans la même zone de coût - mais l'outil vous appartient, couvre 100 % de vos processus, et n'augmente pas quand vous embauchez. La vraie règle : plus votre équipe est grande et plus vous comptez garder l'outil longtemps, plus le sur mesure devient compétitif . Pour 2 utilisateurs sur 18 mois, le SaaS est imbattable. Pour 10 utilisateurs sur 5 ans, le calcul s'inverse fréquemment. Round 3 : le délai de mise en service - avantage standard Un SaaS se déploie en quelques jours : création de compte, import des articles et clients, courte formation. Un sur mesure demande un cadrage, du développement et des tests : comptez plusieurs semaines, parfois quelques mois pour un périmètre large. Si votre besoin est de facturer proprement dès lundi , le standard est la seule réponse rationnelle. Une stratégie courante et saine : démarrer sur un SaaS pour stabiliser les bases, et basculer vers du sur mesure quand les limites deviennent coûteuses. Round 4 : la couverture de VOS processus - avantage sur mesure C'est le cœur du sujet. Un logiciel standard couvre bien les processus... standards. Or beaucoup de PME camerounaises ont des spécificités qui font précisément leur force : vente à crédit avec échéanciers négociés client par client, tournées de livraison avec encaissement terrain, prix différents selon le canal (boutique, demi-gros, gros), gestion de plusieurs dépôts avec transferts, commissions vendeurs calculées sur des règles maison, validation du gérant au-delà d'un certain montant... Sur un standard, chaque spécificité non couverte devient un contournement : un fichier Excel à côté, une règle « de tête », une double saisie. Et chaque contournement réintroduit exactement les erreurs et les fuites que le logiciel devait éliminer. Le sur mesure, lui, est construit autour de ces spécificités : c'est sa raison d'être. Test simple : listez vos 10 opérations quotidiennes critiques. Si un standard en couvre 9 ou 10 nativement, prenez le standard. S'il en couvre 6 ou 7, les contournements vous coûteront plus cher que le développement. Round 5 : l'adaptation au terrain camerounais - avantage sur mesure (avec nuances) Coupures d'électricité et d'internet, encaissements Mobile Money (MTN MoMo, Orange Money), équipes terrain sur Android d'entrée de gamme, facturation conforme DGI avec NIU et TVA : ce sont les exigences de base du marché camerounais. Les SaaS développés localement (zBilling, CloudFacile...) gèrent honnêtement le FCFA et les mentions fiscales - c'est leur avantage sur les solutions européennes. Mais le mode hors-ligne réel (la caisse qui continue d'encaisser pendant une coupure et synchronise au retour de la connexion) reste le point faible de la plupart des solutions cloud. Un sur mesure conçu offline-first traite ce scénario dès l'architecture, parce qu'il a été défini avec vous comme exigence numéro un. Round 6 : l'évolution dans le temps - avantage sur mesure Avec un standard, vos demandes d'évolution rejoignent la liste de souhaits de tous les autres clients : si l'éditeur juge la fonctionnalité rentable, elle arrivera... un jour. Avec un sur mesure, votre logiciel suit votre stratégie : nouveau point de vente, nouvelle gamme, nouveau circuit de distribution - l'outil évolue quand vous le décidez, au rythme de votre croissance. La contrepartie : cette évolution a un coût (jours de développement) et exige un prestataire fiable dans la durée. D'où l'importance du round suivant. Round 7 : la dépendance au fournisseur - match nul, mais pas le même risque On accuse souvent le sur mesure de créer une dépendance au développeur. C'est vrai si le projet est mal contractualisé. Mais la dépendance existe aussi - et différemment - avec le standard : si votre SaaS augmente ses prix, supprime une fonctionnalité ou ferme, vous subissez. Vos données sont chez lui ; vérifiez toujours les conditions d'export. Les protections, dans les deux cas, sont contractuelles. Pour le sur mesure, exigez : la propriété du code source (ou a minima un dépôt fiduciaire), une documentation technique, un contrat de maintenance avec délais d'intervention, et la réversibilité (un autre prestataire doit pouvoir reprendre le projet). Pour le standard : l'export complet de vos données à tout moment dans un format exploitable, et la lecture attentive des conditions de résiliation. Un prestataire ou un éditeur qui refuse ces clauses vous dit quelque chose d'important sur lui. La zone grise : le standard personnalisé Troisième voie : partir d'une base standard (souvent open source comme Odoo ou Dolibarr) et la faire personnaliser par un intégrateur. Sur le papier, c'est séduisant : socle éprouvé + adaptations métier. En pratique, ce modèle fonctionne bien quand les personnalisations restent légères (états, champs, rapports). Il devient piégeux quand elles sont lourdes : chaque montée de version du socle risque de casser vos développements spécifiques, et vous cumulez alors les coûts du standard (licences ou maintenance du socle) et ceux du sur mesure (développements à maintenir). Si plus de 30 à 40 % de votre besoin nécessite du développement spécifique, un vrai sur mesure est généralement plus sain et plus économique à long terme. La grille de décision : 7 questions pour trancher Répondez honnêtement, comptez vos points. Vos processus sont-ils standards (vente comptoir simple, facturation classique, un seul point de vente) ? Oui = 1 point Standard. Non = 1 point Sur mesure. Avez-vous besoin d'être opérationnel en moins de 2 semaines ? Oui = Standard. Non = Sur mesure. Votre équipe dépassera-t-elle 5 utilisateurs dans les 2 ans ? Oui = Sur mesure. Non = Standard. Maintenez-vous déjà plus de 2 fichiers Excel à côté d'un outil existant (ou prévoyez-vous des cas que les outils en démo ne gèrent pas) ? Oui = Sur mesure. Non = Standard. Votre activité dépend-elle d'un fonctionnement hors-ligne fiable (caisse, vente terrain) ? Oui = Sur mesure (ou un standard dont le mode hors-ligne a été testé en conditions réelles). Non = Standard. Votre budget permet-il un investissement initial (vs uniquement un abonnement mensuel) ? Oui = Sur mesure possible. Non = Standard. Votre façon de travailler est-elle un avantage concurrentiel que vous voulez renforcer plutôt que normaliser ? Oui = Sur mesure. Non = Standard. 5 points ou plus d'un côté : votre réponse est claire. Score serré (4-3) : commencez par un SaaS local sur le module le plus urgent, et planifiez la bascule vers du sur mesure dans 12 à 18 mois - vous aurez alors un cahier des charges en or, nourri par l'usage réel. Trois cas concrets pour vous situer Cas 1 - La boutique de prêt-à-porter à Akwa (2 employés). Ventes comptoir, un stock, facturation simple. Verdict : standard , sans hésiter. Un SaaS local à 10 000–20 000 FCFA/mois fait parfaitement le travail. Le sur mesure serait un luxe inutile à ce stade. Cas 2 - Le distributeur de boissons à Douala (3 dépôts, 8 commerciaux terrain, vente à crédit). Tournées avec encaissement hors connexion, échéanciers clients négociés, transferts inter-dépôts quotidiens, commissions sur règles maison. Verdict : sur mesure . Aucun standard ne couvre ce flux sans contournements massifs, et chaque contournement sur ce volume coûte des millions par an. Cas 3 - Le cabinet de services B2B à Yaoundé (5 personnes), qui facture déjà sur un SaaS mais gère ses projets sur 4 fichiers Excel. Verdict : transition . Le SaaS reste pour la facturation ; un module sur mesure de gestion de projets/temps, interfacé avec l'existant, élimine les Excel. Le sur mesure n'est pas tout ou rien : il peut compléter un standard. Les 4 pièges à éviter, quel que soit votre choix Choisir le sur mesure sans cahier des charges. Un développement lancé sur des besoins flous produit un outil flou. Exigez une phase de cadrage écrite avant tout devis ferme. Choisir le standard sur la démo du commercial. Imposez VOS cas réels en démo, avec vos vrais produits et vos vrais scénarios de vente. C'est là que les limites apparaissent. Oublier la reprise des données. Articles, clients, soldes : qui migre quoi, comment, à quel coût ? À clarifier avant signature, dans les deux modèles. Négliger le contrat. Export des données (standard) ou propriété du code et maintenance (sur mesure) : tout se négocie avant, rien après. FAQ Combien coûte un logiciel sur mesure au Cameroun ? Selon le périmètre : un module ciblé (facturation + stock) se chiffre en centaines de milliers de FCFA, une solution complète multi-dépôts en quelques millions. Le bon réflexe est de comparer ce montant au coût cumulé d'un abonnement sur 3 à 5 ans, plus le coût de vos contournements actuels. Le sur mesure est-il risqué si le développeur disparaît ? Pas si le contrat prévoit la propriété du code source, la documentation et la réversibilité. C'est la première chose à exiger d'un prestataire - et un prestataire sérieux la propose de lui-même. Peut-on commencer en standard puis passer au sur mesure ? Oui, c'est même un excellent parcours : le standard stabilise vos pratiques et révèle vos vrais besoins ; le sur mesure capitalise ensuite dessus. Assurez-vous simplement que vos données seront exportables. Un logiciel sur mesure peut-il être conforme DGI et gérer le Mobile Money ? C'est précisément son intérêt : la conformité fiscale camerounaise (NIU, TVA) et l'intégration MTN MoMo / Orange Money sont définies comme exigences dès la conception, au lieu d'être des options à vérifier. Quelle est la durée de vie d'un logiciel sur mesure ? Avec une maintenance régulière, 7 à 10 ans et plus. C'est sur cette durée que l'investissement initial révèle toute sa rentabilité face aux abonnements cumulés. Notre conseil final Le standard est le bon choix par défaut quand votre besoin est simple, urgent et... standard. Le sur mesure est le bon choix quand vos processus sont votre force, que votre équipe grandit, et que les contournements vous coûtent déjà plus cher que vous ne le pensez. Et si vous hésitez encore, c'est probablement que votre situation mérite un diagnostic, pas un slogan. Chez Alivaon , nous faisons les deux exercices avec vous : analyse de vos processus, chiffrage honnête des deux scénarios sur 3 ans - et si un logiciel standard vous suffit, nous vous le disons . Si le sur mesure se justifie, nous concevons votre logiciel de gestion commerciale , votre facturation conforme DGI , votre gestion de stock ou votre caisse/POS - pensés hors-ligne et Mobile Money dès le départ. 👉 Demandez votre diagnostic gratuit - réponse sous 24 h Tags : Logiciel de gestion Partager : Ludovic MOYO Lead Developer chez Alivaon. Aucun commentaire Soyez le premier à laisser un commentaire. Laisser un commentaire Annuler Envoyer Articles similaires Logiciels de Gestion Excel pour gérer votre entreprise : pourquoi ça finit toujours par vous coûter cher (et par quoi le remplacer) Logiciels de Gestion Combien coûte un logiciel de gestion au Cameroun ? Prix, abonnements et budget réel en FCFA Logiciels de Gestion Les 7 meilleurs logiciels de gestion commerciale au Cameroun : comparatif 2026 Logiciels de Gestion Logiciel de gestion d'entreprise au Cameroun : le guide complet pour bien choisir en 2026 Un projet de digitalisation pour votre entreprise au Cameroun ? Demander un devis gratuit Recherche Catégories Logiciels de Gestion (5) Sites web & E-commerce (0) SaaS & Applications web (0) Applications mobiles (0) SEO & Visibilité Google (0) IA & Automatisation (0) Sécurité & Maintenance (0) Transformation digitale au Cameroun et dans le monde (0) Articles récents 10 Jun 2026 Excel pour gérer votre entreprise : pourquoi ça finit toujours par vous coûter cher (et par quoi le remplacer) 10 Jun 2026 Combien coûte un logiciel de gestion au Cameroun ? Prix, abonnements et budget réel en FCFA 10 Jun 2026 Logiciel sur mesure ou logiciel standard : que choisir pour votre PME camerounaise ? 10 Jun 2026 Les 7 meilleurs logiciels de gestion commerciale au Cameroun : comparatif 2026 09 Jun 2026 Logiciel de gestion d'entreprise au Cameroun : le guide complet pour bien choisir en 2026 Tags Gestion de Stock Douala Cameroun Automatisation Facturation Application Android PME Logiciel Sur Mesure site web professionnel Logiciel de gestion strategy marketing analysis marketing strategy marketing analysis marketing À Propos d'Alivaon Éditeur de logiciels personnalisés, nous aidons les entreprises à se développer grâce à des solutions web, mobiles et entreprise innovantes, fiables et durables. Liens Rapides À Propos Contact Réalisations Blog Nos Services Ressources FAQ Carrières Notre Équipe Mentions Légales Politique de Confidentialité Abonnez-vous à notre newsletter S'ABONNER S'ABONNER Copyright © 2026 Alivaon, Tous droits réservés.",
+    "links": [
+      {
+        "href": "https://wa.me/?text=Logiciel%20sur%20mesure%20ou%20logiciel%20standard%20%3A%20que%20choisir%20pour%20votre%20PME%20camerounaise%20%3F%20https%3A%2F%2Fwww.alivaon.com%2Fblog%2Flogiciel-sur-mesure-ou-standard-pme-cameroun",
+        "text": "Partager sur WhatsApp",
+        "rel": "noopener noreferrer",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "Accueil",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "site logo",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/",
+        "text": "Site Logo",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/about",
+        "text": "À propos",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/about",
+        "text": "À Propos",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog",
+        "text": "Blog",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/blog",
+        "text": "Logiciel de gestion",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/category/applications-mobiles",
+        "text": "Applications mobiles (0)",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/category/ia-automatisation",
+        "text": "IA & Automatisation (0)",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/category/logiciels-de-gestion",
+        "text": "Logiciels de Gestion (5)",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/category/saas-applications-web",
+        "text": "SaaS & Applications web (0)",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/category/securite-maintenance",
+        "text": "Sécurité & Maintenance (0)",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/category/seo-visibilite-google",
+        "text": "SEO & Visibilité Google (0)",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/category/sites-web-e-commerce",
+        "text": "Sites web & E-commerce (0)",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/category/transformation-digitale-au-cameroun-et-dans-le-monde",
+        "text": "Transformation digitale au Cameroun et dans le monde (0)",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/gerer-entreprise-excel-cout-reel-alternatives",
+        "text": "Excel pour gérer votre entreprise : pourquoi ça finit toujours par vous coûter cher (et par quoi le remplacer)",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/blog/gerer-entreprise-excel-cout-reel-alternatives",
+        "text": "Excel pour gérer votre entreprise : pourquoi ça finit toujours par vous coûter cher (et par quoi le remplacer) - article blog Alivaon Cameroun",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/gerer-entreprise-excel-cout-reel-alternatives",
+        "text": "Lire l'article : Excel pour gérer votre entreprise : pourquoi ça finit toujours par vous coûter cher (et par quoi le remplacer)",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/logiciel-de-gestion-entreprise-cameroun-guide-complet-pour-bien-choisir",
+        "text": "guide complet pour bien choisir en 2026",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/logiciel-de-gestion-entreprise-cameroun-guide-complet-pour-bien-choisir",
+        "text": "Lire l'article : Logiciel de gestion d'entreprise au Cameroun : le guide complet pour bien choisir en 2026",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/logiciel-de-gestion-entreprise-cameroun-guide-complet-pour-bien-choisir",
+        "text": "Logiciel de gestion d'entreprise au Cameroun : le guide complet pour bien choisir en 2026",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/blog/logiciel-de-gestion-entreprise-cameroun-guide-complet-pour-bien-choisir",
+        "text": "Logiciel de gestion d'entreprise au Cameroun : le guide complet pour bien choisir en 2026 - article blog Alivaon Cameroun",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/logiciel-sur-mesure-ou-standard-pme-cameroun",
+        "text": "Logiciel sur mesure ou logiciel standard : que choisir pour votre PME camerounaise ?",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/meilleurs-logiciels-gestion-commerciale-cameroun",
+        "text": "comparatif des 7 meilleurs logiciels de gestion commerciale au Cameroun",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/meilleurs-logiciels-gestion-commerciale-cameroun",
+        "text": "Les 7 meilleurs logiciels de gestion commerciale au Cameroun : comparatif 2026",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/blog/meilleurs-logiciels-gestion-commerciale-cameroun",
+        "text": "Les 7 meilleurs logiciels de gestion commerciale au Cameroun : comparatif 2026 - article blog Alivaon Cameroun",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/meilleurs-logiciels-gestion-commerciale-cameroun",
+        "text": "Lire l'article : Les 7 meilleurs logiciels de gestion commerciale au Cameroun : comparatif 2026",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/meilleurs-logiciels-gestion-commerciale-cameroun",
+        "text": "logiciel standard vous suffit, nous vous le disons",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/prix-logiciel-de-gestion-cameroun-fcfa",
+        "text": "Combien coûte un logiciel de gestion au Cameroun ? Prix, abonnements et budget réel en FCFA",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/blog/prix-logiciel-de-gestion-cameroun-fcfa",
+        "text": "Combien coûte un logiciel de gestion au Cameroun ? Prix, abonnements et budget réel en FCFA - article blog Alivaon Cameroun",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/prix-logiciel-de-gestion-cameroun-fcfa",
+        "text": "Lire l'article : Combien coûte un logiciel de gestion au Cameroun ? Prix, abonnements et budget réel en FCFA",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/tag/application-android",
+        "text": "Application Android",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/tag/automatisation",
+        "text": "Automatisation",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/tag/cameroun",
+        "text": "Cameroun",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/tag/douala",
+        "text": "Douala",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/tag/facturation",
+        "text": "Facturation",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/tag/gestion-de-stock",
+        "text": "Gestion de Stock",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/tag/logiciel-de-gestion",
+        "text": "Logiciel de gestion",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/tag/logiciel-sur-mesure",
+        "text": "Logiciel Sur Mesure",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/tag/pme",
+        "text": "PME",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/blog/tag/site-web-professionnel",
+        "text": "site web professionnel",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/carrieres",
+        "text": "Carrières",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Contact",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Demander un devis gratuit",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Demandez votre diagnostic gratuit - réponse sous 24 h",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "Démarrez Un projet",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/contact",
+        "text": "NOUS CONTACTER",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/faq",
+        "text": "FAQ",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/mentions-legales",
+        "text": "Mentions Légales",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/politique-de-confidentialite",
+        "text": "Politique de Confidentialité",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/portfolio",
+        "text": "Réalisations",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/services",
+        "text": "Nos Services",
+        "rel": "",
+        "count": 2
+      },
+      {
+        "href": "https://www.alivaon.com/services/logiciel-de-caisse-pos-douala",
+        "text": "caisse/POS",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services/logiciel-de-facturation-cameroun",
+        "text": "facturation conforme DGI",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services/logiciel-de-gestion-commerciale-sur-mesure-au-cameroun",
+        "text": "logiciel de gestion commerciale",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/services/logiciel-de-gestion-de-stock-cameroun",
+        "text": "gestion de stock",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.alivaon.com/team",
+        "text": "Notre Équipe",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.facebook.com/alivaon",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.alivaon.com%2Fblog%2Flogiciel-sur-mesure-ou-standard-pme-cameroun",
+        "text": "Partager sur Facebook",
+        "rel": "noopener noreferrer",
+        "count": 1
+      },
+      {
+        "href": "https://www.instagram.com/alivaon.io/",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.linkedin.com/company/alivaon/",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.alivaon.com%2Fblog%2Flogiciel-sur-mesure-ou-standard-pme-cameroun",
+        "text": "Partager sur LinkedIn",
+        "rel": "noopener noreferrer",
+        "count": 1
+      },
+      {
+        "href": "https://www.tiktok.com/@alivaon.io",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://x.com/alivaon",
+        "text": "",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "https://x.com/intent/tweet?url=https%3A%2F%2Fwww.alivaon.com%2Fblog%2Flogiciel-sur-mesure-ou-standard-pme-cameroun&text=Logiciel%20sur%20mesure%20ou%20logiciel%20standard%20%3A%20que%20choisir%20pour%20votre%20PME%20camerounaise%20%3F",
+        "text": "Partager sur X",
+        "rel": "noopener noreferrer",
+        "count": 1
+      },
+      {
+        "href": "mailto:contact@alivaon.com",
+        "text": "contact@alivaon.com",
+        "rel": "",
+        "count": 1
+      },
+      {
+        "href": "tel:+237691962158",
+        "text": "+237 6 91 96 21 58",
+        "rel": "",
+        "count": 1
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.alivaon.com/build/images/inner/blog-details/blog-details1_1.png",
+        "alt": "Logiciel de gestion d'entreprise au Cameroun : le guide complet pour bien choisir en 2026 - blog Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/inner/blog/blog-5-img-01.jpg",
+        "alt": "Logiciel de gestion d'entreprise au Cameroun : le guide complet pour bien choisir en 2026 - article blog Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/logo/logo.png",
+        "alt": "site logo",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/build/images/logo/logo.png",
+        "alt": "Site Logo",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/uploads/articles/0e902b44c050282bfb2fe0d4b8547ef90bae51ac.png",
+        "alt": "Logiciel sur mesure ou logiciel standard : que choisir pour votre PME camerounaise ? - article blog Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/uploads/articles/0e902b44c050282bfb2fe0d4b8547ef90bae51ac.png",
+        "alt": "Logiciel sur mesure ou logiciel standard : que choisir pour votre PME camerounaise ? - blog Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/uploads/articles/cd0d8f3a246cd1dc7e5aef34031ae2954c308cc4.png",
+        "alt": "Combien coûte un logiciel de gestion au Cameroun ? Prix, abonnements et budget réel en FCFA - article blog Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/uploads/articles/cd0d8f3a246cd1dc7e5aef34031ae2954c308cc4.png",
+        "alt": "Combien coûte un logiciel de gestion au Cameroun ? Prix, abonnements et budget réel en FCFA - blog Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/uploads/articles/d914622d396c17764046aea93268a11b22e131e6.webp",
+        "alt": "Excel pour gérer votre entreprise : pourquoi ça finit toujours par vous coûter cher (et par quoi le remplacer) - article blog Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/uploads/articles/d914622d396c17764046aea93268a11b22e131e6.webp",
+        "alt": "Excel pour gérer votre entreprise : pourquoi ça finit toujours par vous coûter cher (et par quoi le remplacer) - blog Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/uploads/articles/db5ae9c995eed09db846361406415885c8cabfd6.png",
+        "alt": "Les 7 meilleurs logiciels de gestion commerciale au Cameroun : comparatif 2026 - article blog Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/uploads/articles/db5ae9c995eed09db846361406415885c8cabfd6.png",
+        "alt": "Les 7 meilleurs logiciels de gestion commerciale au Cameroun : comparatif 2026 - blog Alivaon Cameroun",
+        "count": 1
+      },
+      {
+        "src": "https://www.alivaon.com/uploads/authors/d394090f2016f63f4725c4297bb16aa9e716f13d.png",
+        "alt": "Ludovic MOYO - Alivaon Douala",
+        "count": 2
+      }
+    ],
+    "bgImages": []
+  }
+}

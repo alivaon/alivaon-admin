@@ -1,0 +1,752 @@
+[
+  {
+    "url": "https://www.alivaon.com/",
+    "file": "_root--ccb1ebf6.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/",
+    "discoveredVia": [
+      "link",
+      "seed",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 59
+  },
+  {
+    "url": "https://www.alivaon.com/?utm_source=seo-parity&utm_medium=probe",
+    "file": "_root~utm_source=seo-parity-utm_medium=probe--f2d4c8e2.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/?utm_source=seo-parity&utm_medium=probe",
+    "discoveredVia": [
+      "seed"
+    ],
+    "inlinks": 0
+  },
+  {
+    "url": "https://www.alivaon.com/about",
+    "file": "about--a6f1cdff.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/about",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 58
+  },
+  {
+    "url": "https://www.alivaon.com/blog",
+    "file": "blog--442e2abe.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 58
+  },
+  {
+    "url": "https://www.alivaon.com/blog?page=2",
+    "file": "blog~page=2--0776b09e.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog?page=2",
+    "discoveredVia": [
+      "seed"
+    ],
+    "inlinks": 0
+  },
+  {
+    "url": "https://www.alivaon.com/blog/category/applications-mobiles",
+    "file": "blog__category__applications-mobiles--b0227cca.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/category/applications-mobiles",
+    "discoveredVia": [
+      "link"
+    ],
+    "inlinks": 5
+  },
+  {
+    "url": "https://www.alivaon.com/blog/category/ia-automatisation",
+    "file": "blog__category__ia-automatisation--f96de42f.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/category/ia-automatisation",
+    "discoveredVia": [
+      "link"
+    ],
+    "inlinks": 5
+  },
+  {
+    "url": "https://www.alivaon.com/blog/category/logiciels-de-gestion",
+    "file": "blog__category__logiciels-de-gestion--45c03def.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/category/logiciels-de-gestion",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 5
+  },
+  {
+    "url": "https://www.alivaon.com/blog/category/saas-applications-web",
+    "file": "blog__category__saas-applications-web--69917765.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/category/saas-applications-web",
+    "discoveredVia": [
+      "link"
+    ],
+    "inlinks": 5
+  },
+  {
+    "url": "https://www.alivaon.com/blog/category/securite-maintenance",
+    "file": "blog__category__securite-maintenance--92ce2eaf.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/category/securite-maintenance",
+    "discoveredVia": [
+      "link"
+    ],
+    "inlinks": 5
+  },
+  {
+    "url": "https://www.alivaon.com/blog/category/seo-visibilite-google",
+    "file": "blog__category__seo-visibilite-google--16d51fe3.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/category/seo-visibilite-google",
+    "discoveredVia": [
+      "link"
+    ],
+    "inlinks": 5
+  },
+  {
+    "url": "https://www.alivaon.com/blog/category/sites-web-e-commerce",
+    "file": "blog__category__sites-web-e-commerce--64a3f046.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/category/sites-web-e-commerce",
+    "discoveredVia": [
+      "link"
+    ],
+    "inlinks": 5
+  },
+  {
+    "url": "https://www.alivaon.com/blog/category/transformation-digitale-au-cameroun-et-dans-le-monde",
+    "file": "blog__category__transformation-digitale-au-cameroun-et-dans-le-monde--992eff5f.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/category/transformation-digitale-au-cameroun-et-dans-le-monde",
+    "discoveredVia": [
+      "link"
+    ],
+    "inlinks": 5
+  },
+  {
+    "url": "https://www.alivaon.com/blog/gerer-entreprise-excel-cout-reel-alternatives",
+    "file": "blog__gerer-entreprise-excel-cout-reel-alternatives--3c6eb842.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/gerer-entreprise-excel-cout-reel-alternatives",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 10
+  },
+  {
+    "url": "https://www.alivaon.com/blog/logiciel-de-gestion-entreprise-cameroun-guide-complet-pour-bien-choisir",
+    "file": "blog__logiciel-de-gestion-entreprise-cameroun-guide-complet-pour-bien-choisir--008dabb1.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/logiciel-de-gestion-entreprise-cameroun-guide-complet-pour-bien-choisir",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 8
+  },
+  {
+    "url": "https://www.alivaon.com/blog/logiciel-sur-mesure-ou-standard-pme-cameroun",
+    "file": "blog__logiciel-sur-mesure-ou-standard-pme-cameroun--4fcc52f0.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/logiciel-sur-mesure-ou-standard-pme-cameroun",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 10
+  },
+  {
+    "url": "https://www.alivaon.com/blog/meilleurs-logiciels-gestion-commerciale-cameroun",
+    "file": "blog__meilleurs-logiciels-gestion-commerciale-cameroun--d61a3d65.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/meilleurs-logiciels-gestion-commerciale-cameroun",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 10
+  },
+  {
+    "url": "https://www.alivaon.com/blog/prix-logiciel-de-gestion-cameroun-fcfa",
+    "file": "blog__prix-logiciel-de-gestion-cameroun-fcfa--a5546bdb.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/prix-logiciel-de-gestion-cameroun-fcfa",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 10
+  },
+  {
+    "url": "https://www.alivaon.com/blog/tag/application-android",
+    "file": "blog__tag__application-android--07f94576.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/tag/application-android",
+    "discoveredVia": [
+      "link"
+    ],
+    "inlinks": 5
+  },
+  {
+    "url": "https://www.alivaon.com/blog/tag/automatisation",
+    "file": "blog__tag__automatisation--1f83c628.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/tag/automatisation",
+    "discoveredVia": [
+      "link"
+    ],
+    "inlinks": 5
+  },
+  {
+    "url": "https://www.alivaon.com/blog/tag/cameroun",
+    "file": "blog__tag__cameroun--355a3774.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/tag/cameroun",
+    "discoveredVia": [
+      "link"
+    ],
+    "inlinks": 5
+  },
+  {
+    "url": "https://www.alivaon.com/blog/tag/douala",
+    "file": "blog__tag__douala--db09ad5c.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/tag/douala",
+    "discoveredVia": [
+      "link"
+    ],
+    "inlinks": 5
+  },
+  {
+    "url": "https://www.alivaon.com/blog/tag/facturation",
+    "file": "blog__tag__facturation--b5537257.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/tag/facturation",
+    "discoveredVia": [
+      "link"
+    ],
+    "inlinks": 5
+  },
+  {
+    "url": "https://www.alivaon.com/blog/tag/gestion-de-stock",
+    "file": "blog__tag__gestion-de-stock--a9fc36a1.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/tag/gestion-de-stock",
+    "discoveredVia": [
+      "link"
+    ],
+    "inlinks": 5
+  },
+  {
+    "url": "https://www.alivaon.com/blog/tag/logiciel-de-gestion",
+    "file": "blog__tag__logiciel-de-gestion--7c175ce3.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/tag/logiciel-de-gestion",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 5
+  },
+  {
+    "url": "https://www.alivaon.com/blog/tag/logiciel-sur-mesure",
+    "file": "blog__tag__logiciel-sur-mesure--0aa133ae.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/tag/logiciel-sur-mesure",
+    "discoveredVia": [
+      "link"
+    ],
+    "inlinks": 5
+  },
+  {
+    "url": "https://www.alivaon.com/blog/tag/pme",
+    "file": "blog__tag__pme--60c28724.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/tag/pme",
+    "discoveredVia": [
+      "link"
+    ],
+    "inlinks": 5
+  },
+  {
+    "url": "https://www.alivaon.com/blog/tag/site-web-professionnel",
+    "file": "blog__tag__site-web-professionnel--f1f57412.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/blog/tag/site-web-professionnel",
+    "discoveredVia": [
+      "link"
+    ],
+    "inlinks": 5
+  },
+  {
+    "url": "https://www.alivaon.com/carrieres",
+    "file": "carrieres--82d29bcd.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/carrieres",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 58
+  },
+  {
+    "url": "https://www.alivaon.com/carrieres/community-manager-hf",
+    "file": "carrieres__community-manager-hf--80d93a2a.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/carrieres/community-manager-hf",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 1
+  },
+  {
+    "url": "https://www.alivaon.com/carrieres/developpeur-web-hf",
+    "file": "carrieres__developpeur-web-hf--56c9b316.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/carrieres/developpeur-web-hf",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 1
+  },
+  {
+    "url": "https://www.alivaon.com/contact",
+    "file": "contact--0d2dc93b.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/contact",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 58
+  },
+  {
+    "url": "https://www.alivaon.com/en",
+    "file": "en--85d20597.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/en",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 13
+  },
+  {
+    "url": "https://www.alivaon.com/en/about",
+    "file": "en__about--19df208b.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/en/about",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 12
+  },
+  {
+    "url": "https://www.alivaon.com/en/blog",
+    "file": "en__blog--06842de8.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/en/blog",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 13
+  },
+  {
+    "url": "https://www.alivaon.com/en/careers",
+    "file": "en__careers--26149626.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/en/careers",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 12
+  },
+  {
+    "url": "https://www.alivaon.com/en/contact",
+    "file": "en__contact--079e14cd.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/en/contact",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 12
+  },
+  {
+    "url": "https://www.alivaon.com/en/faq",
+    "file": "en__faq--9c0acb81.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/en/faq",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 12
+  },
+  {
+    "url": "https://www.alivaon.com/en/legal-notice",
+    "file": "en__legal-notice--74bb60b0.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/en/legal-notice",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 12
+  },
+  {
+    "url": "https://www.alivaon.com/en/portfolio",
+    "file": "en__portfolio--4cb51951.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/en/portfolio",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 15
+  },
+  {
+    "url": "https://www.alivaon.com/en/privacy-policy",
+    "file": "en__privacy-policy--33385f80.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/en/privacy-policy",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 12
+  },
+  {
+    "url": "https://www.alivaon.com/en/services",
+    "file": "en__services--b3b725b5.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/en/services",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 12
+  },
+  {
+    "url": "https://www.alivaon.com/en/team",
+    "file": "en__team--e337cf52.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/en/team",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 12
+  },
+  {
+    "url": "https://www.alivaon.com/faq",
+    "file": "faq--689b448d.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/faq",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 58
+  },
+  {
+    "url": "https://www.alivaon.com/mentions-legales",
+    "file": "mentions-legales--07f75de1.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/mentions-legales",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 58
+  },
+  {
+    "url": "https://www.alivaon.com/politique-de-confidentialite",
+    "file": "politique-de-confidentialite--0ee215a1.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/politique-de-confidentialite",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 58
+  },
+  {
+    "url": "https://www.alivaon.com/portfolio",
+    "file": "portfolio--56f40cca.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/portfolio",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 58
+  },
+  {
+    "url": "https://www.alivaon.com/portfolio?category=application-mobile",
+    "file": "portfolio~category=application-mobile--05421754.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/portfolio?category=application-mobile",
+    "discoveredVia": [
+      "link"
+    ],
+    "inlinks": 4
+  },
+  {
+    "url": "https://www.alivaon.com/portfolio?category=application-web",
+    "file": "portfolio~category=application-web--54b39066.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/portfolio?category=application-web",
+    "discoveredVia": [
+      "link"
+    ],
+    "inlinks": 4
+  },
+  {
+    "url": "https://www.alivaon.com/portfolio?category=logiciel-de-gestion",
+    "file": "portfolio~category=logiciel-de-gestion--afbb219f.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/portfolio?category=logiciel-de-gestion",
+    "discoveredVia": [
+      "link"
+    ],
+    "inlinks": 4
+  },
+  {
+    "url": "https://www.alivaon.com/portfolio/site-web-auto-ecole-mairie-mainvilliers",
+    "file": "portfolio__site-web-auto-ecole-mairie-mainvilliers--6e955d0b.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/portfolio/site-web-auto-ecole-mairie-mainvilliers",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 3
+  },
+  {
+    "url": "https://www.alivaon.com/portfolio/site-web-leandry-petnga",
+    "file": "portfolio__site-web-leandry-petnga--c7a67811.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/portfolio/site-web-leandry-petnga",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 3
+  },
+  {
+    "url": "https://www.alivaon.com/services",
+    "file": "services--b8d8491b.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/services",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 58
+  },
+  {
+    "url": "https://www.alivaon.com/services/agence-seo-cameroun",
+    "file": "services__agence-seo-cameroun--ba03b02b.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/services/agence-seo-cameroun",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 4
+  },
+  {
+    "url": "https://www.alivaon.com/services/automatisation-ia-entreprise-cameroun",
+    "file": "services__automatisation-ia-entreprise-cameroun--8a61907d.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/services/automatisation-ia-entreprise-cameroun",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 2
+  },
+  {
+    "url": "https://www.alivaon.com/services/creation-application-mobile-cameroun",
+    "file": "services__creation-application-mobile-cameroun--a2ffd080.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/services/creation-application-mobile-cameroun",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 4
+  },
+  {
+    "url": "https://www.alivaon.com/services/creation-site-e-commerce-cameroun",
+    "file": "services__creation-site-e-commerce-cameroun--c6d65679.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/services/creation-site-e-commerce-cameroun",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 4
+  },
+  {
+    "url": "https://www.alivaon.com/services/creation-site-web-douala",
+    "file": "services__creation-site-web-douala--81dcf129.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/services/creation-site-web-douala",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 11
+  },
+  {
+    "url": "https://www.alivaon.com/services/developpement-application-web-saas-cameroun",
+    "file": "services__developpement-application-web-saas-cameroun--2ea8fa93.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/services/developpement-application-web-saas-cameroun",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 4
+  },
+  {
+    "url": "https://www.alivaon.com/services/erp-crm-pme-cameroun",
+    "file": "services__erp-crm-pme-cameroun--da0063ea.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/services/erp-crm-pme-cameroun",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 5
+  },
+  {
+    "url": "https://www.alivaon.com/services/formation-aux-outils-numeriques",
+    "file": "services__formation-aux-outils-numeriques--7f452a18.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/services/formation-aux-outils-numeriques",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 3
+  },
+  {
+    "url": "https://www.alivaon.com/services/logiciel-de-caisse-pos-douala",
+    "file": "services__logiciel-de-caisse-pos-douala--1404a4b9.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/services/logiciel-de-caisse-pos-douala",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 9
+  },
+  {
+    "url": "https://www.alivaon.com/services/logiciel-de-facturation-cameroun",
+    "file": "services__logiciel-de-facturation-cameroun--9712321f.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/services/logiciel-de-facturation-cameroun",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 9
+  },
+  {
+    "url": "https://www.alivaon.com/services/logiciel-de-gestion-commerciale-sur-mesure-au-cameroun",
+    "file": "services__logiciel-de-gestion-commerciale-sur-mesure-au-cameroun--25b403be.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/services/logiciel-de-gestion-commerciale-sur-mesure-au-cameroun",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 21
+  },
+  {
+    "url": "https://www.alivaon.com/services/logiciel-de-gestion-de-stock-cameroun",
+    "file": "services__logiciel-de-gestion-de-stock-cameroun--4bc482f5.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/services/logiciel-de-gestion-de-stock-cameroun",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 9
+  },
+  {
+    "url": "https://www.alivaon.com/services/maintenance-hebergement-securise-cameroun",
+    "file": "services__maintenance-hebergement-securise-cameroun--c8f54dc1.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/services/maintenance-hebergement-securise-cameroun",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 3
+  },
+  {
+    "url": "https://www.alivaon.com/services/transformation-digitale-cameroun",
+    "file": "services__transformation-digitale-cameroun--fb4b665c.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/services/transformation-digitale-cameroun",
+    "discoveredVia": [
+      "link",
+      "sitemap"
+    ],
+    "inlinks": 7
+  },
+  {
+    "url": "https://www.alivaon.com/team",
+    "file": "team--f80f30ca.json",
+    "status": 200,
+    "finalUrl": "https://www.alivaon.com/team",
+    "discoveredVia": [
+      "link",
+      "sitemap",
+      "sitemap-alternate"
+    ],
+    "inlinks": 58
+  }
+]
