@@ -143,6 +143,13 @@ Relevés le 23/09/2026. À traiter **après** la bascule :
    déterministe d'un jour à l'autre.
 10. Common Crawl a reçu une **500 sur `/robots.txt`** lors d'un passage en 2026
     (incident passé, aujourd'hui 200).
+11. JSON-LD `JobPosting` : `employmentType` vaut « CDI », « STAGE »… (type de
+    contrat en majuscules) au lieu des valeurs schema.org attendues par Google
+    (`FULL_TIME`, `INTERN`…). La table de correspondance existe dans le code
+    (`JobOffer::CONTRACT_SCHEMA_MAP`) mais les templates ne l'utilisent pas.
+12. Projets « à la une » de l'accueil non filtrés sur leur statut actif : un
+    projet désactivé mais à la une produirait un lien interne vers une 404
+    (aucun cas au 24/09).
 
 Seul le point 1 déroge à la parité stricte : reproduire volontairement une
 erreur 500 n'a pas de sens. **Décision du 23/09/2026 : exception documentée**
