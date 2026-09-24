@@ -44,6 +44,12 @@ export async function assertNullMailer() {
 }
 
 export default async function globalSetup() {
+  // Sans ces comptes, le nettoyage ci-dessous supprimerait aussi les deux
+  // comptes de test (NOT IN ('undefined', …)).
+  const missing = ['E2E_ADMIN', 'E2E_EDITOR', 'E2E_PASSWORD'].filter((name) => !process.env[name]);
+  if (missing.length > 0) {
+    throw new Error(`Variables manquantes : ${missing.join(', ')} (comptes de test de la base locale).`);
+  }
   await assertNullMailer();
 
   const e2e = "LIKE 'e2e-%@localhost.test'";

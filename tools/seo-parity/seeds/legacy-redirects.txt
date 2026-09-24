@@ -1,3 +1,0 @@
-# Anciennes URLs redirigées (301) — une par ligne, chemin seul.
-# Source : config/routes.yaml d'alivaon-symfony. Toute nouvelle redirection doit être ajoutée ici.
-/blog/logiciel-de-gestion-d-entreprise-au-cameroun-le-guide-complet-pour-bien-choisir-en-2026

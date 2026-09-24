@@ -1,7 +1,0 @@
-[
-  {
-    "url": "https://www.alivaon.com/blog?page=0",
-    "field": "probe.not-found:/blog?page=0",
-    "reason": "Erreur 500 de la prod actuelle (KnpPaginator refuse page=0) non reproduite : le nouveau site renvoie 404. Validé par le propriétaire le 23/09/2026."
-  }
-]

@@ -1,19 +1,18 @@
-# alivaon-next
+# alivaon-admin
 
-Front public (`www.alivaon.com`) et back-office (`www.admin.alivaon.com`) d'Alivaon
-en Next.js. Le backend reste l'application Symfony (`alivaon-symfony`), exposée
-en API.
+Back-office d'Alivaon (`www.admin.alivaon.com`) en Next.js. Le backend reste
+l'application Symfony (`alivaon-symfony`), exposée en API ; le site public
+(`www.alivaon.com`) est dans le dépôt `alivaon-site`.
+
+Anciennement `alivaon-next` (site et back-office), séparé le 24/09/2026.
 
 ## Organisation (workspace pnpm)
 
 | Dossier | Contenu | État |
 |---|---|---|
-| `apps/site` | Site public (Next.js 16) | socle ✅ — pages en phase 4 |
 | `apps/admin` | Back-office (Next.js 16, Tailwind) | ✅ écrans d'EasyAdmin repris (phase 3) — tests e2e : `apps/admin/e2e` |
-| `packages/api-client` | Client typé généré depuis l'OpenAPI de Symfony | ✅ |
-| `docker/Dockerfile` | Image d'une application (`--build-arg APP=site\|admin`) | ✅ |
-| `tools/seo-parity` | Relevé SEO de référence et contrôle de parité bloquant | ✅ |
-| `tests/seo-baseline` | Relevés versionnés (référence de production) | ✅ |
+| `packages/api-client` | Client typé généré depuis l'OpenAPI de Symfony (copie également présente dans `alivaon-site` : régénérer les deux après une évolution de l'API) | ✅ |
+| `docker/Dockerfile` | Image du back-office (`ghcr.io/alivaon/alivaon-next-admin`) | ✅ |
 
 ## Prérequis
 
@@ -39,25 +38,12 @@ Appels depuis le serveur Next.js : adresse interne de Symfony + `publicOrigin`
 (transmis en `X-Forwarded-Host`) pour que les URLs absolues renvoyées
 (canonical, hreflang) portent le domaine public.
 
-### Régénération des pages
-
-`apps/site` expose `POST /api/revalidate` (réseau interne uniquement), appelé
-par Symfony après chaque modification de contenu avec le secret
-`NEXT_REVALIDATE_SECRET`. Les tags acceptés (`src/lib/cache-tags.ts`) sont ceux
-de `App\Revalidation\RevalidationTags`.
 
 ### Images Docker
 
 ```bash
-docker build -f docker/Dockerfile --build-arg APP=site  -t alivaon-site  .
-docker build -f docker/Dockerfile --build-arg APP=admin -t alivaon-admin .
+docker build -f docker/Dockerfile -t alivaon-admin .
 ```
 
 Serveur standalone sur le port 3000, utilisateur non root, contrôle de santé
 `/api/health`.
-
-## SEO : zéro régression
-
-Aucune version du front ne part en production sans passer le contrôle de parité
-contre le relevé de référence de la production actuelle. Voir
-[docs/seo-parity.md](docs/seo-parity.md).
