@@ -119,7 +119,7 @@ export async function TeamIndexPage({ locale }: { locale: Locale }) {
 ) : (
 <>
 
-                <h3 className="team-page__card-content-title">"{t('team.index.no_member_quote')}"</h3>
+                <h3 className="team-page__card-content-title">&quot;{t('team.index.no_member_quote')}&quot;</h3>
               
 </>
 )}

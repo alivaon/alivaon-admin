@@ -64,7 +64,7 @@ export async function PortfolioIndexPage({ locale, searchParams }: { locale: Loc
         <div className="container rr-container-1600">
           <div className="portfolio-page__top">
             <div className="portfolio-page__top-item">
-              <span className="portfolio-page__top-item-title">// {currentCategory ? `${t('portfolio.projects_prefix')} ${currentCategory.name}` : t('portfolio.selected')}</span>
+              <span className="portfolio-page__top-item-title">{'// '}{currentCategory ? `${t('portfolio.projects_prefix')} ${currentCategory.name}` : t('portfolio.selected')}</span>
             </div>
             <div className="portfolio-page__top-item">
               <a href={path(locale, 'app_portfolio_index')} className={`portfolio-page__top-item-title2${currentCategory ? '' : ' active'}`}>{t('portfolio.all_projects')}</a>
