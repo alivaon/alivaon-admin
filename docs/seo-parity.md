@@ -58,7 +58,7 @@ validée par le propriétaire du site :
 
 ```json
 [
-  { "url": "https://www.alivaon.com/admin", "field": "probe.admin", "reason": "Admin déplacé sur admin.alivaon.com (301) — validé le JJ/MM/AAAA" }
+  { "url": "https://www.alivaon.com/admin", "field": "probe.admin", "reason": "Admin déplacé sur www.admin.alivaon.com (301) — validé le JJ/MM/AAAA" }
 ]
 ```
 

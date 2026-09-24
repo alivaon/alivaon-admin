@@ -5,7 +5,7 @@ name: Deploy
 # touchant QUE les services web et admin (Symfony a son propre pipeline).
 #
 # - branche ≠ main → staging : web + admin (admin.staging / preview.staging) ;
-# - main → production : l'ADMIN SEULEMENT (admin.alivaon.com, depuis le
+# - main → production : l'ADMIN SEULEMENT (www.admin.alivaon.com, depuis le
 #   24/09/2026). Le site public ne remplacera Symfony sur www qu'après le
 #   contrôle de parité SEO (docs/seo-parity.md) : aucune image `site` n'est
 #   publiée ni déployée en production d'ici là.

@@ -1,6 +1,6 @@
 # alivaon-next
 
-Front public (`www.alivaon.com`) et back-office (`admin.alivaon.com`) d'Alivaon
+Front public (`www.alivaon.com`) et back-office (`www.admin.alivaon.com`) d'Alivaon
 en Next.js. Le backend reste l'application Symfony (`alivaon-symfony`), exposée
 en API.
 

@@ -1,7 +1,7 @@
 import type { NextConfig } from 'next';
 
 /**
- * Back-office admin.alivaon.com. Jamais indexé : en-tête X-Robots-Tag posé
+ * Back-office www.admin.alivaon.com. Jamais indexé : en-tête X-Robots-Tag posé
  * ici en plus de Traefik et du robots.txt de l'application.
  *
  * En production, Traefik route /api/admin, /api/auth et /uploads vers
