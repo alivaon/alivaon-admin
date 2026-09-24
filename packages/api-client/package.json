@@ -1,0 +1,21 @@
+{
+  "name": "@alivaon/api-client",
+  "private": true,
+  "type": "module",
+  "description": "Client typé de l'API Symfony (types générés depuis openapi.json).",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "generate": "openapi-typescript openapi.json -o src/schema.d.ts",
+    "check-fresh": "openapi-typescript openapi.json -o src/schema.d.ts --check",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openapi-fetch": "0.17.0"
+  },
+  "devDependencies": {
+    "openapi-typescript": "7.13.0",
+    "typescript": "5"
+  }
+}

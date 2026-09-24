@@ -10,6 +10,9 @@
     "seo:lighthouse": "pnpm --filter @alivaon/seo-parity run lighthouse",
     "seo:compare": "pnpm --filter @alivaon/seo-parity run compare",
     "test": "pnpm -r run test",
-    "typecheck": "pnpm -r run typecheck"
+    "typecheck": "pnpm -r run typecheck",
+    "build": "pnpm -r run build",
+    "lint": "pnpm -r run lint",
+    "api:generate": "pnpm --filter @alivaon/api-client run generate"
   }
 }
