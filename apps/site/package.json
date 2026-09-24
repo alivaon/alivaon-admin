@@ -7,15 +7,17 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "typecheck": "next typegen && tsc --noEmit"
+    "typecheck": "next typegen && tsc --noEmit && tsc --noEmit -p tsconfig.e2e.json"
   },
   "dependencies": {
+    "@alivaon/api-client": "workspace:*",
     "next": "16.3.6",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "@alivaon/api-client": "workspace:*"
+    "server-only": "^0.0.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.63.0",
     "@types/node": "^24",
     "@types/react": "^19",
     "@types/react-dom": "^19",

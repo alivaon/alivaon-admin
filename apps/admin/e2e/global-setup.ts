@@ -23,7 +23,7 @@ function sql(query: string) {
 const SYMFONY_URL = process.env.SYMFONY_DEV_URL ?? 'http://127.0.0.1:8000';
 
 /** Lit, dans le profileur de Symfony, le MAILER_DSN vu par le serveur web. */
-async function assertNullMailer() {
+export async function assertNullMailer() {
   const head = await fetch(`${SYMFONY_URL}/`, { method: 'HEAD' });
   const token = head.headers.get('x-debug-token');
   if (!token) {

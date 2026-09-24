@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { applyExceptions, compareSnapshots, hasBlocking, type SnapshotData } from '../src/compare.ts';
+import { applyExceptions, compareSnapshots, hasBlocking, normalizeMetaValue, type SnapshotData } from '../src/compare.ts';
 import { extractPage } from '../src/extract.ts';
 import { absUrl, fileNameForUrl, maskRunDate, normText, rewriteOrigins } from '../src/normalize.ts';
 import { parseSitemap } from '../src/sitemap.ts';
@@ -52,6 +52,12 @@ describe('normalize', () => {
     expect(JSON.parse(out)).toEqual({ a: 'https://www.alivaon.com/blog', b: 'http://alivaon.com/', c: 'https://example.com/' });
   });
 
+  it('réécrit aussi l’origine encodée des liens de partage', () => {
+    const json = JSON.stringify({ href: 'https://wa.me/?text=Titre%20https%3A%2F%2Fwww.staging.alivaon.com%2Fblog%2Fx' });
+    expect(rewriteOrigins(json, 'https://www.staging.alivaon.com', 'https://www.alivaon.com')).toContain('https%3A%2F%2Fwww.alivaon.com%2Fblog%2Fx');
+    expect(rewriteOrigins('"http%3A%2F%2F127.0.0.1%3A3000%2Fblog"', 'http://127.0.0.1:3000', 'https://www.alivaon.com')).toBe('"http%3A%2F%2Fwww.alivaon.com%2Fblog"');
+  });
+
   it('masque la date du jour du relevé, pas les autres dates', () => {
     const run = new Date(2026, 8, 24);
     expect(maskRunDate('Mise à jour : 24/09/2026. Publié le 12/03/2026, modifié 2026-09-24.', run)).toBe(
@@ -81,8 +87,22 @@ describe('extractPage', () => {
     expect(JSON.stringify(snap.jsonLd)).toBe(JSON.stringify([{ '@context': 'https://schema.org', '@type': 'Organization', name: 'Alivaon' }]));
   });
 
+  it('recolle les nœuds texte séparés par des commentaires (rendu React)', () => {
+    const page = extractPage('<html><body><div>1<!-- -->. <!-- -->Question</div><h2>A</h2><p>B</p></body></html>', 'https://www.alivaon.com/');
+    expect(page.text).toBe('1. Question A B');
+  });
+
+  it('voit les mots collés entre éléments en ligne, comme à l’affichage', () => {
+    const glued = extractPage('<html><body><h3><span>Totale</span>Suivi</h3></body></html>', 'https://www.alivaon.com/');
+    const spaced = extractPage('<html><body><h3><span>Totale</span>\n  Suivi</h3></body></html>', 'https://www.alivaon.com/');
+    expect(glued.text).toBe('TotaleSuivi');
+    expect(spaced.text).toBe('Totale Suivi');
+    expect(extractPage('<html><body><p>a<br>b</p><div>c</div>d</body></html>', 'https://www.alivaon.com/').text).toBe('a b c d');
+  });
+
   it('sépare les blocs de texte et ignore les scripts', () => {
-    expect(snap.text).toBe('Le blog Premier paragraphe Récents Article 1 Article 1 Haut x Écrire');
+    // <a>Haut</a><a>x</a> s'affiche « Hautx » : deux liens en ligne sans blanc entre eux.
+    expect(snap.text).toBe('Le blog Premier paragraphe Récents Article 1 Article 1 Hautx Écrire');
     expect(snap.headings).toEqual([{ level: 1, text: 'Le blog' }, { level: 2, text: 'Récents' }]);
   });
 
@@ -98,6 +118,15 @@ describe('extractPage', () => {
     expect(snap.images.find((i) => i.src.endsWith('/uploads/a.jpg'))?.alt).toBeNull();
     expect(snap.images.find((i) => i.src.endsWith('/uploads/b.jpg'))?.alt).toBe('');
     expect(snap.bgImages).toEqual(['https://www.alivaon.com/build/images/bg/hero.jpg']);
+  });
+});
+
+describe('normalizeMetaValue', () => {
+  it('compare charset et viewport en valeur, rien d’autre', () => {
+    expect(normalizeMetaValue('charset', 'UTF-8')).toBe(normalizeMetaValue('charset', 'utf-8'));
+    expect(normalizeMetaValue('name:viewport', 'width=device-width, initial-scale=1.0')).toBe(normalizeMetaValue('name:viewport', 'width=device-width, initial-scale=1'));
+    expect(normalizeMetaValue('name:viewport', 'width=device-width, initial-scale=1.5')).not.toBe(normalizeMetaValue('name:viewport', 'width=device-width, initial-scale=1'));
+    expect(normalizeMetaValue('name:description', 'UTF-8')).toBe('UTF-8');
   });
 });
 
