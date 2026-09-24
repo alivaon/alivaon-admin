@@ -2,14 +2,15 @@
   "name": "@alivaon/api-client",
   "private": true,
   "type": "module",
-  "description": "Client typé de l'API Symfony (types générés depuis openapi.json).",
+  "description": "Client typ\u00e9 de l'API Symfony (types g\u00e9n\u00e9r\u00e9s depuis openapi.json).",
   "exports": {
     ".": "./src/index.ts"
   },
   "scripts": {
     "generate": "openapi-typescript openapi.json -o src/schema.d.ts",
     "check-fresh": "openapi-typescript openapi.json -o src/schema.d.ts --check",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "sync": "php ../../../alivaon-symfony/bin/console cache:clear --env=dev -q && php ../../../alivaon-symfony/bin/console api:openapi:export --output=\"$PWD/openapi.json\" && node scripts/normalize-openapi.mjs openapi.json && pnpm run generate"
   },
   "dependencies": {
     "openapi-fetch": "0.17.0"

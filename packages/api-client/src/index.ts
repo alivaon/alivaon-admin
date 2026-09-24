@@ -23,6 +23,10 @@ export interface ApiClientOptions {
  * Client typé de l'API Symfony (types générés depuis openapi.json :
  * `pnpm --filter @alivaon/api-client generate`).
  *
+ * Tous les champs sont typés présents (scripts/normalize-openapi.mjs) :
+ * l'API renvoie toujours chaque champ, un champ vide valant null
+ * (KeepNullValuesContextBuilder côté Symfony).
+ *
  * JSON-LD par défaut : les listes paginées portent totalItems / view.
  */
 export function createApiClient(options: ApiClientOptions): Client<paths> {

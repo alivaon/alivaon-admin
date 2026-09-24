@@ -1354,14 +1354,14 @@ export interface components {
          */
         "AdminArticle-admin.read": {
             /** @description Identifiant de l'auteur (obligatoire). */
-            author?: number | null;
-            category?: number | null;
+            author: number | null;
+            category: number | null;
             /** Format: date-time */
-            createdAt?: string | null;
+            createdAt: string | null;
             /** @description Nom du fichier renvoyé par POST /api/admin/uploads/articles. */
-            featuredImageName?: string | null;
-            id?: number | null;
-            imageUrls?: {
+            featuredImageName: string | null;
+            id: number | null;
+            imageUrls: {
                 [key: string]: string | null;
             };
             /**
@@ -1370,15 +1370,15 @@ export interface components {
              */
             isPublished: boolean;
             /** Format: date-time */
-            publishedAt?: string | null;
-            readingTime?: number | null;
-            tags?: number[];
+            publishedAt: string | null;
+            readingTime: number | null;
+            tags: number[];
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminArticleTranslation-admin.read_noid"];
             };
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
             /** @default 0 */
             viewsCount: number;
         };
@@ -1388,21 +1388,21 @@ export interface components {
          */
         "AdminArticle-admin.write": {
             /** @description Identifiant de l'auteur (obligatoire). */
-            author?: number | null;
-            category?: number | null;
+            author: number | null;
+            category: number | null;
             /** @description Nom du fichier renvoyé par POST /api/admin/uploads/articles. */
-            featuredImageName?: string | null;
+            featuredImageName: string | null;
             /**
              * @description Interrupteur global : décoché, l'article disparaît dans toutes les langues.
              * @default false
              */
             isPublished: boolean;
             /** Format: date-time */
-            publishedAt?: string | null;
-            readingTime?: number | null;
-            tags?: number[];
+            publishedAt: string | null;
+            readingTime: number | null;
+            tags: number[];
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminArticleTranslation-admin.write_noid"];
             };
         };
@@ -1412,14 +1412,14 @@ export interface components {
          */
         "AdminArticle.jsonld-admin.read": components["schemas"]["HydraItemBaseSchema"] & {
             /** @description Identifiant de l'auteur (obligatoire). */
-            author?: number | null;
-            category?: number | null;
+            author: number | null;
+            category: number | null;
             /** Format: date-time */
-            createdAt?: string | null;
+            createdAt: string | null;
             /** @description Nom du fichier renvoyé par POST /api/admin/uploads/articles. */
-            featuredImageName?: string | null;
-            id?: number | null;
-            imageUrls?: {
+            featuredImageName: string | null;
+            id: number | null;
+            imageUrls: {
                 [key: string]: string | null;
             };
             /**
@@ -1428,15 +1428,15 @@ export interface components {
              */
             isPublished: boolean;
             /** Format: date-time */
-            publishedAt?: string | null;
-            readingTime?: number | null;
-            tags?: number[];
+            publishedAt: string | null;
+            readingTime: number | null;
+            tags: number[];
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminArticleTranslation.jsonld-admin.read_noid"];
             };
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
             /** @default 0 */
             viewsCount: number;
         };
@@ -1446,7 +1446,7 @@ export interface components {
              * @default
              */
             content: string;
-            excerpt?: string | null;
+            excerpt: string | null;
             /**
              * @description Publication de cette langue (une traduction ne se publie que complète).
              * @default false
@@ -1457,14 +1457,14 @@ export interface components {
              * @default false
              */
             isStale: boolean;
-            metaDescription?: string | null;
-            metaTitle?: string | null;
+            metaDescription: string | null;
+            metaTitle: string | null;
             /** @description Vide : dérivé du titre. Figé en pratique une fois publié (URL indexée). */
-            slug?: string | null;
+            slug: string | null;
             /** @default  */
             title: string;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         "AdminArticleTranslation-admin.write_noid": {
             /**
@@ -1472,16 +1472,16 @@ export interface components {
              * @default
              */
             content: string;
-            excerpt?: string | null;
+            excerpt: string | null;
             /**
              * @description Publication de cette langue (une traduction ne se publie que complète).
              * @default false
              */
             isPublished: boolean;
-            metaDescription?: string | null;
-            metaTitle?: string | null;
+            metaDescription: string | null;
+            metaTitle: string | null;
             /** @description Vide : dérivé du titre. Figé en pratique une fois publié (URL indexée). */
-            slug?: string | null;
+            slug: string | null;
             /** @default  */
             title: string;
         };
@@ -1491,7 +1491,7 @@ export interface components {
              * @default
              */
             content: string;
-            excerpt?: string | null;
+            excerpt: string | null;
             /**
              * @description Publication de cette langue (une traduction ne se publie que complète).
              * @default false
@@ -1502,14 +1502,14 @@ export interface components {
              * @default false
              */
             isStale: boolean;
-            metaDescription?: string | null;
-            metaTitle?: string | null;
+            metaDescription: string | null;
+            metaTitle: string | null;
             /** @description Vide : dérivé du titre. Figé en pratique une fois publié (URL indexée). */
-            slug?: string | null;
+            slug: string | null;
             /** @default  */
             title: string;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         /**
          * @description Auteurs du blog : /api/admin/authors.
@@ -1517,21 +1517,21 @@ export interface components {
          */
         "AdminAuthor-admin.read": {
             /** @description Nom du fichier renvoyé par POST /api/admin/uploads/authors. */
-            avatarName?: string | null;
-            id?: number | null;
-            imageUrls?: {
+            avatarName: string | null;
+            id: number | null;
+            imageUrls: {
                 [key: string]: string | null;
             };
             /** @description Réseau → URL. */
-            socialLinks?: {
+            socialLinks: {
                 [key: string]: string;
             } | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminAuthorTranslation-admin.read_noid"];
             };
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         /**
          * @description Auteurs du blog : /api/admin/authors.
@@ -1539,13 +1539,13 @@ export interface components {
          */
         "AdminAuthor-admin.write": {
             /** @description Nom du fichier renvoyé par POST /api/admin/uploads/authors. */
-            avatarName?: string | null;
+            avatarName: string | null;
             /** @description Réseau → URL. */
-            socialLinks?: {
+            socialLinks: {
                 [key: string]: string;
             } | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminAuthorTranslation-admin.write_noid"];
             };
         };
@@ -1555,24 +1555,24 @@ export interface components {
          */
         "AdminAuthor.jsonld-admin.read": components["schemas"]["HydraItemBaseSchema"] & {
             /** @description Nom du fichier renvoyé par POST /api/admin/uploads/authors. */
-            avatarName?: string | null;
-            id?: number | null;
-            imageUrls?: {
+            avatarName: string | null;
+            id: number | null;
+            imageUrls: {
                 [key: string]: string | null;
             };
             /** @description Réseau → URL. */
-            socialLinks?: {
+            socialLinks: {
                 [key: string]: string;
             } | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminAuthorTranslation.jsonld-admin.read_noid"];
             };
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         "AdminAuthorTranslation-admin.read_noid": {
-            bio?: string | null;
+            bio: string | null;
             /**
              * @description Publication de cette langue (une traduction ne se publie que complète).
              * @default false
@@ -1586,12 +1586,12 @@ export interface components {
             /** @default  */
             name: string;
             /** @description Vide : dérivé du nom. */
-            slug?: string | null;
+            slug: string | null;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         "AdminAuthorTranslation-admin.write_noid": {
-            bio?: string | null;
+            bio: string | null;
             /**
              * @description Publication de cette langue (une traduction ne se publie que complète).
              * @default false
@@ -1600,10 +1600,10 @@ export interface components {
             /** @default  */
             name: string;
             /** @description Vide : dérivé du nom. */
-            slug?: string | null;
+            slug: string | null;
         };
         "AdminAuthorTranslation.jsonld-admin.read_noid": {
-            bio?: string | null;
+            bio: string | null;
             /**
              * @description Publication de cette langue (une traduction ne se publie que complète).
              * @default false
@@ -1617,9 +1617,9 @@ export interface components {
             /** @default  */
             name: string;
             /** @description Vide : dérivé du nom. */
-            slug?: string | null;
+            slug: string | null;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         /**
          * @description Candidatures.
@@ -1634,26 +1634,26 @@ export interface components {
          *       ApiCandidatureController)
          */
         AdminCandidateApplication: {
-            city?: string | null;
-            country?: string | null;
+            city: string | null;
+            country: string | null;
             /** Format: date-time */
-            createdAt?: string;
+            createdAt: string;
             /** @description Chemin de téléchargement du CV (authentifié), null s'il n'y en a pas. */
-            cvUrl?: string | null;
-            email?: string;
-            firstName?: string;
-            id?: number;
+            cvUrl: string | null;
+            email: string;
+            firstName: string;
+            id: number;
             /** @description offre (titre français), null si supprimée */
-            jobOffer?: {
+            jobOffer: {
                 [key: string]: number | string | null;
             } | null;
-            lastName?: string;
-            linkedinUrl?: string | null;
-            motivation?: string;
-            phone?: string | null;
-            portfolioUrl?: string | null;
-            status?: string;
-            statusLabel?: string;
+            lastName: string;
+            linkedinUrl: string | null;
+            motivation: string;
+            phone: string | null;
+            portfolioUrl: string | null;
+            status: string;
+            statusLabel: string;
         };
         /**
          * @description Candidatures.
@@ -1688,35 +1688,35 @@ export interface components {
          *       ApiCandidatureController)
          */
         "AdminCandidateApplication.jsonld": components["schemas"]["HydraItemBaseSchema"] & {
-            city?: string | null;
-            country?: string | null;
+            city: string | null;
+            country: string | null;
             /** Format: date-time */
-            createdAt?: string;
+            createdAt: string;
             /** @description Chemin de téléchargement du CV (authentifié), null s'il n'y en a pas. */
-            cvUrl?: string | null;
-            email?: string;
-            firstName?: string;
-            id?: number;
+            cvUrl: string | null;
+            email: string;
+            firstName: string;
+            id: number;
             /** @description offre (titre français), null si supprimée */
-            jobOffer?: {
+            jobOffer: {
                 [key: string]: number | string | null;
             } | null;
-            lastName?: string;
-            linkedinUrl?: string | null;
-            motivation?: string;
-            phone?: string | null;
-            portfolioUrl?: string | null;
-            status?: string;
-            statusLabel?: string;
+            lastName: string;
+            linkedinUrl: string | null;
+            motivation: string;
+            phone: string | null;
+            portfolioUrl: string | null;
+            status: string;
+            statusLabel: string;
         };
         /**
          * @description Catégories du blog : /api/admin/categories.
          *     Fiche, création (POST), remplacement complet (PUT), suppression.
          */
         "AdminCategory-admin.read": {
-            id?: number | null;
+            id: number | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminCategoryTranslation-admin.read_noid"];
             };
         };
@@ -1726,7 +1726,7 @@ export interface components {
          */
         "AdminCategory-admin.write": {
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminCategoryTranslation-admin.write_noid"];
             };
         };
@@ -1735,14 +1735,14 @@ export interface components {
          *     Fiche, création (POST), remplacement complet (PUT), suppression.
          */
         "AdminCategory.jsonld-admin.read": components["schemas"]["HydraItemBaseSchema"] & {
-            id?: number | null;
+            id: number | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminCategoryTranslation.jsonld-admin.read_noid"];
             };
         };
         "AdminCategoryTranslation-admin.read_noid": {
-            description?: string | null;
+            description: string | null;
             /**
              * @description Publication de cette langue (une traduction ne se publie que complète).
              * @default false
@@ -1756,12 +1756,12 @@ export interface components {
             /** @default  */
             name: string;
             /** @description Vide : dérivé du nom. Figé en pratique une fois publié (URL indexée). */
-            slug?: string | null;
+            slug: string | null;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         "AdminCategoryTranslation-admin.write_noid": {
-            description?: string | null;
+            description: string | null;
             /**
              * @description Publication de cette langue (une traduction ne se publie que complète).
              * @default false
@@ -1770,10 +1770,10 @@ export interface components {
             /** @default  */
             name: string;
             /** @description Vide : dérivé du nom. Figé en pratique une fois publié (URL indexée). */
-            slug?: string | null;
+            slug: string | null;
         };
         "AdminCategoryTranslation.jsonld-admin.read_noid": {
-            description?: string | null;
+            description: string | null;
             /**
              * @description Publication de cette langue (une traduction ne se publie que complète).
              * @default false
@@ -1787,9 +1787,9 @@ export interface components {
             /** @default  */
             name: string;
             /** @description Vide : dérivé du nom. Figé en pratique une fois publié (URL indexée). */
-            slug?: string | null;
+            slug: string | null;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         /**
          * @description Commentaires du blog (modération).
@@ -1804,20 +1804,20 @@ export interface components {
          */
         AdminComment: {
             /** @description titre français de l'article */
-            article?: {
+            article: {
                 [key: string]: number | string | null;
             };
-            authorEmail?: string;
-            authorName?: string;
-            content?: string;
+            authorEmail: string;
+            authorName: string;
+            content: string;
             /** Format: date-time */
-            createdAt?: string;
-            id?: number;
-            ipAddress?: string | null;
-            isApproved?: boolean;
+            createdAt: string;
+            id: number;
+            ipAddress: string | null;
+            isApproved: boolean;
             /** @description Commentaire auquel celui-ci répond, null pour un commentaire racine. */
-            parentId?: number | null;
-            repliesCount?: number;
+            parentId: number | null;
+            repliesCount: number;
         };
         /**
          * @description Commentaires du blog (modération).
@@ -1861,20 +1861,20 @@ export interface components {
          */
         "AdminComment.jsonld": components["schemas"]["HydraItemBaseSchema"] & {
             /** @description titre français de l'article */
-            article?: {
+            article: {
                 [key: string]: number | string | null;
             };
-            authorEmail?: string;
-            authorName?: string;
-            content?: string;
+            authorEmail: string;
+            authorName: string;
+            content: string;
             /** Format: date-time */
-            createdAt?: string;
-            id?: number;
-            ipAddress?: string | null;
-            isApproved?: boolean;
+            createdAt: string;
+            id: number;
+            ipAddress: string | null;
+            isApproved: boolean;
             /** @description Commentaire auquel celui-ci répond, null pour un commentaire racine. */
-            parentId?: number | null;
-            repliesCount?: number;
+            parentId: number | null;
+            repliesCount: number;
         };
         /**
          * @description Messages du formulaire de contact.
@@ -1887,16 +1887,16 @@ export interface components {
          */
         AdminContactMessage: {
             /** Format: date-time */
-            createdAt?: string;
-            email?: string;
-            id?: number;
-            ipAddress?: string | null;
-            isRead?: boolean;
-            message?: string;
-            name?: string;
-            phone?: string | null;
-            service?: string | null;
-            subject?: string | null;
+            createdAt: string;
+            email: string;
+            id: number;
+            ipAddress: string | null;
+            isRead: boolean;
+            message: string;
+            name: string;
+            phone: string | null;
+            service: string | null;
+            subject: string | null;
         };
         /**
          * @description Messages du formulaire de contact.
@@ -1921,16 +1921,16 @@ export interface components {
          */
         "AdminContactMessage.jsonld": components["schemas"]["HydraItemBaseSchema"] & {
             /** Format: date-time */
-            createdAt?: string;
-            email?: string;
-            id?: number;
-            ipAddress?: string | null;
-            isRead?: boolean;
-            message?: string;
-            name?: string;
-            phone?: string | null;
-            service?: string | null;
-            subject?: string | null;
+            createdAt: string;
+            email: string;
+            id: number;
+            ipAddress: string | null;
+            isRead: boolean;
+            message: string;
+            name: string;
+            phone: string | null;
+            service: string | null;
+            subject: string | null;
         };
         /**
          * @description Utilisateur connecté au back-office : GET /api/auth/me (401 sinon), même
@@ -1938,14 +1938,14 @@ export interface components {
          *     modifier son profil (email, nom, mot de passe — jamais ses rôles).
          */
         AdminCurrentUser: {
-            avatar?: string | null;
-            email?: string;
-            fullName?: string | null;
-            id?: number;
-            isAdmin?: boolean;
+            avatar: string | null;
+            email: string;
+            fullName: string | null;
+            id: number;
+            isAdmin: boolean;
             /** Format: date-time */
-            lastLoginAt?: string | null;
-            roles?: string[];
+            lastLoginAt: string | null;
+            roles: string[];
         };
         /**
          * @description Utilisateur connecté au back-office : GET /api/auth/me (401 sinon), même
@@ -1958,9 +1958,9 @@ export interface components {
              * @default
              */
             email: string;
-            fullName?: string | null;
+            fullName: string | null;
             /** @description Nouveau mot de passe, facultatif. */
-            plainPassword?: string | null;
+            plainPassword: string | null;
         };
         /**
          * @description Utilisateur connecté au back-office : GET /api/auth/me (401 sinon), même
@@ -1968,56 +1968,46 @@ export interface components {
          *     modifier son profil (email, nom, mot de passe — jamais ses rôles).
          */
         "AdminCurrentUser.jsonld": components["schemas"]["HydraItemBaseSchema"] & {
-            avatar?: string | null;
-            email?: string;
-            fullName?: string | null;
-            id?: number;
-            isAdmin?: boolean;
+            avatar: string | null;
+            email: string;
+            fullName: string | null;
+            id: number;
+            isAdmin: boolean;
             /** Format: date-time */
-            lastLoginAt?: string | null;
-            roles?: string[];
+            lastLoginAt: string | null;
+            roles: string[];
         };
         /**
          * @description Tableau de bord du back-office : GET /api/admin/dashboard.
          *     Mêmes données que le tableau de bord EasyAdmin (App\Admin\DashboardStats).
          */
         "AdminDashboard-admin": {
-            /** @description activité des 6 derniers mois */
-            charts?: {
-                [key: string]: {
-                    [key: string]: number[] | string[];
-                };
-            };
-            kpis?: {
+            charts: components["schemas"]["DashboardCharts-admin_noid"];
+            kpis: {
                 [key: string]: number;
             };
-            parity?: components["schemas"]["ParitySection-admin_noid"][];
+            parity: components["schemas"]["ParitySection-admin_noid"][];
             /** @description Locale suivie par le tableau de parité de traduction. */
-            parityLocale?: string;
-            recentApplications?: components["schemas"]["RecentApplication-admin_noid"][];
-            recentArticles?: components["schemas"]["RecentArticle-admin_noid"][];
-            recentMessages?: components["schemas"]["RecentMessage-admin_noid"][];
+            parityLocale: string;
+            recentApplications: components["schemas"]["RecentApplication-admin_noid"][];
+            recentArticles: components["schemas"]["RecentArticle-admin_noid"][];
+            recentMessages: components["schemas"]["RecentMessage-admin_noid"][];
         };
         /**
          * @description Tableau de bord du back-office : GET /api/admin/dashboard.
          *     Mêmes données que le tableau de bord EasyAdmin (App\Admin\DashboardStats).
          */
         "AdminDashboard.jsonld-admin": components["schemas"]["HydraItemBaseSchema"] & {
-            /** @description activité des 6 derniers mois */
-            charts?: {
-                [key: string]: {
-                    [key: string]: number[] | string[];
-                };
-            };
-            kpis?: {
+            charts: components["schemas"]["DashboardCharts.jsonld-admin_noid"];
+            kpis: {
                 [key: string]: number;
             };
-            parity?: components["schemas"]["ParitySection.jsonld-admin_noid"][];
+            parity: components["schemas"]["ParitySection.jsonld-admin_noid"][];
             /** @description Locale suivie par le tableau de parité de traduction. */
-            parityLocale?: string;
-            recentApplications?: components["schemas"]["RecentApplication.jsonld-admin_noid"][];
-            recentArticles?: components["schemas"]["RecentArticle.jsonld-admin_noid"][];
-            recentMessages?: components["schemas"]["RecentMessage.jsonld-admin_noid"][];
+            parityLocale: string;
+            recentApplications: components["schemas"]["RecentApplication.jsonld-admin_noid"][];
+            recentArticles: components["schemas"]["RecentArticle.jsonld-admin_noid"][];
+            recentMessages: components["schemas"]["RecentMessage.jsonld-admin_noid"][];
         };
         /**
          * @description FAQ : /api/admin/faqs (?search sur la question, ?isActive).
@@ -2031,11 +2021,11 @@ export interface components {
             category: string;
             /** @default 0 */
             displayOrder: number;
-            id?: number | null;
+            id: number | null;
             /** @default false */
             isActive: boolean;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminFaqTranslation-admin.read_noid"];
             };
         };
@@ -2054,7 +2044,7 @@ export interface components {
             /** @default false */
             isActive: boolean;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminFaqTranslation-admin.write_noid"];
             };
         };
@@ -2070,11 +2060,11 @@ export interface components {
             category: string;
             /** @default 0 */
             displayOrder: number;
-            id?: number | null;
+            id: number | null;
             /** @default false */
             isActive: boolean;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminFaqTranslation.jsonld-admin.read_noid"];
             };
         };
@@ -2094,7 +2084,7 @@ export interface components {
             /** @default  */
             question: string;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         "AdminFaqTranslation-admin.write_noid": {
             /** @default  */
@@ -2123,7 +2113,7 @@ export interface components {
             /** @default  */
             question: string;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         /**
          * @description Offres d'emploi : /api/admin/job-offers (?search, ?isPublished).
@@ -2136,29 +2126,29 @@ export interface components {
              */
             contractType: string;
             /** @description POST /api/admin/uploads/job_covers. */
-            coverImageName?: string | null;
+            coverImageName: string | null;
             /** Format: date-time */
-            createdAt?: string | null;
+            createdAt: string | null;
             /**
              * Format: date-time
              * @description Après cette date, l'offre répond 404 sur le site.
              */
-            expiresAt?: string | null;
-            id?: number | null;
-            imageUrls?: {
+            expiresAt: string | null;
+            id: number | null;
+            imageUrls: {
                 [key: string]: string | null;
             };
             /** @default false */
             isPublished: boolean;
-            location?: string | null;
+            location: string | null;
             /** Format: date-time */
-            publishedAt?: string | null;
+            publishedAt: string | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminJobOfferTranslation-admin.read_noid"];
             };
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         /**
          * @description Offres d'emploi : /api/admin/job-offers (?search, ?isPublished).
@@ -2171,19 +2161,19 @@ export interface components {
              */
             contractType: string;
             /** @description POST /api/admin/uploads/job_covers. */
-            coverImageName?: string | null;
+            coverImageName: string | null;
             /**
              * Format: date-time
              * @description Après cette date, l'offre répond 404 sur le site.
              */
-            expiresAt?: string | null;
+            expiresAt: string | null;
             /** @default false */
             isPublished: boolean;
-            location?: string | null;
+            location: string | null;
             /** Format: date-time */
-            publishedAt?: string | null;
+            publishedAt: string | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminJobOfferTranslation-admin.write_noid"];
             };
         };
@@ -2198,29 +2188,29 @@ export interface components {
              */
             contractType: string;
             /** @description POST /api/admin/uploads/job_covers. */
-            coverImageName?: string | null;
+            coverImageName: string | null;
             /** Format: date-time */
-            createdAt?: string | null;
+            createdAt: string | null;
             /**
              * Format: date-time
              * @description Après cette date, l'offre répond 404 sur le site.
              */
-            expiresAt?: string | null;
-            id?: number | null;
-            imageUrls?: {
+            expiresAt: string | null;
+            id: number | null;
+            imageUrls: {
                 [key: string]: string | null;
             };
             /** @default false */
             isPublished: boolean;
-            location?: string | null;
+            location: string | null;
             /** Format: date-time */
-            publishedAt?: string | null;
+            publishedAt: string | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminJobOfferTranslation.jsonld-admin.read_noid"];
             };
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         "AdminJobOfferTranslation-admin.read_noid": {
             /** @default  */
@@ -2235,16 +2225,16 @@ export interface components {
              * @default false
              */
             isStale: boolean;
-            salary?: string | null;
-            shortDescription?: string | null;
+            salary: string | null;
+            shortDescription: string | null;
             /** @description Compétences (chaînes). */
-            skills?: string[] | null;
+            skills: string[] | null;
             /** @description Vide : dérivé du titre. Figé en pratique une fois publié (URL indexée). */
-            slug?: string | null;
+            slug: string | null;
             /** @default  */
             title: string;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         "AdminJobOfferTranslation-admin.write_noid": {
             /** @default  */
@@ -2254,12 +2244,12 @@ export interface components {
              * @default false
              */
             isPublished: boolean;
-            salary?: string | null;
-            shortDescription?: string | null;
+            salary: string | null;
+            shortDescription: string | null;
             /** @description Compétences (chaînes). */
-            skills?: string[] | null;
+            skills: string[] | null;
             /** @description Vide : dérivé du titre. Figé en pratique une fois publié (URL indexée). */
-            slug?: string | null;
+            slug: string | null;
             /** @default  */
             title: string;
         };
@@ -2276,16 +2266,16 @@ export interface components {
              * @default false
              */
             isStale: boolean;
-            salary?: string | null;
-            shortDescription?: string | null;
+            salary: string | null;
+            shortDescription: string | null;
             /** @description Compétences (chaînes). */
-            skills?: string[] | null;
+            skills: string[] | null;
             /** @description Vide : dérivé du titre. Figé en pratique une fois publié (URL indexée). */
-            slug?: string | null;
+            slug: string | null;
             /** @default  */
             title: string;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         /**
          * @description Projets du portfolio : /api/admin/projects (?search, ?isActive, ?isFeatured).
@@ -2293,21 +2283,21 @@ export interface components {
          */
         "AdminProject-admin.read": {
             /** @description Identifiant de la catégorie de projet. */
-            category?: number | null;
-            client?: string | null;
+            category: number | null;
+            client: string | null;
             /** Format: date-time */
-            completedAt?: string | null;
+            completedAt: string | null;
             /** Format: date-time */
-            createdAt?: string | null;
+            createdAt: string | null;
             /** @default 0 */
             displayOrder: number;
             /** @description Bannière (POST /api/admin/uploads/projects). */
-            featuredImageName?: string | null;
-            id?: number | null;
-            image2Name?: string | null;
-            image3Name?: string | null;
-            image4Name?: string | null;
-            imageUrls?: {
+            featuredImageName: string | null;
+            id: number | null;
+            image2Name: string | null;
+            image3Name: string | null;
+            image4Name: string | null;
+            imageUrls: {
                 [key: string]: string | null;
             };
             /** @default false */
@@ -2317,16 +2307,16 @@ export interface components {
              * @default false
              */
             isFeatured: boolean;
-            location?: string | null;
-            projectUrl?: string | null;
+            location: string | null;
+            projectUrl: string | null;
             /** @description Liste de technologies. */
-            technologies?: string[] | null;
+            technologies: string[] | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminProjectTranslation-admin.read_noid"];
             };
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         /**
          * @description Projets du portfolio : /api/admin/projects (?search, ?isActive, ?isFeatured).
@@ -2334,17 +2324,17 @@ export interface components {
          */
         "AdminProject-admin.write": {
             /** @description Identifiant de la catégorie de projet. */
-            category?: number | null;
-            client?: string | null;
+            category: number | null;
+            client: string | null;
             /** Format: date-time */
-            completedAt?: string | null;
+            completedAt: string | null;
             /** @default 0 */
             displayOrder: number;
             /** @description Bannière (POST /api/admin/uploads/projects). */
-            featuredImageName?: string | null;
-            image2Name?: string | null;
-            image3Name?: string | null;
-            image4Name?: string | null;
+            featuredImageName: string | null;
+            image2Name: string | null;
+            image3Name: string | null;
+            image4Name: string | null;
             /** @default false */
             isActive: boolean;
             /**
@@ -2352,12 +2342,12 @@ export interface components {
              * @default false
              */
             isFeatured: boolean;
-            location?: string | null;
-            projectUrl?: string | null;
+            location: string | null;
+            projectUrl: string | null;
             /** @description Liste de technologies. */
-            technologies?: string[] | null;
+            technologies: string[] | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminProjectTranslation-admin.write_noid"];
             };
         };
@@ -2367,21 +2357,21 @@ export interface components {
          */
         "AdminProject.jsonld-admin.read": components["schemas"]["HydraItemBaseSchema"] & {
             /** @description Identifiant de la catégorie de projet. */
-            category?: number | null;
-            client?: string | null;
+            category: number | null;
+            client: string | null;
             /** Format: date-time */
-            completedAt?: string | null;
+            completedAt: string | null;
             /** Format: date-time */
-            createdAt?: string | null;
+            createdAt: string | null;
             /** @default 0 */
             displayOrder: number;
             /** @description Bannière (POST /api/admin/uploads/projects). */
-            featuredImageName?: string | null;
-            id?: number | null;
-            image2Name?: string | null;
-            image3Name?: string | null;
-            image4Name?: string | null;
-            imageUrls?: {
+            featuredImageName: string | null;
+            id: number | null;
+            image2Name: string | null;
+            image3Name: string | null;
+            image4Name: string | null;
+            imageUrls: {
                 [key: string]: string | null;
             };
             /** @default false */
@@ -2391,25 +2381,25 @@ export interface components {
              * @default false
              */
             isFeatured: boolean;
-            location?: string | null;
-            projectUrl?: string | null;
+            location: string | null;
+            projectUrl: string | null;
             /** @description Liste de technologies. */
-            technologies?: string[] | null;
+            technologies: string[] | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminProjectTranslation.jsonld-admin.read_noid"];
             };
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         /**
          * @description Catégories de projet : /api/admin/project-categories.
          *     Fiche, création (POST), remplacement complet (PUT), suppression.
          */
         "AdminProjectCategory-admin.read": {
-            id?: number | null;
+            id: number | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminProjectCategoryTranslation-admin.read_noid"];
             };
         };
@@ -2419,7 +2409,7 @@ export interface components {
          */
         "AdminProjectCategory-admin.write": {
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminProjectCategoryTranslation-admin.write_noid"];
             };
         };
@@ -2428,9 +2418,9 @@ export interface components {
          *     Fiche, création (POST), remplacement complet (PUT), suppression.
          */
         "AdminProjectCategory.jsonld-admin.read": components["schemas"]["HydraItemBaseSchema"] & {
-            id?: number | null;
+            id: number | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminProjectCategoryTranslation.jsonld-admin.read_noid"];
             };
         };
@@ -2448,9 +2438,9 @@ export interface components {
             /** @default  */
             name: string;
             /** @description Vide : dérivé du nom. */
-            slug?: string | null;
+            slug: string | null;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         "AdminProjectCategoryTranslation-admin.write_noid": {
             /**
@@ -2461,7 +2451,7 @@ export interface components {
             /** @default  */
             name: string;
             /** @description Vide : dérivé du nom. */
-            slug?: string | null;
+            slug: string | null;
         };
         "AdminProjectCategoryTranslation.jsonld-admin.read_noid": {
             /**
@@ -2477,15 +2467,15 @@ export interface components {
             /** @default  */
             name: string;
             /** @description Vide : dérivé du nom. */
-            slug?: string | null;
+            slug: string | null;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         "AdminProjectTranslation-admin.read_noid": {
-            approach?: string | null;
-            approachDetail?: string | null;
-            challenge?: string | null;
-            description?: string | null;
+            approach: string | null;
+            approachDetail: string | null;
+            challenge: string | null;
+            description: string | null;
             /**
              * @description Publication de cette langue (une traduction ne se publie que complète).
              * @default false
@@ -2496,55 +2486,55 @@ export interface components {
              * @default false
              */
             isStale: boolean;
-            metaDescription?: string | null;
-            metaTitle?: string | null;
-            results?: string | null;
+            metaDescription: string | null;
+            metaTitle: string | null;
+            results: string | null;
             /** @description Vide : dérivé du titre. Figé en pratique une fois publié (URL indexée). */
-            slug?: string | null;
-            step1Content?: string | null;
-            step1Title?: string | null;
-            step2Content?: string | null;
-            step2Title?: string | null;
-            step3Content?: string | null;
-            step3Title?: string | null;
-            step4Content?: string | null;
-            step4Title?: string | null;
+            slug: string | null;
+            step1Content: string | null;
+            step1Title: string | null;
+            step2Content: string | null;
+            step2Title: string | null;
+            step3Content: string | null;
+            step3Title: string | null;
+            step4Content: string | null;
+            step4Title: string | null;
             /** @default  */
             title: string;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         "AdminProjectTranslation-admin.write_noid": {
-            approach?: string | null;
-            approachDetail?: string | null;
-            challenge?: string | null;
-            description?: string | null;
+            approach: string | null;
+            approachDetail: string | null;
+            challenge: string | null;
+            description: string | null;
             /**
              * @description Publication de cette langue (une traduction ne se publie que complète).
              * @default false
              */
             isPublished: boolean;
-            metaDescription?: string | null;
-            metaTitle?: string | null;
-            results?: string | null;
+            metaDescription: string | null;
+            metaTitle: string | null;
+            results: string | null;
             /** @description Vide : dérivé du titre. Figé en pratique une fois publié (URL indexée). */
-            slug?: string | null;
-            step1Content?: string | null;
-            step1Title?: string | null;
-            step2Content?: string | null;
-            step2Title?: string | null;
-            step3Content?: string | null;
-            step3Title?: string | null;
-            step4Content?: string | null;
-            step4Title?: string | null;
+            slug: string | null;
+            step1Content: string | null;
+            step1Title: string | null;
+            step2Content: string | null;
+            step2Title: string | null;
+            step3Content: string | null;
+            step3Title: string | null;
+            step4Content: string | null;
+            step4Title: string | null;
             /** @default  */
             title: string;
         };
         "AdminProjectTranslation.jsonld-admin.read_noid": {
-            approach?: string | null;
-            approachDetail?: string | null;
-            challenge?: string | null;
-            description?: string | null;
+            approach: string | null;
+            approachDetail: string | null;
+            challenge: string | null;
+            description: string | null;
             /**
              * @description Publication de cette langue (une traduction ne se publie que complète).
              * @default false
@@ -2555,23 +2545,23 @@ export interface components {
              * @default false
              */
             isStale: boolean;
-            metaDescription?: string | null;
-            metaTitle?: string | null;
-            results?: string | null;
+            metaDescription: string | null;
+            metaTitle: string | null;
+            results: string | null;
             /** @description Vide : dérivé du titre. Figé en pratique une fois publié (URL indexée). */
-            slug?: string | null;
-            step1Content?: string | null;
-            step1Title?: string | null;
-            step2Content?: string | null;
-            step2Title?: string | null;
-            step3Content?: string | null;
-            step3Title?: string | null;
-            step4Content?: string | null;
-            step4Title?: string | null;
+            slug: string | null;
+            step1Content: string | null;
+            step1Title: string | null;
+            step2Content: string | null;
+            step2Title: string | null;
+            step3Content: string | null;
+            step3Title: string | null;
+            step4Content: string | null;
+            step4Title: string | null;
             /** @default  */
             title: string;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         /**
          * @description Services : /api/admin/services (?search, ?isActive).
@@ -2579,28 +2569,28 @@ export interface components {
          */
         "AdminService-admin.read": {
             /** Format: date-time */
-            createdAt?: string | null;
+            createdAt: string | null;
             /** @default 0 */
             displayOrder: number;
             /** @description POST /api/admin/uploads/services. */
-            featuredImageName?: string | null;
+            featuredImageName: string | null;
             /** @description Classe d'icône Font Awesome. */
-            icon?: string | null;
-            id?: number | null;
-            image2Name?: string | null;
-            imageUrls?: {
+            icon: string | null;
+            id: number | null;
+            image2Name: string | null;
+            imageUrls: {
                 [key: string]: string | null;
             };
             /** @default false */
             isActive: boolean;
             /** @description Pilier de l'offre (1 à 4) ou null. */
-            pillar?: number | null;
+            pillar: number | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminServiceTranslation-admin.read_noid"];
             };
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         /**
          * @description Services : /api/admin/services (?search, ?isActive).
@@ -2610,16 +2600,16 @@ export interface components {
             /** @default 0 */
             displayOrder: number;
             /** @description POST /api/admin/uploads/services. */
-            featuredImageName?: string | null;
+            featuredImageName: string | null;
             /** @description Classe d'icône Font Awesome. */
-            icon?: string | null;
-            image2Name?: string | null;
+            icon: string | null;
+            image2Name: string | null;
             /** @default false */
             isActive: boolean;
             /** @description Pilier de l'offre (1 à 4) ou null. */
-            pillar?: number | null;
+            pillar: number | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminServiceTranslation-admin.write_noid"];
             };
         };
@@ -2629,34 +2619,34 @@ export interface components {
          */
         "AdminService.jsonld-admin.read": components["schemas"]["HydraItemBaseSchema"] & {
             /** Format: date-time */
-            createdAt?: string | null;
+            createdAt: string | null;
             /** @default 0 */
             displayOrder: number;
             /** @description POST /api/admin/uploads/services. */
-            featuredImageName?: string | null;
+            featuredImageName: string | null;
             /** @description Classe d'icône Font Awesome. */
-            icon?: string | null;
-            id?: number | null;
-            image2Name?: string | null;
-            imageUrls?: {
+            icon: string | null;
+            id: number | null;
+            image2Name: string | null;
+            imageUrls: {
                 [key: string]: string | null;
             };
             /** @default false */
             isActive: boolean;
             /** @description Pilier de l'offre (1 à 4) ou null. */
-            pillar?: number | null;
+            pillar: number | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminServiceTranslation.jsonld-admin.read_noid"];
             };
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         "AdminServiceTranslation-admin.read_noid": {
-            badge?: string | null;
+            badge: string | null;
             /** @description Points clés (chaînes). */
-            features?: string[] | null;
-            fullDescription?: string | null;
+            features: string[] | null;
+            fullDescription: string | null;
             /**
              * @description Publication de cette langue (une traduction ne se publie que complète).
              * @default false
@@ -2667,67 +2657,67 @@ export interface components {
              * @default false
              */
             isStale: boolean;
-            metaDescription?: string | null;
-            metaTitle?: string | null;
-            shortDescription?: string | null;
+            metaDescription: string | null;
+            metaTitle: string | null;
+            shortDescription: string | null;
             /** @description Vide : dérivé du titre. Figé en pratique une fois publié (URL indexée). */
-            slug?: string | null;
-            step1Content?: string | null;
-            step1Title?: string | null;
-            step2Content?: string | null;
-            step2Title?: string | null;
-            step3Content?: string | null;
-            step3Title?: string | null;
-            step4Content?: string | null;
-            step4Title?: string | null;
+            slug: string | null;
+            step1Content: string | null;
+            step1Title: string | null;
+            step2Content: string | null;
+            step2Title: string | null;
+            step3Content: string | null;
+            step3Title: string | null;
+            step4Content: string | null;
+            step4Title: string | null;
             /** @default  */
             title: string;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
             /** @description Arguments (chaînes). */
-            whyPoints?: string[] | null;
-            whyText1?: string | null;
-            whyText2?: string | null;
-            whyTitle1?: string | null;
-            whyTitle2?: string | null;
+            whyPoints: string[] | null;
+            whyText1: string | null;
+            whyText2: string | null;
+            whyTitle1: string | null;
+            whyTitle2: string | null;
         };
         "AdminServiceTranslation-admin.write_noid": {
-            badge?: string | null;
+            badge: string | null;
             /** @description Points clés (chaînes). */
-            features?: string[] | null;
-            fullDescription?: string | null;
+            features: string[] | null;
+            fullDescription: string | null;
             /**
              * @description Publication de cette langue (une traduction ne se publie que complète).
              * @default false
              */
             isPublished: boolean;
-            metaDescription?: string | null;
-            metaTitle?: string | null;
-            shortDescription?: string | null;
+            metaDescription: string | null;
+            metaTitle: string | null;
+            shortDescription: string | null;
             /** @description Vide : dérivé du titre. Figé en pratique une fois publié (URL indexée). */
-            slug?: string | null;
-            step1Content?: string | null;
-            step1Title?: string | null;
-            step2Content?: string | null;
-            step2Title?: string | null;
-            step3Content?: string | null;
-            step3Title?: string | null;
-            step4Content?: string | null;
-            step4Title?: string | null;
+            slug: string | null;
+            step1Content: string | null;
+            step1Title: string | null;
+            step2Content: string | null;
+            step2Title: string | null;
+            step3Content: string | null;
+            step3Title: string | null;
+            step4Content: string | null;
+            step4Title: string | null;
             /** @default  */
             title: string;
             /** @description Arguments (chaînes). */
-            whyPoints?: string[] | null;
-            whyText1?: string | null;
-            whyText2?: string | null;
-            whyTitle1?: string | null;
-            whyTitle2?: string | null;
+            whyPoints: string[] | null;
+            whyText1: string | null;
+            whyText2: string | null;
+            whyTitle1: string | null;
+            whyTitle2: string | null;
         };
         "AdminServiceTranslation.jsonld-admin.read_noid": {
-            badge?: string | null;
+            badge: string | null;
             /** @description Points clés (chaînes). */
-            features?: string[] | null;
-            fullDescription?: string | null;
+            features: string[] | null;
+            fullDescription: string | null;
             /**
              * @description Publication de cette langue (une traduction ne se publie que complète).
              * @default false
@@ -2738,38 +2728,38 @@ export interface components {
              * @default false
              */
             isStale: boolean;
-            metaDescription?: string | null;
-            metaTitle?: string | null;
-            shortDescription?: string | null;
+            metaDescription: string | null;
+            metaTitle: string | null;
+            shortDescription: string | null;
             /** @description Vide : dérivé du titre. Figé en pratique une fois publié (URL indexée). */
-            slug?: string | null;
-            step1Content?: string | null;
-            step1Title?: string | null;
-            step2Content?: string | null;
-            step2Title?: string | null;
-            step3Content?: string | null;
-            step3Title?: string | null;
-            step4Content?: string | null;
-            step4Title?: string | null;
+            slug: string | null;
+            step1Content: string | null;
+            step1Title: string | null;
+            step2Content: string | null;
+            step2Title: string | null;
+            step3Content: string | null;
+            step3Title: string | null;
+            step4Content: string | null;
+            step4Title: string | null;
             /** @default  */
             title: string;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
             /** @description Arguments (chaînes). */
-            whyPoints?: string[] | null;
-            whyText1?: string | null;
-            whyText2?: string | null;
-            whyTitle1?: string | null;
-            whyTitle2?: string | null;
+            whyPoints: string[] | null;
+            whyText1: string | null;
+            whyText2: string | null;
+            whyTitle1: string | null;
+            whyTitle2: string | null;
         };
         /**
          * @description Tags du blog : /api/admin/tags.
          *     Fiche, création (POST), remplacement complet (PUT), suppression.
          */
         "AdminTag-admin.read": {
-            id?: number | null;
+            id: number | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminTagTranslation-admin.read_noid"];
             };
         };
@@ -2779,7 +2769,7 @@ export interface components {
          */
         "AdminTag-admin.write": {
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminTagTranslation-admin.write_noid"];
             };
         };
@@ -2788,9 +2778,9 @@ export interface components {
          *     Fiche, création (POST), remplacement complet (PUT), suppression.
          */
         "AdminTag.jsonld-admin.read": components["schemas"]["HydraItemBaseSchema"] & {
-            id?: number | null;
+            id: number | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminTagTranslation.jsonld-admin.read_noid"];
             };
         };
@@ -2808,9 +2798,9 @@ export interface components {
             /** @default  */
             name: string;
             /** @description Vide : dérivé du nom. Figé en pratique une fois publié (URL indexée). */
-            slug?: string | null;
+            slug: string | null;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         "AdminTagTranslation-admin.write_noid": {
             /**
@@ -2821,7 +2811,7 @@ export interface components {
             /** @default  */
             name: string;
             /** @description Vide : dérivé du nom. Figé en pratique une fois publié (URL indexée). */
-            slug?: string | null;
+            slug: string | null;
         };
         "AdminTagTranslation.jsonld-admin.read_noid": {
             /**
@@ -2837,9 +2827,9 @@ export interface components {
             /** @default  */
             name: string;
             /** @description Vide : dérivé du nom. Figé en pratique une fois publié (URL indexée). */
-            slug?: string | null;
+            slug: string | null;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         /**
          * @description Équipe : /api/admin/team-members (?search sur le poste, ?isActive).
@@ -2847,31 +2837,31 @@ export interface components {
          */
         "AdminTeamMember-admin.read": {
             /** Format: date-time */
-            createdAt?: string | null;
+            createdAt: string | null;
             /** @default 0 */
             displayOrder: number;
             /** @description Adresse publique affichée sur la fiche. */
-            email?: string | null;
+            email: string | null;
             /** @default  */
             fullName: string;
-            id?: number | null;
-            imageUrls?: {
+            id: number | null;
+            imageUrls: {
                 [key: string]: string | null;
             };
             /** @default false */
             isActive: boolean;
             /** @description POST /api/admin/uploads/team. */
-            photoName?: string | null;
+            photoName: string | null;
             /** @description Réseau → URL. */
-            socialLinks?: {
+            socialLinks: {
                 [key: string]: string;
             } | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminTeamMemberTranslation-admin.read_noid"];
             };
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         /**
          * @description Équipe : /api/admin/team-members (?search sur le poste, ?isActive).
@@ -2881,19 +2871,19 @@ export interface components {
             /** @default 0 */
             displayOrder: number;
             /** @description Adresse publique affichée sur la fiche. */
-            email?: string | null;
+            email: string | null;
             /** @default  */
             fullName: string;
             /** @default false */
             isActive: boolean;
             /** @description POST /api/admin/uploads/team. */
-            photoName?: string | null;
+            photoName: string | null;
             /** @description Réseau → URL. */
-            socialLinks?: {
+            socialLinks: {
                 [key: string]: string;
             } | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminTeamMemberTranslation-admin.write_noid"];
             };
         };
@@ -2903,36 +2893,36 @@ export interface components {
          */
         "AdminTeamMember.jsonld-admin.read": components["schemas"]["HydraItemBaseSchema"] & {
             /** Format: date-time */
-            createdAt?: string | null;
+            createdAt: string | null;
             /** @default 0 */
             displayOrder: number;
             /** @description Adresse publique affichée sur la fiche. */
-            email?: string | null;
+            email: string | null;
             /** @default  */
             fullName: string;
-            id?: number | null;
-            imageUrls?: {
+            id: number | null;
+            imageUrls: {
                 [key: string]: string | null;
             };
             /** @default false */
             isActive: boolean;
             /** @description POST /api/admin/uploads/team. */
-            photoName?: string | null;
+            photoName: string | null;
             /** @description Réseau → URL. */
-            socialLinks?: {
+            socialLinks: {
                 [key: string]: string;
             } | null;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminTeamMemberTranslation.jsonld-admin.read_noid"];
             };
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         "AdminTeamMemberTranslation-admin.read_noid": {
-            bio?: string | null;
-            bio2?: string | null;
-            bio3?: string | null;
+            bio: string | null;
+            bio2: string | null;
+            bio3: string | null;
             /**
              * @description Publication de cette langue (une traduction ne se publie que complète).
              * @default false
@@ -2946,14 +2936,14 @@ export interface components {
             /** @default  */
             position: string;
             /** @description Vide : dérivé du poste (comportement de l'écran EasyAdmin) — à saisir en pratique. */
-            slug?: string | null;
+            slug: string | null;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         "AdminTeamMemberTranslation-admin.write_noid": {
-            bio?: string | null;
-            bio2?: string | null;
-            bio3?: string | null;
+            bio: string | null;
+            bio2: string | null;
+            bio3: string | null;
             /**
              * @description Publication de cette langue (une traduction ne se publie que complète).
              * @default false
@@ -2962,12 +2952,12 @@ export interface components {
             /** @default  */
             position: string;
             /** @description Vide : dérivé du poste (comportement de l'écran EasyAdmin) — à saisir en pratique. */
-            slug?: string | null;
+            slug: string | null;
         };
         "AdminTeamMemberTranslation.jsonld-admin.read_noid": {
-            bio?: string | null;
-            bio2?: string | null;
-            bio3?: string | null;
+            bio: string | null;
+            bio2: string | null;
+            bio3: string | null;
             /**
              * @description Publication de cette langue (une traduction ne se publie que complète).
              * @default false
@@ -2981,9 +2971,9 @@ export interface components {
             /** @default  */
             position: string;
             /** @description Vide : dérivé du poste (comportement de l'écran EasyAdmin) — à saisir en pratique. */
-            slug?: string | null;
+            slug: string | null;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         /**
          * @description Témoignages : /api/admin/testimonials (?search sur le texte, ?isFeatured).
@@ -2991,14 +2981,14 @@ export interface components {
          */
         "AdminTestimonial-admin.read": {
             /** @description POST /api/admin/uploads/testimonials. */
-            avatarName?: string | null;
-            clientCompany?: string | null;
+            avatarName: string | null;
+            clientCompany: string | null;
             /** @default  */
             clientName: string;
             /** @default 0 */
             displayOrder: number;
-            id?: number | null;
-            imageUrls?: {
+            id: number | null;
+            imageUrls: {
                 [key: string]: string | null;
             };
             /**
@@ -3009,7 +2999,7 @@ export interface components {
             /** @default 5 */
             rating: number;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminTestimonialTranslation-admin.read_noid"];
             };
         };
@@ -3019,8 +3009,8 @@ export interface components {
          */
         "AdminTestimonial-admin.write": {
             /** @description POST /api/admin/uploads/testimonials. */
-            avatarName?: string | null;
-            clientCompany?: string | null;
+            avatarName: string | null;
+            clientCompany: string | null;
             /** @default  */
             clientName: string;
             /** @default 0 */
@@ -3033,7 +3023,7 @@ export interface components {
             /** @default 5 */
             rating: number;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminTestimonialTranslation-admin.write_noid"];
             };
         };
@@ -3043,14 +3033,14 @@ export interface components {
          */
         "AdminTestimonial.jsonld-admin.read": components["schemas"]["HydraItemBaseSchema"] & {
             /** @description POST /api/admin/uploads/testimonials. */
-            avatarName?: string | null;
-            clientCompany?: string | null;
+            avatarName: string | null;
+            clientCompany: string | null;
             /** @default  */
             clientName: string;
             /** @default 0 */
             displayOrder: number;
-            id?: number | null;
-            imageUrls?: {
+            id: number | null;
+            imageUrls: {
                 [key: string]: string | null;
             };
             /**
@@ -3061,13 +3051,13 @@ export interface components {
             /** @default 5 */
             rating: number;
             /** @description locale → traduction */
-            translations?: {
+            translations: {
                 [key: string]: components["schemas"]["AdminTestimonialTranslation.jsonld-admin.read_noid"];
             };
         };
         "AdminTestimonialTranslation-admin.read_noid": {
             /** @description Fonction du client (traduite). */
-            clientPosition?: string | null;
+            clientPosition: string | null;
             /** @default  */
             content: string;
             /**
@@ -3081,11 +3071,11 @@ export interface components {
              */
             isStale: boolean;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         "AdminTestimonialTranslation-admin.write_noid": {
             /** @description Fonction du client (traduite). */
-            clientPosition?: string | null;
+            clientPosition: string | null;
             /** @default  */
             content: string;
             /**
@@ -3096,7 +3086,7 @@ export interface components {
         };
         "AdminTestimonialTranslation.jsonld-admin.read_noid": {
             /** @description Fonction du client (traduite). */
-            clientPosition?: string | null;
+            clientPosition: string | null;
             /** @default  */
             content: string;
             /**
@@ -3110,7 +3100,7 @@ export interface components {
              */
             isStale: boolean;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
         };
         /**
          * @description Comptes du back-office — réservé aux administrateurs.
@@ -3124,17 +3114,17 @@ export interface components {
          *     - POST   /api/admin/users/{id}/invitation : renvoie un lien d'invitation.
          */
         AdminUser: {
-            avatar?: string | null;
-            email?: string;
-            fullName?: string | null;
-            id?: number;
+            avatar: string | null;
+            email: string;
+            fullName: string | null;
+            id: number;
             /** Format: date-time */
-            invitationExpiresAt?: string | null;
+            invitationExpiresAt: string | null;
             /** @description Compte créé mais mot de passe pas encore défini via l'invitation. */
-            invitationPending?: boolean;
+            invitationPending: boolean;
             /** Format: date-time */
-            lastLoginAt?: string | null;
-            roles?: string[];
+            lastLoginAt: string | null;
+            roles: string[];
         };
         /**
          * @description Comptes du back-office — réservé aux administrateurs.
@@ -3153,9 +3143,9 @@ export interface components {
              * @default
              */
             email: string;
-            fullName?: string | null;
-            plainPassword?: string | null;
-            roles?: string[];
+            fullName: string | null;
+            plainPassword: string | null;
+            roles: string[];
         };
         /**
          * @description Comptes du back-office — réservé aux administrateurs.
@@ -3169,67 +3159,67 @@ export interface components {
          *     - POST   /api/admin/users/{id}/invitation : renvoie un lien d'invitation.
          */
         "AdminUser.jsonld": components["schemas"]["HydraItemBaseSchema"] & {
-            avatar?: string | null;
-            email?: string;
-            fullName?: string | null;
-            id?: number;
+            avatar: string | null;
+            email: string;
+            fullName: string | null;
+            id: number;
             /** Format: date-time */
-            invitationExpiresAt?: string | null;
+            invitationExpiresAt: string | null;
             /** @description Compte créé mais mot de passe pas encore défini via l'invitation. */
-            invitationPending?: boolean;
+            invitationPending: boolean;
             /** Format: date-time */
-            lastLoginAt?: string | null;
-            roles?: string[];
+            lastLoginAt: string | null;
+            roles: string[];
         };
         "Author-public_article.list_article.detail_noid": {
             /** @description Chemin public de l'avatar (/uploads/authors/…), ou null. */
-            avatar?: string | null;
-            bio?: string | null;
-            name?: string;
-            slug?: string | null;
+            avatar: string | null;
+            bio: string | null;
+            name: string;
+            slug: string | null;
         };
         "Author.jsonld-public_article.list_article.detail_noid": {
             /** @description Chemin public de l'avatar (/uploads/authors/…), ou null. */
-            avatar?: string | null;
-            bio?: string | null;
-            name?: string;
-            slug?: string | null;
+            avatar: string | null;
+            bio: string | null;
+            name: string;
+            slug: string | null;
         };
         "Comment-public_article.list_article.detail_noid": {
-            authorName?: string;
-            content?: string;
+            authorName: string;
+            content: string;
             /** Format: date-time */
-            createdAt?: string;
+            createdAt: string;
             /** @description Identifiant à renvoyer comme parentId pour répondre à ce commentaire. */
-            id?: number;
-            replies?: components["schemas"]["Comment-public_article.list_article.detail_noid"][];
+            id: number;
+            replies: components["schemas"]["Comment-public_article.list_article.detail_noid"][];
         };
         "Comment.jsonld-public_article.list_article.detail_noid": {
-            authorName?: string;
-            content?: string;
+            authorName: string;
+            content: string;
             /** Format: date-time */
-            createdAt?: string;
+            createdAt: string;
             /** @description Identifiant à renvoyer comme parentId pour répondre à ce commentaire. */
-            id?: number;
-            replies?: components["schemas"]["Comment.jsonld-public_article.list_article.detail_noid"][];
+            id: number;
+            replies: components["schemas"]["Comment.jsonld-public_article.list_article.detail_noid"][];
         };
         /** @description Unprocessable entity */
         ConstraintViolation: {
-            readonly detail?: string;
-            readonly instance?: string | null;
+            readonly detail: string;
+            readonly instance: string | null;
             /** @default 422 */
             status: number;
-            readonly title?: string | null;
-            readonly type?: string;
-            violations?: {
+            readonly title: string | null;
+            readonly type: string;
+            violations: {
                 /** @description The code of the violation */
-                code?: string;
+                code: string;
                 /** @description An extra hint to understand the violation */
-                hint?: string;
+                hint: string;
                 /** @description The message associated with the violation */
                 message: string;
                 /** @description The serialized payload of the violation */
-                payload?: {
+                payload: {
                     [key: string]: unknown;
                 };
                 /** @description The property path of the violation */
@@ -3238,60 +3228,68 @@ export interface components {
         };
         /** @description Unprocessable entity */
         "ConstraintViolation.jsonld": components["schemas"]["HydraItemBaseSchema"] & {
-            readonly description?: string;
-            readonly detail?: string;
-            readonly instance?: string | null;
+            readonly description: string;
+            readonly detail: string;
+            readonly instance: string | null;
             /** @default 422 */
             status: number;
-            readonly title?: string | null;
-            readonly type?: string;
-            violations?: {
+            readonly title: string | null;
+            readonly type: string;
+            violations: {
                 /** @description The code of the violation */
-                code?: string;
+                code: string;
                 /** @description An extra hint to understand the violation */
-                hint?: string;
+                hint: string;
                 /** @description The message associated with the violation */
                 message: string;
                 /** @description The serialized payload of the violation */
-                payload?: {
+                payload: {
                     [key: string]: unknown;
                 };
                 /** @description The property path of the violation */
                 propertyPath: string;
             }[];
         };
+        "DashboardCharts-admin_noid": {
+            applications: components["schemas"]["MonthlyChart-admin_noid"];
+            messages: components["schemas"]["MonthlyChart-admin_noid"];
+        };
+        "DashboardCharts.jsonld-admin_noid": {
+            applications: components["schemas"]["MonthlyChart.jsonld-admin_noid"];
+            messages: components["schemas"]["MonthlyChart.jsonld-admin_noid"];
+        };
         /** @description A representation of common errors. */
         Error: {
             /** @description A human-readable explanation specific to this occurrence of the problem. */
-            readonly detail?: string | null;
+            readonly detail: string | null;
             /** @description A URI reference that identifies the specific occurrence of the problem. It may or may not yield further information if dereferenced. */
-            readonly instance?: string | null;
+            readonly instance: string | null;
             /**
              * @default 400
              * @example 404
              */
             status: number | null;
             /** @description A short, human-readable summary of the problem. */
-            readonly title?: string | null;
+            readonly title: string | null;
             /** @description A URI reference that identifies the problem type */
-            readonly type?: string;
+            readonly type: string;
         };
         /** @description A representation of common errors. */
         "Error.jsonld": components["schemas"]["HydraItemBaseSchema"] & {
-            readonly description?: string | null;
+            readonly description: string | null;
             /** @description A human-readable explanation specific to this occurrence of the problem. */
-            readonly detail?: string | null;
+            readonly detail: string | null;
             /** @description A URI reference that identifies the specific occurrence of the problem. It may or may not yield further information if dereferenced. */
-            readonly instance?: string | null;
+            readonly instance: string | null;
             /**
              * @default 400
              * @example 404
              */
             status: number | null;
             /** @description A short, human-readable summary of the problem. */
-            readonly title?: string | null;
+            readonly title: string | null;
             /** @description A URI reference that identifies the problem type */
-            readonly type?: string;
+            readonly type: string;
         };
         HydraCollectionBaseSchema: components["schemas"]["HydraCollectionBaseSchemaNoPagination"] & {
             /**
@@ -3304,36 +3302,36 @@ export interface components {
              *       "previous": "string"
              *     }
              */
-            view?: {
+            view: {
                 /** Format: iri-reference */
-                "@id"?: string;
-                "@type"?: string;
+                "@id": string;
+                "@type": string;
                 /** Format: iri-reference */
-                first?: string | null;
+                first: string | null;
                 /** Format: iri-reference */
-                last?: string | null;
+                last: string | null;
                 /** Format: iri-reference */
-                next?: string | null;
+                next: string | null;
                 /** Format: iri-reference */
-                previous?: string | null;
+                previous: string | null;
             };
         };
         HydraCollectionBaseSchemaNoPagination: {
-            search?: {
-                "@type"?: string;
-                mapping?: {
-                    "@type"?: string;
-                    property?: string | null;
-                    required?: boolean;
-                    variable?: string;
+            search: {
+                "@type": string;
+                mapping: {
+                    "@type": string;
+                    property: string | null;
+                    required: boolean;
+                    variable: string;
                 }[];
-                template?: string;
-                variableRepresentation?: string;
+                template: string;
+                variableRepresentation: string;
             };
-            totalItems?: number;
+            totalItems: number;
         };
         HydraItemBaseSchema: {
-            "@context"?: string | ({
+            "@context": string | ({
                 "@vocab": string;
                 /** @enum {string} */
                 hydra: "http://www.w3.org/ns/hydra/core#";
@@ -3343,39 +3341,47 @@ export interface components {
             "@id": string;
             "@type": string;
         };
+        "MonthlyChart-admin_noid": {
+            data: number[];
+            labels: string[];
+        };
+        "MonthlyChart.jsonld-admin_noid": {
+            data: number[];
+            labels: string[];
+        };
         "PageLink-public_project.list_project.detail_noid": {
-            slug?: string;
-            title?: string;
-            url?: string;
+            slug: string;
+            title: string;
+            url: string;
         };
         "PageLink.jsonld-public_project.list_project.detail_noid": {
-            slug?: string;
-            title?: string;
-            url?: string;
+            slug: string;
+            title: string;
+            url: string;
         };
         "ParityItem-admin_noid": {
-            id?: number;
-            label?: string;
+            id: number;
+            label: string;
         };
         "ParityItem.jsonld-admin_noid": {
-            id?: number;
-            label?: string;
+            id: number;
+            label: string;
         };
         "ParitySection-admin_noid": {
-            draft?: components["schemas"]["ParityItem-admin_noid"][];
+            draft: components["schemas"]["ParityItem-admin_noid"][];
             /** @description Type de contenu (articles, services, projects…), pour le lien d'édition. */
-            key?: string;
-            label?: string;
-            missing?: components["schemas"]["ParityItem-admin_noid"][];
-            stale?: components["schemas"]["ParityItem-admin_noid"][];
+            key: string;
+            label: string;
+            missing: components["schemas"]["ParityItem-admin_noid"][];
+            stale: components["schemas"]["ParityItem-admin_noid"][];
         };
         "ParitySection.jsonld-admin_noid": {
-            draft?: components["schemas"]["ParityItem.jsonld-admin_noid"][];
+            draft: components["schemas"]["ParityItem.jsonld-admin_noid"][];
             /** @description Type de contenu (articles, services, projects…), pour le lien d'édition. */
-            key?: string;
-            label?: string;
-            missing?: components["schemas"]["ParityItem.jsonld-admin_noid"][];
-            stale?: components["schemas"]["ParityItem.jsonld-admin_noid"][];
+            key: string;
+            label: string;
+            missing: components["schemas"]["ParityItem.jsonld-admin_noid"][];
+            stale: components["schemas"]["ParityItem.jsonld-admin_noid"][];
         };
         /**
          * @description Article du blog, tel que publié dans une locale.
@@ -3389,18 +3395,18 @@ export interface components {
          *     en cache par le front) : le navigateur appelle POST …/views.
          */
         "PublicArticle-public_article.list": {
-            category?: components["schemas"]["TaxonomyRef-public_article.list_noid"] | null;
-            excerpt?: string | null;
+            category: components["schemas"]["TaxonomyRef-public_article.list_noid"] | null;
+            excerpt: string | null;
             /** @description Chemin public de l'image à la une (/uploads/articles/…), ou null. */
-            featuredImage?: string | null;
-            locale?: string;
+            featuredImage: string | null;
+            locale: string;
             /** Format: date-time */
-            publishedAt?: string | null;
-            readingTime?: number | null;
-            slug?: string;
-            title?: string;
+            publishedAt: string | null;
+            readingTime: number | null;
+            slug: string;
+            title: string;
             /** @description URL absolue de la page de l'article dans cette locale. */
-            url?: string;
+            url: string;
         };
         /**
          * @description Article du blog, tel que publié dans une locale.
@@ -3415,31 +3421,31 @@ export interface components {
          */
         "PublicArticle-public_article.list_article.detail": {
             /** @description URL absolue par locale, versions publiées uniquement */
-            alternates?: {
+            alternates: {
                 [key: string]: string;
             };
-            author?: components["schemas"]["Author-public_article.list_article.detail_noid"] | null;
-            category?: components["schemas"]["TaxonomyRef-public_article.list_article.detail_noid"] | null;
+            author: components["schemas"]["Author-public_article.list_article.detail_noid"] | null;
+            category: components["schemas"]["TaxonomyRef-public_article.list_article.detail_noid"] | null;
             /** @description commentaires approuvés, les plus anciens d'abord */
-            comments?: components["schemas"]["Comment-public_article.list_article.detail_noid"][];
+            comments: components["schemas"]["Comment-public_article.list_article.detail_noid"][];
             /** @description Corps HTML tel que saisi dans l'éditeur (rendu brut par le site actuel). */
-            content?: string;
-            excerpt?: string | null;
+            content: string;
+            excerpt: string | null;
             /** @description Chemin public de l'image à la une (/uploads/articles/…), ou null. */
-            featuredImage?: string | null;
-            locale?: string;
-            metaDescription?: string | null;
-            metaTitle?: string | null;
+            featuredImage: string | null;
+            locale: string;
+            metaDescription: string | null;
+            metaTitle: string | null;
             /** Format: date-time */
-            publishedAt?: string | null;
-            readingTime?: number | null;
-            slug?: string;
-            tags?: components["schemas"]["TaxonomyRef-public_article.list_article.detail_noid"][];
-            title?: string;
+            publishedAt: string | null;
+            readingTime: number | null;
+            slug: string;
+            tags: components["schemas"]["TaxonomyRef-public_article.list_article.detail_noid"][];
+            title: string;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
             /** @description URL absolue de la page de l'article dans cette locale. */
-            url?: string;
+            url: string;
         };
         /**
          * @description Article du blog, tel que publié dans une locale.
@@ -3453,18 +3459,18 @@ export interface components {
          *     en cache par le front) : le navigateur appelle POST …/views.
          */
         "PublicArticle.jsonld-public_article.list": components["schemas"]["HydraItemBaseSchema"] & {
-            category?: components["schemas"]["TaxonomyRef.jsonld-public_article.list_noid"] | null;
-            excerpt?: string | null;
+            category: components["schemas"]["TaxonomyRef.jsonld-public_article.list_noid"] | null;
+            excerpt: string | null;
             /** @description Chemin public de l'image à la une (/uploads/articles/…), ou null. */
-            featuredImage?: string | null;
-            locale?: string;
+            featuredImage: string | null;
+            locale: string;
             /** Format: date-time */
-            publishedAt?: string | null;
-            readingTime?: number | null;
-            slug?: string;
-            title?: string;
+            publishedAt: string | null;
+            readingTime: number | null;
+            slug: string;
+            title: string;
             /** @description URL absolue de la page de l'article dans cette locale. */
-            url?: string;
+            url: string;
         };
         /**
          * @description Article du blog, tel que publié dans une locale.
@@ -3479,31 +3485,31 @@ export interface components {
          */
         "PublicArticle.jsonld-public_article.list_article.detail": components["schemas"]["HydraItemBaseSchema"] & {
             /** @description URL absolue par locale, versions publiées uniquement */
-            alternates?: {
+            alternates: {
                 [key: string]: string;
             };
-            author?: components["schemas"]["Author.jsonld-public_article.list_article.detail_noid"] | null;
-            category?: components["schemas"]["TaxonomyRef.jsonld-public_article.list_article.detail_noid"] | null;
+            author: components["schemas"]["Author.jsonld-public_article.list_article.detail_noid"] | null;
+            category: components["schemas"]["TaxonomyRef.jsonld-public_article.list_article.detail_noid"] | null;
             /** @description commentaires approuvés, les plus anciens d'abord */
-            comments?: components["schemas"]["Comment.jsonld-public_article.list_article.detail_noid"][];
+            comments: components["schemas"]["Comment.jsonld-public_article.list_article.detail_noid"][];
             /** @description Corps HTML tel que saisi dans l'éditeur (rendu brut par le site actuel). */
-            content?: string;
-            excerpt?: string | null;
+            content: string;
+            excerpt: string | null;
             /** @description Chemin public de l'image à la une (/uploads/articles/…), ou null. */
-            featuredImage?: string | null;
-            locale?: string;
-            metaDescription?: string | null;
-            metaTitle?: string | null;
+            featuredImage: string | null;
+            locale: string;
+            metaDescription: string | null;
+            metaTitle: string | null;
             /** Format: date-time */
-            publishedAt?: string | null;
-            readingTime?: number | null;
-            slug?: string;
-            tags?: components["schemas"]["TaxonomyRef.jsonld-public_article.list_article.detail_noid"][];
-            title?: string;
+            publishedAt: string | null;
+            readingTime: number | null;
+            slug: string;
+            tags: components["schemas"]["TaxonomyRef.jsonld-public_article.list_article.detail_noid"][];
+            title: string;
             /** Format: date-time */
-            updatedAt?: string | null;
+            updatedAt: string | null;
             /** @description URL absolue de la page de l'article dans cette locale. */
-            url?: string;
+            url: string;
         };
         /**
          * @description Catégorie du blog dans une locale.
@@ -3515,13 +3521,13 @@ export interface components {
          */
         "PublicBlogCategory-public_taxonomy.list": {
             /** @description Articles publiés rattachés (toutes locales confondues, comme la sidebar actuelle). */
-            articleCount?: number;
-            description?: string | null;
-            locale?: string;
-            name?: string;
-            slug?: string;
+            articleCount: number;
+            description: string | null;
+            locale: string;
+            name: string;
+            slug: string;
             /** @description URL absolue de la page de filtre dans cette locale. */
-            url?: string;
+            url: string;
         };
         /**
          * @description Catégorie du blog dans une locale.
@@ -3533,17 +3539,17 @@ export interface components {
          */
         "PublicBlogCategory-public_taxonomy.list_taxonomy.detail": {
             /** @description URL absolue par locale, versions publiées uniquement */
-            alternates?: {
+            alternates: {
                 [key: string]: string;
             };
             /** @description Articles publiés rattachés (toutes locales confondues, comme la sidebar actuelle). */
-            articleCount?: number;
-            description?: string | null;
-            locale?: string;
-            name?: string;
-            slug?: string;
+            articleCount: number;
+            description: string | null;
+            locale: string;
+            name: string;
+            slug: string;
             /** @description URL absolue de la page de filtre dans cette locale. */
-            url?: string;
+            url: string;
         };
         /**
          * @description Catégorie du blog dans une locale.
@@ -3555,13 +3561,13 @@ export interface components {
          */
         "PublicBlogCategory.jsonld-public_taxonomy.list": components["schemas"]["HydraItemBaseSchema"] & {
             /** @description Articles publiés rattachés (toutes locales confondues, comme la sidebar actuelle). */
-            articleCount?: number;
-            description?: string | null;
-            locale?: string;
-            name?: string;
-            slug?: string;
+            articleCount: number;
+            description: string | null;
+            locale: string;
+            name: string;
+            slug: string;
             /** @description URL absolue de la page de filtre dans cette locale. */
-            url?: string;
+            url: string;
         };
         /**
          * @description Catégorie du blog dans une locale.
@@ -3573,17 +3579,17 @@ export interface components {
          */
         "PublicBlogCategory.jsonld-public_taxonomy.list_taxonomy.detail": components["schemas"]["HydraItemBaseSchema"] & {
             /** @description URL absolue par locale, versions publiées uniquement */
-            alternates?: {
+            alternates: {
                 [key: string]: string;
             };
             /** @description Articles publiés rattachés (toutes locales confondues, comme la sidebar actuelle). */
-            articleCount?: number;
-            description?: string | null;
-            locale?: string;
-            name?: string;
-            slug?: string;
+            articleCount: number;
+            description: string | null;
+            locale: string;
+            name: string;
+            slug: string;
             /** @description URL absolue de la page de filtre dans cette locale. */
-            url?: string;
+            url: string;
         };
         /**
          * @description Tag du blog dans une locale.
@@ -3595,12 +3601,12 @@ export interface components {
          */
         "PublicBlogTag-public_taxonomy.list": {
             /** @description Articles publiés rattachés (toutes locales confondues, comme la sidebar actuelle). */
-            articleCount?: number;
-            locale?: string;
-            name?: string;
-            slug?: string;
+            articleCount: number;
+            locale: string;
+            name: string;
+            slug: string;
             /** @description URL absolue de la page de filtre dans cette locale. */
-            url?: string;
+            url: string;
         };
         /**
          * @description Tag du blog dans une locale.
@@ -3612,16 +3618,16 @@ export interface components {
          */
         "PublicBlogTag-public_taxonomy.list_taxonomy.detail": {
             /** @description URL absolue par locale, versions publiées uniquement */
-            alternates?: {
+            alternates: {
                 [key: string]: string;
             };
             /** @description Articles publiés rattachés (toutes locales confondues, comme la sidebar actuelle). */
-            articleCount?: number;
-            locale?: string;
-            name?: string;
-            slug?: string;
+            articleCount: number;
+            locale: string;
+            name: string;
+            slug: string;
             /** @description URL absolue de la page de filtre dans cette locale. */
-            url?: string;
+            url: string;
         };
         /**
          * @description Tag du blog dans une locale.
@@ -3633,12 +3639,12 @@ export interface components {
          */
         "PublicBlogTag.jsonld-public_taxonomy.list": components["schemas"]["HydraItemBaseSchema"] & {
             /** @description Articles publiés rattachés (toutes locales confondues, comme la sidebar actuelle). */
-            articleCount?: number;
-            locale?: string;
-            name?: string;
-            slug?: string;
+            articleCount: number;
+            locale: string;
+            name: string;
+            slug: string;
             /** @description URL absolue de la page de filtre dans cette locale. */
-            url?: string;
+            url: string;
         };
         /**
          * @description Tag du blog dans une locale.
@@ -3650,16 +3656,16 @@ export interface components {
          */
         "PublicBlogTag.jsonld-public_taxonomy.list_taxonomy.detail": components["schemas"]["HydraItemBaseSchema"] & {
             /** @description URL absolue par locale, versions publiées uniquement */
-            alternates?: {
+            alternates: {
                 [key: string]: string;
             };
             /** @description Articles publiés rattachés (toutes locales confondues, comme la sidebar actuelle). */
-            articleCount?: number;
-            locale?: string;
-            name?: string;
-            slug?: string;
+            articleCount: number;
+            locale: string;
+            name: string;
+            slug: string;
             /** @description URL absolue de la page de filtre dans cette locale. */
-            url?: string;
+            url: string;
         };
         /**
          * @description Questions fréquentes actives, ordre d'affichage : /api/public/{locale}/faqs,
@@ -3667,12 +3673,12 @@ export interface components {
          *     traduite).
          */
         "PublicFaq-public_faq.list": {
-            answer?: string;
-            category?: string;
+            answer: string;
+            category: string;
             /** @description Identifiant stable (ancres et accordéons du template). */
-            id?: number;
-            locale?: string;
-            question?: string;
+            id: number;
+            locale: string;
+            question: string;
         };
         /**
          * @description Questions fréquentes actives, ordre d'affichage : /api/public/{locale}/faqs,
@@ -3680,12 +3686,12 @@ export interface components {
          *     traduite).
          */
         "PublicFaq.jsonld-public_faq.list": components["schemas"]["HydraItemBaseSchema"] & {
-            answer?: string;
-            category?: string;
+            answer: string;
+            category: string;
             /** @description Identifiant stable (ancres et accordéons du template). */
-            id?: number;
-            locale?: string;
-            question?: string;
+            id: number;
+            locale: string;
+            question: string;
         };
         /**
          * @description Offre d'emploi dans une locale.
@@ -3706,23 +3712,23 @@ export interface components {
              *     `contractType|upper` (et non via JobOffer::CONTRACT_SCHEMA_MAP) —
              *     à reproduire tel quel pour la parité.
              */
-            contractType?: string;
-            coverImage?: string | null;
+            contractType: string;
+            coverImage: string | null;
             /** Format: date-time */
-            createdAt?: string;
-            description?: string;
+            createdAt: string;
+            description: string;
             /** Format: date-time */
-            expiresAt?: string | null;
-            locale?: string;
-            location?: string | null;
+            expiresAt: string | null;
+            locale: string;
+            location: string | null;
             /** Format: date-time */
-            publishedAt?: string | null;
-            salary?: string | null;
-            shortDescription?: string | null;
-            skills?: string[] | null;
-            slug?: string;
-            title?: string;
-            url?: string;
+            publishedAt: string | null;
+            salary: string | null;
+            shortDescription: string | null;
+            skills: string[] | null;
+            slug: string;
+            title: string;
+            url: string;
         };
         /**
          * @description Offre d'emploi dans une locale.
@@ -3737,7 +3743,7 @@ export interface components {
          *     son JSON-LD JobPosting.
          */
         "PublicJobOffer-public_job.list_job.detail": {
-            alternates?: {
+            alternates: {
                 [key: string]: string;
             };
             /**
@@ -3746,25 +3752,25 @@ export interface components {
              *     `contractType|upper` (et non via JobOffer::CONTRACT_SCHEMA_MAP) —
              *     à reproduire tel quel pour la parité.
              */
-            contractType?: string;
-            coverImage?: string | null;
+            contractType: string;
+            coverImage: string | null;
             /** Format: date-time */
-            createdAt?: string;
-            description?: string;
+            createdAt: string;
+            description: string;
             /** Format: date-time */
-            expiresAt?: string | null;
-            locale?: string;
-            location?: string | null;
+            expiresAt: string | null;
+            locale: string;
+            location: string | null;
             /** Format: date-time */
-            publishedAt?: string | null;
-            salary?: string | null;
-            shortDescription?: string | null;
-            skills?: string[] | null;
-            slug?: string;
-            title?: string;
+            publishedAt: string | null;
+            salary: string | null;
+            shortDescription: string | null;
+            skills: string[] | null;
+            slug: string;
+            title: string;
             /** Format: date-time */
-            updatedAt?: string | null;
-            url?: string;
+            updatedAt: string | null;
+            url: string;
         };
         /**
          * @description Offre d'emploi dans une locale.
@@ -3785,23 +3791,23 @@ export interface components {
              *     `contractType|upper` (et non via JobOffer::CONTRACT_SCHEMA_MAP) —
              *     à reproduire tel quel pour la parité.
              */
-            contractType?: string;
-            coverImage?: string | null;
+            contractType: string;
+            coverImage: string | null;
             /** Format: date-time */
-            createdAt?: string;
-            description?: string;
+            createdAt: string;
+            description: string;
             /** Format: date-time */
-            expiresAt?: string | null;
-            locale?: string;
-            location?: string | null;
+            expiresAt: string | null;
+            locale: string;
+            location: string | null;
             /** Format: date-time */
-            publishedAt?: string | null;
-            salary?: string | null;
-            shortDescription?: string | null;
-            skills?: string[] | null;
-            slug?: string;
-            title?: string;
-            url?: string;
+            publishedAt: string | null;
+            salary: string | null;
+            shortDescription: string | null;
+            skills: string[] | null;
+            slug: string;
+            title: string;
+            url: string;
         };
         /**
          * @description Offre d'emploi dans une locale.
@@ -3816,7 +3822,7 @@ export interface components {
          *     son JSON-LD JobPosting.
          */
         "PublicJobOffer.jsonld-public_job.list_job.detail": components["schemas"]["HydraItemBaseSchema"] & {
-            alternates?: {
+            alternates: {
                 [key: string]: string;
             };
             /**
@@ -3825,41 +3831,41 @@ export interface components {
              *     `contractType|upper` (et non via JobOffer::CONTRACT_SCHEMA_MAP) —
              *     à reproduire tel quel pour la parité.
              */
-            contractType?: string;
-            coverImage?: string | null;
+            contractType: string;
+            coverImage: string | null;
             /** Format: date-time */
-            createdAt?: string;
-            description?: string;
+            createdAt: string;
+            description: string;
             /** Format: date-time */
-            expiresAt?: string | null;
-            locale?: string;
-            location?: string | null;
+            expiresAt: string | null;
+            locale: string;
+            location: string | null;
             /** Format: date-time */
-            publishedAt?: string | null;
-            salary?: string | null;
-            shortDescription?: string | null;
-            skills?: string[] | null;
-            slug?: string;
-            title?: string;
+            publishedAt: string | null;
+            salary: string | null;
+            shortDescription: string | null;
+            skills: string[] | null;
+            slug: string;
+            title: string;
             /** Format: date-time */
-            updatedAt?: string | null;
-            url?: string;
+            updatedAt: string | null;
+            url: string;
         };
         /** @description Valeurs des filtres de la page carrières : /api/public/{locale}/job-offer-filters. */
         "PublicJobOfferFilters-public_job-filters": {
             /** @description clés techniques, ordre du site */
-            contractTypes?: string[];
-            locale?: string;
+            contractTypes: string[];
+            locale: string;
             /** @description lieux distincts des offres publiées */
-            locations?: string[];
+            locations: string[];
         };
         /** @description Valeurs des filtres de la page carrières : /api/public/{locale}/job-offer-filters. */
         "PublicJobOfferFilters.jsonld-public_job-filters": components["schemas"]["HydraItemBaseSchema"] & {
             /** @description clés techniques, ordre du site */
-            contractTypes?: string[];
-            locale?: string;
+            contractTypes: string[];
+            locale: string;
             /** @description lieux distincts des offres publiées */
-            locations?: string[];
+            locations: string[];
         };
         /**
          * @description Projet du portfolio dans une locale.
@@ -3870,21 +3876,21 @@ export interface components {
          *     Détail : /api/public/{locale}/projects/{slug} — avec projets précédent/suivant.
          */
         "PublicProject-public_project.list": {
-            category?: components["schemas"]["TaxonomyRef-public_project.list_noid"] | null;
-            client?: string | null;
+            category: components["schemas"]["TaxonomyRef-public_project.list_noid"] | null;
+            client: string | null;
             /** Format: date-time */
-            completedAt?: string | null;
-            description?: string | null;
-            displayOrder?: number;
-            featured?: boolean;
-            featuredImage?: string | null;
-            locale?: string;
-            location?: string | null;
-            projectUrl?: string | null;
-            slug?: string;
-            technologies?: string[] | null;
-            title?: string;
-            url?: string;
+            completedAt: string | null;
+            description: string | null;
+            displayOrder: number;
+            featured: boolean;
+            featuredImage: string | null;
+            locale: string;
+            location: string | null;
+            projectUrl: string | null;
+            slug: string;
+            technologies: string[] | null;
+            title: string;
+            url: string;
         };
         /**
          * @description Projet du portfolio dans une locale.
@@ -3895,38 +3901,38 @@ export interface components {
          *     Détail : /api/public/{locale}/projects/{slug} — avec projets précédent/suivant.
          */
         "PublicProject-public_project.list_project.detail": {
-            alternates?: {
+            alternates: {
                 [key: string]: string;
             };
-            approach?: string | null;
-            approachDetail?: string | null;
-            category?: components["schemas"]["TaxonomyRef-public_project.list_project.detail_noid"] | null;
-            challenge?: string | null;
-            client?: string | null;
+            approach: string | null;
+            approachDetail: string | null;
+            category: components["schemas"]["TaxonomyRef-public_project.list_project.detail_noid"] | null;
+            challenge: string | null;
+            client: string | null;
             /** Format: date-time */
-            completedAt?: string | null;
-            description?: string | null;
-            displayOrder?: number;
-            featured?: boolean;
-            featuredImage?: string | null;
+            completedAt: string | null;
+            description: string | null;
+            displayOrder: number;
+            featured: boolean;
+            featuredImage: string | null;
             /** @description images 2 à 4 (null si absente : le template affiche une image par défaut) */
-            images?: (string | null)[];
-            locale?: string;
-            location?: string | null;
-            metaDescription?: string | null;
-            metaTitle?: string | null;
-            next?: components["schemas"]["PageLink-public_project.list_project.detail_noid"] | null;
-            previous?: components["schemas"]["PageLink-public_project.list_project.detail_noid"] | null;
-            projectUrl?: string | null;
-            results?: string | null;
-            slug?: string;
+            images: (string | null)[];
+            locale: string;
+            location: string | null;
+            metaDescription: string | null;
+            metaTitle: string | null;
+            next: components["schemas"]["PageLink-public_project.list_project.detail_noid"] | null;
+            previous: components["schemas"]["PageLink-public_project.list_project.detail_noid"] | null;
+            projectUrl: string | null;
+            results: string | null;
+            slug: string;
             /** @description 4 étapes, champs null si non saisis */
-            steps?: components["schemas"]["Step-public_project.list_project.detail_noid"][];
-            technologies?: string[] | null;
-            title?: string;
+            steps: components["schemas"]["Step-public_project.list_project.detail_noid"][];
+            technologies: string[] | null;
+            title: string;
             /** Format: date-time */
-            updatedAt?: string | null;
-            url?: string;
+            updatedAt: string | null;
+            url: string;
         };
         /**
          * @description Projet du portfolio dans une locale.
@@ -3937,21 +3943,21 @@ export interface components {
          *     Détail : /api/public/{locale}/projects/{slug} — avec projets précédent/suivant.
          */
         "PublicProject.jsonld-public_project.list": components["schemas"]["HydraItemBaseSchema"] & {
-            category?: components["schemas"]["TaxonomyRef.jsonld-public_project.list_noid"] | null;
-            client?: string | null;
+            category: components["schemas"]["TaxonomyRef.jsonld-public_project.list_noid"] | null;
+            client: string | null;
             /** Format: date-time */
-            completedAt?: string | null;
-            description?: string | null;
-            displayOrder?: number;
-            featured?: boolean;
-            featuredImage?: string | null;
-            locale?: string;
-            location?: string | null;
-            projectUrl?: string | null;
-            slug?: string;
-            technologies?: string[] | null;
-            title?: string;
-            url?: string;
+            completedAt: string | null;
+            description: string | null;
+            displayOrder: number;
+            featured: boolean;
+            featuredImage: string | null;
+            locale: string;
+            location: string | null;
+            projectUrl: string | null;
+            slug: string;
+            technologies: string[] | null;
+            title: string;
+            url: string;
         };
         /**
          * @description Projet du portfolio dans une locale.
@@ -3962,56 +3968,56 @@ export interface components {
          *     Détail : /api/public/{locale}/projects/{slug} — avec projets précédent/suivant.
          */
         "PublicProject.jsonld-public_project.list_project.detail": components["schemas"]["HydraItemBaseSchema"] & {
-            alternates?: {
+            alternates: {
                 [key: string]: string;
             };
-            approach?: string | null;
-            approachDetail?: string | null;
-            category?: components["schemas"]["TaxonomyRef.jsonld-public_project.list_project.detail_noid"] | null;
-            challenge?: string | null;
-            client?: string | null;
+            approach: string | null;
+            approachDetail: string | null;
+            category: components["schemas"]["TaxonomyRef.jsonld-public_project.list_project.detail_noid"] | null;
+            challenge: string | null;
+            client: string | null;
             /** Format: date-time */
-            completedAt?: string | null;
-            description?: string | null;
-            displayOrder?: number;
-            featured?: boolean;
-            featuredImage?: string | null;
+            completedAt: string | null;
+            description: string | null;
+            displayOrder: number;
+            featured: boolean;
+            featuredImage: string | null;
             /** @description images 2 à 4 (null si absente : le template affiche une image par défaut) */
-            images?: (string | null)[];
-            locale?: string;
-            location?: string | null;
-            metaDescription?: string | null;
-            metaTitle?: string | null;
-            next?: components["schemas"]["PageLink.jsonld-public_project.list_project.detail_noid"] | null;
-            previous?: components["schemas"]["PageLink.jsonld-public_project.list_project.detail_noid"] | null;
-            projectUrl?: string | null;
-            results?: string | null;
-            slug?: string;
+            images: (string | null)[];
+            locale: string;
+            location: string | null;
+            metaDescription: string | null;
+            metaTitle: string | null;
+            next: components["schemas"]["PageLink.jsonld-public_project.list_project.detail_noid"] | null;
+            previous: components["schemas"]["PageLink.jsonld-public_project.list_project.detail_noid"] | null;
+            projectUrl: string | null;
+            results: string | null;
+            slug: string;
             /** @description 4 étapes, champs null si non saisis */
-            steps?: components["schemas"]["Step.jsonld-public_project.list_project.detail_noid"][];
-            technologies?: string[] | null;
-            title?: string;
+            steps: components["schemas"]["Step.jsonld-public_project.list_project.detail_noid"][];
+            technologies: string[] | null;
+            title: string;
             /** Format: date-time */
-            updatedAt?: string | null;
-            url?: string;
+            updatedAt: string | null;
+            url: string;
         };
         /**
          * @description Catégories de projet traduites dans la locale (filtres du portfolio,
          *     ?category=<slug> sur /portfolio).
          */
         "PublicProjectCategory-public_project-category.list": {
-            locale?: string;
-            name?: string;
-            slug?: string;
+            locale: string;
+            name: string;
+            slug: string;
         };
         /**
          * @description Catégories de projet traduites dans la locale (filtres du portfolio,
          *     ?category=<slug> sur /portfolio).
          */
         "PublicProjectCategory.jsonld-public_project-category.list": components["schemas"]["HydraItemBaseSchema"] & {
-            locale?: string;
-            name?: string;
-            slug?: string;
+            locale: string;
+            name: string;
+            slug: string;
         };
         /**
          * @description Service de l'agence dans une locale.
@@ -4022,20 +4028,20 @@ export interface components {
          *     Détail : /api/public/{locale}/services/{slug} — avec les services liés.
          */
         "PublicService-public_service.list": {
-            badge?: string | null;
-            displayOrder?: number;
-            featuredImage?: string | null;
+            badge: string | null;
+            displayOrder: number;
+            featuredImage: string | null;
             /** @description Points clés, affichés sur les cartes de la liste comme sur le détail. */
-            features?: string[] | null;
+            features: string[] | null;
             /** @description Classe d'icône Font Awesome. */
-            icon?: string | null;
-            locale?: string;
+            icon: string | null;
+            locale: string;
             /** @description Pilier de l'offre (1 à 4, libellés dans les traductions du front), ou null. */
-            pillar?: number | null;
-            shortDescription?: string | null;
-            slug?: string;
-            title?: string;
-            url?: string;
+            pillar: number | null;
+            shortDescription: string | null;
+            slug: string;
+            title: string;
+            url: string;
         };
         /**
          * @description Service de l'agence dans une locale.
@@ -4046,36 +4052,36 @@ export interface components {
          *     Détail : /api/public/{locale}/services/{slug} — avec les services liés.
          */
         "PublicService-public_service.list_service.detail": {
-            alternates?: {
+            alternates: {
                 [key: string]: string;
             };
-            badge?: string | null;
-            displayOrder?: number;
-            featuredImage?: string | null;
+            badge: string | null;
+            displayOrder: number;
+            featuredImage: string | null;
             /** @description Points clés, affichés sur les cartes de la liste comme sur le détail. */
-            features?: string[] | null;
-            fullDescription?: string | null;
+            features: string[] | null;
+            fullDescription: string | null;
             /** @description Classe d'icône Font Awesome. */
-            icon?: string | null;
-            image2?: string | null;
-            locale?: string;
-            metaDescription?: string | null;
-            metaTitle?: string | null;
+            icon: string | null;
+            image2: string | null;
+            locale: string;
+            metaDescription: string | null;
+            metaTitle: string | null;
             /** @description Pilier de l'offre (1 à 4, libellés dans les traductions du front), ou null. */
-            pillar?: number | null;
+            pillar: number | null;
             /** @description recommandations (même pilier d'abord) */
-            related?: components["schemas"]["PublicService-public_service.list_service.detail"][];
-            shortDescription?: string | null;
-            slug?: string;
+            related: components["schemas"]["PublicService-public_service.list_service.detail"][];
+            shortDescription: string | null;
+            slug: string;
             /** @description 4 étapes, champs null si non saisis */
-            steps?: components["schemas"]["Step-public_service.list_service.detail_noid"][];
-            title?: string;
+            steps: components["schemas"]["Step-public_service.list_service.detail_noid"][];
+            title: string;
             /** Format: date-time */
-            updatedAt?: string | null;
-            url?: string;
+            updatedAt: string | null;
+            url: string;
             /** @description 2 arguments « pourquoi nous » */
-            why?: components["schemas"]["Step-public_service.list_service.detail_noid"][];
-            whyPoints?: string[] | null;
+            why: components["schemas"]["Step-public_service.list_service.detail_noid"][];
+            whyPoints: string[] | null;
         };
         /**
          * @description Service de l'agence dans une locale.
@@ -4086,20 +4092,20 @@ export interface components {
          *     Détail : /api/public/{locale}/services/{slug} — avec les services liés.
          */
         "PublicService.jsonld-public_service.list": components["schemas"]["HydraItemBaseSchema"] & {
-            badge?: string | null;
-            displayOrder?: number;
-            featuredImage?: string | null;
+            badge: string | null;
+            displayOrder: number;
+            featuredImage: string | null;
             /** @description Points clés, affichés sur les cartes de la liste comme sur le détail. */
-            features?: string[] | null;
+            features: string[] | null;
             /** @description Classe d'icône Font Awesome. */
-            icon?: string | null;
-            locale?: string;
+            icon: string | null;
+            locale: string;
             /** @description Pilier de l'offre (1 à 4, libellés dans les traductions du front), ou null. */
-            pillar?: number | null;
-            shortDescription?: string | null;
-            slug?: string;
-            title?: string;
-            url?: string;
+            pillar: number | null;
+            shortDescription: string | null;
+            slug: string;
+            title: string;
+            url: string;
         };
         /**
          * @description Service de l'agence dans une locale.
@@ -4111,36 +4117,36 @@ export interface components {
          */
         "PublicService.jsonld-public_service.list_service.detail": {
             /** @description recommandations (même pilier d'abord) */
-            related?: components["schemas"]["PublicService.jsonld-public_service.list_service.detail"][];
+            related: components["schemas"]["PublicService.jsonld-public_service.list_service.detail"][];
         } & (components["schemas"]["HydraItemBaseSchema"] & {
-            alternates?: {
+            alternates: {
                 [key: string]: string;
             };
-            badge?: string | null;
-            displayOrder?: number;
-            featuredImage?: string | null;
+            badge: string | null;
+            displayOrder: number;
+            featuredImage: string | null;
             /** @description Points clés, affichés sur les cartes de la liste comme sur le détail. */
-            features?: string[] | null;
-            fullDescription?: string | null;
+            features: string[] | null;
+            fullDescription: string | null;
             /** @description Classe d'icône Font Awesome. */
-            icon?: string | null;
-            image2?: string | null;
-            locale?: string;
-            metaDescription?: string | null;
-            metaTitle?: string | null;
+            icon: string | null;
+            image2: string | null;
+            locale: string;
+            metaDescription: string | null;
+            metaTitle: string | null;
             /** @description Pilier de l'offre (1 à 4, libellés dans les traductions du front), ou null. */
-            pillar?: number | null;
-            shortDescription?: string | null;
-            slug?: string;
+            pillar: number | null;
+            shortDescription: string | null;
+            slug: string;
             /** @description 4 étapes, champs null si non saisis */
-            steps?: components["schemas"]["Step.jsonld-public_service.list_service.detail_noid"][];
-            title?: string;
+            steps: components["schemas"]["Step.jsonld-public_service.list_service.detail_noid"][];
+            title: string;
             /** Format: date-time */
-            updatedAt?: string | null;
-            url?: string;
+            updatedAt: string | null;
+            url: string;
             /** @description 2 arguments « pourquoi nous » */
-            why?: components["schemas"]["Step.jsonld-public_service.list_service.detail_noid"][];
-            whyPoints?: string[] | null;
+            why: components["schemas"]["Step.jsonld-public_service.list_service.detail_noid"][];
+            whyPoints: string[] | null;
         });
         /**
          * @description Membre de l'équipe dans une locale.
@@ -4150,16 +4156,16 @@ export interface components {
          *     Détail : /api/public/{locale}/team-members/{slug}.
          */
         "PublicTeamMember-public_team.list": {
-            fullName?: string;
-            locale?: string;
-            photo?: string | null;
-            position?: string;
-            slug?: string;
+            fullName: string;
+            locale: string;
+            photo: string | null;
+            position: string;
+            slug: string;
             /** @description réseau => URL, tel que saisi */
-            socialLinks?: {
+            socialLinks: {
                 [key: string]: string;
             } | null;
-            url?: string;
+            url: string;
         };
         /**
          * @description Membre de l'équipe dans une locale.
@@ -4169,26 +4175,26 @@ export interface components {
          *     Détail : /api/public/{locale}/team-members/{slug}.
          */
         "PublicTeamMember-public_team.list_team.detail": {
-            alternates?: {
+            alternates: {
                 [key: string]: string;
             };
-            bio?: string | null;
-            bio2?: string | null;
-            bio3?: string | null;
+            bio: string | null;
+            bio2: string | null;
+            bio3: string | null;
             /** @description Adresse publique affichée sur la fiche (et dans son JSON-LD). */
-            email?: string | null;
-            fullName?: string;
-            locale?: string;
-            photo?: string | null;
-            position?: string;
-            slug?: string;
+            email: string | null;
+            fullName: string;
+            locale: string;
+            photo: string | null;
+            position: string;
+            slug: string;
             /** @description réseau => URL, tel que saisi */
-            socialLinks?: {
+            socialLinks: {
                 [key: string]: string;
             } | null;
             /** Format: date-time */
-            updatedAt?: string | null;
-            url?: string;
+            updatedAt: string | null;
+            url: string;
         };
         /**
          * @description Membre de l'équipe dans une locale.
@@ -4198,16 +4204,16 @@ export interface components {
          *     Détail : /api/public/{locale}/team-members/{slug}.
          */
         "PublicTeamMember.jsonld-public_team.list": components["schemas"]["HydraItemBaseSchema"] & {
-            fullName?: string;
-            locale?: string;
-            photo?: string | null;
-            position?: string;
-            slug?: string;
+            fullName: string;
+            locale: string;
+            photo: string | null;
+            position: string;
+            slug: string;
             /** @description réseau => URL, tel que saisi */
-            socialLinks?: {
+            socialLinks: {
                 [key: string]: string;
             } | null;
-            url?: string;
+            url: string;
         };
         /**
          * @description Membre de l'équipe dans une locale.
@@ -4217,156 +4223,162 @@ export interface components {
          *     Détail : /api/public/{locale}/team-members/{slug}.
          */
         "PublicTeamMember.jsonld-public_team.list_team.detail": components["schemas"]["HydraItemBaseSchema"] & {
-            alternates?: {
+            alternates: {
                 [key: string]: string;
             };
-            bio?: string | null;
-            bio2?: string | null;
-            bio3?: string | null;
+            bio: string | null;
+            bio2: string | null;
+            bio3: string | null;
             /** @description Adresse publique affichée sur la fiche (et dans son JSON-LD). */
-            email?: string | null;
-            fullName?: string;
-            locale?: string;
-            photo?: string | null;
-            position?: string;
-            slug?: string;
+            email: string | null;
+            fullName: string;
+            locale: string;
+            photo: string | null;
+            position: string;
+            slug: string;
             /** @description réseau => URL, tel que saisi */
-            socialLinks?: {
+            socialLinks: {
                 [key: string]: string;
             } | null;
             /** Format: date-time */
-            updatedAt?: string | null;
-            url?: string;
+            updatedAt: string | null;
+            url: string;
         };
         /**
          * @description Témoignages clients traduits, ordre d'affichage :
          *     /api/public/{locale}/testimonials, ?featured=true pour ceux de l'accueil.
          */
         "PublicTestimonial-public_testimonial.list": {
-            avatar?: string | null;
-            clientCompany?: string | null;
-            clientName?: string;
-            clientPosition?: string | null;
-            content?: string;
-            id?: number;
-            locale?: string;
-            rating?: number;
+            avatar: string | null;
+            clientCompany: string | null;
+            clientName: string;
+            clientPosition: string | null;
+            content: string;
+            id: number;
+            locale: string;
+            rating: number;
         };
         /**
          * @description Témoignages clients traduits, ordre d'affichage :
          *     /api/public/{locale}/testimonials, ?featured=true pour ceux de l'accueil.
          */
         "PublicTestimonial.jsonld-public_testimonial.list": components["schemas"]["HydraItemBaseSchema"] & {
-            avatar?: string | null;
-            clientCompany?: string | null;
-            clientName?: string;
-            clientPosition?: string | null;
-            content?: string;
-            id?: number;
-            locale?: string;
-            rating?: number;
+            avatar: string | null;
+            clientCompany: string | null;
+            clientName: string;
+            clientPosition: string | null;
+            content: string;
+            id: number;
+            locale: string;
+            rating: number;
         };
         "RecentApplication-admin_noid": {
             /** Format: date-time */
-            createdAt?: string;
-            email?: string;
-            fullName?: string;
-            id?: number;
+            createdAt: string;
+            email: string;
+            fullName: string;
+            id: number;
             /** @description Titre (français) de l'offre ; null si l'offre a été supprimée. */
-            jobTitle?: string | null;
-            status?: string;
-            statusLabel?: string;
+            jobTitle: string | null;
+            status: string;
+            statusLabel: string;
         };
         "RecentApplication.jsonld-admin_noid": {
             /** Format: date-time */
-            createdAt?: string;
-            email?: string;
-            fullName?: string;
-            id?: number;
+            createdAt: string;
+            email: string;
+            fullName: string;
+            id: number;
             /** @description Titre (français) de l'offre ; null si l'offre a été supprimée. */
-            jobTitle?: string | null;
-            status?: string;
-            statusLabel?: string;
+            jobTitle: string | null;
+            status: string;
+            statusLabel: string;
         };
         "RecentArticle-admin_noid": {
-            id?: number;
+            authorName: string | null;
+            /** @description Nom (français) de la catégorie, null si aucune. */
+            categoryName: string | null;
+            id: number;
             /** Format: date-time */
-            publishedAt?: string | null;
+            publishedAt: string | null;
             /** @description Titre de la version source (français). */
-            title?: string;
+            title: string;
         };
         "RecentArticle.jsonld-admin_noid": {
-            id?: number;
+            authorName: string | null;
+            /** @description Nom (français) de la catégorie, null si aucune. */
+            categoryName: string | null;
+            id: number;
             /** Format: date-time */
-            publishedAt?: string | null;
+            publishedAt: string | null;
             /** @description Titre de la version source (français). */
-            title?: string;
+            title: string;
         };
         "RecentMessage-admin_noid": {
             /** Format: date-time */
-            createdAt?: string;
-            email?: string;
-            id?: number;
-            isRead?: boolean;
-            name?: string;
-            subject?: string | null;
+            createdAt: string;
+            email: string;
+            id: number;
+            isRead: boolean;
+            name: string;
+            subject: string | null;
         };
         "RecentMessage.jsonld-admin_noid": {
             /** Format: date-time */
-            createdAt?: string;
-            email?: string;
-            id?: number;
-            isRead?: boolean;
-            name?: string;
-            subject?: string | null;
+            createdAt: string;
+            email: string;
+            id: number;
+            isRead: boolean;
+            name: string;
+            subject: string | null;
         };
         "Step-public_project.list_project.detail_noid": {
-            content?: string | null;
-            title?: string | null;
+            content: string | null;
+            title: string | null;
         };
         "Step-public_service.list_service.detail_noid": {
-            content?: string | null;
-            title?: string | null;
+            content: string | null;
+            title: string | null;
         };
         "Step.jsonld-public_project.list_project.detail_noid": {
-            content?: string | null;
-            title?: string | null;
+            content: string | null;
+            title: string | null;
         };
         "Step.jsonld-public_service.list_service.detail_noid": {
-            content?: string | null;
-            title?: string | null;
+            content: string | null;
+            title: string | null;
         };
         "TaxonomyRef-public_article.list_article.detail_noid": {
-            name?: string;
-            slug?: string | null;
+            name: string;
+            slug: string | null;
         };
         "TaxonomyRef-public_article.list_noid": {
-            name?: string;
-            slug?: string | null;
+            name: string;
+            slug: string | null;
         };
         "TaxonomyRef-public_project.list_noid": {
-            name?: string;
-            slug?: string | null;
+            name: string;
+            slug: string | null;
         };
         "TaxonomyRef-public_project.list_project.detail_noid": {
-            name?: string;
-            slug?: string | null;
+            name: string;
+            slug: string | null;
         };
         "TaxonomyRef.jsonld-public_article.list_article.detail_noid": {
-            name?: string;
-            slug?: string | null;
+            name: string;
+            slug: string | null;
         };
         "TaxonomyRef.jsonld-public_article.list_noid": {
-            name?: string;
-            slug?: string | null;
+            name: string;
+            slug: string | null;
         };
         "TaxonomyRef.jsonld-public_project.list_noid": {
-            name?: string;
-            slug?: string | null;
+            name: string;
+            slug: string | null;
         };
         "TaxonomyRef.jsonld-public_project.list_project.detail_noid": {
-            name?: string;
-            slug?: string | null;
+            name: string;
+            slug: string | null;
         };
     };
     responses: never;

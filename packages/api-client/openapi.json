@@ -94,6 +94,21 @@
             "type": "integer"
           }
         },
+        "required": [
+          "author",
+          "category",
+          "createdAt",
+          "featuredImageName",
+          "id",
+          "imageUrls",
+          "isPublished",
+          "publishedAt",
+          "readingTime",
+          "tags",
+          "translations",
+          "updatedAt",
+          "viewsCount"
+        ],
         "type": "object"
       },
       "AdminArticle-admin.write": {
@@ -151,6 +166,16 @@
             "type": "object"
           }
         },
+        "required": [
+          "author",
+          "category",
+          "featuredImageName",
+          "isPublished",
+          "publishedAt",
+          "readingTime",
+          "tags",
+          "translations"
+        ],
         "type": "object"
       },
       "AdminArticle.jsonld-admin.read": {
@@ -245,6 +270,21 @@
                 "type": "integer"
               }
             },
+            "required": [
+              "author",
+              "category",
+              "createdAt",
+              "featuredImageName",
+              "id",
+              "imageUrls",
+              "isPublished",
+              "publishedAt",
+              "readingTime",
+              "tags",
+              "translations",
+              "updatedAt",
+              "viewsCount"
+            ],
             "type": "object"
           }
         ],
@@ -304,6 +344,17 @@
             ]
           }
         },
+        "required": [
+          "content",
+          "excerpt",
+          "isPublished",
+          "isStale",
+          "metaDescription",
+          "metaTitle",
+          "slug",
+          "title",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminArticleTranslation-admin.write_noid": {
@@ -348,6 +399,15 @@
             "type": "string"
           }
         },
+        "required": [
+          "content",
+          "excerpt",
+          "isPublished",
+          "metaDescription",
+          "metaTitle",
+          "slug",
+          "title"
+        ],
         "type": "object"
       },
       "AdminArticleTranslation.jsonld-admin.read_noid": {
@@ -404,6 +464,17 @@
             ]
           }
         },
+        "required": [
+          "content",
+          "excerpt",
+          "isPublished",
+          "isStale",
+          "metaDescription",
+          "metaTitle",
+          "slug",
+          "title",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminAuthor-admin.read": {
@@ -456,6 +527,14 @@
             ]
           }
         },
+        "required": [
+          "avatarName",
+          "id",
+          "imageUrls",
+          "socialLinks",
+          "translations",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminAuthor-admin.write": {
@@ -486,6 +565,11 @@
             "type": "object"
           }
         },
+        "required": [
+          "avatarName",
+          "socialLinks",
+          "translations"
+        ],
         "type": "object"
       },
       "AdminAuthor.jsonld-admin.read": {
@@ -542,6 +626,14 @@
                 ]
               }
             },
+            "required": [
+              "avatarName",
+              "id",
+              "imageUrls",
+              "socialLinks",
+              "translations",
+              "updatedAt"
+            ],
             "type": "object"
           }
         ],
@@ -584,6 +676,14 @@
             ]
           }
         },
+        "required": [
+          "bio",
+          "isPublished",
+          "isStale",
+          "name",
+          "slug",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminAuthorTranslation-admin.write_noid": {
@@ -611,6 +711,12 @@
             ]
           }
         },
+        "required": [
+          "bio",
+          "isPublished",
+          "name",
+          "slug"
+        ],
         "type": "object"
       },
       "AdminAuthorTranslation.jsonld-admin.read_noid": {
@@ -650,6 +756,14 @@
             ]
           }
         },
+        "required": [
+          "bio",
+          "isPublished",
+          "isStale",
+          "name",
+          "slug",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminCandidateApplication": {
@@ -738,6 +852,23 @@
             "type": "string"
           }
         },
+        "required": [
+          "city",
+          "country",
+          "createdAt",
+          "cvUrl",
+          "email",
+          "firstName",
+          "id",
+          "jobOffer",
+          "lastName",
+          "linkedinUrl",
+          "motivation",
+          "phone",
+          "portfolioUrl",
+          "status",
+          "statusLabel"
+        ],
         "type": "object"
       },
       "AdminCandidateApplication.ApplicationStatusInput": {
@@ -851,6 +982,23 @@
                 "type": "string"
               }
             },
+            "required": [
+              "city",
+              "country",
+              "createdAt",
+              "cvUrl",
+              "email",
+              "firstName",
+              "id",
+              "jobOffer",
+              "lastName",
+              "linkedinUrl",
+              "motivation",
+              "phone",
+              "portfolioUrl",
+              "status",
+              "statusLabel"
+            ],
             "type": "object"
           }
         ],
@@ -873,6 +1021,10 @@
             "type": "object"
           }
         },
+        "required": [
+          "id",
+          "translations"
+        ],
         "type": "object"
       },
       "AdminCategory-admin.write": {
@@ -886,6 +1038,9 @@
             "type": "object"
           }
         },
+        "required": [
+          "translations"
+        ],
         "type": "object"
       },
       "AdminCategory.jsonld-admin.read": {
@@ -909,6 +1064,10 @@
                 "type": "object"
               }
             },
+            "required": [
+              "id",
+              "translations"
+            ],
             "type": "object"
           }
         ],
@@ -951,6 +1110,14 @@
             ]
           }
         },
+        "required": [
+          "description",
+          "isPublished",
+          "isStale",
+          "name",
+          "slug",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminCategoryTranslation-admin.write_noid": {
@@ -978,6 +1145,12 @@
             ]
           }
         },
+        "required": [
+          "description",
+          "isPublished",
+          "name",
+          "slug"
+        ],
         "type": "object"
       },
       "AdminCategoryTranslation.jsonld-admin.read_noid": {
@@ -1017,6 +1190,14 @@
             ]
           }
         },
+        "required": [
+          "description",
+          "isPublished",
+          "isStale",
+          "name",
+          "slug",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminComment": {
@@ -1075,6 +1256,18 @@
             "type": "integer"
           }
         },
+        "required": [
+          "article",
+          "authorEmail",
+          "authorName",
+          "content",
+          "createdAt",
+          "id",
+          "ipAddress",
+          "isApproved",
+          "parentId",
+          "repliesCount"
+        ],
         "type": "object"
       },
       "AdminComment.ApprovalInput": {
@@ -1167,6 +1360,18 @@
                 "type": "integer"
               }
             },
+            "required": [
+              "article",
+              "authorEmail",
+              "authorName",
+              "content",
+              "createdAt",
+              "id",
+              "ipAddress",
+              "isApproved",
+              "parentId",
+              "repliesCount"
+            ],
             "type": "object"
           }
         ],
@@ -1219,6 +1424,18 @@
             ]
           }
         },
+        "required": [
+          "createdAt",
+          "email",
+          "id",
+          "ipAddress",
+          "isRead",
+          "message",
+          "name",
+          "phone",
+          "service",
+          "subject"
+        ],
         "type": "object"
       },
       "AdminContactMessage.ReadStatusInput": {
@@ -1287,6 +1504,18 @@
                 ]
               }
             },
+            "required": [
+              "createdAt",
+              "email",
+              "id",
+              "ipAddress",
+              "isRead",
+              "message",
+              "name",
+              "phone",
+              "service",
+              "subject"
+            ],
             "type": "object"
           }
         ],
@@ -1330,6 +1559,15 @@
             "type": "array"
           }
         },
+        "required": [
+          "avatar",
+          "email",
+          "fullName",
+          "id",
+          "isAdmin",
+          "lastLoginAt",
+          "roles"
+        ],
         "type": "object"
       },
       "AdminCurrentUser.ProfileInput": {
@@ -1362,7 +1600,9 @@
           }
         },
         "required": [
-          "email"
+          "email",
+          "fullName",
+          "plainPassword"
         ],
         "type": "object"
       },
@@ -1408,6 +1648,15 @@
                 "type": "array"
               }
             },
+            "required": [
+              "avatar",
+              "email",
+              "fullName",
+              "id",
+              "isAdmin",
+              "lastLoginAt",
+              "roles"
+            ],
             "type": "object"
           }
         ],
@@ -1417,27 +1666,7 @@
         "description": "Tableau de bord du back-office : GET /api/admin/dashboard.\nMêmes données que le tableau de bord EasyAdmin (App\\Admin\\DashboardStats).",
         "properties": {
           "charts": {
-            "additionalProperties": {
-              "additionalProperties": {
-                "anyOf": [
-                  {
-                    "items": {
-                      "type": "integer"
-                    },
-                    "type": "array"
-                  },
-                  {
-                    "items": {
-                      "type": "string"
-                    },
-                    "type": "array"
-                  }
-                ]
-              },
-              "type": "object"
-            },
-            "description": "activité des 6 derniers mois",
-            "type": "object"
+            "$ref": "#/components/schemas/DashboardCharts-admin_noid"
           },
           "kpis": {
             "additionalProperties": {
@@ -1474,6 +1703,15 @@
             "type": "array"
           }
         },
+        "required": [
+          "charts",
+          "kpis",
+          "parity",
+          "parityLocale",
+          "recentApplications",
+          "recentArticles",
+          "recentMessages"
+        ],
         "type": "object"
       },
       "AdminDashboard.jsonld-admin": {
@@ -1484,27 +1722,7 @@
           {
             "properties": {
               "charts": {
-                "additionalProperties": {
-                  "additionalProperties": {
-                    "anyOf": [
-                      {
-                        "items": {
-                          "type": "integer"
-                        },
-                        "type": "array"
-                      },
-                      {
-                        "items": {
-                          "type": "string"
-                        },
-                        "type": "array"
-                      }
-                    ]
-                  },
-                  "type": "object"
-                },
-                "description": "activité des 6 derniers mois",
-                "type": "object"
+                "$ref": "#/components/schemas/DashboardCharts.jsonld-admin_noid"
               },
               "kpis": {
                 "additionalProperties": {
@@ -1541,6 +1759,15 @@
                 "type": "array"
               }
             },
+            "required": [
+              "charts",
+              "kpis",
+              "parity",
+              "parityLocale",
+              "recentApplications",
+              "recentArticles",
+              "recentMessages"
+            ],
             "type": "object"
           }
         ],
@@ -1576,6 +1803,13 @@
             "type": "object"
           }
         },
+        "required": [
+          "category",
+          "displayOrder",
+          "id",
+          "isActive",
+          "translations"
+        ],
         "type": "object"
       },
       "AdminFaq-admin.write": {
@@ -1602,6 +1836,12 @@
             "type": "object"
           }
         },
+        "required": [
+          "category",
+          "displayOrder",
+          "isActive",
+          "translations"
+        ],
         "type": "object"
       },
       "AdminFaq.jsonld-admin.read": {
@@ -1638,6 +1878,13 @@
                 "type": "object"
               }
             },
+            "required": [
+              "category",
+              "displayOrder",
+              "id",
+              "isActive",
+              "translations"
+            ],
             "type": "object"
           }
         ],
@@ -1671,6 +1918,13 @@
             ]
           }
         },
+        "required": [
+          "answer",
+          "isPublished",
+          "isStale",
+          "question",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminFaqTranslation-admin.write_noid": {
@@ -1689,6 +1943,11 @@
             "type": "string"
           }
         },
+        "required": [
+          "answer",
+          "isPublished",
+          "question"
+        ],
         "type": "object"
       },
       "AdminFaqTranslation.jsonld-admin.read_noid": {
@@ -1719,6 +1978,13 @@
             ]
           }
         },
+        "required": [
+          "answer",
+          "isPublished",
+          "isStale",
+          "question",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminJobOffer-admin.read": {
@@ -1798,6 +2064,19 @@
             ]
           }
         },
+        "required": [
+          "contractType",
+          "coverImageName",
+          "createdAt",
+          "expiresAt",
+          "id",
+          "imageUrls",
+          "isPublished",
+          "location",
+          "publishedAt",
+          "translations",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminJobOffer-admin.write": {
@@ -1848,6 +2127,15 @@
             "type": "object"
           }
         },
+        "required": [
+          "contractType",
+          "coverImageName",
+          "expiresAt",
+          "isPublished",
+          "location",
+          "publishedAt",
+          "translations"
+        ],
         "type": "object"
       },
       "AdminJobOffer.jsonld-admin.read": {
@@ -1931,6 +2219,19 @@
                 ]
               }
             },
+            "required": [
+              "contractType",
+              "coverImageName",
+              "createdAt",
+              "expiresAt",
+              "id",
+              "imageUrls",
+              "isPublished",
+              "location",
+              "publishedAt",
+              "translations",
+              "updatedAt"
+            ],
             "type": "object"
           }
         ],
@@ -1993,6 +2294,17 @@
             ]
           }
         },
+        "required": [
+          "description",
+          "isPublished",
+          "isStale",
+          "salary",
+          "shortDescription",
+          "skills",
+          "slug",
+          "title",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminJobOfferTranslation-admin.write_noid": {
@@ -2040,6 +2352,15 @@
             "type": "string"
           }
         },
+        "required": [
+          "description",
+          "isPublished",
+          "salary",
+          "shortDescription",
+          "skills",
+          "slug",
+          "title"
+        ],
         "type": "object"
       },
       "AdminJobOfferTranslation.jsonld-admin.read_noid": {
@@ -2099,6 +2420,17 @@
             ]
           }
         },
+        "required": [
+          "description",
+          "isPublished",
+          "isStale",
+          "salary",
+          "shortDescription",
+          "skills",
+          "slug",
+          "title",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminProject-admin.read": {
@@ -2221,6 +2553,26 @@
             ]
           }
         },
+        "required": [
+          "category",
+          "client",
+          "completedAt",
+          "createdAt",
+          "displayOrder",
+          "featuredImageName",
+          "id",
+          "image2Name",
+          "image3Name",
+          "image4Name",
+          "imageUrls",
+          "isActive",
+          "isFeatured",
+          "location",
+          "projectUrl",
+          "technologies",
+          "translations",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminProject-admin.write": {
@@ -2314,6 +2666,22 @@
             "type": "object"
           }
         },
+        "required": [
+          "category",
+          "client",
+          "completedAt",
+          "displayOrder",
+          "featuredImageName",
+          "image2Name",
+          "image3Name",
+          "image4Name",
+          "isActive",
+          "isFeatured",
+          "location",
+          "projectUrl",
+          "technologies",
+          "translations"
+        ],
         "type": "object"
       },
       "AdminProject.jsonld-admin.read": {
@@ -2440,6 +2808,26 @@
                 ]
               }
             },
+            "required": [
+              "category",
+              "client",
+              "completedAt",
+              "createdAt",
+              "displayOrder",
+              "featuredImageName",
+              "id",
+              "image2Name",
+              "image3Name",
+              "image4Name",
+              "imageUrls",
+              "isActive",
+              "isFeatured",
+              "location",
+              "projectUrl",
+              "technologies",
+              "translations",
+              "updatedAt"
+            ],
             "type": "object"
           }
         ],
@@ -2462,6 +2850,10 @@
             "type": "object"
           }
         },
+        "required": [
+          "id",
+          "translations"
+        ],
         "type": "object"
       },
       "AdminProjectCategory-admin.write": {
@@ -2475,6 +2867,9 @@
             "type": "object"
           }
         },
+        "required": [
+          "translations"
+        ],
         "type": "object"
       },
       "AdminProjectCategory.jsonld-admin.read": {
@@ -2498,6 +2893,10 @@
                 "type": "object"
               }
             },
+            "required": [
+              "id",
+              "translations"
+            ],
             "type": "object"
           }
         ],
@@ -2534,6 +2933,13 @@
             ]
           }
         },
+        "required": [
+          "isPublished",
+          "isStale",
+          "name",
+          "slug",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminProjectCategoryTranslation-admin.write_noid": {
@@ -2555,6 +2961,11 @@
             ]
           }
         },
+        "required": [
+          "isPublished",
+          "name",
+          "slug"
+        ],
         "type": "object"
       },
       "AdminProjectCategoryTranslation.jsonld-admin.read_noid": {
@@ -2588,6 +2999,13 @@
             ]
           }
         },
+        "required": [
+          "isPublished",
+          "isStale",
+          "name",
+          "slug",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminProjectTranslation-admin.read_noid": {
@@ -2711,6 +3129,28 @@
             ]
           }
         },
+        "required": [
+          "approach",
+          "approachDetail",
+          "challenge",
+          "description",
+          "isPublished",
+          "isStale",
+          "metaDescription",
+          "metaTitle",
+          "results",
+          "slug",
+          "step1Content",
+          "step1Title",
+          "step2Content",
+          "step2Title",
+          "step3Content",
+          "step3Title",
+          "step4Content",
+          "step4Title",
+          "title",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminProjectTranslation-admin.write_noid": {
@@ -2822,6 +3262,26 @@
             "type": "string"
           }
         },
+        "required": [
+          "approach",
+          "approachDetail",
+          "challenge",
+          "description",
+          "isPublished",
+          "metaDescription",
+          "metaTitle",
+          "results",
+          "slug",
+          "step1Content",
+          "step1Title",
+          "step2Content",
+          "step2Title",
+          "step3Content",
+          "step3Title",
+          "step4Content",
+          "step4Title",
+          "title"
+        ],
         "type": "object"
       },
       "AdminProjectTranslation.jsonld-admin.read_noid": {
@@ -2945,6 +3405,28 @@
             ]
           }
         },
+        "required": [
+          "approach",
+          "approachDetail",
+          "challenge",
+          "description",
+          "isPublished",
+          "isStale",
+          "metaDescription",
+          "metaTitle",
+          "results",
+          "slug",
+          "step1Content",
+          "step1Title",
+          "step2Content",
+          "step2Title",
+          "step3Content",
+          "step3Title",
+          "step4Content",
+          "step4Title",
+          "title",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminService-admin.read": {
@@ -3022,6 +3504,19 @@
             ]
           }
         },
+        "required": [
+          "createdAt",
+          "displayOrder",
+          "featuredImageName",
+          "icon",
+          "id",
+          "image2Name",
+          "imageUrls",
+          "isActive",
+          "pillar",
+          "translations",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminService-admin.write": {
@@ -3070,6 +3565,15 @@
             "type": "object"
           }
         },
+        "required": [
+          "displayOrder",
+          "featuredImageName",
+          "icon",
+          "image2Name",
+          "isActive",
+          "pillar",
+          "translations"
+        ],
         "type": "object"
       },
       "AdminService.jsonld-admin.read": {
@@ -3151,6 +3655,19 @@
                 ]
               }
             },
+            "required": [
+              "createdAt",
+              "displayOrder",
+              "featuredImageName",
+              "icon",
+              "id",
+              "image2Name",
+              "imageUrls",
+              "isActive",
+              "pillar",
+              "translations",
+              "updatedAt"
+            ],
             "type": "object"
           }
         ],
@@ -3309,6 +3826,32 @@
             ]
           }
         },
+        "required": [
+          "badge",
+          "features",
+          "fullDescription",
+          "isPublished",
+          "isStale",
+          "metaDescription",
+          "metaTitle",
+          "shortDescription",
+          "slug",
+          "step1Content",
+          "step1Title",
+          "step2Content",
+          "step2Title",
+          "step3Content",
+          "step3Title",
+          "step4Content",
+          "step4Title",
+          "title",
+          "updatedAt",
+          "whyPoints",
+          "whyText1",
+          "whyText2",
+          "whyTitle1",
+          "whyTitle2"
+        ],
         "type": "object"
       },
       "AdminServiceTranslation-admin.write_noid": {
@@ -3452,6 +3995,30 @@
             ]
           }
         },
+        "required": [
+          "badge",
+          "features",
+          "fullDescription",
+          "isPublished",
+          "metaDescription",
+          "metaTitle",
+          "shortDescription",
+          "slug",
+          "step1Content",
+          "step1Title",
+          "step2Content",
+          "step2Title",
+          "step3Content",
+          "step3Title",
+          "step4Content",
+          "step4Title",
+          "title",
+          "whyPoints",
+          "whyText1",
+          "whyText2",
+          "whyTitle1",
+          "whyTitle2"
+        ],
         "type": "object"
       },
       "AdminServiceTranslation.jsonld-admin.read_noid": {
@@ -3607,6 +4174,32 @@
             ]
           }
         },
+        "required": [
+          "badge",
+          "features",
+          "fullDescription",
+          "isPublished",
+          "isStale",
+          "metaDescription",
+          "metaTitle",
+          "shortDescription",
+          "slug",
+          "step1Content",
+          "step1Title",
+          "step2Content",
+          "step2Title",
+          "step3Content",
+          "step3Title",
+          "step4Content",
+          "step4Title",
+          "title",
+          "updatedAt",
+          "whyPoints",
+          "whyText1",
+          "whyText2",
+          "whyTitle1",
+          "whyTitle2"
+        ],
         "type": "object"
       },
       "AdminTag-admin.read": {
@@ -3626,6 +4219,10 @@
             "type": "object"
           }
         },
+        "required": [
+          "id",
+          "translations"
+        ],
         "type": "object"
       },
       "AdminTag-admin.write": {
@@ -3639,6 +4236,9 @@
             "type": "object"
           }
         },
+        "required": [
+          "translations"
+        ],
         "type": "object"
       },
       "AdminTag.jsonld-admin.read": {
@@ -3662,6 +4262,10 @@
                 "type": "object"
               }
             },
+            "required": [
+              "id",
+              "translations"
+            ],
             "type": "object"
           }
         ],
@@ -3698,6 +4302,13 @@
             ]
           }
         },
+        "required": [
+          "isPublished",
+          "isStale",
+          "name",
+          "slug",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminTagTranslation-admin.write_noid": {
@@ -3719,6 +4330,11 @@
             ]
           }
         },
+        "required": [
+          "isPublished",
+          "name",
+          "slug"
+        ],
         "type": "object"
       },
       "AdminTagTranslation.jsonld-admin.read_noid": {
@@ -3752,6 +4368,13 @@
             ]
           }
         },
+        "required": [
+          "isPublished",
+          "isStale",
+          "name",
+          "slug",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminTeamMember-admin.read": {
@@ -3830,6 +4453,19 @@
             ]
           }
         },
+        "required": [
+          "createdAt",
+          "displayOrder",
+          "email",
+          "fullName",
+          "id",
+          "imageUrls",
+          "isActive",
+          "photoName",
+          "socialLinks",
+          "translations",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminTeamMember-admin.write": {
@@ -3879,6 +4515,15 @@
             "type": "object"
           }
         },
+        "required": [
+          "displayOrder",
+          "email",
+          "fullName",
+          "isActive",
+          "photoName",
+          "socialLinks",
+          "translations"
+        ],
         "type": "object"
       },
       "AdminTeamMember.jsonld-admin.read": {
@@ -3961,6 +4606,19 @@
                 ]
               }
             },
+            "required": [
+              "createdAt",
+              "displayOrder",
+              "email",
+              "fullName",
+              "id",
+              "imageUrls",
+              "isActive",
+              "photoName",
+              "socialLinks",
+              "translations",
+              "updatedAt"
+            ],
             "type": "object"
           }
         ],
@@ -4015,6 +4673,16 @@
             ]
           }
         },
+        "required": [
+          "bio",
+          "bio2",
+          "bio3",
+          "isPublished",
+          "isStale",
+          "position",
+          "slug",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminTeamMemberTranslation-admin.write_noid": {
@@ -4054,6 +4722,14 @@
             ]
           }
         },
+        "required": [
+          "bio",
+          "bio2",
+          "bio3",
+          "isPublished",
+          "position",
+          "slug"
+        ],
         "type": "object"
       },
       "AdminTeamMemberTranslation.jsonld-admin.read_noid": {
@@ -4105,6 +4781,16 @@
             ]
           }
         },
+        "required": [
+          "bio",
+          "bio2",
+          "bio3",
+          "isPublished",
+          "isStale",
+          "position",
+          "slug",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminTestimonial-admin.read": {
@@ -4163,6 +4849,17 @@
             "type": "object"
           }
         },
+        "required": [
+          "avatarName",
+          "clientCompany",
+          "clientName",
+          "displayOrder",
+          "id",
+          "imageUrls",
+          "isFeatured",
+          "rating",
+          "translations"
+        ],
         "type": "object"
       },
       "AdminTestimonial-admin.write": {
@@ -4206,6 +4903,15 @@
             "type": "object"
           }
         },
+        "required": [
+          "avatarName",
+          "clientCompany",
+          "clientName",
+          "displayOrder",
+          "isFeatured",
+          "rating",
+          "translations"
+        ],
         "type": "object"
       },
       "AdminTestimonial.jsonld-admin.read": {
@@ -4268,6 +4974,17 @@
                 "type": "object"
               }
             },
+            "required": [
+              "avatarName",
+              "clientCompany",
+              "clientName",
+              "displayOrder",
+              "id",
+              "imageUrls",
+              "isFeatured",
+              "rating",
+              "translations"
+            ],
             "type": "object"
           }
         ],
@@ -4304,6 +5021,13 @@
             ]
           }
         },
+        "required": [
+          "clientPosition",
+          "content",
+          "isPublished",
+          "isStale",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminTestimonialTranslation-admin.write_noid": {
@@ -4325,6 +5049,11 @@
             "type": "boolean"
           }
         },
+        "required": [
+          "clientPosition",
+          "content",
+          "isPublished"
+        ],
         "type": "object"
       },
       "AdminTestimonialTranslation.jsonld-admin.read_noid": {
@@ -4358,6 +5087,13 @@
             ]
           }
         },
+        "required": [
+          "clientPosition",
+          "content",
+          "isPublished",
+          "isStale",
+          "updatedAt"
+        ],
         "type": "object"
       },
       "AdminUser": {
@@ -4406,6 +5142,16 @@
             "type": "array"
           }
         },
+        "required": [
+          "avatar",
+          "email",
+          "fullName",
+          "id",
+          "invitationExpiresAt",
+          "invitationPending",
+          "lastLoginAt",
+          "roles"
+        ],
         "type": "object"
       },
       "AdminUser.UserInput": {
@@ -4443,7 +5189,10 @@
           }
         },
         "required": [
-          "email"
+          "email",
+          "fullName",
+          "plainPassword",
+          "roles"
         ],
         "type": "object"
       },
@@ -4497,6 +5246,16 @@
                 "type": "array"
               }
             },
+            "required": [
+              "avatar",
+              "email",
+              "fullName",
+              "id",
+              "invitationExpiresAt",
+              "invitationPending",
+              "lastLoginAt",
+              "roles"
+            ],
             "type": "object"
           }
         ],
@@ -4527,6 +5286,12 @@
             ]
           }
         },
+        "required": [
+          "avatar",
+          "bio",
+          "name",
+          "slug"
+        ],
         "type": "object"
       },
       "Author.jsonld-public_article.list_article.detail_noid": {
@@ -4554,6 +5319,12 @@
             ]
           }
         },
+        "required": [
+          "avatar",
+          "bio",
+          "name",
+          "slug"
+        ],
         "type": "object"
       },
       "Comment-public_article.list_article.detail_noid": {
@@ -4579,6 +5350,13 @@
             "type": "array"
           }
         },
+        "required": [
+          "authorName",
+          "content",
+          "createdAt",
+          "id",
+          "replies"
+        ],
         "type": "object"
       },
       "Comment.jsonld-public_article.list_article.detail_noid": {
@@ -4604,6 +5382,13 @@
             "type": "array"
           }
         },
+        "required": [
+          "authorName",
+          "content",
+          "createdAt",
+          "id",
+          "replies"
+        ],
         "type": "object"
       },
       "ConstraintViolation": {
@@ -4661,14 +5446,25 @@
                 }
               },
               "required": [
-                "propertyPath",
-                "message"
+                "code",
+                "hint",
+                "message",
+                "payload",
+                "propertyPath"
               ],
               "type": "object"
             },
             "type": "array"
           }
         },
+        "required": [
+          "detail",
+          "instance",
+          "status",
+          "title",
+          "type",
+          "violations"
+        ],
         "type": "object"
       },
       "ConstraintViolation.jsonld": {
@@ -4734,18 +5530,60 @@
                     }
                   },
                   "required": [
-                    "propertyPath",
-                    "message"
+                    "code",
+                    "hint",
+                    "message",
+                    "payload",
+                    "propertyPath"
                   ],
                   "type": "object"
                 },
                 "type": "array"
               }
             },
+            "required": [
+              "description",
+              "detail",
+              "instance",
+              "status",
+              "title",
+              "type",
+              "violations"
+            ],
             "type": "object"
           }
         ],
         "description": "Unprocessable entity"
+      },
+      "DashboardCharts-admin_noid": {
+        "properties": {
+          "applications": {
+            "$ref": "#/components/schemas/MonthlyChart-admin_noid"
+          },
+          "messages": {
+            "$ref": "#/components/schemas/MonthlyChart-admin_noid"
+          }
+        },
+        "required": [
+          "applications",
+          "messages"
+        ],
+        "type": "object"
+      },
+      "DashboardCharts.jsonld-admin_noid": {
+        "properties": {
+          "applications": {
+            "$ref": "#/components/schemas/MonthlyChart.jsonld-admin_noid"
+          },
+          "messages": {
+            "$ref": "#/components/schemas/MonthlyChart.jsonld-admin_noid"
+          }
+        },
+        "required": [
+          "applications",
+          "messages"
+        ],
+        "type": "object"
       },
       "Error": {
         "description": "A representation of common errors.",
@@ -4790,6 +5628,13 @@
             "type": "string"
           }
         },
+        "required": [
+          "detail",
+          "instance",
+          "status",
+          "title",
+          "type"
+        ],
         "type": "object"
       },
       "Error.jsonld": {
@@ -4846,6 +5691,14 @@
                 "type": "string"
               }
             },
+            "required": [
+              "description",
+              "detail",
+              "instance",
+              "status",
+              "title",
+              "type"
+            ],
             "type": "object"
           }
         ],
@@ -4904,9 +5757,20 @@
                     ]
                   }
                 },
+                "required": [
+                  "@id",
+                  "@type",
+                  "first",
+                  "last",
+                  "next",
+                  "previous"
+                ],
                 "type": "object"
               }
             },
+            "required": [
+              "view"
+            ],
             "type": "object"
           }
         ]
@@ -4937,6 +5801,12 @@
                       "type": "string"
                     }
                   },
+                  "required": [
+                    "@type",
+                    "property",
+                    "required",
+                    "variable"
+                  ],
                   "type": "object"
                 },
                 "type": "array"
@@ -4948,6 +5818,12 @@
                 "type": "string"
               }
             },
+            "required": [
+              "@type",
+              "mapping",
+              "template",
+              "variableRepresentation"
+            ],
             "type": "object"
           },
           "totalItems": {
@@ -4955,6 +5831,10 @@
             "type": "integer"
           }
         },
+        "required": [
+          "search",
+          "totalItems"
+        ],
         "type": "object"
       },
       "HydraItemBaseSchema": {
@@ -4993,8 +5873,51 @@
           }
         },
         "required": [
+          "@context",
           "@id",
           "@type"
+        ],
+        "type": "object"
+      },
+      "MonthlyChart-admin_noid": {
+        "properties": {
+          "data": {
+            "items": {
+              "type": "integer"
+            },
+            "type": "array"
+          },
+          "labels": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "data",
+          "labels"
+        ],
+        "type": "object"
+      },
+      "MonthlyChart.jsonld-admin_noid": {
+        "properties": {
+          "data": {
+            "items": {
+              "type": "integer"
+            },
+            "type": "array"
+          },
+          "labels": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "data",
+          "labels"
         ],
         "type": "object"
       },
@@ -5010,6 +5933,11 @@
             "type": "string"
           }
         },
+        "required": [
+          "slug",
+          "title",
+          "url"
+        ],
         "type": "object"
       },
       "PageLink.jsonld-public_project.list_project.detail_noid": {
@@ -5024,6 +5952,11 @@
             "type": "string"
           }
         },
+        "required": [
+          "slug",
+          "title",
+          "url"
+        ],
         "type": "object"
       },
       "ParityItem-admin_noid": {
@@ -5035,6 +5968,10 @@
             "type": "string"
           }
         },
+        "required": [
+          "id",
+          "label"
+        ],
         "type": "object"
       },
       "ParityItem.jsonld-admin_noid": {
@@ -5046,6 +5983,10 @@
             "type": "string"
           }
         },
+        "required": [
+          "id",
+          "label"
+        ],
         "type": "object"
       },
       "ParitySection-admin_noid": {
@@ -5076,6 +6017,13 @@
             "type": "array"
           }
         },
+        "required": [
+          "draft",
+          "key",
+          "label",
+          "missing",
+          "stale"
+        ],
         "type": "object"
       },
       "ParitySection.jsonld-admin_noid": {
@@ -5106,6 +6054,13 @@
             "type": "array"
           }
         },
+        "required": [
+          "draft",
+          "key",
+          "label",
+          "missing",
+          "stale"
+        ],
         "type": "object"
       },
       "PublicArticle-public_article.list": {
@@ -5161,6 +6116,17 @@
             "type": "string"
           }
         },
+        "required": [
+          "category",
+          "excerpt",
+          "featuredImage",
+          "locale",
+          "publishedAt",
+          "readingTime",
+          "slug",
+          "title",
+          "url"
+        ],
         "type": "object"
       },
       "PublicArticle-public_article.list_article.detail": {
@@ -5269,6 +6235,25 @@
             "type": "string"
           }
         },
+        "required": [
+          "alternates",
+          "author",
+          "category",
+          "comments",
+          "content",
+          "excerpt",
+          "featuredImage",
+          "locale",
+          "metaDescription",
+          "metaTitle",
+          "publishedAt",
+          "readingTime",
+          "slug",
+          "tags",
+          "title",
+          "updatedAt",
+          "url"
+        ],
         "type": "object"
       },
       "PublicArticle.jsonld-public_article.list": {
@@ -5328,6 +6313,17 @@
                 "type": "string"
               }
             },
+            "required": [
+              "category",
+              "excerpt",
+              "featuredImage",
+              "locale",
+              "publishedAt",
+              "readingTime",
+              "slug",
+              "title",
+              "url"
+            ],
             "type": "object"
           }
         ],
@@ -5443,6 +6439,25 @@
                 "type": "string"
               }
             },
+            "required": [
+              "alternates",
+              "author",
+              "category",
+              "comments",
+              "content",
+              "excerpt",
+              "featuredImage",
+              "locale",
+              "metaDescription",
+              "metaTitle",
+              "publishedAt",
+              "readingTime",
+              "slug",
+              "tags",
+              "title",
+              "updatedAt",
+              "url"
+            ],
             "type": "object"
           }
         ],
@@ -5475,6 +6490,14 @@
             "type": "string"
           }
         },
+        "required": [
+          "articleCount",
+          "description",
+          "locale",
+          "name",
+          "slug",
+          "url"
+        ],
         "type": "object"
       },
       "PublicBlogCategory-public_taxonomy.list_taxonomy.detail": {
@@ -5511,6 +6534,15 @@
             "type": "string"
           }
         },
+        "required": [
+          "alternates",
+          "articleCount",
+          "description",
+          "locale",
+          "name",
+          "slug",
+          "url"
+        ],
         "type": "object"
       },
       "PublicBlogCategory.jsonld-public_taxonomy.list": {
@@ -5544,6 +6576,14 @@
                 "type": "string"
               }
             },
+            "required": [
+              "articleCount",
+              "description",
+              "locale",
+              "name",
+              "slug",
+              "url"
+            ],
             "type": "object"
           }
         ],
@@ -5587,6 +6627,15 @@
                 "type": "string"
               }
             },
+            "required": [
+              "alternates",
+              "articleCount",
+              "description",
+              "locale",
+              "name",
+              "slug",
+              "url"
+            ],
             "type": "object"
           }
         ],
@@ -5613,6 +6662,13 @@
             "type": "string"
           }
         },
+        "required": [
+          "articleCount",
+          "locale",
+          "name",
+          "slug",
+          "url"
+        ],
         "type": "object"
       },
       "PublicBlogTag-public_taxonomy.list_taxonomy.detail": {
@@ -5643,6 +6699,14 @@
             "type": "string"
           }
         },
+        "required": [
+          "alternates",
+          "articleCount",
+          "locale",
+          "name",
+          "slug",
+          "url"
+        ],
         "type": "object"
       },
       "PublicBlogTag.jsonld-public_taxonomy.list": {
@@ -5670,6 +6734,13 @@
                 "type": "string"
               }
             },
+            "required": [
+              "articleCount",
+              "locale",
+              "name",
+              "slug",
+              "url"
+            ],
             "type": "object"
           }
         ],
@@ -5707,6 +6778,14 @@
                 "type": "string"
               }
             },
+            "required": [
+              "alternates",
+              "articleCount",
+              "locale",
+              "name",
+              "slug",
+              "url"
+            ],
             "type": "object"
           }
         ],
@@ -5732,6 +6811,13 @@
             "type": "string"
           }
         },
+        "required": [
+          "answer",
+          "category",
+          "id",
+          "locale",
+          "question"
+        ],
         "type": "object"
       },
       "PublicFaq.jsonld-public_faq.list": {
@@ -5758,6 +6844,13 @@
                 "type": "string"
               }
             },
+            "required": [
+              "answer",
+              "category",
+              "id",
+              "locale",
+              "question"
+            ],
             "type": "object"
           }
         ],
@@ -5837,6 +6930,22 @@
             "type": "string"
           }
         },
+        "required": [
+          "contractType",
+          "coverImage",
+          "createdAt",
+          "description",
+          "expiresAt",
+          "locale",
+          "location",
+          "publishedAt",
+          "salary",
+          "shortDescription",
+          "skills",
+          "slug",
+          "title",
+          "url"
+        ],
         "type": "object"
       },
       "PublicJobOffer-public_job.list_job.detail": {
@@ -5926,6 +7035,24 @@
             "type": "string"
           }
         },
+        "required": [
+          "alternates",
+          "contractType",
+          "coverImage",
+          "createdAt",
+          "description",
+          "expiresAt",
+          "locale",
+          "location",
+          "publishedAt",
+          "salary",
+          "shortDescription",
+          "skills",
+          "slug",
+          "title",
+          "updatedAt",
+          "url"
+        ],
         "type": "object"
       },
       "PublicJobOffer.jsonld-public_job.list": {
@@ -6006,6 +7133,22 @@
                 "type": "string"
               }
             },
+            "required": [
+              "contractType",
+              "coverImage",
+              "createdAt",
+              "description",
+              "expiresAt",
+              "locale",
+              "location",
+              "publishedAt",
+              "salary",
+              "shortDescription",
+              "skills",
+              "slug",
+              "title",
+              "url"
+            ],
             "type": "object"
           }
         ],
@@ -6102,6 +7245,24 @@
                 "type": "string"
               }
             },
+            "required": [
+              "alternates",
+              "contractType",
+              "coverImage",
+              "createdAt",
+              "description",
+              "expiresAt",
+              "locale",
+              "location",
+              "publishedAt",
+              "salary",
+              "shortDescription",
+              "skills",
+              "slug",
+              "title",
+              "updatedAt",
+              "url"
+            ],
             "type": "object"
           }
         ],
@@ -6128,6 +7289,11 @@
             "type": "array"
           }
         },
+        "required": [
+          "contractTypes",
+          "locale",
+          "locations"
+        ],
         "type": "object"
       },
       "PublicJobOfferFilters.jsonld-public_job-filters": {
@@ -6155,6 +7321,11 @@
                 "type": "array"
               }
             },
+            "required": [
+              "contractTypes",
+              "locale",
+              "locations"
+            ],
             "type": "object"
           }
         ],
@@ -6238,6 +7409,22 @@
             "type": "string"
           }
         },
+        "required": [
+          "category",
+          "client",
+          "completedAt",
+          "description",
+          "displayOrder",
+          "featured",
+          "featuredImage",
+          "locale",
+          "location",
+          "projectUrl",
+          "slug",
+          "technologies",
+          "title",
+          "url"
+        ],
         "type": "object"
       },
       "PublicProject-public_project.list_project.detail": {
@@ -6404,6 +7591,34 @@
             "type": "string"
           }
         },
+        "required": [
+          "alternates",
+          "approach",
+          "approachDetail",
+          "category",
+          "challenge",
+          "client",
+          "completedAt",
+          "description",
+          "displayOrder",
+          "featured",
+          "featuredImage",
+          "images",
+          "locale",
+          "location",
+          "metaDescription",
+          "metaTitle",
+          "next",
+          "previous",
+          "projectUrl",
+          "results",
+          "slug",
+          "steps",
+          "technologies",
+          "title",
+          "updatedAt",
+          "url"
+        ],
         "type": "object"
       },
       "PublicProject.jsonld-public_project.list": {
@@ -6488,6 +7703,22 @@
                 "type": "string"
               }
             },
+            "required": [
+              "category",
+              "client",
+              "completedAt",
+              "description",
+              "displayOrder",
+              "featured",
+              "featuredImage",
+              "locale",
+              "location",
+              "projectUrl",
+              "slug",
+              "technologies",
+              "title",
+              "url"
+            ],
             "type": "object"
           }
         ],
@@ -6661,6 +7892,34 @@
                 "type": "string"
               }
             },
+            "required": [
+              "alternates",
+              "approach",
+              "approachDetail",
+              "category",
+              "challenge",
+              "client",
+              "completedAt",
+              "description",
+              "displayOrder",
+              "featured",
+              "featuredImage",
+              "images",
+              "locale",
+              "location",
+              "metaDescription",
+              "metaTitle",
+              "next",
+              "previous",
+              "projectUrl",
+              "results",
+              "slug",
+              "steps",
+              "technologies",
+              "title",
+              "updatedAt",
+              "url"
+            ],
             "type": "object"
           }
         ],
@@ -6679,6 +7938,11 @@
             "type": "string"
           }
         },
+        "required": [
+          "locale",
+          "name",
+          "slug"
+        ],
         "type": "object"
       },
       "PublicProjectCategory.jsonld-public_project-category.list": {
@@ -6698,6 +7962,11 @@
                 "type": "string"
               }
             },
+            "required": [
+              "locale",
+              "name",
+              "slug"
+            ],
             "type": "object"
           }
         ],
@@ -6764,6 +8033,19 @@
             "type": "string"
           }
         },
+        "required": [
+          "badge",
+          "displayOrder",
+          "featuredImage",
+          "features",
+          "icon",
+          "locale",
+          "pillar",
+          "shortDescription",
+          "slug",
+          "title",
+          "url"
+        ],
         "type": "object"
       },
       "PublicService-public_service.list_service.detail": {
@@ -6894,6 +8176,29 @@
             ]
           }
         },
+        "required": [
+          "alternates",
+          "badge",
+          "displayOrder",
+          "featuredImage",
+          "features",
+          "fullDescription",
+          "icon",
+          "image2",
+          "locale",
+          "metaDescription",
+          "metaTitle",
+          "pillar",
+          "related",
+          "shortDescription",
+          "slug",
+          "steps",
+          "title",
+          "updatedAt",
+          "url",
+          "why",
+          "whyPoints"
+        ],
         "type": "object"
       },
       "PublicService.jsonld-public_service.list": {
@@ -6961,6 +8266,19 @@
                 "type": "string"
               }
             },
+            "required": [
+              "badge",
+              "displayOrder",
+              "featuredImage",
+              "features",
+              "icon",
+              "locale",
+              "pillar",
+              "shortDescription",
+              "slug",
+              "title",
+              "url"
+            ],
             "type": "object"
           }
         ],
@@ -7091,6 +8409,28 @@
                 ]
               }
             },
+            "required": [
+              "alternates",
+              "badge",
+              "displayOrder",
+              "featuredImage",
+              "features",
+              "fullDescription",
+              "icon",
+              "image2",
+              "locale",
+              "metaDescription",
+              "metaTitle",
+              "pillar",
+              "shortDescription",
+              "slug",
+              "steps",
+              "title",
+              "updatedAt",
+              "url",
+              "why",
+              "whyPoints"
+            ],
             "type": "object"
           }
         ],
@@ -7103,7 +8443,10 @@
             },
             "type": "array"
           }
-        }
+        },
+        "required": [
+          "related"
+        ]
       },
       "PublicTeamMember-public_team.list": {
         "description": "Membre de l'équipe dans une locale.\n\nListe : /api/public/{locale}/team-members — membres actifs, ordre d'affichage,\n?limit=N (accueil et « À propos » en affichent 3).\nDétail : /api/public/{locale}/team-members/{slug}.",
@@ -7140,6 +8483,15 @@
             "type": "string"
           }
         },
+        "required": [
+          "fullName",
+          "locale",
+          "photo",
+          "position",
+          "slug",
+          "socialLinks",
+          "url"
+        ],
         "type": "object"
       },
       "PublicTeamMember-public_team.list_team.detail": {
@@ -7215,6 +8567,21 @@
             "type": "string"
           }
         },
+        "required": [
+          "alternates",
+          "bio",
+          "bio2",
+          "bio3",
+          "email",
+          "fullName",
+          "locale",
+          "photo",
+          "position",
+          "slug",
+          "socialLinks",
+          "updatedAt",
+          "url"
+        ],
         "type": "object"
       },
       "PublicTeamMember.jsonld-public_team.list": {
@@ -7256,6 +8623,15 @@
                 "type": "string"
               }
             },
+            "required": [
+              "fullName",
+              "locale",
+              "photo",
+              "position",
+              "slug",
+              "socialLinks",
+              "url"
+            ],
             "type": "object"
           }
         ],
@@ -7338,6 +8714,21 @@
                 "type": "string"
               }
             },
+            "required": [
+              "alternates",
+              "bio",
+              "bio2",
+              "bio3",
+              "email",
+              "fullName",
+              "locale",
+              "photo",
+              "position",
+              "slug",
+              "socialLinks",
+              "updatedAt",
+              "url"
+            ],
             "type": "object"
           }
         ],
@@ -7380,6 +8771,16 @@
             "type": "integer"
           }
         },
+        "required": [
+          "avatar",
+          "clientCompany",
+          "clientName",
+          "clientPosition",
+          "content",
+          "id",
+          "locale",
+          "rating"
+        ],
         "type": "object"
       },
       "PublicTestimonial.jsonld-public_testimonial.list": {
@@ -7423,6 +8824,16 @@
                 "type": "integer"
               }
             },
+            "required": [
+              "avatar",
+              "clientCompany",
+              "clientName",
+              "clientPosition",
+              "content",
+              "id",
+              "locale",
+              "rating"
+            ],
             "type": "object"
           }
         ],
@@ -7457,6 +8868,15 @@
             "type": "string"
           }
         },
+        "required": [
+          "createdAt",
+          "email",
+          "fullName",
+          "id",
+          "jobTitle",
+          "status",
+          "statusLabel"
+        ],
         "type": "object"
       },
       "RecentApplication.jsonld-admin_noid": {
@@ -7488,10 +8908,32 @@
             "type": "string"
           }
         },
+        "required": [
+          "createdAt",
+          "email",
+          "fullName",
+          "id",
+          "jobTitle",
+          "status",
+          "statusLabel"
+        ],
         "type": "object"
       },
       "RecentArticle-admin_noid": {
         "properties": {
+          "authorName": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "categoryName": {
+            "description": "Nom (français) de la catégorie, null si aucune.",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "id": {
             "type": "integer"
           },
@@ -7507,10 +8949,30 @@
             "type": "string"
           }
         },
+        "required": [
+          "authorName",
+          "categoryName",
+          "id",
+          "publishedAt",
+          "title"
+        ],
         "type": "object"
       },
       "RecentArticle.jsonld-admin_noid": {
         "properties": {
+          "authorName": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "categoryName": {
+            "description": "Nom (français) de la catégorie, null si aucune.",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "id": {
             "type": "integer"
           },
@@ -7526,6 +8988,13 @@
             "type": "string"
           }
         },
+        "required": [
+          "authorName",
+          "categoryName",
+          "id",
+          "publishedAt",
+          "title"
+        ],
         "type": "object"
       },
       "RecentMessage-admin_noid": {
@@ -7553,6 +9022,14 @@
             ]
           }
         },
+        "required": [
+          "createdAt",
+          "email",
+          "id",
+          "isRead",
+          "name",
+          "subject"
+        ],
         "type": "object"
       },
       "RecentMessage.jsonld-admin_noid": {
@@ -7580,6 +9057,14 @@
             ]
           }
         },
+        "required": [
+          "createdAt",
+          "email",
+          "id",
+          "isRead",
+          "name",
+          "subject"
+        ],
         "type": "object"
       },
       "Step-public_project.list_project.detail_noid": {
@@ -7597,6 +9082,10 @@
             ]
           }
         },
+        "required": [
+          "content",
+          "title"
+        ],
         "type": "object"
       },
       "Step-public_service.list_service.detail_noid": {
@@ -7614,6 +9103,10 @@
             ]
           }
         },
+        "required": [
+          "content",
+          "title"
+        ],
         "type": "object"
       },
       "Step.jsonld-public_project.list_project.detail_noid": {
@@ -7631,6 +9124,10 @@
             ]
           }
         },
+        "required": [
+          "content",
+          "title"
+        ],
         "type": "object"
       },
       "Step.jsonld-public_service.list_service.detail_noid": {
@@ -7648,6 +9145,10 @@
             ]
           }
         },
+        "required": [
+          "content",
+          "title"
+        ],
         "type": "object"
       },
       "TaxonomyRef-public_article.list_article.detail_noid": {
@@ -7662,6 +9163,10 @@
             ]
           }
         },
+        "required": [
+          "name",
+          "slug"
+        ],
         "type": "object"
       },
       "TaxonomyRef-public_article.list_noid": {
@@ -7676,6 +9181,10 @@
             ]
           }
         },
+        "required": [
+          "name",
+          "slug"
+        ],
         "type": "object"
       },
       "TaxonomyRef-public_project.list_noid": {
@@ -7690,6 +9199,10 @@
             ]
           }
         },
+        "required": [
+          "name",
+          "slug"
+        ],
         "type": "object"
       },
       "TaxonomyRef-public_project.list_project.detail_noid": {
@@ -7704,6 +9217,10 @@
             ]
           }
         },
+        "required": [
+          "name",
+          "slug"
+        ],
         "type": "object"
       },
       "TaxonomyRef.jsonld-public_article.list_article.detail_noid": {
@@ -7718,6 +9235,10 @@
             ]
           }
         },
+        "required": [
+          "name",
+          "slug"
+        ],
         "type": "object"
       },
       "TaxonomyRef.jsonld-public_article.list_noid": {
@@ -7732,6 +9253,10 @@
             ]
           }
         },
+        "required": [
+          "name",
+          "slug"
+        ],
         "type": "object"
       },
       "TaxonomyRef.jsonld-public_project.list_noid": {
@@ -7746,6 +9271,10 @@
             ]
           }
         },
+        "required": [
+          "name",
+          "slug"
+        ],
         "type": "object"
       },
       "TaxonomyRef.jsonld-public_project.list_project.detail_noid": {
@@ -7760,6 +9289,10 @@
             ]
           }
         },
+        "required": [
+          "name",
+          "slug"
+        ],
         "type": "object"
       }
     },
