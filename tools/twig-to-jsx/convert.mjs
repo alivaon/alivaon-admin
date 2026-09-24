@@ -47,6 +47,8 @@ function twigExpr(expr) {
   const e = expr.trim();
   let m;
   if ((m = /^'([^']+)'\s*\|\s*trans(?:\s*\((\{[^}]*\})\s*\))?\s*(\|\s*raw)?$/.exec(e))) {
+    // Paramètres : seulement des chaînes littérales ; sinon, à traduire à la main.
+    if (m[2] && !/^\{\s*('[^']*'\s*:\s*'[^']*'\s*,?\s*)*\}$/.test(m[2])) return null;
     const params = m[2] ? `, ${m[2].replace(/'/g, "'")}` : '';
     return { js: `t('${m[1]}'${params})`, raw: Boolean(m[3]) };
   }

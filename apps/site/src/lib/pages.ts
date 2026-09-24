@@ -59,3 +59,8 @@ export function twigEscape(value: string): string {
 export function sliceChars(value: string, start: number, length: number): string {
   return Array.from(value).slice(start, start + length).join('');
 }
+
+/** Filtre |url_encode de Twig (rawurlencode : RFC 3986). */
+export function urlEncode(value: string): string {
+  return encodeURIComponent(value).replace(/[!'()*]/g, (c) => `%${c.charCodeAt(0).toString(16).toUpperCase()}`);
+}

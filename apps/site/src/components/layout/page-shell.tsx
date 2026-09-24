@@ -36,17 +36,17 @@ export async function PageShell({ page, seo, headerClass, bodyBackground, marque
 
   return (
     <>
-      <Seo locale={page.locale} alternates={page.alternates} {...seo} />{' '}{bodyBackground && <style>{`body{background:${bodyBackground};}`}</style>}{' '}<ScrollTop />{' '}<SideToggle page={page} />{' '}<Header page={page} extraClass={headerClass} />
+      <Seo locale={page.locale} alternates={page.alternates} {...seo} />{bodyBackground && <style>{`body{background:${bodyBackground};}`}</style>}<ScrollTop /><SideToggle page={page} /><Header page={page} extraClass={headerClass} />
 
       <div className="has-smooth" id="has_smooth"></div>
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>{children}</main>
-          <Marquee items={marqueeItems} />{' '}<Footer page={page} />
+          <Marquee items={marqueeItems} /><Footer page={page} />
         </div>
       </div>
 
-      <ThemeScripts scripts={scripts} />{' '}{/* Google Analytics : production uniquement (GA_MEASUREMENT_ID vide ailleurs). */}{' '}{GA_MEASUREMENT_ID && (
+      <ThemeScripts scripts={scripts} />{/* Google Analytics : production uniquement (GA_MEASUREMENT_ID vide ailleurs). */}{GA_MEASUREMENT_ID && (
         <>
           <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}></script>
           <script

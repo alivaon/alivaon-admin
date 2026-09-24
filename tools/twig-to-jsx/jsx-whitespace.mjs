@@ -16,6 +16,8 @@ const BLOCK = new Set([
   'address', 'article', 'aside', 'blockquote', 'br', 'dd', 'details', 'div', 'dl', 'dt', 'fieldset', 'figcaption', 'figure', 'footer',
   'form', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'header', 'hr', 'iframe', 'legend', 'li', 'main', 'nav', 'ol', 'p', 'pre', 'section',
   'summary', 'table', 'tbody', 'td', 'tfoot', 'th', 'thead', 'tr', 'ul', 'html', 'head', 'body', 'style', 'script',
+  // Contenu du <head> : React interdit tout texte à côté (erreur d'hydratation).
+  'meta', 'title', 'link', 'base', 'noscript',
   // Contenu SVG : les blancs n'y sont jamais du texte affiché.
   'svg', 'path', 'g', 'defs', 'clipPath', 'rect', 'circle', 'line', 'polygon', 'polyline', 'ellipse', 'linearGradient', 'radialGradient', 'stop', 'mask', 'use', 'filter',
 ]);

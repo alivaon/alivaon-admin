@@ -93,6 +93,10 @@ export function rewriteOrigins(json: string, from: string | null, to: string | n
   if (fromApex !== fromHost && toApex !== toHost) {
     out = out.split(`//${fromApex}`).join(`//${toApex}`);
   }
+  // Forme encodée (liens de partage : ?u=https%3A%2F%2Fhôte%2F…).
+  for (const slashes of ['%2F%2F', '%2f%2f']) {
+    out = out.split(`${slashes}${encodeURIComponent(fromHost)}`).join(`${slashes}${encodeURIComponent(toHost)}`);
+  }
   return out;
 }
 
