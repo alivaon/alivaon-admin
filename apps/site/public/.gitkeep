@@ -1,0 +1,2 @@
+# Fichiers statiques du site. robots.txt, sitemap.xml et llms.txt ne sont
+# PAS ici : ils restent servis par Symfony (routage Traefik).
