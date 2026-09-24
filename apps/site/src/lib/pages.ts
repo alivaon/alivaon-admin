@@ -15,3 +15,14 @@ export function today(): string {
   const d = new Date();
   return `${String(d.getDate()).padStart(2, '0')}/${String(d.getMonth() + 1).padStart(2, '0')}/${d.getFullYear()}`;
 }
+
+/** Filtre striptags de Twig (strip_tags de PHP). */
+export function stripTags(html: string): string {
+  return html.replace(/<!--[\s\S]*?-->/g, '').replace(/<\/?[a-zA-Z!?][^>]*>/g, '');
+}
+
+/** strcasecmp de PHP : comparaison d'octets, seules les majuscules ASCII rabattues. */
+export function strcasecmp(a: string, b: string): number {
+  const lower = (s: string) => Buffer.from(s.replace(/[A-Z]/g, (c) => c.toLowerCase()), 'utf8');
+  return Buffer.compare(lower(a), lower(b));
+}

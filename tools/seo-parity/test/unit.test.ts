@@ -81,6 +81,11 @@ describe('extractPage', () => {
     expect(JSON.stringify(snap.jsonLd)).toBe(JSON.stringify([{ '@context': 'https://schema.org', '@type': 'Organization', name: 'Alivaon' }]));
   });
 
+  it('recolle les nœuds texte séparés par des commentaires (rendu React)', () => {
+    const page = extractPage('<html><body><div>1<!-- -->. <!-- -->Question</div><h2>A</h2><p>B</p></body></html>', 'https://www.alivaon.com/');
+    expect(page.text).toBe('1. Question A B');
+  });
+
   it('sépare les blocs de texte et ignore les scripts', () => {
     expect(snap.text).toBe('Le blog Premier paragraphe Récents Article 1 Article 1 Haut x Écrire');
     expect(snap.headings).toEqual([{ level: 1, text: 'Le blog' }, { level: 2, text: 'Récents' }]);

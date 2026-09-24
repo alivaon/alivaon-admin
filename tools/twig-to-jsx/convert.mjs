@@ -33,8 +33,9 @@ function extractBlock(text, name) {
 }
 
 const SVG_ATTRS = ['stroke-width', 'stroke-linecap', 'stroke-linejoin', 'stroke-miterlimit', 'stroke-dasharray', 'stroke-dashoffset', 'stroke-opacity', 'fill-rule', 'fill-opacity', 'clip-path', 'clip-rule', 'stop-color', 'stop-opacity', 'font-family', 'font-size', 'font-weight', 'text-anchor', 'xlink:href', 'xml:space', 'color-interpolation-filters', 'flood-opacity', 'flood-color'];
-const RENAMES = { class: 'className', for: 'htmlFor', tabindex: 'tabIndex', readonly: 'readOnly', maxlength: 'maxLength', minlength: 'minLength', autocomplete: 'autoComplete', novalidate: 'noValidate', colspan: 'colSpan', rowspan: 'rowSpan', frameborder: 'frameBorder', allowfullscreen: 'allowFullScreen', crossorigin: 'crossOrigin', srcset: 'srcSet', enctype: 'encType', hreflang: 'hrefLang', 'accept-charset': 'acceptCharset', 'http-equiv': 'httpEquiv', itemprop: 'itemProp', itemscope: 'itemScope', itemtype: 'itemType', viewbox: 'viewBox' };
+const RENAMES = { class: 'className', for: 'htmlFor', tabindex: 'tabIndex', readonly: 'readOnly', maxlength: 'maxLength', minlength: 'minLength', autocomplete: 'autoComplete', novalidate: 'noValidate', colspan: 'colSpan', rowspan: 'rowSpan', frameborder: 'frameBorder', allowfullscreen: 'allowFullScreen', crossorigin: 'crossOrigin', srcset: 'srcSet', enctype: 'encType', hreflang: 'hrefLang', 'accept-charset': 'acceptCharset', 'http-equiv': 'httpEquiv', itemprop: 'itemProp', referrerpolicy: 'referrerPolicy', playsinline: 'playsInline', autoplay: 'autoPlay', datetime: 'dateTime', itemscope: 'itemScope', itemtype: 'itemType', viewbox: 'viewBox' };
 for (const a of SVG_ATTRS) RENAMES[a] = a.replace(/[-:](\w)/g, (_, c) => c.toUpperCase());
+const BOOLEAN = new Set(['allowfullscreen', 'required', 'disabled', 'checked', 'readonly', 'novalidate', 'autofocus', 'multiple', 'selected', 'hidden', 'playsinline', 'autoplay', 'muted', 'loop', 'defer', 'async']);
 const VOID = new Set(['img', 'input', 'br', 'hr', 'source', 'meta', 'link', 'area', 'col', 'embed', 'track', 'wbr']);
 
 /** Expression Twig → expression JS (cas usuels), sinon null. */
@@ -63,6 +64,10 @@ body = body.replace(/<([a-zA-Z][\w-]*)((?:\s+[^\s=>\/]+(?:=(?:"[^"]*"|'[^']*'))?
     let value = dq ?? sq;
     const jsxName = RENAMES[name.toLowerCase()] ?? name;
     if (value === undefined) {
+      out.push(jsxName);
+      continue;
+    }
+    if (BOOLEAN.has(name.toLowerCase()) && (value === '' || value.toLowerCase() === name.toLowerCase())) {
       out.push(jsxName);
       continue;
     }

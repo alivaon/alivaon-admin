@@ -15,6 +15,10 @@ const IGNORED_META = /^name:(csrf-|_token)/i;
 /**
  * Texte d'un sous-arbre, nœuds texte joints par une espace : `.text()` de
  * cheerio colle "Titre</h2><p>Paragraphe" en "TitreParagraphe".
+ *
+ * Des nœuds texte voisins, séparés seulement par des commentaires, forment un
+ * texte continu, comme à l'affichage : React sépare « {n}. {titre} » en
+ * « 1<!-- -->. <!-- -->Titre », que le navigateur affiche « 1. Titre ».
  */
 export function textOf(node: AnyNode): string {
   const parts: string[] = [];
@@ -24,7 +28,20 @@ export function textOf(node: AnyNode): string {
       return;
     }
     if ('name' in n && SKIPPED_TAGS.has((n as Element).name)) return;
-    if ('children' in n) for (const child of (n as Element).children) walk(child);
+    if (!('children' in n)) return;
+    let previousWasText = false;
+    for (const child of (n as Element).children) {
+      if (child.type === 'comment') continue;
+      if (child.type === 'text') {
+        const data = (child as unknown as { data: string }).data;
+        if (previousWasText) parts[parts.length - 1] += data;
+        else parts.push(data);
+        previousWasText = true;
+        continue;
+      }
+      previousWasText = false;
+      walk(child);
+    }
   };
   walk(node);
   return normText(parts.join(' '));
