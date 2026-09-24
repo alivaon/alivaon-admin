@@ -9337,6 +9337,30 @@
               "type": "integer"
             },
             "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Titre ou nom contient (toutes langues)",
+            "explode": true,
+            "in": "query",
+            "name": "search",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Filtre booléen",
+            "explode": true,
+            "in": "query",
+            "name": "isPublished",
+            "required": false,
+            "schema": {
+              "type": "boolean"
+            },
+            "style": "form"
           }
         ],
         "responses": {
@@ -9729,6 +9753,18 @@
               "maximum": 100,
               "minimum": 0,
               "type": "integer"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Titre ou nom contient (toutes langues)",
+            "explode": true,
+            "in": "query",
+            "name": "search",
+            "required": false,
+            "schema": {
+              "type": "string"
             },
             "style": "form"
           }
@@ -10125,6 +10161,42 @@
               "type": "integer"
             },
             "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Statut (clé technique)",
+            "explode": true,
+            "in": "query",
+            "name": "status",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Identifiant de l'offre",
+            "explode": true,
+            "in": "query",
+            "name": "jobOffer",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Nom, email, ville ou pays contient",
+            "explode": true,
+            "in": "query",
+            "name": "search",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "style": "form"
           }
         ],
         "responses": {
@@ -10434,6 +10506,18 @@
               "maximum": 100,
               "minimum": 0,
               "type": "integer"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Titre ou nom contient (toutes langues)",
+            "explode": true,
+            "in": "query",
+            "name": "search",
+            "required": false,
+            "schema": {
+              "type": "string"
             },
             "style": "form"
           }
@@ -10827,6 +10911,30 @@
               "default": 20,
               "maximum": 100,
               "minimum": 0,
+              "type": "integer"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Approuvés (true) ou en attente (false)",
+            "explode": true,
+            "in": "query",
+            "name": "isApproved",
+            "required": false,
+            "schema": {
+              "type": "boolean"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Identifiant de l'article",
+            "explode": true,
+            "in": "query",
+            "name": "article",
+            "required": false,
+            "schema": {
               "type": "integer"
             },
             "style": "form"
@@ -11262,6 +11370,30 @@
               "type": "integer"
             },
             "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Lus (true) ou non lus (false)",
+            "explode": true,
+            "in": "query",
+            "name": "isRead",
+            "required": false,
+            "schema": {
+              "type": "boolean"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Nom, email ou sujet contient",
+            "explode": true,
+            "in": "query",
+            "name": "search",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "style": "form"
           }
         ],
         "responses": {
@@ -11641,6 +11773,30 @@
               "maximum": 100,
               "minimum": 0,
               "type": "integer"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Titre ou nom contient (toutes langues)",
+            "explode": true,
+            "in": "query",
+            "name": "search",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Filtre booléen",
+            "explode": true,
+            "in": "query",
+            "name": "isActive",
+            "required": false,
+            "schema": {
+              "type": "boolean"
             },
             "style": "form"
           }
@@ -12037,6 +12193,30 @@
               "type": "integer"
             },
             "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Titre ou nom contient (toutes langues)",
+            "explode": true,
+            "in": "query",
+            "name": "search",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Filtre booléen",
+            "explode": true,
+            "in": "query",
+            "name": "isPublished",
+            "required": false,
+            "schema": {
+              "type": "boolean"
+            },
+            "style": "form"
           }
         ],
         "responses": {
@@ -12429,6 +12609,18 @@
               "maximum": 100,
               "minimum": 0,
               "type": "integer"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Titre ou nom contient (toutes langues)",
+            "explode": true,
+            "in": "query",
+            "name": "search",
+            "required": false,
+            "schema": {
+              "type": "string"
             },
             "style": "form"
           }
@@ -12825,6 +13017,42 @@
               "type": "integer"
             },
             "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Titre ou nom contient (toutes langues)",
+            "explode": true,
+            "in": "query",
+            "name": "search",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Filtre booléen",
+            "explode": true,
+            "in": "query",
+            "name": "isActive",
+            "required": false,
+            "schema": {
+              "type": "boolean"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Filtre booléen",
+            "explode": true,
+            "in": "query",
+            "name": "isFeatured",
+            "required": false,
+            "schema": {
+              "type": "boolean"
+            },
+            "style": "form"
           }
         ],
         "responses": {
@@ -13217,6 +13445,30 @@
               "maximum": 100,
               "minimum": 0,
               "type": "integer"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Titre ou nom contient (toutes langues)",
+            "explode": true,
+            "in": "query",
+            "name": "search",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Filtre booléen",
+            "explode": true,
+            "in": "query",
+            "name": "isActive",
+            "required": false,
+            "schema": {
+              "type": "boolean"
             },
             "style": "form"
           }
@@ -13613,6 +13865,18 @@
               "type": "integer"
             },
             "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Titre ou nom contient (toutes langues)",
+            "explode": true,
+            "in": "query",
+            "name": "search",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "style": "form"
           }
         ],
         "responses": {
@@ -14007,6 +14271,30 @@
               "type": "integer"
             },
             "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Titre ou nom contient (toutes langues)",
+            "explode": true,
+            "in": "query",
+            "name": "search",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Filtre booléen",
+            "explode": true,
+            "in": "query",
+            "name": "isActive",
+            "required": false,
+            "schema": {
+              "type": "boolean"
+            },
+            "style": "form"
           }
         ],
         "responses": {
@@ -14399,6 +14687,30 @@
               "maximum": 100,
               "minimum": 0,
               "type": "integer"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Titre ou nom contient (toutes langues)",
+            "explode": true,
+            "in": "query",
+            "name": "search",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Filtre booléen",
+            "explode": true,
+            "in": "query",
+            "name": "isFeatured",
+            "required": false,
+            "schema": {
+              "type": "boolean"
             },
             "style": "form"
           }
@@ -15537,6 +15849,30 @@
               "type": "integer"
             },
             "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Slug de catégorie (dans la locale)",
+            "explode": true,
+            "in": "query",
+            "name": "category",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Slug de tag (dans la locale)",
+            "explode": true,
+            "in": "query",
+            "name": "tag",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "style": "form"
           }
         ],
         "responses": {
@@ -16053,6 +16389,18 @@
               "type": "string"
             },
             "style": "simple"
+          },
+          {
+            "deprecated": false,
+            "description": "Catégorie technique (General, Service…)",
+            "explode": true,
+            "in": "query",
+            "name": "category",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "style": "form"
           }
         ],
         "responses": {
@@ -16190,6 +16538,42 @@
             "schema": {
               "default": 1,
               "type": "integer"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Type de contrat",
+            "explode": true,
+            "in": "query",
+            "name": "contractType",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Lieu contient",
+            "explode": true,
+            "in": "query",
+            "name": "location",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Titre ou description contient",
+            "explode": true,
+            "in": "query",
+            "name": "search",
+            "required": false,
+            "schema": {
+              "type": "string"
             },
             "style": "form"
           }
@@ -16506,6 +16890,30 @@
               "type": "integer"
             },
             "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Slug de catégorie de projet (inconnu : aucun filtre)",
+            "explode": true,
+            "in": "query",
+            "name": "category",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "style": "form"
+          },
+          {
+            "deprecated": false,
+            "description": "Projets à la une (accueil)",
+            "explode": true,
+            "in": "query",
+            "name": "featured",
+            "required": false,
+            "schema": {
+              "type": "boolean"
+            },
+            "style": "form"
           }
         ],
         "responses": {
@@ -16644,6 +17052,18 @@
               "type": "string"
             },
             "style": "simple"
+          },
+          {
+            "deprecated": false,
+            "description": "Les 4 services de l'accueil",
+            "explode": true,
+            "in": "query",
+            "name": "homepage",
+            "required": false,
+            "schema": {
+              "type": "boolean"
+            },
+            "style": "form"
           }
         ],
         "responses": {
@@ -16920,6 +17340,18 @@
               "type": "string"
             },
             "style": "simple"
+          },
+          {
+            "deprecated": false,
+            "description": "Nombre maximal (1 à 50)",
+            "explode": true,
+            "in": "query",
+            "name": "limit",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            },
+            "style": "form"
           }
         ],
         "responses": {
@@ -17058,6 +17490,18 @@
               "type": "string"
             },
             "style": "simple"
+          },
+          {
+            "deprecated": false,
+            "description": "Témoignages de l'accueil",
+            "explode": true,
+            "in": "query",
+            "name": "featured",
+            "required": false,
+            "schema": {
+              "type": "boolean"
+            },
+            "style": "form"
           }
         ],
         "responses": {

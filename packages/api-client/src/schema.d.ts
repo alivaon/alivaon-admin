@@ -4396,6 +4396,10 @@ export interface operations {
                 page?: number;
                 /** @description The number of items per page */
                 itemsPerPage?: number;
+                /** @description Titre ou nom contient (toutes langues) */
+                search?: string;
+                /** @description Filtre booléen */
+                isPublished?: boolean;
             };
             header?: never;
             path?: never;
@@ -4603,6 +4607,8 @@ export interface operations {
                 page?: number;
                 /** @description The number of items per page */
                 itemsPerPage?: number;
+                /** @description Titre ou nom contient (toutes langues) */
+                search?: string;
             };
             header?: never;
             path?: never;
@@ -4810,6 +4816,12 @@ export interface operations {
                 page?: number;
                 /** @description The number of items per page */
                 itemsPerPage?: number;
+                /** @description Statut (clé technique) */
+                status?: string;
+                /** @description Identifiant de l'offre */
+                jobOffer?: number;
+                /** @description Nom, email, ville ou pays contient */
+                search?: string;
             };
             header?: never;
             path?: never;
@@ -4968,6 +4980,8 @@ export interface operations {
                 page?: number;
                 /** @description The number of items per page */
                 itemsPerPage?: number;
+                /** @description Titre ou nom contient (toutes langues) */
+                search?: string;
             };
             header?: never;
             path?: never;
@@ -5175,6 +5189,10 @@ export interface operations {
                 page?: number;
                 /** @description The number of items per page */
                 itemsPerPage?: number;
+                /** @description Approuvés (true) ou en attente (false) */
+                isApproved?: boolean;
+                /** @description Identifiant de l'article */
+                article?: number;
             };
             header?: never;
             path?: never;
@@ -5396,6 +5414,10 @@ export interface operations {
                 page?: number;
                 /** @description The number of items per page */
                 itemsPerPage?: number;
+                /** @description Lus (true) ou non lus (false) */
+                isRead?: boolean;
+                /** @description Nom, email ou sujet contient */
+                search?: string;
             };
             header?: never;
             path?: never;
@@ -5597,6 +5619,10 @@ export interface operations {
                 page?: number;
                 /** @description The number of items per page */
                 itemsPerPage?: number;
+                /** @description Titre ou nom contient (toutes langues) */
+                search?: string;
+                /** @description Filtre booléen */
+                isActive?: boolean;
             };
             header?: never;
             path?: never;
@@ -5804,6 +5830,10 @@ export interface operations {
                 page?: number;
                 /** @description The number of items per page */
                 itemsPerPage?: number;
+                /** @description Titre ou nom contient (toutes langues) */
+                search?: string;
+                /** @description Filtre booléen */
+                isPublished?: boolean;
             };
             header?: never;
             path?: never;
@@ -6011,6 +6041,8 @@ export interface operations {
                 page?: number;
                 /** @description The number of items per page */
                 itemsPerPage?: number;
+                /** @description Titre ou nom contient (toutes langues) */
+                search?: string;
             };
             header?: never;
             path?: never;
@@ -6218,6 +6250,12 @@ export interface operations {
                 page?: number;
                 /** @description The number of items per page */
                 itemsPerPage?: number;
+                /** @description Titre ou nom contient (toutes langues) */
+                search?: string;
+                /** @description Filtre booléen */
+                isActive?: boolean;
+                /** @description Filtre booléen */
+                isFeatured?: boolean;
             };
             header?: never;
             path?: never;
@@ -6425,6 +6463,10 @@ export interface operations {
                 page?: number;
                 /** @description The number of items per page */
                 itemsPerPage?: number;
+                /** @description Titre ou nom contient (toutes langues) */
+                search?: string;
+                /** @description Filtre booléen */
+                isActive?: boolean;
             };
             header?: never;
             path?: never;
@@ -6632,6 +6674,8 @@ export interface operations {
                 page?: number;
                 /** @description The number of items per page */
                 itemsPerPage?: number;
+                /** @description Titre ou nom contient (toutes langues) */
+                search?: string;
             };
             header?: never;
             path?: never;
@@ -6839,6 +6883,10 @@ export interface operations {
                 page?: number;
                 /** @description The number of items per page */
                 itemsPerPage?: number;
+                /** @description Titre ou nom contient (toutes langues) */
+                search?: string;
+                /** @description Filtre booléen */
+                isActive?: boolean;
             };
             header?: never;
             path?: never;
@@ -7046,6 +7094,10 @@ export interface operations {
                 page?: number;
                 /** @description The number of items per page */
                 itemsPerPage?: number;
+                /** @description Titre ou nom contient (toutes langues) */
+                search?: string;
+                /** @description Filtre booléen */
+                isFeatured?: boolean;
             };
             header?: never;
             path?: never;
@@ -7659,6 +7711,10 @@ export interface operations {
                 page?: number;
                 /** @description The number of items per page */
                 itemsPerPage?: number;
+                /** @description Slug de catégorie (dans la locale) */
+                category?: string;
+                /** @description Slug de tag (dans la locale) */
+                tag?: string;
             };
             header?: never;
             path: {
@@ -7918,7 +7974,10 @@ export interface operations {
     };
     api_public_localefaqs_get_collection: {
         parameters: {
-            query?: never;
+            query?: {
+                /** @description Catégorie technique (General, Service…) */
+                category?: string;
+            };
             header?: never;
             path: {
                 /** @description PublicFaq identifier */
@@ -7982,6 +8041,12 @@ export interface operations {
             query?: {
                 /** @description The collection page number */
                 page?: number;
+                /** @description Type de contrat */
+                contractType?: string;
+                /** @description Lieu contient */
+                location?: string;
+                /** @description Titre ou description contient */
+                search?: string;
             };
             header?: never;
             path: {
@@ -8121,6 +8186,10 @@ export interface operations {
                 page?: number;
                 /** @description The number of items per page */
                 itemsPerPage?: number;
+                /** @description Slug de catégorie de projet (inconnu : aucun filtre) */
+                category?: string;
+                /** @description Projets à la une (accueil) */
+                featured?: boolean;
             };
             header?: never;
             path: {
@@ -8184,7 +8253,10 @@ export interface operations {
     };
     api_public_localeservices_get_collection: {
         parameters: {
-            query?: never;
+            query?: {
+                /** @description Les 4 services de l'accueil */
+                homepage?: boolean;
+            };
             header?: never;
             path: {
                 /** @description PublicService identifier */
@@ -8310,7 +8382,10 @@ export interface operations {
     };
     "api_public_localeteam-members_get_collection": {
         parameters: {
-            query?: never;
+            query?: {
+                /** @description Nombre maximal (1 à 50) */
+                limit?: number;
+            };
             header?: never;
             path: {
                 /** @description PublicTeamMember identifier */
@@ -8373,7 +8448,10 @@ export interface operations {
     };
     api_public_localetestimonials_get_collection: {
         parameters: {
-            query?: never;
+            query?: {
+                /** @description Témoignages de l'accueil */
+                featured?: boolean;
+            };
             header?: never;
             path: {
                 /** @description PublicTestimonial identifier */

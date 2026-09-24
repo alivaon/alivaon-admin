@@ -50,5 +50,31 @@ export function toApiError(status: number, body: unknown): ApiError {
 /** Collections JSON-LD : éléments et total. */
 export interface Collection<T> {
   member: T[];
-  totalItems?: number;
+  totalItems: number;
+}
+
+type Member<T> = T extends { member: (infer M)[] } ? M : never;
+
+/**
+ * Liste paginée. Le client demande du JSON-LD (métadonnées de pagination) ;
+ * le type généré couvre aussi la variante JSON (tableau simple).
+ */
+export async function unwrapCollection<T>(call: Promise<ApiResult<T>>): Promise<Collection<Member<T>>> {
+  const data = (await unwrap(call)) as unknown;
+  if (Array.isArray(data)) {
+    return { member: data, totalItems: data.length };
+  }
+  const collection = data as { member: Member<T>[]; totalItems?: number };
+
+  return { member: collection.member, totalItems: collection.totalItems ?? collection.member.length };
+}
+
+/** Filtre booléen d'URL (« true » / « false » / vide) en paramètre d'API. */
+export function booleanParam(value: string | undefined): boolean | undefined {
+  return value === 'true' ? true : value === 'false' ? false : undefined;
+}
+
+/** Filtre numérique d'URL en paramètre d'API. */
+export function integerParam(value: string | undefined): number | undefined {
+  return value && /^\d+$/.test(value) ? Number(value) : undefined;
 }

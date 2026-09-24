@@ -1,3 +1,7 @@
+import type { components } from '@alivaon/api-client';
+
+export type ApplicationStatus = components['schemas']['AdminCandidateApplication.ApplicationStatusInput']['status'];
+
 /** Formats d'affichage du back-office (français). */
 const DATE = new Intl.DateTimeFormat('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric' });
 const DATE_TIME = new Intl.DateTimeFormat('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' });
@@ -18,3 +22,12 @@ export const APPLICATION_STATUS_CLASSES: Record<string, string> = {
   refusée: 'bg-red-100 text-red-800',
   acceptée: 'bg-green-100 text-green-800',
 };
+
+/** Statuts de candidature (CandidateApplication::STATUS_LABELS). */
+export const APPLICATION_STATUSES: { value: ApplicationStatus; label: string }[] = [
+  { value: 'reçue', label: 'Reçue' },
+  { value: 'en_cours', label: "En cours d'examen" },
+  { value: 'entretien', label: 'Entretien' },
+  { value: 'refusée', label: 'Refusée' },
+  { value: 'acceptée', label: 'Acceptée' },
+];
