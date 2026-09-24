@@ -49,39 +49,10 @@ export function Seo(props: SeoProps) {
 
   return (
     <>
-      <meta name="description" content={description} />
-      <meta name="robots" content={props.robots ?? 'index, follow'} />
-      <title>{title}</title>
-
-      <meta property="og:type" content={props.ogType ?? 'website'} />
-      <meta property="og:site_name" content="Alivaon" />
-      <meta property="og:title" content={ogTitle} />
-      <meta property="og:description" content={ogDescription} />
-      <meta property="og:url" content={canonical} />
-      <meta property="og:locale" content={OG_LOCALES[locale]} />
-      {ogAlternates.map((alt) => (
+      <meta name="description" content={description} />{' '}<meta name="robots" content={props.robots ?? 'index, follow'} />{' '}<title>{title}</title>{' '}<meta property="og:type" content={props.ogType ?? 'website'} />{' '}<meta property="og:site_name" content="Alivaon" />{' '}<meta property="og:title" content={ogTitle} />{' '}<meta property="og:description" content={ogDescription} />{' '}<meta property="og:url" content={canonical} />{' '}<meta property="og:locale" content={OG_LOCALES[locale]} />{' '}{ogAlternates.map((alt) => (
         <meta key={alt} property="og:locale:alternate" content={OG_LOCALES[alt]} />
-      ))}
-      <meta property="og:image" content={ogImage} />
-      <meta property="og:image:secure_url" content={ogImage} />
-      <meta property="og:image:alt" content={ogImageAlt} />
-      {ogImageType && <meta property="og:image:type" content={ogImageType} />}
-      {ogImageWidth && <meta property="og:image:width" content={ogImageWidth} />}
-      {ogImageHeight && <meta property="og:image:height" content={ogImageHeight} />}
-
-      <meta name="twitter:card" content={props.twitterCard ?? 'summary_large_image'} />
-      <meta name="twitter:title" content={ogTitle} />
-      <meta name="twitter:description" content={ogDescription} />
-      <meta name="twitter:image" content={ogImage} />
-      <meta name="twitter:image:alt" content={ogImageAlt} />
-
-      <link rel="canonical" href={canonical} />
-      {/* _partials/_hreflang.html.twig : seulement s'il existe une autre version ; x-default = FR. */}
-      {locales.length > 1 &&
-        locales.map((l) => <link key={l} rel="alternate" hrefLang={l} href={alternates[l]} />)}
-      {locales.length > 1 && alternates.fr && <link rel="alternate" hrefLang="x-default" href={alternates.fr} />}
-
-      {props.extra}
+      ))}{' '}<meta property="og:image" content={ogImage} />{' '}<meta property="og:image:secure_url" content={ogImage} />{' '}<meta property="og:image:alt" content={ogImageAlt} />{' '}{ogImageType && <meta property="og:image:type" content={ogImageType} />}{' '}{ogImageWidth && <meta property="og:image:width" content={ogImageWidth} />}{' '}{ogImageHeight && <meta property="og:image:height" content={ogImageHeight} />}{' '}<meta name="twitter:card" content={props.twitterCard ?? 'summary_large_image'} />{' '}<meta name="twitter:title" content={ogTitle} />{' '}<meta name="twitter:description" content={ogDescription} />{' '}<meta name="twitter:image" content={ogImage} />{' '}<meta name="twitter:image:alt" content={ogImageAlt} />{' '}<link rel="canonical" href={canonical} />{' '}{/* _partials/_hreflang.html.twig : seulement s'il existe une autre version ; x-default = FR. */}{' '}{locales.length > 1 &&
+        locales.map((l) => <link key={l} rel="alternate" hrefLang={l} href={alternates[l]} />)}{' '}{locales.length > 1 && alternates.fr && <link rel="alternate" hrefLang="x-default" href={alternates.fr} />}{' '}{props.extra}
     </>
   );
 }

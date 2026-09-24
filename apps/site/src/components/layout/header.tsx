@@ -25,9 +25,7 @@ export function Header({ page, extraClass = '' }: { page: PageContext; extraClas
         <div className="container rr-container-1800">
           <div className={isHeader7 ? 'header-area-7__inner' : 'header-area__inner'}>
             <div className="header__logo">
-              <a href={path(page.locale, 'app_home')}>
-                <img src={asset('build/images/logo/logo.png')} className="normal-logo" alt="Site Logo" />
-              </a>
+              <a href={path(page.locale, 'app_home')}>{' '}<img src={asset('build/images/logo/logo.png')} className="normal-logo" alt="Site Logo" />{' '}</a>
             </div>
             <div className="header__nav d-none d-xl-block">
               <nav className="main-menu" id="mobile-menu">
@@ -43,33 +41,23 @@ export function Header({ page, extraClass = '' }: { page: PageContext; extraClas
             {Object.keys(page.alternates).length > 1 && (
               <div className="header__lang">
                 {others.map(([locale, url]) => (
-                  <a key={locale} className="header__lang-link" href={url} hrefLang={locale} aria-label={locale === 'fr' ? 'Version française' : 'English version'}>
-                    <img className="header__lang-flag" src={asset(`build/images/flags/${locale}.svg`)} width={24} height={16} alt="" loading="lazy" />
-                  </a>
+                  <a key={locale} className="header__lang-link" href={url} hrefLang={locale} aria-label={locale === 'fr' ? 'Version française' : 'English version'}>{' '}<img className="header__lang-flag" src={asset(`build/images/flags/${locale}.svg`)} width={24} height={16} alt="" loading="lazy" />{' '}</a>
                 ))}
               </div>
             )}
             <div className="header-right">
               {isHeader7 ? (
                 <div className="btn-wrap d-none d-xl-block">
-                  <a href={path(page.locale, 'app_contact')} className="rr-btn-button5 btn-dark">
-                    <span className="text">{t('nav.contact_us')}</span>
-                    <span className="icon">
+                  <a href={path(page.locale, 'app_contact')} className="rr-btn-button5 btn-dark">{' '}<span className="text">{t('nav.contact_us')}</span>{' '}<span className="icon">
                       <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
                         <path d="M22 11C16.6 11 12.2 6.08 12.2 0" stroke="currentColor" strokeWidth="2" />
                         <path d="M12.2 22C12.2 15.93 16.6 11 22 11" stroke="currentColor" strokeWidth="2" />
                         <path d="M22 11H0" stroke="currentColor" strokeWidth="2" />
                       </svg>
-                    </span>
-                  </a>
+                    </span>{' '}</a>
                 </div>
               ) : (
-                <a href={path(page.locale, 'app_contact')} className="rr-btn-border d-none d-xl-inline-flex">
-                  <span className="text">{t('nav.contact_us')}</span>
-                  <span className="icon">
-                    <i className="fa-regular fa-arrow-right"></i>
-                  </span>
-                </a>
+                <a href={path(page.locale, 'app_contact')} className="rr-btn-border d-none d-xl-inline-flex">{' '}<span className="text">{t('nav.contact_us')}</span>{' '}<span className="icon">{' '}<i className="fa-regular fa-arrow-right"></i>{' '}</span>{' '}</a>
               )}
               <div className="header__navicon d-xl-none">
                 {/* HTML brut : React 19 bloque les URLs javascript: (il les remplacerait

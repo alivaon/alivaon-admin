@@ -87,11 +87,7 @@ export async function ContactPage({ locale }: { locale: Locale }) {
           <div className="contact-info-card">
             <h2 className="contact-info-card__title">{t('contact.card.follow')}</h2>
             <div className="contact-info-card__social">
-              <a href="https://www.facebook.com/alivaon" className="social-circle" aria-label="Facebook Alivaon">f</a>
-              <a href="https://x.com/alivaon" className="social-circle" aria-label="Twitter Alivaon">x</a>
-              <a href="https://www.linkedin.com/company/alivaon/" className="social-circle" aria-label="LinkedIn Alivaon">in</a>
-              <a href="https://www.tiktok.com/@alivaon.io" className="social-circle" aria-label="Tiktok Alivaon">&#9658;</a>
-              <a href="https://www.instagram.com/alivaon.io/" className="social-circle" aria-label="Instagram Alivaon">&#x1F4F7;</a>
+              <a href="https://www.facebook.com/alivaon" className="social-circle" aria-label="Facebook Alivaon">f</a>{' '}<a href="https://x.com/alivaon" className="social-circle" aria-label="Twitter Alivaon">x</a>{' '}<a href="https://www.linkedin.com/company/alivaon/" className="social-circle" aria-label="LinkedIn Alivaon">in</a>{' '}<a href="https://www.tiktok.com/@alivaon.io" className="social-circle" aria-label="Tiktok Alivaon">&#9658;</a>{' '}<a href="https://www.instagram.com/alivaon.io/" className="social-circle" aria-label="Instagram Alivaon">&#x1F4F7;</a>
             </div>
           </div>
         </div>
@@ -152,9 +148,7 @@ export async function ContactPage({ locale }: { locale: Locale }) {
                 <textarea id="contact_message" name="message" required placeholder={t('contact.form.message_placeholder')} rows={4} className="contact-form__textarea" aria-label={t('contact.form.message_aria')}></textarea>
               </div>
               <div className="contact-form__footer">
-                <button type="submit" className="btn contact-form__send" aria-label={t('contact.form.send_aria')}>
-                  <span className="contact-form__send-text">{t('common.send')}</span>
-                </button>
+                <button type="submit" className="btn contact-form__send" aria-label={t('contact.form.send_aria')}>{' '}<span className="contact-form__send-text">{t('common.send')}</span>{' '}</button>
               </div>
               <div>
                 <input type="text" id="contact_honeypot" name="honeypot" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />

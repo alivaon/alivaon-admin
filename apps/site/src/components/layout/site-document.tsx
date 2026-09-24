@@ -14,12 +14,9 @@ export async function SiteDocument({ locale, children }: { locale: Locale; child
   return (
     <html lang={locale}>
       <head>
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <link rel="icon" type="image/x-icon" href={asset('build/images/logo/favicon.png')} />
-        {VENDOR_CSS.map((href) => (
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />{' '}<link rel="icon" type="image/x-icon" href={asset('build/images/logo/favicon.png')} />{' '}{VENDOR_CSS.map((href) => (
           <link key={href} rel="stylesheet" href={asset(href)} />
-        ))}
-        {app.css.map((href) => (
+        ))}{' '}{app.css.map((href) => (
           <link key={href} rel="stylesheet" href={href} />
         ))}
       </head>

@@ -252,9 +252,7 @@ export function LegalNoticePage({ locale }: { locale: Locale }) {
                 
                 <div className="faq1__cta text-center" style={{ marginTop: '3rem' }}>
                   <p className="faq1__cta-text">{t('legal.notice.cta_text')}</p>
-                  <a href={path(locale, 'app_contact')} className="btn btn-info faq1__cta-btn" aria-label={t('legal.notice.contact_aria')}>
-                    {t('legal.notice.cta_button')}
-                  </a>
+                  <a href={path(locale, 'app_contact')} className="btn btn-info faq1__cta-btn" aria-label={t('legal.notice.contact_aria')}>{' '}{t('legal.notice.cta_button')}{' '}</a>
                 </div>
       
               </div>

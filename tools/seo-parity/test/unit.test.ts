@@ -86,8 +86,17 @@ describe('extractPage', () => {
     expect(page.text).toBe('1. Question A B');
   });
 
+  it('voit les mots collés entre éléments en ligne, comme à l’affichage', () => {
+    const glued = extractPage('<html><body><h3><span>Totale</span>Suivi</h3></body></html>', 'https://www.alivaon.com/');
+    const spaced = extractPage('<html><body><h3><span>Totale</span>\n  Suivi</h3></body></html>', 'https://www.alivaon.com/');
+    expect(glued.text).toBe('TotaleSuivi');
+    expect(spaced.text).toBe('Totale Suivi');
+    expect(extractPage('<html><body><p>a<br>b</p><div>c</div>d</body></html>', 'https://www.alivaon.com/').text).toBe('a b c d');
+  });
+
   it('sépare les blocs de texte et ignore les scripts', () => {
-    expect(snap.text).toBe('Le blog Premier paragraphe Récents Article 1 Article 1 Haut x Écrire');
+    // <a>Haut</a><a>x</a> s'affiche « Hautx » : deux liens en ligne sans blanc entre eux.
+    expect(snap.text).toBe('Le blog Premier paragraphe Récents Article 1 Article 1 Hautx Écrire');
     expect(snap.headings).toEqual([{ level: 1, text: 'Le blog' }, { level: 2, text: 'Récents' }]);
   });
 

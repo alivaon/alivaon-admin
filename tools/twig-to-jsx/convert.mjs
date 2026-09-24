@@ -9,6 +9,7 @@
  * Usage : node tools/twig-to-jsx/convert.mjs <gabarit.twig> [bloc=body]
  */
 import { readFileSync } from 'node:fs';
+import { fixSource } from './jsx-whitespace.mjs';
 
 const [file, block = 'body'] = process.argv.slice(2);
 const source = readFileSync(file, 'utf8');
@@ -32,7 +33,7 @@ function extractBlock(text, name) {
   throw new Error('endblock manquant');
 }
 
-const SVG_ATTRS = ['stroke-width', 'stroke-linecap', 'stroke-linejoin', 'stroke-miterlimit', 'stroke-dasharray', 'stroke-dashoffset', 'stroke-opacity', 'fill-rule', 'fill-opacity', 'clip-path', 'clip-rule', 'stop-color', 'stop-opacity', 'font-family', 'font-size', 'font-weight', 'text-anchor', 'xlink:href', 'xml:space', 'color-interpolation-filters', 'flood-opacity', 'flood-color'];
+const SVG_ATTRS = ['stroke-width', 'stroke-linecap', 'stroke-linejoin', 'stroke-miterlimit', 'stroke-dasharray', 'stroke-dashoffset', 'stroke-opacity', 'fill-rule', 'fill-opacity', 'clip-path', 'clip-rule', 'stop-color', 'stop-opacity', 'font-family', 'font-size', 'font-weight', 'text-anchor', 'xlink:href', 'xml:space', 'xmlns:xlink', 'color-interpolation-filters', 'flood-opacity', 'flood-color'];
 const RENAMES = { class: 'className', for: 'htmlFor', tabindex: 'tabIndex', readonly: 'readOnly', maxlength: 'maxLength', minlength: 'minLength', autocomplete: 'autoComplete', novalidate: 'noValidate', colspan: 'colSpan', rowspan: 'rowSpan', frameborder: 'frameBorder', allowfullscreen: 'allowFullScreen', crossorigin: 'crossOrigin', srcset: 'srcSet', enctype: 'encType', hreflang: 'hrefLang', 'accept-charset': 'acceptCharset', 'http-equiv': 'httpEquiv', itemprop: 'itemProp', referrerpolicy: 'referrerPolicy', playsinline: 'playsInline', autoplay: 'autoPlay', datetime: 'dateTime', itemscope: 'itemScope', itemtype: 'itemType', viewbox: 'viewBox' };
 for (const a of SVG_ATTRS) RENAMES[a] = a.replace(/[-:](\w)/g, (_, c) => c.toUpperCase());
 const BOOLEAN = new Set(['allowfullscreen', 'required', 'disabled', 'checked', 'readonly', 'novalidate', 'autofocus', 'multiple', 'selected', 'hidden', 'playsinline', 'autoplay', 'muted', 'loop', 'defer', 'async']);
@@ -75,7 +76,13 @@ body = body.replace(/<([a-zA-Z][\w-]*)((?:\s+[^\s=>\/]+(?:=(?:"[^"]*"|'[^']*'))?
       const obj = value.split(';').map((d) => d.trim()).filter(Boolean).map((d) => {
         const [k, ...v] = d.split(':');
         const key = k.trim().startsWith('--') ? `'${k.trim()}'` : k.trim().replace(/-(\w)/g, (_, c) => c.toUpperCase());
-        return `${key}: '${v.join(':').trim().replace(/'/g, "\\'")}'`;
+        const raw = v.join(':').trim();
+        if (raw.includes('{{')) {
+          // Valeur avec expression Twig (url({{ asset(…) }})) : gabarit JS.
+          const tpl = raw.replace(/{{([\s\S]*?)}}/g, (m, e) => `\${${twigExpr(e)?.js ?? `/* TODO twig: ${e.trim()} */ ''`}}`);
+          return `${key}: \`${tpl.replace(/`/g, '\\`')}\``;
+        }
+        return `${key}: '${raw.replace(/'/g, "\\'")}'`;
       });
       out.push(`style=@@RAW(${obj.join(', ')})@@`);
       continue;
@@ -120,4 +127,7 @@ body = body
   .replace(/\n{3,}/g, '\n\n')
   .replace(/@@RAW\(([\s\S]*?)\)@@/g, (_, js) => (js.startsWith('t(') ? `{{ __html: ${js} }}` : `{{ ${js} }}`));
 
-process.stdout.write(`<>\n${body.trim()}\n</>\n`);
+// Blancs qu'HTML affiche et que JSX supprimerait (voir jsx-whitespace.mjs).
+const wrapped = `const __ = (<>\n${body.trim()}\n</>);\n`;
+const { out } = fixSource(wrapped);
+process.stdout.write(out.slice('const __ = ('.length, -');\n'.length) + '\n');

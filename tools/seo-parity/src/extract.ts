@@ -13,38 +13,39 @@ const IGNORED_LINK_RELS = new Set(['stylesheet', 'preload', 'modulepreload', 'pr
 const IGNORED_META = /^name:(csrf-|_token)/i;
 
 /**
- * Texte d'un sous-arbre, nœuds texte joints par une espace : `.text()` de
- * cheerio colle "Titre</h2><p>Paragraphe" en "TitreParagraphe".
- *
- * Des nœuds texte voisins, séparés seulement par des commentaires, forment un
- * texte continu, comme à l'affichage : React sépare « {n}. {titre} » en
- * « 1<!-- -->. <!-- -->Titre », que le navigateur affiche « 1. Titre ».
+ * Éléments affichés en ligne par défaut (CSS) : aucune séparation autour
+ * d'eux, comme à l'écran. « Totale</span>Suivi » s'affiche « TotaleSuivi » :
+ * un mot collé est un écart réel, que la comparaison doit voir.
+ */
+const INLINE_TAGS = new Set([
+  'a', 'abbr', 'b', 'bdi', 'bdo', 'cite', 'code', 'data', 'dfn', 'em', 'i', 'kbd', 'mark', 'q', 's', 'samp', 'small', 'span',
+  'strong', 'sub', 'sup', 'time', 'u', 'var', 'label', 'img', 'input', 'button', 'select', 'textarea', 'font', 'wbr',
+]);
+
+/**
+ * Texte d'un sous-arbre tel qu'affiché : blancs des nœuds texte conservés,
+ * séparation à la frontière des blocs (div, p, h2…, br) seulement.
+ * `.text()` de cheerio colle « Titre</h2><p>Paragraphe » en « TitreParagraphe » ;
+ * joindre tous les nœuds par une espace masquerait les mots collés.
+ * Les commentaires (séparateurs de texte de React) sont ignorés.
  */
 export function textOf(node: AnyNode): string {
-  const parts: string[] = [];
+  let out = '';
   const walk = (n: AnyNode): void => {
     if (n.type === 'text') {
-      parts.push((n as unknown as { data: string }).data);
+      out += (n as unknown as { data: string }).data;
       return;
     }
-    if ('name' in n && SKIPPED_TAGS.has((n as Element).name)) return;
-    if (!('children' in n)) return;
-    let previousWasText = false;
-    for (const child of (n as Element).children) {
-      if (child.type === 'comment') continue;
-      if (child.type === 'text') {
-        const data = (child as unknown as { data: string }).data;
-        if (previousWasText) parts[parts.length - 1] += data;
-        else parts.push(data);
-        previousWasText = true;
-        continue;
-      }
-      previousWasText = false;
-      walk(child);
-    }
+    if (n.type !== 'tag' && n.type !== 'root' && n.type !== 'script' && n.type !== 'style') return;
+    const name = 'name' in n ? (n as Element).name : '';
+    if (SKIPPED_TAGS.has(name)) return;
+    const block = name !== '' && !INLINE_TAGS.has(name);
+    if (block) out += ' ';
+    if ('children' in n) for (const child of (n as Element).children) walk(child);
+    if (block) out += ' ';
   };
   walk(node);
-  return normText(parts.join(' '));
+  return normText(out);
 }
 
 export function extractPage(html: string, pageUrl: string): HtmlSnapshot {

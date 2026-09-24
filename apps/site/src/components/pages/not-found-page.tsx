@@ -29,9 +29,7 @@ export function NotFoundPage({ locale, pathname }: { locale: Locale; pathname: s
               <div className="error-content">
                 <p className="error-content__text">{t('error.404.text')}</p>
                 <div className="error-content__button margin-bottom-30">
-                  <a href={path(locale, 'app_home')} className="rr-btn-button4 btn-purple">
-                    <span className="text">{t('error.back_home')}</span>
-                    <span className="icon">
+                  <a href={path(locale, 'app_home')} className="rr-btn-button4 btn-purple">{' '}<span className="text">{t('error.back_home')}</span>{' '}<span className="icon">
                       <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
                         <g clipPath="url(#clip0_246_218)">
                           <path d="M22.0004 11C16.6011 11 12.2227 6.07578 12.2227 0" stroke="white" strokeWidth="2" strokeMiterlimit="10" />
@@ -39,8 +37,7 @@ export function NotFoundPage({ locale, pathname }: { locale: Locale; pathname: s
                           <path d="M22.0005 11H0.000488281" stroke="white" strokeWidth="2" strokeMiterlimit="10" />
                         </g>
                       </svg>
-                    </span>
-                  </a>
+                    </span>{' '}</a>
                 </div>
                 <p>.</p>
               </div>

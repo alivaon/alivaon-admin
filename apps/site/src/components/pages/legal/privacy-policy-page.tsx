@@ -477,9 +477,7 @@ export function PrivacyPolicyPage({ locale }: { locale: Locale }) {
           
           <div className="faq1__cta text-center" style={{ marginTop: '3rem' }}>
             <p className="faq1__cta-text">{t('legal.privacy.cta_text')}</p>
-            <a href={path(locale, 'app_contact')} className="btn btn-info faq1__cta-btn" aria-label={t('legal.privacy.contact_aria')}>
-              {t('legal.privacy.cta_button')}
-            </a>
+            <a href={path(locale, 'app_contact')} className="btn btn-info faq1__cta-btn" aria-label={t('legal.privacy.contact_aria')}>{' '}{t('legal.privacy.cta_button')}{' '}</a>
           </div>
 
         </div>

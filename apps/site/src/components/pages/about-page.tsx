@@ -93,8 +93,7 @@ export async function AboutPage({ locale }: { locale: Locale }) {
           <div className="value__left">
             <div className="value__number">01.</div>
             <div className="value__title">
-              <img src={asset('build/images/inner/about/value/value-thumb1.jpg')} alt="Solutions logicielles adaptées au marché camerounais" />
-              <span>{t('about.values.v1_title')}</span>
+              <img src={asset('build/images/inner/about/value/value-thumb1.jpg')} alt="Solutions logicielles adaptées au marché camerounais" />{' '}<span>{t('about.values.v1_title')}</span>
             </div>
           </div>
           <div className="value__desc">{t('about.values.v1_text')}</div>
@@ -104,8 +103,7 @@ export async function AboutPage({ locale }: { locale: Locale }) {
           <div className="value__left">
             <div className="value__number">02.</div>
             <div className="value__title">
-              <img src={asset('build/images/inner/about/value/value-thumb2.jpg')} alt="Partenariat transparent avec les entreprises camerounaises" />
-              <span>{t('about.values.v2_title')}</span>
+              <img src={asset('build/images/inner/about/value/value-thumb2.jpg')} alt="Partenariat transparent avec les entreprises camerounaises" />{' '}<span>{t('about.values.v2_title')}</span>
             </div>
           </div>
           <div className="value__desc">{t('about.values.v2_text')}</div>
@@ -115,8 +113,7 @@ export async function AboutPage({ locale }: { locale: Locale }) {
           <div className="value__left">
             <div className="value__number">03.</div>
             <div className="value__title">
-              <img src={asset('build/images/inner/about/value/value-thumb3.jpg')} alt="Excellence technique développement logiciel Douala" />
-              <span>{t('about.values.v3_title')}</span>
+              <img src={asset('build/images/inner/about/value/value-thumb3.jpg')} alt="Excellence technique développement logiciel Douala" />{' '}<span>{t('about.values.v3_title')}</span>
             </div>
           </div>
           <div className="value__desc">{t('about.values.v3_text')}</div>
@@ -126,8 +123,7 @@ export async function AboutPage({ locale }: { locale: Locale }) {
           <div className="value__left">
             <div className="value__number">04.</div>
             <div className="value__title">
-              <img src={asset('build/images/inner/about/value/value-thumb4.jpg')} alt="Impact concret sur la gestion et les ventes des PME camerounaises" />
-              <span>{t('about.values.v4_title')}</span>
+              <img src={asset('build/images/inner/about/value/value-thumb4.jpg')} alt="Impact concret sur la gestion et les ventes des PME camerounaises" />{' '}<span>{t('about.values.v4_title')}</span>
             </div>
           </div>
           <div className="value__desc">{t('about.values.v4_text')}</div>
@@ -154,22 +150,7 @@ export async function AboutPage({ locale }: { locale: Locale }) {
         <div className="marquee-inner to-left">
           <ul className="marqee-list d-flex">
             <li className="marquee-item">
-              <span className="text-slider-1">{t('about.marquee.1')}</span>
-              <span className="text-slider-2"> • </span>
-              <span className="text-slider-1">{t('about.marquee.2')}</span>
-              <span className="text-slider-2"> • </span>
-              <span className="text-slider-1">{t('about.marquee.3')}</span>
-              <span className="text-slider-2"> • </span>
-              <span className="text-slider-1">{t('about.marquee.4')}</span>
-              <span className="text-slider-2"> • </span>
-              <span className="text-slider-1">{t('about.marquee.5')}</span>
-              <span className="text-slider-2"> • </span>
-              <span className="text-slider-1">{t('about.marquee.6')}</span>
-              <span className="text-slider-2"> • </span>
-              <span className="text-slider-1">{t('about.marquee.7')}</span>
-              <span className="text-slider-2"> • </span>
-              <span className="text-slider-1">{t('about.marquee.8')}</span>
-              <span className="text-slider-2"> • </span>
+              <span className="text-slider-1">{t('about.marquee.1')}</span>{' '}<span className="text-slider-2"> • </span>{' '}<span className="text-slider-1">{t('about.marquee.2')}</span>{' '}<span className="text-slider-2"> • </span>{' '}<span className="text-slider-1">{t('about.marquee.3')}</span>{' '}<span className="text-slider-2"> • </span>{' '}<span className="text-slider-1">{t('about.marquee.4')}</span>{' '}<span className="text-slider-2"> • </span>{' '}<span className="text-slider-1">{t('about.marquee.5')}</span>{' '}<span className="text-slider-2"> • </span>{' '}<span className="text-slider-1">{t('about.marquee.6')}</span>{' '}<span className="text-slider-2"> • </span>{' '}<span className="text-slider-1">{t('about.marquee.7')}</span>{' '}<span className="text-slider-2"> • </span>{' '}<span className="text-slider-1">{t('about.marquee.8')}</span>{' '}<span className="text-slider-2"> • </span>
             </li>
           </ul>
         </div>
@@ -229,8 +210,7 @@ export async function AboutPage({ locale }: { locale: Locale }) {
                         <img src={testimonial.avatar ?? asset('build/images/testimonial/author-5-01.png')} alt={`${testimonial.clientName} - client Alivaon`} />
                       </div>
                       <h3 className="testimonial-5__name">
-                        {testimonial.clientName}
-                        {testimonial.clientPosition ? `, ${testimonial.clientPosition}` : ''}
+                        {`${testimonial.clientName}${testimonial.clientPosition ? `, ${testimonial.clientPosition}` : ''}`}
                       </h3>
                     </div>
                   </div>
@@ -341,9 +321,7 @@ export async function AboutPage({ locale }: { locale: Locale }) {
     </div>
     <div className="video bg-img" data-bg-src={asset('build/images/inner/about/video/video-bg.jpg')}>
       <div className="video-title">
-        <span>{t('about.video.watch_our')}</span>
-        <img className="rotate-spin" src={asset('build/images/inner/about/video/video-icon.png')} alt={t('about.video.play_alt')} />
-        <span>{t('about.video.presentation')}</span>
+        <span>{t('about.video.watch_our')}</span>{' '}<img className="rotate-spin" src={asset('build/images/inner/about/video/video-icon.png')} alt={t('about.video.play_alt')} />{' '}<span>{t('about.video.presentation')}</span>
       </div>
     </div>
   </div>
@@ -392,9 +370,7 @@ export async function AboutPage({ locale }: { locale: Locale }) {
             </div>
           </div>
           <div className="col-xl-5 d-flex justify-content-end">
-            <a href={path(locale, 'app_team_index')} className="rr-btn-border" aria-label={t('about.team.all_aria')}>
-              <span className="text">{t('about.team.all')}</span>
-              <span className="icon">
+            <a href={path(locale, 'app_team_index')} className="rr-btn-border" aria-label={t('about.team.all_aria')}>{' '}<span className="text">{t('about.team.all')}</span>{' '}<span className="icon">
                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                   <g clipPath="url(#clip0_22_142)">
                     <path d="M22.0004 10.9995C16.6011 10.9995 12.2227 6.07534 12.2227 -0.00044632" stroke="#101010" strokeWidth="2" strokeMiterlimit="10"></path>
@@ -402,8 +378,7 @@ export async function AboutPage({ locale }: { locale: Locale }) {
                     <path d="M22.0005 10.9995H0.000488281" stroke="#101010" strokeWidth="2" strokeMiterlimit="10"></path>
                   </g>
                 </svg>
-              </span>
-            </a>
+              </span>{' '}</a>
           </div>
         </div>
       </div>
@@ -421,9 +396,7 @@ export async function AboutPage({ locale }: { locale: Locale }) {
                   {socialLinks(member.socialLinks).length > 0 ? (
                     socialLinks(member.socialLinks).map(([network, url]) => (
                       <li key={network}>
-                        <a href={url} aria-label={`${member.fullName} sur ${network}`}>
-                          {network.toUpperCase()}
-                        </a>
+                        <a href={url} aria-label={`${member.fullName} sur ${network}`}>{' '}{network.toUpperCase()}{' '}</a>
                       </li>
                     ))
                   ) : (
@@ -433,9 +406,7 @@ export async function AboutPage({ locale }: { locale: Locale }) {
               </div>
               <div className="team-section__card-content">
                 <h3 className="team-section__card-content-title">
-                  <a href={path(locale, 'app_team_show', { slug: member.slug })} className="team-section__card-content-title-name">
-                    {member.fullName}
-                  </a>
+                  <a href={path(locale, 'app_team_show', { slug: member.slug })} className="team-section__card-content-title-name">{' '}{member.fullName}{' '}</a>
                 </h3>
                 <p className="team-section__card-content-subtitle">{member.position}</p>
               </div>
@@ -447,9 +418,7 @@ export async function AboutPage({ locale }: { locale: Locale }) {
 
       
       <div className="text-center" style={{ marginTop: '4rem' }}>
-        <a href={path(locale, 'app_contact')} className="btn btn-info" aria-label={t('about.cta_aria')}>
-          {t('portfolio.cta_button')}
-        </a>
+        <a href={path(locale, 'app_contact')} className="btn btn-info" aria-label={t('about.cta_aria')}>{' '}{t('portfolio.cta_button')}{' '}</a>
       </div>
 
     </div>
