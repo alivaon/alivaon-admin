@@ -15,7 +15,7 @@ import type { NextConfig } from 'next';
  * Traefik. En local, SYMFONY_PROXY_URL relaie ces chemins vers Symfony.
  */
 const symfonyProxy = process.env.SYMFONY_PROXY_URL;
-const SYMFONY_PATHS = ['/build/:path*', '/vandor/:path*', '/uploads/:path*', '/api/public/:path*', '/sitemap.xml', '/robots.txt', '/llms.txt', '/ping'];
+const SYMFONY_PATHS = ['/build/:path*', '/vandor/:path*', '/uploads/:path*', '/api/public/:path*', '/sitemap.xml', '/robots.txt', '/llms.txt', '/ping', '/favicon.ico'];
 
 const nextConfig: NextConfig = {
   output: 'standalone',

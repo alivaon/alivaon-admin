@@ -24,6 +24,9 @@ const PAGINATED = ['app_blog_index', 'app_blog_by_category', 'app_blog_by_tag', 
   .flatMap((name) => Object.values((table.paths as Record<string, Record<string, string>>)[name]))
   .map((pattern) => new RegExp(`^${pattern.replace(/[.*+?^$()|[\]\\]/g, '\\$&').replace(/\\?\{\w+\\?\}/g, '[^/]+')}$`));
 
+/** Offres d'emploi : pagination maison ($page = max(1, getInt('page', 1))). */
+const CAREERS = Object.values((table.paths as Record<string, Record<string, string>>).app_carriere_index).map((p) => new RegExp(`^${p}$`));
+
 /**
  * ?page= invalide sur une liste paginée :
  * - pas un entier (FILTER_VALIDATE_INT : « abc », « 1.5 », vide) → 400, comme Symfony ;
@@ -31,10 +34,13 @@ const PAGINATED = ['app_blog_index', 'app_blog_by_category', 'app_blog_by_tag', 
  *   404 plutôt que de reproduire une erreur serveur (écart soumis à validation).
  */
 function invalidPage(pathname: string, params: URLSearchParams): 400 | 404 | null {
-  if (!params.has('page') || !PAGINATED.some((route) => route.test(pathname))) return null;
+  if (!params.has('page')) return null;
+  const knp = PAGINATED.some((route) => route.test(pathname));
+  if (!knp && !CAREERS.some((route) => route.test(pathname))) return null;
   const raw = (params.get('page') ?? '').trim();
   if (!/^[+-]?\d+$/.test(raw)) return 400;
-  return Number(raw) < 1 ? 404 : null;
+  // Carrières : max(1, getInt('page')) — un entier ≤ 0 vaut 1, sans erreur.
+  return knp && Number(raw) < 1 ? 404 : null;
 }
 
 const ERROR_BODY = (status: number) =>
