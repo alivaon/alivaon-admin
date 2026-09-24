@@ -26,3 +26,8 @@ export function strcasecmp(a: string, b: string): number {
   const lower = (s: string) => Buffer.from(s.replace(/[A-Z]/g, (c) => c.toLowerCase()), 'utf8');
   return Buffer.compare(lower(a), lower(b));
 }
+
+/** Liens sociaux (réseau → URL) dans l'ordre saisi ; vide si absents ({% if member.socialLinks %}). */
+export function socialLinks(links: unknown): [string, string][] {
+  return links && typeof links === 'object' && !Array.isArray(links) ? Object.entries(links as Record<string, string>) : [];
+}
