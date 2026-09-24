@@ -11,7 +11,10 @@
 import { readFileSync } from 'node:fs';
 import { fixSource } from './jsx-whitespace.mjs';
 
-const [file, block = 'body'] = process.argv.slice(2);
+const args = process.argv.slice(2);
+// --raw : sans la passe des blancs (à lancer sur le fichier final, TODO résolus).
+const raw = args.includes('--raw');
+const [file, block = 'body'] = args.filter((a) => a !== '--raw');
 const source = readFileSync(file, 'utf8');
 
 function extractBlock(text, name) {
@@ -128,6 +131,10 @@ body = body
   .replace(/@@RAW\(([\s\S]*?)\)@@/g, (_, js) => (js.startsWith('t(') ? `{{ __html: ${js} }}` : `{{ ${js} }}`));
 
 // Blancs qu'HTML affiche et que JSX supprimerait (voir jsx-whitespace.mjs).
-const wrapped = `const __ = (<>\n${body.trim()}\n</>);\n`;
-const { out } = fixSource(wrapped);
-process.stdout.write(out.slice('const __ = ('.length, -');\n'.length) + '\n');
+if (raw) {
+  process.stdout.write(`<>\n${body.trim()}\n</>\n`);
+} else {
+  const wrapped = `const __ = (<>\n${body.trim()}\n</>);\n`;
+  const { out } = fixSource(wrapped);
+  process.stdout.write(out.slice('const __ = ('.length, -');\n'.length) + '\n');
+}
