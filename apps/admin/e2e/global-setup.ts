@@ -8,7 +8,11 @@ import { resolve } from 'node:path';
  * « E2E … » et est supprimé au lancement suivant (restes d'un test interrompu).
  *
  * Le serveur Symfony doit tourner avec MAILER_DSN=null://null : changer un
- * statut de candidature ou inviter un utilisateur envoie un email.
+ * statut de candidature ou inviter un utilisateur envoie un email, et le
+ * .env.local local pointe vers le vrai relais SMTP. Sous macOS, PHP ignore
+ * les variables d'environnement (variables_order=GPCS) : il faut lancer
+ *   APP_ENV=dev MAILER_DSN=null://null php -d variables_order=EGPCS -S 127.0.0.1:8000 -t public
+ * La préparation le vérifie et refuse de lancer les tests sinon.
  */
 const SYMFONY_DIR = resolve(process.env.SYMFONY_DIR ?? `${__dirname}/../../../../alivaon-symfony`);
 
@@ -16,7 +20,32 @@ function sql(query: string) {
   execFileSync('php', ['bin/console', 'dbal:run-sql', '--env=dev', query], { cwd: SYMFONY_DIR, stdio: 'pipe' });
 }
 
-export default function globalSetup() {
+const SYMFONY_URL = process.env.SYMFONY_DEV_URL ?? 'http://127.0.0.1:8000';
+
+/** Lit, dans le profileur de Symfony, le MAILER_DSN vu par le serveur web. */
+async function assertNullMailer() {
+  const head = await fetch(`${SYMFONY_URL}/`, { method: 'HEAD' });
+  const token = head.headers.get('x-debug-token');
+  if (!token) {
+    throw new Error(`Symfony (${SYMFONY_URL}) doit tourner en environnement dev (profileur requis pour vérifier le mailer).`);
+  }
+  const panel = await (await fetch(`${SYMFONY_URL}/_profiler/${token}?panel=request`)).text();
+  // Chaque ligne « MAILER_DSN » des tableaux du panneau (variables serveur et .env).
+  const values = panel
+    .split('MAILER_DSN</th>')
+    .slice(1)
+    .map((cell) => cell.slice(0, cell.indexOf('</td>')).replace(/<script[\s\S]*?<\/script>/g, '').replace(/<[^>]+>/g, '').replace(/["\s]/g, ''));
+  if (values.length === 0 || values.some((value) => value !== 'null://null')) {
+    throw new Error(
+      'Refus de lancer les tests : le serveur Symfony n\'utilise pas MAILER_DSN=null://null (des emails réels partiraient).\n' +
+        'Relancer : APP_ENV=dev MAILER_DSN=null://null php -d variables_order=EGPCS -S 127.0.0.1:8000 -t public',
+    );
+  }
+}
+
+export default async function globalSetup() {
+  await assertNullMailer();
+
   const e2e = "LIKE 'e2e-%@localhost.test'";
   sql(`DELETE FROM comment WHERE parent_id IN (SELECT id FROM (SELECT id FROM comment WHERE author_email ${e2e}) AS c)`);
   sql(`DELETE FROM comment WHERE author_email ${e2e}`);
