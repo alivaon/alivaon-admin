@@ -128,3 +128,41 @@
     @apply font-sans;
     }
 }
+/* Corps des articles dans CKEditor : rétablit ce que le reset de Tailwind retire. */
+.rich-text .ck-editor__editable {
+  min-height: 24rem;
+}
+.rich-text .ck-content h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem;
+}
+.rich-text .ck-content h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem;
+}
+.rich-text .ck-content h4 {
+  font-weight: 600;
+  margin: 0.75rem 0 0.5rem;
+}
+.rich-text .ck-content p {
+  margin: 0.5rem 0;
+}
+.rich-text .ck-content ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+.rich-text .ck-content ol {
+  list-style: decimal;
+  padding-left: 1.5rem;
+}
+.rich-text .ck-content blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  font-style: italic;
+}
+.rich-text .ck-content a {
+  color: var(--primary);
+  text-decoration: underline;
+}

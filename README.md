@@ -9,7 +9,7 @@ en API.
 | Dossier | Contenu | État |
 |---|---|---|
 | `apps/site` | Site public (Next.js 16) | socle ✅ — pages en phase 4 |
-| `apps/admin` | Back-office (Next.js 16, Tailwind) | socle ✅ — écrans en phase 3 |
+| `apps/admin` | Back-office (Next.js 16, Tailwind) | ✅ écrans d'EasyAdmin repris (phase 3) — tests e2e : `apps/admin/e2e` |
 | `packages/api-client` | Client typé généré depuis l'OpenAPI de Symfony | ✅ |
 | `docker/Dockerfile` | Image d'une application (`--build-arg APP=site\|admin`) | ✅ |
 | `tools/seo-parity` | Relevé SEO de référence et contrôle de parité bloquant | ✅ |

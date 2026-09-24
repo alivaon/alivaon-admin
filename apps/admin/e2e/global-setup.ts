@@ -4,8 +4,8 @@ import { resolve } from 'node:path';
 /**
  * Données de test dans la base locale de Symfony (jamais un serveur partagé) :
  * un message, une offre et une candidature, un commentaire en attente.
- * Tout ce qui est créé porte une adresse e2e-…@localhost.test et est
- * supprimé au lancement suivant.
+ * Tout ce qui est créé porte une adresse e2e-…@localhost.test ou un nom
+ * « E2E … » et est supprimé au lancement suivant (restes d'un test interrompu).
  *
  * Le serveur Symfony doit tourner avec MAILER_DSN=null://null : changer un
  * statut de candidature ou inviter un utilisateur envoie un email.
@@ -24,6 +24,9 @@ export default function globalSetup() {
   sql(`DELETE FROM candidate_application WHERE email ${e2e}`);
   sql("DELETE t FROM job_offer_translation t JOIN job_offer j ON j.id = t.job_offer_id WHERE j.location = 'E2E-Ville'");
   sql("DELETE FROM job_offer WHERE location = 'E2E-Ville'");
+  sql("DELETE FROM tag WHERE id IN (SELECT tag_id FROM (SELECT tag_id FROM tag_translation WHERE name LIKE 'E2E %') AS t)");
+  sql("DELETE FROM article WHERE id IN (SELECT article_id FROM (SELECT article_id FROM article_translation WHERE title LIKE 'E2E %') AS t)");
+  sql("DELETE FROM testimonial WHERE client_name LIKE 'E2E %'");
   sql(`DELETE FROM user WHERE email ${e2e} AND email NOT IN ('${process.env.E2E_ADMIN}', '${process.env.E2E_EDITOR}')`);
 
   sql(
@@ -31,7 +34,7 @@ export default function globalSetup() {
   );
   sql("INSERT INTO job_offer (contract_type, location, is_published, created_at) VALUES ('CDI', 'E2E-Ville', 0, NOW())");
   sql(
-    "INSERT INTO job_offer_translation (title, description, locale, is_published, updated_at, job_offer_id) SELECT 'Offre E2E', 'Description', 'fr', 0, NOW(), id FROM job_offer WHERE location = 'E2E-Ville'",
+    "INSERT INTO job_offer_translation (title, slug, description, locale, is_published, updated_at, job_offer_id) SELECT 'Offre E2E', 'offre-e2e', 'Description', 'fr', 0, NOW(), id FROM job_offer WHERE location = 'E2E-Ville'",
   );
   sql(
     "INSERT INTO candidate_application (first_name, last_name, email, city, country, motivation, status, created_at, job_offer_id) SELECT 'E2E', 'Candidat', 'e2e-candidat@localhost.test', 'Lyon', 'France', 'Motivation de test.', 'reçue', NOW(), id FROM job_offer WHERE location = 'E2E-Ville'",

@@ -12,7 +12,9 @@
   "dependencies": {
     "@alivaon/api-client": "workspace:*",
     "@base-ui/react": "^1.8.0",
+    "@ckeditor/ckeditor5-react": "^11.2.0",
     "@tanstack/react-query": "^5.103.2",
+    "ckeditor5": "^48.5.2",
     "class-variance-authority": "^0.7.1",
     "cn": "^0.4.0",
     "lucide-react": "^1.48.0",

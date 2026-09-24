@@ -2,16 +2,25 @@ import type { components } from '@alivaon/api-client';
 
 export type ApplicationStatus = components['schemas']['AdminCandidateApplication.ApplicationStatusInput']['status'];
 
-/** Formats d'affichage du back-office (français). */
-const DATE = new Intl.DateTimeFormat('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric' });
-const DATE_TIME = new Intl.DateTimeFormat('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+/**
+ * Formats d'affichage du back-office (français). Les dates de l'API portent le
+ * fuseau du serveur (Europe/Paris en production) : on affiche cette heure
+ * telle quelle, sans conversion vers le fuseau du navigateur, comme EasyAdmin
+ * et comme les champs de saisie des formulaires.
+ */
+const ISO = /^(\d{4})-(\d{2})-(\d{2})(?:T(\d{2}):(\d{2}))?/;
 
 export function formatDate(value: string | null | undefined): string {
-  return value ? DATE.format(new Date(value)) : '—';
+  const m = value ? ISO.exec(value) : null;
+  return m ? `${m[3]}/${m[2]}/${m[1]}` : '—';
 }
 
 export function formatDateTime(value: string | null | undefined): string {
-  return value ? DATE_TIME.format(new Date(value)) : '—';
+  const m = value ? ISO.exec(value) : null;
+  if (!m) {
+    return '—';
+  }
+  return m[4] ? `${m[3]}/${m[2]}/${m[1]} ${m[4]}:${m[5]}` : `${m[3]}/${m[2]}/${m[1]}`;
 }
 
 /** Couleurs des statuts de candidature (mêmes teintes que le tableau de bord EasyAdmin). */
