@@ -31,3 +31,26 @@ export function strcasecmp(a: string, b: string): number {
 export function socialLinks(links: unknown): [string, string][] {
   return links && typeof links === 'object' && !Array.isArray(links) ? Object.entries(links as Record<string, string>) : [];
 }
+
+export type SearchParams = Record<string, string | string[] | undefined>;
+
+/** Valeur simple d'un paramètre de query string (premier si répété). */
+export function queryParam(params: SearchParams, name: string): string | undefined {
+  const value = params[name];
+  return Array.isArray(value) ? value[0] : value;
+}
+
+/** $request->query->getInt('page', 1) pour les listes : entier ≥ 1 attendu. */
+export function pageParam(params: SearchParams): number {
+  const raw = queryParam(params, 'page');
+  return raw !== undefined && /^\d+$/.test(raw) ? Number(raw) : 1;
+}
+
+/**
+ * Échappement HTML automatique de Twig (stratégie html) : là où le gabarit
+ * écrit « "{{ valeur }}" » dans un JSON-LD sans json_encode, la valeur publiée
+ * contient les entités (&#039;, &amp;…). Reproduit tel quel.
+ */
+export function twigEscape(value: string): string {
+  return value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+}
