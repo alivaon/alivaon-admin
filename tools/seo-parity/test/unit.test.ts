@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { applyExceptions, compareSnapshots, hasBlocking, type SnapshotData } from '../src/compare.ts';
+import { applyExceptions, compareSnapshots, hasBlocking, normalizeMetaValue, type SnapshotData } from '../src/compare.ts';
 import { extractPage } from '../src/extract.ts';
 import { absUrl, fileNameForUrl, maskRunDate, normText, rewriteOrigins } from '../src/normalize.ts';
 import { parseSitemap } from '../src/sitemap.ts';
@@ -98,6 +98,15 @@ describe('extractPage', () => {
     expect(snap.images.find((i) => i.src.endsWith('/uploads/a.jpg'))?.alt).toBeNull();
     expect(snap.images.find((i) => i.src.endsWith('/uploads/b.jpg'))?.alt).toBe('');
     expect(snap.bgImages).toEqual(['https://www.alivaon.com/build/images/bg/hero.jpg']);
+  });
+});
+
+describe('normalizeMetaValue', () => {
+  it('compare charset et viewport en valeur, rien d’autre', () => {
+    expect(normalizeMetaValue('charset', 'UTF-8')).toBe(normalizeMetaValue('charset', 'utf-8'));
+    expect(normalizeMetaValue('name:viewport', 'width=device-width, initial-scale=1.0')).toBe(normalizeMetaValue('name:viewport', 'width=device-width, initial-scale=1'));
+    expect(normalizeMetaValue('name:viewport', 'width=device-width, initial-scale=1.5')).not.toBe(normalizeMetaValue('name:viewport', 'width=device-width, initial-scale=1'));
+    expect(normalizeMetaValue('name:description', 'UTF-8')).toBe('UTF-8');
   });
 });
 

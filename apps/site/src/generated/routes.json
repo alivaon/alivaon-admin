@@ -1,0 +1,89 @@
+{
+  "paths": {
+    "app_about": {
+      "fr": "/about",
+      "en": "/en/about"
+    },
+    "app_blog_by_category": {
+      "fr": "/blog/category/{slug}",
+      "en": "/en/blog/category/{slug}"
+    },
+    "app_blog_by_tag": {
+      "fr": "/blog/tag/{slug}",
+      "en": "/en/blog/tag/{slug}"
+    },
+    "app_blog_index": {
+      "fr": "/blog",
+      "en": "/en/blog"
+    },
+    "app_blog_show": {
+      "fr": "/blog/{slug}",
+      "en": "/en/blog/{slug}"
+    },
+    "app_carriere_index": {
+      "fr": "/carrieres",
+      "en": "/en/careers"
+    },
+    "app_carriere_show": {
+      "fr": "/carrieres/{slug}",
+      "en": "/en/careers/{slug}"
+    },
+    "app_contact": {
+      "fr": "/contact",
+      "en": "/en/contact"
+    },
+    "app_faq": {
+      "fr": "/faq",
+      "en": "/en/faq"
+    },
+    "app_home": {
+      "fr": "/",
+      "en": "/en"
+    },
+    "app_mentions_legales": {
+      "fr": "/mentions-legales",
+      "en": "/en/legal-notice"
+    },
+    "app_politique_confidentialite": {
+      "fr": "/politique-de-confidentialite",
+      "en": "/en/privacy-policy"
+    },
+    "app_portfolio_index": {
+      "fr": "/portfolio",
+      "en": "/en/portfolio"
+    },
+    "app_portfolio_show": {
+      "fr": "/portfolio/{slug}",
+      "en": "/en/portfolio/{slug}"
+    },
+    "app_service_index": {
+      "fr": "/services",
+      "en": "/en/services"
+    },
+    "app_service_show": {
+      "fr": "/services/{slug}",
+      "en": "/en/services/{slug}"
+    },
+    "app_team_index": {
+      "fr": "/team",
+      "en": "/en/team"
+    },
+    "app_team_show": {
+      "fr": "/team/{slug}",
+      "en": "/en/team/{slug}"
+    },
+    "robots": {
+      "fr": "/robots.txt"
+    },
+    "sitemap": {
+      "fr": "/sitemap.xml"
+    }
+  },
+  "redirects": [
+    {
+      "from": "/blog/logiciel-de-gestion-d-entreprise-au-cameroun-le-guide-complet-pour-bien-choisir-en-2026",
+      "to": "/blog/logiciel-de-gestion-entreprise-cameroun-guide-complet-pour-bien-choisir",
+      "permanent": true
+    }
+  ]
+}

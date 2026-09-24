@@ -189,7 +189,10 @@ function comparePage(b: PageRecord, t: PageRecord, push: (d: Diff) => void): voi
 function compareHtml(b: HtmlSnapshot, t: HtmlSnapshot, block: (f: string, b: unknown, t: unknown) => void, info: (f: string, b: unknown, t: unknown) => void): void {
   block('html.lang', b.lang, t.lang);
   block('html.titles', b.titles, t.titles);
-  for (const key of union(Object.keys(b.metas), Object.keys(t.metas))) block(`html.metas.${key}`, b.metas[key] ?? null, t.metas[key] ?? null);
+  for (const key of union(Object.keys(b.metas), Object.keys(t.metas))) {
+    const norm = (values: string[] | undefined) => values?.map((v) => normalizeMetaValue(key, v)) ?? null;
+    block(`html.metas.${key}`, norm(b.metas[key]), norm(t.metas[key]));
+  }
   block('html.canonicals', b.canonicals, t.canonicals);
   block('html.hreflang', b.hreflang, t.hreflang);
   setDiff('html.headLinks', b.headLinks.map((l) => JSON.stringify(l)), t.headLinks.map((l) => JSON.stringify(l)), block);
@@ -292,4 +295,24 @@ function globMatch(pattern: string, value: string): boolean {
   if (!pattern.includes('*')) return pattern === value;
   const re = new RegExp('^' + pattern.split('*').map((s) => s.replace(/[.+?^${}()|[\]\\]/g, '\\$&')).join('.*') + '$');
   return re.test(value);
+}
+
+/**
+ * Valeurs de meta équivalentes pour un navigateur comme pour un moteur, que
+ * Next.js écrit d'une seule façon (balises imposées par le framework) :
+ * - charset : insensible à la casse (« UTF-8 » = « utf-8 », spécification HTML) ;
+ * - viewport : nombres comparés en valeur (« initial-scale=1.0 » = « initial-scale=1 »).
+ * Rien d'autre n'est normalisé : tout autre écart reste bloquant.
+ */
+export function normalizeMetaValue(key: string, value: string): string {
+  if (key === 'charset') {
+    return value.trim().toLowerCase();
+  }
+  if (key === 'name:viewport') {
+    return value
+      .split(',')
+      .map((part) => part.trim().replace(/\s*=\s*/, '=').replace(/=(\d+)\.0+$/, '=$1'))
+      .join(', ');
+  }
+  return value;
 }
