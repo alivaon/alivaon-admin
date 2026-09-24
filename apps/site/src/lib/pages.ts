@@ -54,3 +54,8 @@ export function pageParam(params: SearchParams): number {
 export function twigEscape(value: string): string {
   return value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
 }
+
+/** Filtre |slice de Twig sur une chaîne (mb_substr : en caractères). */
+export function sliceChars(value: string, start: number, length: number): string {
+  return Array.from(value).slice(start, start + length).join('');
+}
