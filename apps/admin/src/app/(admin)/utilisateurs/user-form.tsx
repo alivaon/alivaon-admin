@@ -2,6 +2,7 @@
 
 import { useState, type FormEvent } from 'react';
 import type { components } from '@alivaon/api-client';
+import { ImageInput } from '@/components/content/image-input';
 import { Field } from '@/components/form/field';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
@@ -16,6 +17,11 @@ export const ROLES = [
   { value: 'ROLE_EDITOR', label: 'Éditeur', hint: 'Contenus, messages, candidatures, commentaires' },
   { value: 'ROLE_ADMIN', label: 'Administrateur', hint: 'Tout, y compris les utilisateurs et les suppressions sensibles' },
 ] as const;
+
+/** Nom du fichier d'un avatar à partir de son chemin public (/uploads/users/…). */
+export function avatarFileName(avatar: string | null): string | null {
+  return avatar ? (avatar.split('/').pop() ?? null) : null;
+}
 
 export const ROLE_LABELS: Record<string, string> = Object.fromEntries(ROLES.map((r) => [r.value, r.label]));
 
@@ -42,10 +48,11 @@ export function UserForm({
   const [fullName, setFullName] = useState(initial.fullName ?? '');
   const [roles, setRoles] = useState<string[]>(initial.roles.filter((role) => role in ROLE_LABELS));
   const [password, setPassword] = useState('');
+  const [avatarName, setAvatarName] = useState(initial.avatarName);
 
   function submit(e: FormEvent) {
     e.preventDefault();
-    onSubmit({ email, fullName: fullName || null, roles, plainPassword: creating || password === '' ? null : password });
+    onSubmit({ email, fullName: fullName || null, roles, avatarName, plainPassword: creating || password === '' ? null : password });
   }
 
   return (
@@ -57,6 +64,9 @@ export function UserForm({
           </Field>
           <Field label="Nom complet" htmlFor="fullName" error={error} path="fullName">
             <Input id="fullName" value={fullName} onChange={(e) => setFullName(e.target.value)} autoComplete="off" />
+          </Field>
+          <Field label="Avatar" htmlFor="avatarName" error={error} path="avatarName">
+            <ImageInput id="avatarName" directory="users" value={avatarName} onChange={setAvatarName} />
           </Field>
           <fieldset className="space-y-2">
             <legend className="text-sm font-medium">Rôles</legend>

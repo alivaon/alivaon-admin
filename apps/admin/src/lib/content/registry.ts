@@ -238,11 +238,11 @@ const projects = defineContentType<Schemas['AdminProject-admin.write'], Schemas[
   translationFields: {
     title: { label: 'Titre', kind: 'text', required: true },
     slug: { label: 'Slug', kind: 'text', help: slugHelp('titre') },
-    description: { label: 'Description (Contexte & Défi - §1)', kind: 'textarea', rows: 8 },
+    description: { label: 'Description (Contexte & Défi - §1)', kind: 'richtext' },
     challenge: { label: 'Challenge (Contexte & Défi - §2)', kind: 'textarea', rows: 3 },
     approach: { label: 'Solution mise en place (§1)', kind: 'textarea', rows: 3 },
     approachDetail: { label: 'Solution mise en place (§2)', kind: 'textarea', rows: 3 },
-    results: { label: "Impact sur l'entreprise", kind: 'textarea', rows: 8 },
+    results: { label: "Impact sur l'entreprise", kind: 'richtext' },
     ...stepFields('Contenu'),
     ...metaFields,
   },
@@ -291,7 +291,7 @@ const services = defineContentType<Schemas['AdminService-admin.write'], Schemas[
     title: { label: 'Titre', kind: 'text', required: true },
     slug: { label: 'Slug', kind: 'text', help: slugHelp('titre') },
     shortDescription: { label: 'Description courte', kind: 'textarea', rows: 2, help: 'Listes de services et métas SEO (max 500 caractères).' },
-    fullDescription: { label: 'Description complète', kind: 'textarea', rows: 12 },
+    fullDescription: { label: 'Description complète', kind: 'richtext' },
     features: { label: 'Points forts (liste en haut de page)', kind: 'list', itemLabel: 'Point fort' },
     badge: { label: 'Badge (ex : NOUVEAU, ⭐)', kind: 'text' },
     ...stepFields('Texte'),
@@ -417,6 +417,8 @@ const faqs = defineContentType<Schemas['AdminFaq-admin.write'], Schemas['AdminFa
   defaults: { category: 'General', displayOrder: 0, isActive: true },
   translationFields: {
     question: { label: 'Question', kind: 'textarea', rows: 2, required: true },
+    // Texte brut : le site affiche la réponse échappée (comme le Twig), l'éditeur
+    // riche d'EasyAdmin y aurait fait apparaître des balises.
     answer: { label: 'Réponse', kind: 'textarea', rows: 6, required: true },
   },
   published: { label: TRANSLATION_PUBLISHED, help: "Une traduction non publiée n'apparaît pas sur la page FAQ de cette langue." },
@@ -461,7 +463,7 @@ const jobOffers = defineContentType<Schemas['AdminJobOffer-admin.write'], Schema
     title: { label: 'Titre du poste', kind: 'text', required: true },
     slug: { label: 'Slug', kind: 'text', help: slugHelp('titre') },
     shortDescription: { label: 'Description courte', kind: 'textarea', rows: 2, help: 'Affichée dans la liste des offres (max 500 caractères).' },
-    description: { label: 'Description du poste', kind: 'textarea', rows: 15, required: true },
+    description: { label: 'Description du poste', kind: 'richtext', required: true },
     salary: { label: 'Salaire', kind: 'text', help: 'Fourchette ou mention libre (ex. « Selon profil »).' },
     skills: { label: 'Compétences requises', kind: 'list', itemLabel: 'Compétence' },
   },

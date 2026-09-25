@@ -1953,6 +1953,8 @@ export interface components {
          *     modifier son profil (email, nom, mot de passe — jamais ses rôles).
          */
         "AdminCurrentUser.ProfileInput": {
+            /** @description Fichier de /uploads/users ; absent = inchangé (voir AvatarUpdater). */
+            avatarName: string | null;
             /**
              * Format: email
              * @default
@@ -1979,7 +1981,7 @@ export interface components {
         };
         /**
          * @description Tableau de bord du back-office : GET /api/admin/dashboard.
-         *     Mêmes données que le tableau de bord EasyAdmin (App\Admin\DashboardStats).
+         *     Données calculées par App\Admin\DashboardStats.
          */
         "AdminDashboard-admin": {
             charts: components["schemas"]["DashboardCharts-admin_noid"];
@@ -1995,7 +1997,7 @@ export interface components {
         };
         /**
          * @description Tableau de bord du back-office : GET /api/admin/dashboard.
-         *     Mêmes données que le tableau de bord EasyAdmin (App\Admin\DashboardStats).
+         *     Données calculées par App\Admin\DashboardStats.
          */
         "AdminDashboard.jsonld-admin": components["schemas"]["HydraItemBaseSchema"] & {
             charts: components["schemas"]["DashboardCharts.jsonld-admin_noid"];
@@ -3138,6 +3140,8 @@ export interface components {
          *     - POST   /api/admin/users/{id}/invitation : renvoie un lien d'invitation.
          */
         "AdminUser.UserInput": {
+            /** @description Fichier de /uploads/users ; absent = inchangé (voir AvatarUpdater). */
+            avatarName: string | null;
             /**
              * Format: email
              * @default

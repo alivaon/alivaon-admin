@@ -12,7 +12,7 @@ import { api, unwrap } from '@/lib/api';
 import { useCurrentUser } from '@/lib/auth';
 import { formatDateTime } from '@/lib/format';
 import { useApiMutation } from '@/lib/mutation';
-import { UserForm, type UserInput } from '../user-form';
+import { avatarFileName, UserForm, type UserInput } from '../user-form';
 
 function EditUser() {
   const id = String(useParams<{ id: string }>().id);
@@ -91,7 +91,7 @@ function EditUser() {
               />
               <UserForm
                 key={user.id}
-                initial={user}
+                initial={{ ...user, avatarName: avatarFileName(user.avatar) }}
                 creating={false}
                 error={update.error}
                 pending={update.isPending}

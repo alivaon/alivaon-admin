@@ -6,7 +6,7 @@ export const LOCALES = ['fr', 'en'] as const;
 export type Locale = (typeof LOCALES)[number];
 
 /** Dossiers acceptés par POST /api/admin/uploads/{dossier}. */
-export type UploadDirectory = 'articles' | 'authors' | 'projects' | 'services' | 'team' | 'testimonials' | 'job_covers' | 'content';
+export type UploadDirectory = 'articles' | 'authors' | 'projects' | 'services' | 'team' | 'testimonials' | 'users' | 'job_covers' | 'content';
 
 /** Contenus proposés dans les listes de choix des relations (id + nom français). */
 export type RelationKey = 'authors' | 'categories' | 'tags' | 'project-categories';

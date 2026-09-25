@@ -36,6 +36,8 @@ function LoginForm() {
   return (
     <Card className="w-full max-w-sm">
       <CardHeader>
+        {/* eslint-disable-next-line @next/next/no-img-element -- logo du site (131×45), pas d'optimisation utile */}
+        <img src="/logo.png" alt="Alivaon" width={131} height={45} className="mb-2 h-9 w-auto" />
         <CardTitle className="text-xl">Administration Alivaon</CardTitle>
         <CardDescription>Connectez-vous avec votre compte du back-office.</CardDescription>
       </CardHeader>

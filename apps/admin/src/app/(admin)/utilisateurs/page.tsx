@@ -9,6 +9,7 @@ import { PageHeader } from '@/components/page-header';
 import { Badge } from '@/components/ui/badge';
 import { buttonVariants } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import { UserAvatar } from '@/components/user-avatar';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { api, unwrapCollection } from '@/lib/api';
 import { formatDateTime } from '@/lib/format';
@@ -47,7 +48,8 @@ function UsersList() {
                 {data?.member.map((user) => (
                   <TableRow key={user.id}>
                     <TableCell>
-                      <Link href={`/utilisateurs/${user.id}`} className="font-medium hover:underline">
+                      <Link href={`/utilisateurs/${user.id}`} className="flex items-center gap-2 font-medium hover:underline">
+                        <UserAvatar user={user} size="sm" />
                         {user.fullName || user.email}
                       </Link>
                     </TableCell>
