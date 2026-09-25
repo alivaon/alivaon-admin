@@ -21,7 +21,7 @@ export default function NewUserPage() {
       <BackLink href="/utilisateurs" label="Utilisateurs" />
       <PageHeader title="Inviter un utilisateur" />
       <UserForm
-        initial={{ email: '', fullName: null, roles: ['ROLE_EDITOR'] }}
+        initial={{ email: '', fullName: null, roles: ['ROLE_EDITOR'], avatarName: null }}
         creating
         error={create.error}
         pending={create.isPending}

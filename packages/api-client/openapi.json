@@ -1573,6 +1573,14 @@
       "AdminCurrentUser.ProfileInput": {
         "description": "Utilisateur connecté au back-office : GET /api/auth/me (401 sinon), même\nforme que la réponse de POST /api/auth/login ; PUT /api/auth/me pour\nmodifier son profil (email, nom, mot de passe — jamais ses rôles).",
         "properties": {
+          "avatarName": {
+            "description": "Fichier de /uploads/users ; absent = inchangé (voir AvatarUpdater).",
+            "maxLength": 255,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "email": {
             "default": "",
             "externalDocs": {
@@ -1600,6 +1608,7 @@
           }
         },
         "required": [
+          "avatarName",
           "email",
           "fullName",
           "plainPassword"
@@ -1663,7 +1672,7 @@
         "description": "Utilisateur connecté au back-office : GET /api/auth/me (401 sinon), même\nforme que la réponse de POST /api/auth/login ; PUT /api/auth/me pour\nmodifier son profil (email, nom, mot de passe — jamais ses rôles)."
       },
       "AdminDashboard-admin": {
-        "description": "Tableau de bord du back-office : GET /api/admin/dashboard.\nMêmes données que le tableau de bord EasyAdmin (App\\Admin\\DashboardStats).",
+        "description": "Tableau de bord du back-office : GET /api/admin/dashboard.\nDonnées calculées par App\\Admin\\DashboardStats.",
         "properties": {
           "charts": {
             "$ref": "#/components/schemas/DashboardCharts-admin_noid"
@@ -1771,7 +1780,7 @@
             "type": "object"
           }
         ],
-        "description": "Tableau de bord du back-office : GET /api/admin/dashboard.\nMêmes données que le tableau de bord EasyAdmin (App\\Admin\\DashboardStats)."
+        "description": "Tableau de bord du back-office : GET /api/admin/dashboard.\nDonnées calculées par App\\Admin\\DashboardStats."
       },
       "AdminFaq-admin.read": {
         "description": "FAQ : /api/admin/faqs (?search sur la question, ?isActive).\nFiche, création (POST), remplacement complet (PUT), suppression.",
@@ -5157,6 +5166,14 @@
       "AdminUser.UserInput": {
         "description": "Comptes du back-office — réservé aux administrateurs.\n\n- GET    /api/admin/users, /api/admin/users/{id}\n- POST   /api/admin/users : crée le compte SANS mot de passe et envoie un\n  lien d'invitation (UserAccountManager::create) ;\n- PUT    /api/admin/users/{id} : email, nom, rôles, et mot de passe\n  facultatif (emails de notification selon ce qui change) ;\n- DELETE /api/admin/users/{id} : 409 sur son propre compte ;\n- POST   /api/admin/users/{id}/invitation : renvoie un lien d'invitation.",
         "properties": {
+          "avatarName": {
+            "description": "Fichier de /uploads/users ; absent = inchangé (voir AvatarUpdater).",
+            "maxLength": 255,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "email": {
             "default": "",
             "externalDocs": {
@@ -5189,6 +5206,7 @@
           }
         },
         "required": [
+          "avatarName",
           "email",
           "fullName",
           "plainPassword",
@@ -17608,7 +17626,7 @@
       "name": "AdminCurrentUser"
     },
     {
-      "description": "Tableau de bord du back-office : GET /api/admin/dashboard.\nMêmes données que le tableau de bord EasyAdmin (App\\Admin\\DashboardStats).",
+      "description": "Tableau de bord du back-office : GET /api/admin/dashboard.\nDonnées calculées par App\\Admin\\DashboardStats.",
       "name": "AdminDashboard"
     },
     {

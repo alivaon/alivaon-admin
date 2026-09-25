@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, type FormEvent } from 'react';
+import { ImageInput } from '@/components/content/image-input';
 import { Field } from '@/components/form/field';
 import { PageHeader } from '@/components/page-header';
 import { Button } from '@/components/ui/button';
@@ -9,14 +10,16 @@ import { Input } from '@/components/ui/input';
 import { api, unwrap } from '@/lib/api';
 import { CURRENT_USER_KEY, useCurrentUser, type CurrentUser } from '@/lib/auth';
 import { useApiMutation } from '@/lib/mutation';
+import { avatarFileName } from '../utilisateurs/user-form';
 
 function ProfileForm({ user }: { user: NonNullable<CurrentUser> }) {
   const [email, setEmail] = useState(user.email);
   const [fullName, setFullName] = useState(user.fullName ?? '');
   const [password, setPassword] = useState('');
   const [confirmation, setConfirmation] = useState('');
+  const [avatarName, setAvatarName] = useState(avatarFileName(user.avatar));
   const save = useApiMutation({
-    mutationFn: () => unwrap(api.PUT('/api/auth/me', { body: { email, fullName: fullName || null, plainPassword: password || null } })),
+    mutationFn: () => unwrap(api.PUT('/api/auth/me', { body: { email, fullName: fullName || null, avatarName, plainPassword: password || null } })),
     invalidate: [CURRENT_USER_KEY],
     success: 'Profil enregistré.',
   });
@@ -44,6 +47,9 @@ function ProfileForm({ user }: { user: NonNullable<CurrentUser> }) {
           </Field>
           <Field label="Nom complet" htmlFor="fullName" error={save.error} path="fullName">
             <Input id="fullName" value={fullName} onChange={(e) => setFullName(e.target.value)} autoComplete="name" />
+          </Field>
+          <Field label="Avatar" htmlFor="avatarName" error={save.error} path="avatarName">
+            <ImageInput id="avatarName" directory="users" value={avatarName} onChange={setAvatarName} />
           </Field>
           <Field label="Nouveau mot de passe" htmlFor="plainPassword" error={save.error} path="plainPassword" hint="Laisser vide pour le conserver (12 caractères minimum).">
             <Input
