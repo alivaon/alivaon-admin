@@ -68,14 +68,42 @@ jobs:
             echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
             # Uniquement l'admin : jamais app, db ni web.
             docker compose pull admin
-            docker compose up -d --no-deps admin
-            for i in $(seq 1 30); do
-              status="$(docker inspect -f '{{.State.Health.Status}}' "$(docker compose ps -q admin)")"
+            # Sans coupure : le nouveau conteneur démarre
+            # à côté de l'ancien, Traefik ne lui envoie du trafic qu'une fois
+            # healthy, puis l'ancien est retiré. Échec : l'ancien reste en place.
+            old="$(docker compose ps -q admin)"
+            if [ -z "$old" ]; then
+              docker compose up -d --no-deps admin
+              new="$(docker compose ps -q admin)"
+            else
+              docker compose up -d --no-deps --no-recreate --scale admin=2 admin
+              new="$(docker compose ps -q admin | grep -vxF "$old" || true)"
+            fi
+            [ -n "$new" ] || { echo "ERREUR : nouveau conteneur admin introuvable"; exit 1; }
+            status=""
+            for i in $(seq 1 60); do
+              status="$(docker inspect -f '{{.State.Health.Status}}' "$new")"
               [ "$status" = "healthy" ] && break
               sleep 2
             done
-            [ "$status" = "healthy" ] || { echo "ERREUR : admin n'est pas healthy"; docker compose logs --tail=60 admin; exit 1; }
-            echo "OK : admin healthy"
+            if [ "$status" != "healthy" ]; then
+              echo "ERREUR : le nouveau admin n'est pas healthy, l'ancien reste en service"
+              docker logs --tail=60 "$new"
+              [ -n "$old" ] && docker rm -f "$new"
+              exit 1
+            fi
+            if [ -n "$old" ]; then
+              # Laisse à Traefik (contrôle toutes les secondes) le temps
+              # d'ajouter le nouveau conteneur au trafic.
+              sleep 3
+              # Drain : l'ancien répond 503 à la sonde, Traefik le retire du
+              # trafic ; les requêtes en cours se terminent avant l'arrêt.
+              for c in $old; do docker exec "$c" touch /tmp/alivaon-drain; done
+              sleep 4
+              docker stop $old >/dev/null && docker rm $old >/dev/null
+              docker compose up -d --no-deps --no-recreate --scale admin=1 admin
+            fi
+            echo "OK : admin healthy, remplacé sans coupure"
 
   production-image:
     name: Image admin (production)
@@ -122,11 +150,39 @@ jobs:
             echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
             # Uniquement l'admin : jamais app, db, ni un service web.
             docker compose pull admin
-            docker compose up -d --no-deps admin
-            for i in $(seq 1 30); do
-              status="$(docker inspect -f '{{.State.Health.Status}}' "$(docker compose ps -q admin)")"
+            # Sans coupure : le nouveau conteneur démarre
+            # à côté de l'ancien, Traefik ne lui envoie du trafic qu'une fois
+            # healthy, puis l'ancien est retiré. Échec : l'ancien reste en place.
+            old="$(docker compose ps -q admin)"
+            if [ -z "$old" ]; then
+              docker compose up -d --no-deps admin
+              new="$(docker compose ps -q admin)"
+            else
+              docker compose up -d --no-deps --no-recreate --scale admin=2 admin
+              new="$(docker compose ps -q admin | grep -vxF "$old" || true)"
+            fi
+            [ -n "$new" ] || { echo "ERREUR : nouveau conteneur admin introuvable"; exit 1; }
+            status=""
+            for i in $(seq 1 60); do
+              status="$(docker inspect -f '{{.State.Health.Status}}' "$new")"
               [ "$status" = "healthy" ] && break
               sleep 2
             done
-            [ "$status" = "healthy" ] || { echo "ERREUR : admin n'est pas healthy"; docker compose logs --tail=60 admin; exit 1; }
-            echo "OK : admin healthy"
+            if [ "$status" != "healthy" ]; then
+              echo "ERREUR : le nouveau admin n'est pas healthy, l'ancien reste en service"
+              docker logs --tail=60 "$new"
+              [ -n "$old" ] && docker rm -f "$new"
+              exit 1
+            fi
+            if [ -n "$old" ]; then
+              # Laisse à Traefik (contrôle toutes les secondes) le temps
+              # d'ajouter le nouveau conteneur au trafic.
+              sleep 3
+              # Drain : l'ancien répond 503 à la sonde, Traefik le retire du
+              # trafic ; les requêtes en cours se terminent avant l'arrêt.
+              for c in $old; do docker exec "$c" touch /tmp/alivaon-drain; done
+              sleep 4
+              docker stop $old >/dev/null && docker rm $old >/dev/null
+              docker compose up -d --no-deps --no-recreate --scale admin=1 admin
+            fi
+            echo "OK : admin healthy, remplacé sans coupure"
